@@ -248,6 +248,19 @@ h2 {
 }
 .suggest a { color: var(--bronze-light); text-underline-offset: 3px; }
 
+/* About */
+.about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 var(--gutter) clamp(2rem, 5vw, 4rem);
+}
+.about p {
+  max-width: var(--measure);
+  margin: 0 0 1rem;
+  color: var(--silver);
+}
+.about p:last-child { margin-bottom: 0; }
+
 /* Colophon */
 .colophon {
   max-width: 1100px;
