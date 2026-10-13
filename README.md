@@ -1,7 +1,7 @@
 # tokensandmedals.com
 
 Static site for Tokens and Medals, a resource library for collectors of
-tokens, medals and so-called dollars. It will grow into a marketplace.
+tokens, medals and so-called dollars.
 
 Deployed with Cloudflare Pages straight from this repo. No build step.
 

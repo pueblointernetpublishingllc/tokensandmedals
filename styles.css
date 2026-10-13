@@ -154,14 +154,9 @@ button:focus-visible {
   max-width: var(--measure);
   font-size: 1.15rem;
 }
-.hero-note {
-  color: var(--silver-dim);
-  font-size: 1rem !important;
-}
 
 /* Library */
-.library,
-.marketplace {
+.library {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 var(--gutter) clamp(2rem, 5vw, 4rem);
@@ -246,13 +241,12 @@ h2 {
   white-space: nowrap;
 }
 
-/* Marketplace */
-.marketplace p {
+.suggest {
   max-width: var(--measure);
-  font-size: 1.1rem;
-  margin: 0;
+  margin: 1.5rem 0 0;
+  color: var(--silver-dim);
 }
-.marketplace a { color: var(--bronze-light); text-underline-offset: 3px; }
+.suggest a { color: var(--bronze-light); text-underline-offset: 3px; }
 
 /* Colophon */
 .colophon {
