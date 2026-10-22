@@ -1,26 +1,133 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tokens and Medals</title>
-<meta name="description" content="Tokens and Medals: this site is not yet open.">
-<style>
-:root{--bg:#f6f4ef;--fg:#1d1d1b;--muted:#6b6862}
-@media (prefers-color-scheme:dark){:root{--bg:#151513;--fg:#ecebe6;--muted:#9a978f}}
-html,body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.5 Georgia,'Times New Roman',serif}
-main{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:16px}
-h1{font-weight:normal;font-size:1.6rem;margin:0 0 .5rem}
-p{margin:.25rem 0;color:var(--muted)}
-footer{position:fixed;bottom:12px;left:0;right:0;text-align:center;font-size:.85rem;color:var(--muted)}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tokens and Medals</title>
+  <meta name="description" content="A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies.">
+  <link rel="canonical" href="https://tokensandmedals.com/">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tokens and Medals">
+  <meta property="og:description" content="A library of resources for collectors of tokens, medals and so-called dollars.">
+  <meta property="og:url" content="https://tokensandmedals.com/">
+  <meta property="og:image" content="https://tokensandmedals.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main>
-<h1>Tokens and Medals</h1>
-<p>Coming in the future.</p>
-<p>This site is not yet open. Nothing here is an offer of goods or services.</p>
-</main>
-<footer>&copy; 2026 Pueblo Internet Publishing LLC</footer>
+  <a class="skip" href="#library">Skip to the library</a>
+
+  <header class="masthead">
+    <a class="wordmark" href="/">Tokens <span class="amp">&amp;</span> Medals</a>
+    <nav class="menu" aria-label="Site">
+      <a href="#library">Library</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="medal" aria-hidden="true">
+        <svg viewBox="0 0 400 400" role="img">
+          <defs>
+            <path id="rim" d="M200,200 m-150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0"/>
+            <radialGradient id="field" cx="38%" cy="32%" r="75%">
+              <stop offset="0" stop-color="#c9905a"/>
+              <stop offset="0.55" stop-color="#a86f3a"/>
+              <stop offset="1" stop-color="#6d4322"/>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="200" r="196" fill="url(#field)"/>
+          <circle cx="200" cy="200" r="186" fill="none" stroke="#f3efe6" stroke-opacity="0.55" stroke-width="2"/>
+          <text class="legend" dy="7" textLength="938" lengthAdjust="spacing">
+            <textPath href="#rim" startOffset="0" textLength="938" lengthAdjust="spacing">TOKENS · MEDALS · SO-CALLED DOLLARS · PUEBLO, COLORADO ·</textPath>
+          </text>
+          <circle cx="200" cy="200" r="118" fill="none" stroke="#f3efe6" stroke-opacity="0.45" stroke-width="1.5"/>
+          <text class="device" x="200" y="222" text-anchor="middle">T<tspan class="device-amp">&amp;</tspan>M</text>
+          <text class="date" x="200" y="282" text-anchor="middle">MMXXVI</text>
+        </svg>
+      </div>
+      <div class="hero-copy">
+        <h1>A library for people who collect the pieces that were never money.</h1>
+        <p>Tokens, medals and so-called dollars have their own mints, their own catalogs and their own societies. This page keeps the good ones in one place.</p>
+      </div>
+    </section>
+
+    <section id="library" class="library">
+      <h2>The library</h2>
+
+      <div class="shelf">
+        <h3>Mints and makers</h3>
+        <ul class="entries">
+          <li>
+            <a href="http://moonlightmint.com/" rel="noopener">Moonlight Mint</a>
+            <p>Daniel Carr's private mint in Colorado. Medals, tokens and fantasy pieces struck on his own presses, with open-house dates posted on the site.</p>
+            <span class="domain">moonlightmint.com</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="shelf">
+        <h3>References and catalogs</h3>
+        <ul class="entries">
+          <li>
+            <a href="https://so-calleddollars.com/" rel="noopener">So-Called Dollars</a>
+            <p>The online companion to Hibler and Kappen's reference, kept by the Coin &amp; Currency Institute. Look up HK numbers, varieties and pieces the book never listed.</p>
+            <span class="domain">so-calleddollars.com</span>
+          </li>
+          <li>
+            <a href="https://nnp.wustl.edu/" rel="noopener">Newman Numismatic Portal</a>
+            <p>Washington University's free digital library: auction catalogs, periodicals and decades of the TAMS Journal, all searchable.</p>
+            <span class="domain">nnp.wustl.edu</span>
+          </li>
+          <li>
+            <a href="https://en.numista.com/" rel="noopener">Numista</a>
+            <p>A collector-built catalog of coins, tokens and medals from every country, with photographs and collection tracking.</p>
+            <span class="domain">numista.com</span>
+          </li>
+          <li>
+            <a href="https://numismatics.org/maco/" rel="noopener">Medallic Art Company archive</a>
+            <p>The American Numismatic Society holds the records and some 20,000 pre-1998 dies of the Medallic Art Company, maker of the Pulitzer, Newbery and presidential inaugural medals from 1903 until its 2018 bankruptcy.</p>
+            <span class="domain">numismatics.org</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="shelf">
+        <h3>Societies</h3>
+        <ul class="entries">
+          <li>
+            <a href="https://tokenandmedal.org/" rel="noopener">Token and Medal Society</a>
+            <p>The hobby's society since 1960. Publishes the TAMS Journal and keeps the maverick database for tokens nobody has attributed yet.</p>
+            <span class="domain">tokenandmedal.org</span>
+          </li>
+        </ul>
+      </div>
+
+      <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>.</p>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About this site</h2>
+      <p>Tokens and Medals is a reading list for exonumia: the tokens, medals, so-called dollars and other struck pieces that circulated beside money without ever being money. The hobby's best references are scattered across private mints, society journals, university libraries and collector-built catalogs. This page keeps the ones worth knowing in one place.</p>
+      <p>Every entry is a site we use ourselves. Nothing here is sponsored, and no link is an endorsement of anything a site sells. Descriptions are ours, written to say what each resource is good for.</p>
+      <p>The site is published by Pueblo Internet Publishing LLC in Pueblo, Colorado, and it will grow as the list does.</p>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <p>Tokens and Medals is a project of <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>, Pueblo, Colorado.</p>
+    <p>This site and its contents are &copy; <span id="year">2026</span> <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>. All rights reserved. Linked sites belong to their own owners and are not affiliated with us.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

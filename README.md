@@ -12,8 +12,3 @@ Deployed with Cloudflare Pages straight from this repo. No build step.
 
 Cloudflare Pages settings: framework preset **None**, build command empty,
 output directory `/`.
-
-
-## Holding page (2026-10-20)
-
-The site was replaced by a neutral holding page while Pueblo Internet Publishing LLC is not yet licensed to conduct business. The full site is preserved on branch `archive/pre-holding-20261020` and tag `pre-holding-20261020`; restore with `git checkout archive/pre-holding-20261020 -- .` (keeping this note) and push.
