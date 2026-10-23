@@ -1,7 +1,7 @@
 {
   "shelves": [
     {"id": "mints", "title": "Mints and makers", "note": "Who strikes the pieces, and the records of who used to.", "entries": [
-      {"name": "Moonlight Mint", "url": "http://moonlightmint.com/", "tags": ["mints", "colorado", "medals"], "checked": "2026-10-23", "note": "Plain http; the site's certificate lapsed in 2018. The store is at dc-coin.com.",
+      {"name": "Moonlight Mint", "url": "http://moonlightmint.com/", "tags": ["mints", "colorado", "medals"], "checked": "2026-10-23", "note": "The store is at dc-coin.com.",
        "desc": "Daniel Carr's private mint in Loveland, Colorado, striking his own designs on a press that served the Denver Mint for fifteen years: overstrikes, Hard Times and Lesher tributes, medals and bullion. The catalog page carries mintage figures. More on our <a href=\"/colorado/\">Colorado page</a>."},
       {"name": "Medallic Art Company archive", "url": "https://numismatics.org/maco/", "tags": ["mints", "art medals", "archives"], "checked": "2026-10-23",
        "desc": "The American Numismatic Society holds the records, specimen archive and dies of the Medallic Art Company, maker of the Pulitzer, Newbery and presidential inaugural medals from 1903 until its 2018 bankruptcy. Essays and photo archives alongside the specimens."},
