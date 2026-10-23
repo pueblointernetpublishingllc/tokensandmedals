@@ -463,6 +463,26 @@
   "find_note": "Out of print."
  },
  {
+  "id": "franklin",
+  "abbr": [
+   "Franklin"
+  ],
+  "aliases": [
+   "Franklin Mint",
+   "Krause Franklin Mint",
+   "Guidebook of Franklin Mint Issues"
+  ],
+  "title": "Guidebook of Franklin Mint Issues",
+  "citation": "Chester L. Krause and Virginia Culver. Krause Publications, editions from 1975 through 1982.",
+  "covers": "The Franklin Mint's medals, ingots and coins by series, each series with a letter code and each piece a number within it. The company published no catalog of its own, so these are the only catalog numbers the output ever had; Numista still files Franklin Mint pieces under them.",
+  "example": "Franklin SUS-10 (States of the Union, Virginia)",
+  "lookup_url": "https://en.numista.com/",
+  "lookup_label": "Numista entries carry the Krause number",
+  "find_url": "https://nnp.washu.edu/books-collection?q=Franklin+Mint",
+  "find_label": "Out of print; search the Newman Portal",
+  "find_note": "The series pages at <a href=\"https://franklin-mint-silver.com/\" rel=\"noopener\">Franklin Mint Silver</a> cover the same ground without the numbers."
+ },
+ {
   "id": "storer",
   "abbr": [
    "Storer"
