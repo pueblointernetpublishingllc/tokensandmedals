@@ -107,6 +107,7 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
   <footer class="colophon">
     <p>Tokens and Medals is a project of <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>, Pueblo, Colorado.</p>
     <p>This site and its contents are &copy; <span id="year">{date.today().year}</span> <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>. All rights reserved. Linked sites belong to their own owners and are not affiliated with us.</p>
+    <p>AI assistance was used in researching and building this site. Every fact was checked against the sources cited; the mistakes are ours.</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>{scripts}
@@ -184,11 +185,17 @@ def render_references(refs):
             f'<a href="{esc(r["lookup_url"])}" rel="noopener">{esc(r["lookup_label"])}</a>'
             if r.get("lookup_url") else "<span class=\"muted\">Printed only</span>"
         )
+        find = ""
+        if r.get("find_url"):
+            find = f'<a href="{esc(r["find_url"])}" rel="noopener">{r["find_label"]}</a>'
+        if r.get("find_note"):
+            find += ("<br>" if find else "") + f'<span class="cite">{r["find_note"]}</span>'
         rows.append(f"""        <tr id="ref-{esc(r["id"])}">
           <th scope="row">{abbr}</th>
           <td><strong>{esc(r["title"])}</strong><br><span class="cite">{esc(r["citation"])}</span></td>
           <td>{r["covers"]}<br><span class="example">as in <code>{esc(r["example"])}</code></span></td>
           <td>{lookup}</td>
+          <td>{find}</td>
         </tr>""")
     return "\n".join(rows)
 

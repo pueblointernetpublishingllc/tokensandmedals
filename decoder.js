@@ -71,6 +71,8 @@
       '<p>' + r.covers + ' Numbers look like <code>' + esc(r.example) + '</code>.</p>' +
       (r.notes ? '<p>' + r.notes + '</p>' : '') +
       lookup +
+      (r.find_url ? '<p class="lookup">Find the book: <a href="' + esc(r.find_url) + '" rel="noopener">' + r.find_label + '</a>' + (r.find_note ? ' <span class="cite">' + r.find_note + '</span>' : '') + '</p>'
+                  : (r.find_note ? '<p class="lookup"><span class="cite">' + r.find_note + '</span></p>' : '')) +
       '<p class="rowlink"><a href="#ref-' + esc(r.id) + '">Row in the table</a></p>';
   }
 

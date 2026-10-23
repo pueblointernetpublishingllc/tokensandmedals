@@ -271,6 +271,7 @@ h2 {
   font-size: 0.95rem;
 }
 .colophon p { margin: 0 0 0.4rem; max-width: var(--measure); }
+.colophon p:last-child { font-size: 0.85rem; margin-top: 0.6rem; }
 .colophon a { color: var(--silver); text-underline-offset: 3px; }
 
 /* Small screens */
@@ -446,5 +447,6 @@ h2 {
 }
 .table-wrap { overflow-x: auto; margin: 1rem 0 1.5rem; -webkit-overflow-scrolling: touch; }
 .table-wrap table { margin: 0; min-width: 32rem; }
+.table-wrap .reftable { min-width: 48rem; }
 .shelf > *, .entries li, .entries li > * { min-width: 0; }
 .domain { overflow-wrap: anywhere; }
