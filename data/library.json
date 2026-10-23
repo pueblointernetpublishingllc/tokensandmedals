@@ -1,98 +1,483 @@
 {
-  "shelves": [
-    {"id": "mints", "title": "Mints and makers", "note": "Who strikes the pieces, and the records of who used to.", "entries": [
-      {"name": "Moonlight Mint", "url": "http://moonlightmint.com/", "tags": ["mints", "colorado", "medals"], "checked": "2026-10-23", "note": "The store is at dc-coin.com.",
-       "desc": "Daniel Carr's private mint in Loveland, Colorado, striking his own designs on a press that served the Denver Mint for fifteen years: overstrikes, Hard Times and Lesher tributes, medals and bullion. The catalog page carries mintage figures. More on our <a href=\"/colorado/\">Colorado page</a>."},
-      {"name": "Medallic Art Company archive", "url": "https://numismatics.org/maco/", "tags": ["mints", "art medals", "archives"], "checked": "2026-10-23",
-       "desc": "The American Numismatic Society holds the records, specimen archive and dies of the Medallic Art Company, maker of the Pulitzer, Newbery and presidential inaugural medals from 1903 until its 2018 bankruptcy. Essays and photo archives alongside the specimens."},
-      {"name": "Medallic Art Collector", "url": "https://www.medallicartcollector.com/", "tags": ["art medals", "catalogs"], "checked": "2026-10-23", "note": "A new version with a better index is in public beta at beta.medallicartcollector.com.",
-       "desc": "Twentieth-century American medals series by series, mostly Medallic Art Company work: every Society of Medalists issue, the Circle of Friends of the Medallion, Brookgreen Gardens, the Marqusee collection by number."}
-    ]},
-    {"id": "references", "title": "References and catalogs", "note": "Where the numbers come from. The <a href=\"/decoder/\">decoder</a> explains the abbreviations.", "entries": [
-      {"name": "So-Called Dollars", "url": "https://www.so-calleddollars.com/", "tags": ["so-called dollars", "catalogs"], "checked": "2026-10-23",
-       "desc": "The online companion to Hibler and Kappen's reference, kept by the Coin &amp; Currency Institute. Browse by HK number, by event or by year, with the unlisted varieties found since the book. No prices; those stay in the book."},
-      {"name": "NGC Coin Explorer: so-called dollars", "url": "https://www.ngccoin.com/coin-explorer/united-states/so-called-dollars/", "tags": ["so-called dollars", "catalogs"], "checked": "2026-10-23",
-       "desc": "NGC's catalog pages for HK-numbered pieces, with photographs, grading populations and price history. There is a sibling section for tokens."},
-      {"name": "TokenCatalog", "url": "https://www.tokencatalog.com/", "tags": ["trade tokens", "catalogs", "colorado"], "checked": "2026-10-23",
-       "desc": "Richard Greever's collector-built database of more than 700,000 tokens, each with a TC number and, where a contributor has done the directory work, the issuer and dates. Searchable by state and town without an account; 680 Pueblo entries when we last looked."},
-      {"name": "Numista", "url": "https://en.numista.com/", "tags": ["catalogs", "medals", "trade tokens"], "checked": "2026-10-23",
-       "desc": "A collector-built catalog of coins, tokens and medals from every country, with photographs, reference-number fields for HK, DH, TC and the rest, and collection tracking."},
-      {"name": "TAMS maverick records", "url": "https://tokenandmedal.org/TAMS_files/tams_mavericks.html", "tags": ["trade tokens", "catalogs", "societies"], "checked": "2026-10-23",
-       "desc": "The Token and Medal Society's register of mavericks, tokens that name a merchant but no town, published in batches since 1965. Members submit; anyone may propose an attribution."},
-      {"name": "ANS MANTIS", "url": "https://numismatics.org/search/", "tags": ["catalogs", "medals", "museums"], "checked": "2026-10-23",
-       "desc": "The American Numismatic Society's collection database, more than 600,000 objects including its tokens, medals and decorations, with photographs and an advanced search."},
-      {"name": "Civil War Token Society addenda", "url": "https://www.cwtsociety.com/addendum-to-store-cardbook-4th-ed", "tags": ["civil war tokens", "catalogs"], "checked": "2026-10-23",
-       "desc": "The Fuld books have no online edition, but the society posts the corrections, new merchants and new dies reported since the Store Cards fourth edition and the Patriotics sixth edition."},
-      {"name": "Society of Medalists guide", "url": "https://www.medalcollectors.org/discover/guides/society-of-medalists", "tags": ["art medals", "catalogs"], "checked": "2026-10-23",
-       "desc": "Medal Collectors of America's guide to the Society of Medalists series, 1930 to 1995, the long-running subscription series of American art medals. One of several series guides on the site."}
-    ]},
-    {"id": "archives", "title": "Libraries and archives", "note": "The scans and the periodicals, most of them free.", "entries": [
-      {"name": "Newman Numismatic Portal", "url": "https://nnp.washu.edu/", "tags": ["archives", "periodicals"], "checked": "2026-10-23", "note": "Moved from nnp.wustl.edu; old links to it are dead.",
-       "desc": "Washington University's free digital library of numismatic literature: auction catalogs, society journals, out-of-copyright references and decades of periodicals, all searchable. The first place to look for a scan of any reference on the decoder."},
-      {"name": "TAMS Journal on the Newman Portal", "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37783", "tags": ["archives", "periodicals", "trade tokens"], "checked": "2026-10-23",
-       "desc": "The Token and Medal Society's journal, scanned and searchable. Most of what is known about American trade tokens was first printed here."},
-      {"name": "The Numismatist, 1888 to 2002", "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37575", "tags": ["archives", "periodicals"], "checked": "2026-10-23",
-       "desc": "Full view of the ANA's monthly through 2002, which is where Wright's store-card series, King's Lincoln listings and Wilde's Lesher census were serialized. Later issues are in the members' archive at money.org."},
-      {"name": "Civil War Token Journal on the Newman Portal", "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37875", "tags": ["archives", "periodicals", "civil war tokens"], "checked": "2026-10-23",
-       "desc": "The Civil War Token Society's journal, scanned: die studies, merchant research and the arguments behind the Fuld numbers."},
-      {"name": "Newman collection on the Internet Archive", "url": "https://archive.org/details/newmannumismatic", "tags": ["archives"], "checked": "2026-10-23",
-       "desc": "Many of the portal's scans are hosted here, which is handy when you want a PDF rather than a page viewer. Low's Hard Times Tokens, Baker, Betts, Loubat and Storer are all open-access."},
-      {"name": "Smithsonian National Numismatic Collection", "url": "https://americanhistory.si.edu/numismatics", "tags": ["museums", "archives"], "checked": "2026-10-23",
-       "desc": "The national collection at the Museum of American History, about 1.6 million objects, with research guides and online galleries. Colorado territorial gold included."}
-    ]},
-    {"id": "societies", "title": "Societies", "note": "Each specialty has one, and each one publishes something worth reading.", "entries": [
-      {"name": "Token and Medal Society", "url": "https://www.tokenandmedal.org/", "tags": ["societies", "trade tokens", "medals"], "checked": "2026-10-23",
-       "desc": "The hobby's umbrella society since 1960. Publishes the TAMS Journal, keeps the maverick records and maintains a links page to every specialist group below."},
-      {"name": "Civil War Token Society", "url": "https://www.cwtsociety.com/", "tags": ["societies", "civil war tokens"], "checked": "2026-10-23",
-       "desc": "Founded 1967 for the patriotic tokens and store cards of 1861 to 1865. Publishes the Fuld references, a journal, a known-fakes list and a lending library."},
-      {"name": "Conder Token Collector's Club", "url": "https://ctcc.info/", "tags": ["societies", "conder tokens"], "checked": "2026-10-23",
-       "desc": "For the British and Irish provincial tokens of 1787 to 1804 catalogued by Dalton and Hamer. A journal, a mail-lending library and links to the free historical references."},
-      {"name": "American Vecturist Association", "url": "https://vecturist.com/", "tags": ["societies", "transportation tokens"], "checked": "2026-10-23",
-       "desc": "Transportation-token collectors. Publishes the Atwood-Coffee catalog, free as a PDF to members, and the monthly Fare Box."},
-      {"name": "The Elongated Collectors", "url": "https://tecnews.org/", "tags": ["societies", "elongateds"], "checked": "2026-10-23",
-       "desc": "The club for rolled and elongated coins, founded 1966, with TEC News back issues and listings of every club-issued elongated."},
-      {"name": "International Organization of Wooden Money Collectors", "url": "http://woodenmoney.org/", "tags": ["societies", "wooden money"], "checked": "2026-10-23",
-       "desc": "Wooden nickels and their relatives, with the club newsletter Bunyan's Chips."},
-      {"name": "Love Token Society", "url": "http://lovetokensociety.com/", "tags": ["societies", "love tokens"], "checked": "2026-10-23",
-       "desc": "Coins engraved for sweethearts, by category: silver, gold, enamel, cut-down, jewelry. Registers of reported pieces and the Love Letter newsletter."},
-      {"name": "National Token Collectors Association", "url": "http://tokencollectors.org/", "tags": ["societies", "trade tokens"], "checked": "2026-10-23",
-       "desc": "The trade-token collectors' association: the monthly Talkin' Tokens, mail auctions and a free trial membership."},
-      {"name": "National Scrip Collectors Association", "url": "https://www.scripcollectors.org/", "tags": ["societies", "scrip"], "checked": "2026-10-23", "note": "The older address nationalscripcollectors.org is parked; do not use it.",
-       "desc": "Coal and lumber company scrip. Scrip Talk newsletters, county lists, record prices and the running revisions to the Edkins catalog."},
-      {"name": "Medal Collectors of America", "url": "https://www.medalcollectors.org/", "tags": ["societies", "medals", "art medals"], "checked": "2026-10-23",
-       "desc": "American medals of every kind. The MCA Advisory, series guides, recorded member talks and oral histories with the people who made the market."},
-      {"name": "American Medallic Sculpture Association", "url": "https://amsamedals.org/", "tags": ["societies", "art medals"], "checked": "2026-10-23",
-       "desc": "The artists' side of the medal, founded 1982: exhibitions, the American Medal of the Year and a short history of the medal as an art form."},
-      {"name": "FIDEM", "url": "https://www.fidem-medals.org/", "tags": ["societies", "art medals"], "checked": "2026-10-23",
-       "desc": "The international federation of art-medal makers and collectors, founded 1937, with a congress and exhibition every two years and a database of the medals shown at them."},
-      {"name": "British Art Medal Society", "url": "https://bams.org.uk/", "tags": ["societies", "art medals"], "checked": "2026-10-23",
-       "desc": "Publishes The Medal, the leading journal on the art medal, and commissions new medals from British artists."},
-      {"name": "American Numismatic Association", "url": "https://www.money.org/", "tags": ["societies", "museums"], "checked": "2026-10-23",
-       "desc": "The national hobby association since 1891, headquartered in Colorado Springs with the Money Museum attached. Club directory, The Numismatist and the summer seminar."},
-      {"name": "American Numismatic Society", "url": "https://numismatics.org/", "tags": ["societies", "museums", "archives"], "checked": "2026-10-23",
-       "desc": "The research society in New York, founded 1858: the MANTIS collection database, the Bass library and the Medallic Art Company archive."},
-      {"name": "Casino Chip &amp; Gaming Token Collectors Club", "url": "https://www.ccgtcc.com/", "tags": ["societies", "gaming tokens"], "checked": "2026-10-23",
-       "desc": "Chips, gaming tokens and the slot-machine tokens that replaced silver dollars in Nevada."},
-      {"name": "American Tax Token Society", "url": "https://www.salestaxtokens.org/", "tags": ["societies", "tax tokens"], "checked": "2026-10-23",
-       "desc": "The sales-tax tokens of the 1930s, state by state. Colorado was one of the states that issued them."}
-    ]},
-    {"id": "reading", "title": "Reading", "note": "Current writing on the hobby.", "entries": [
-      {"name": "The E-Sylum", "url": "https://www.coinbooks.org/esylum/", "tags": ["periodicals"], "checked": "2026-10-23",
-       "desc": "The Numismatic Bibliomania Society's weekly email since 1998, heavy on exonumia, book reviews and the people behind the references. The complete archive is on the site and is where half our sources came from."},
-      {"name": "CoinWeek on exonumia", "url": "https://coinweek.com/tag/exonumia/", "tags": ["periodicals"], "checked": "2026-10-23",
-       "desc": "CoinWeek's tag page for tokens and medals: book releases, auction previews and the Exonumia of the Week pieces."}
-    ]},
-    {"id": "colorado", "title": "Colorado", "note": "Our home state. The essays are on the <a href=\"/colorado/\">Colorado pages</a>; these are the institutions.", "entries": [
-      {"name": "ANA Money Museum", "url": "https://money.org/money-museum", "tags": ["colorado", "museums"], "checked": "2026-10-23",
-       "desc": "The American Numismatic Association's museum at 818 N. Cascade Ave., Colorado Springs. Lesher dollars and Clark Gruber gold in the Colorado exhibit; ANA members get in free."},
-      {"name": "Colorado Springs Coin Club", "url": "http://cscc.anaclubs.org/cscc_home.htm", "tags": ["colorado", "societies"], "checked": "2026-10-23", "note": "The Colorado Springs Numismatic Society shares the site.",
-       "desc": "Founded 1962; meets the fourth Tuesday at the Eagles hall on 21st Street. With the Numismatic Society it runs the Colorado Springs Coin Show every June."},
-      {"name": "Steelworks Center of the West", "url": "https://www.steelworks.us/", "tags": ["colorado", "museums", "scrip", "archives"], "checked": "2026-10-23",
-       "desc": "The CF&amp;I museum and archives in Pueblo, with the Colorado Supply Company's records among six thousand cubic feet of company papers. Archive research by appointment."},
-      {"name": "Pueblo library local history", "url": "https://www.pueblolibrary.org/LocalHistoryGenealogy", "tags": ["colorado", "archives", "trade tokens"], "checked": "2026-10-23",
-       "desc": "The Pueblo city directories, newspapers on microfilm and photo archive on the third floor of the Rawlings Library. How a \"good for 5\" with an address becomes a named saloon with dates."},
-      {"name": "The Colorado Fuel and Iron Company, USC Scalar", "url": "https://scalar.usc.edu/works/the-colorado-fuel-and-iron-company/introduction-to-the-colorado-supply-company", "tags": ["colorado", "scrip", "archives"], "checked": "2026-10-23",
-       "desc": "A scholarly web book built on the Steelworks archives, with chapters on the Colorado Supply Company stores and how scrip worked in the camps."}
-    ]}
-  ]
+ "shelves": [
+  {
+   "id": "mints",
+   "title": "Mints and makers",
+   "note": "Who strikes the pieces, and the records of who used to.",
+   "entries": [
+    {
+     "name": "Moonlight Mint",
+     "url": "http://moonlightmint.com/",
+     "tags": [
+      "mints",
+      "colorado",
+      "medals"
+     ],
+     "checked": "2026-10-23",
+     "note": "The store is at dc-coin.com.",
+     "desc": "Daniel Carr's private mint in Loveland, Colorado, striking his own designs on a press that served the Denver Mint for fifteen years: overstrikes, Hard Times and Lesher tributes, medals and bullion. The catalog page carries mintage figures. More on our <a href=\"/colorado/\">Colorado page</a>."
+    },
+    {
+     "name": "Medallic Art Company archive",
+     "url": "https://numismatics.org/maco/",
+     "tags": [
+      "mints",
+      "art medals",
+      "archives"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The American Numismatic Society holds the records, specimen archive and dies of the Medallic Art Company, maker of the Pulitzer, Newbery and presidential inaugural medals from 1903 until its 2018 bankruptcy. Essays and photo archives alongside the specimens."
+    },
+    {
+     "name": "Medallic Art Collector",
+     "url": "https://www.medallicartcollector.com/",
+     "tags": [
+      "art medals",
+      "catalogs"
+     ],
+     "checked": "2026-10-23",
+     "note": "A new version with a better index is in public beta at beta.medallicartcollector.com.",
+     "desc": "Twentieth-century American medals series by series, mostly Medallic Art Company work: every Society of Medalists issue, the Circle of Friends of the Medallion, Brookgreen Gardens, the Marqusee collection by number."
+    }
+   ]
+  },
+  {
+   "id": "references",
+   "title": "References and catalogs",
+   "note": "Where the numbers come from. The <a href=\"/decoder/\">decoder</a> explains the abbreviations.",
+   "entries": [
+    {
+     "name": "So-Called Dollars",
+     "url": "https://www.so-calleddollars.com/",
+     "tags": [
+      "so-called dollars",
+      "catalogs"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The online companion to Hibler and Kappen's reference, kept by the Coin &amp; Currency Institute. Browse by HK number, by event or by year, with the unlisted varieties found since the book. No prices; those stay in the book."
+    },
+    {
+     "name": "So-Called Dollar, Jeff Shevlin's collector site",
+     "url": "https://www.so-calleddollar.com/",
+     "tags": [
+      "so-called dollars",
+      "catalogs"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Jeff Shevlin's gathering place for so-called dollar collectors: discussion threads on dozens of topics, hundreds of photographs, research articles, and his books with Bill Hyder, beginning with <em>So-Called Dollars, Volume I: United States Expositions</em>. Shevlin also deals in the pieces."
+    },
+    {
+     "name": "NGC Coin Explorer: so-called dollars",
+     "url": "https://www.ngccoin.com/coin-explorer/united-states/so-called-dollars/",
+     "tags": [
+      "so-called dollars",
+      "catalogs"
+     ],
+     "checked": "2026-10-23",
+     "desc": "NGC's catalog pages for HK-numbered pieces, with photographs, grading populations and price history. There is a sibling section for tokens."
+    },
+    {
+     "name": "TokenCatalog",
+     "url": "https://www.tokencatalog.com/",
+     "tags": [
+      "trade tokens",
+      "catalogs",
+      "colorado"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Richard Greever's collector-built database of more than 700,000 tokens, each with a TC number and, where a contributor has done the directory work, the issuer and dates. Searchable by state and town without an account; 680 Pueblo entries when we last looked."
+    },
+    {
+     "name": "Numista",
+     "url": "https://en.numista.com/",
+     "tags": [
+      "catalogs",
+      "medals",
+      "trade tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "A collector-built catalog of coins, tokens and medals from every country, with photographs, reference-number fields for HK, DH, TC and the rest, and collection tracking."
+    },
+    {
+     "name": "TAMS maverick records",
+     "url": "https://tokenandmedal.org/TAMS_files/tams_mavericks.html",
+     "tags": [
+      "trade tokens",
+      "catalogs",
+      "societies"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The Token and Medal Society's register of mavericks, tokens that name a merchant but no town, published in batches since 1965. Members submit; anyone may propose an attribution."
+    },
+    {
+     "name": "ANS MANTIS",
+     "url": "https://numismatics.org/search/",
+     "tags": [
+      "catalogs",
+      "medals",
+      "museums"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The American Numismatic Society's collection database, more than 600,000 objects including its tokens, medals and decorations, with photographs and an advanced search."
+    },
+    {
+     "name": "Civil War Token Society addenda",
+     "url": "https://www.cwtsociety.com/addendum-to-store-cardbook-4th-ed",
+     "tags": [
+      "civil war tokens",
+      "catalogs"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The Fuld books have no online edition, but the society posts the corrections, new merchants and new dies reported since the Store Cards fourth edition and the Patriotics sixth edition."
+    },
+    {
+     "name": "Society of Medalists guide",
+     "url": "https://www.medalcollectors.org/discover/guides/society-of-medalists",
+     "tags": [
+      "art medals",
+      "catalogs"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Medal Collectors of America's guide to the Society of Medalists series, 1930 to 1995, the long-running subscription series of American art medals. One of several series guides on the site."
+    }
+   ]
+  },
+  {
+   "id": "archives",
+   "title": "Libraries and archives",
+   "note": "The scans and the periodicals, most of them free.",
+   "entries": [
+    {
+     "name": "Newman Numismatic Portal",
+     "url": "https://nnp.washu.edu/",
+     "tags": [
+      "archives",
+      "periodicals"
+     ],
+     "checked": "2026-10-23",
+     "note": "Moved from nnp.wustl.edu; old links to it are dead.",
+     "desc": "Washington University's free digital library of numismatic literature: auction catalogs, society journals, out-of-copyright references and decades of periodicals, all searchable. The first place to look for a scan of any reference on the decoder."
+    },
+    {
+     "name": "TAMS Journal on the Newman Portal",
+     "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37783",
+     "tags": [
+      "archives",
+      "periodicals",
+      "trade tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The Token and Medal Society's journal, scanned and searchable. Most of what is known about American trade tokens was first printed here."
+    },
+    {
+     "name": "The Numismatist, 1888 to 2002",
+     "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37575",
+     "tags": [
+      "archives",
+      "periodicals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Full view of the ANA's monthly through 2002, which is where Wright's store-card series, King's Lincoln listings and Wilde's Lesher census were serialized. Later issues are in the members' archive at money.org."
+    },
+    {
+     "name": "Civil War Token Journal on the Newman Portal",
+     "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37875",
+     "tags": [
+      "archives",
+      "periodicals",
+      "civil war tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The Civil War Token Society's journal, scanned: die studies, merchant research and the arguments behind the Fuld numbers."
+    },
+    {
+     "name": "Newman collection on the Internet Archive",
+     "url": "https://archive.org/details/newmannumismatic",
+     "tags": [
+      "archives"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Many of the portal's scans are hosted here, which is handy when you want a PDF rather than a page viewer. Low's Hard Times Tokens, Baker, Betts, Loubat and Storer are all open-access."
+    },
+    {
+     "name": "Smithsonian National Numismatic Collection",
+     "url": "https://americanhistory.si.edu/numismatics",
+     "tags": [
+      "museums",
+      "archives"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The national collection at the Museum of American History, about 1.6 million objects, with research guides and online galleries. Colorado territorial gold included."
+    }
+   ]
+  },
+  {
+   "id": "societies",
+   "title": "Societies",
+   "note": "Each specialty has one, and each one publishes something worth reading.",
+   "entries": [
+    {
+     "name": "Token and Medal Society",
+     "url": "https://www.tokenandmedal.org/",
+     "tags": [
+      "societies",
+      "trade tokens",
+      "medals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The hobby's umbrella society since 1960. Publishes the TAMS Journal, keeps the maverick records and maintains a links page to every specialist group below."
+    },
+    {
+     "name": "Civil War Token Society",
+     "url": "https://www.cwtsociety.com/",
+     "tags": [
+      "societies",
+      "civil war tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Founded 1967 for the patriotic tokens and store cards of 1861 to 1865. Publishes the Fuld references, a journal, a known-fakes list and a lending library."
+    },
+    {
+     "name": "Conder Token Collector's Club",
+     "url": "https://ctcc.info/",
+     "tags": [
+      "societies",
+      "conder tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "For the British and Irish provincial tokens of 1787 to 1804 catalogued by Dalton and Hamer. A journal, a mail-lending library and links to the free historical references."
+    },
+    {
+     "name": "American Vecturist Association",
+     "url": "https://vecturist.com/",
+     "tags": [
+      "societies",
+      "transportation tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Transportation-token collectors. Publishes the Atwood-Coffee catalog, free as a PDF to members, and the monthly Fare Box."
+    },
+    {
+     "name": "The Elongated Collectors",
+     "url": "https://tecnews.org/",
+     "tags": [
+      "societies",
+      "elongateds"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The club for rolled and elongated coins, founded 1966, with TEC News back issues and listings of every club-issued elongated."
+    },
+    {
+     "name": "International Organization of Wooden Money Collectors",
+     "url": "http://woodenmoney.org/",
+     "tags": [
+      "societies",
+      "wooden money"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Wooden nickels and their relatives, with the club newsletter Bunyan's Chips."
+    },
+    {
+     "name": "Love Token Society",
+     "url": "http://lovetokensociety.com/",
+     "tags": [
+      "societies",
+      "love tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Coins engraved for sweethearts, by category: silver, gold, enamel, cut-down, jewelry. Registers of reported pieces and the Love Letter newsletter."
+    },
+    {
+     "name": "National Token Collectors Association",
+     "url": "http://tokencollectors.org/",
+     "tags": [
+      "societies",
+      "trade tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The trade-token collectors' association: the monthly Talkin' Tokens, mail auctions and a free trial membership."
+    },
+    {
+     "name": "National Scrip Collectors Association",
+     "url": "https://www.scripcollectors.org/",
+     "tags": [
+      "societies",
+      "scrip"
+     ],
+     "checked": "2026-10-23",
+     "note": "The older address nationalscripcollectors.org is parked; do not use it.",
+     "desc": "Coal and lumber company scrip. Scrip Talk newsletters, county lists, record prices and the running revisions to the Edkins catalog."
+    },
+    {
+     "name": "Medal Collectors of America",
+     "url": "https://www.medalcollectors.org/",
+     "tags": [
+      "societies",
+      "medals",
+      "art medals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "American medals of every kind. The MCA Advisory, series guides, recorded member talks and oral histories with the people who made the market."
+    },
+    {
+     "name": "American Medallic Sculpture Association",
+     "url": "https://amsamedals.org/",
+     "tags": [
+      "societies",
+      "art medals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The artists' side of the medal, founded 1982: exhibitions, the American Medal of the Year and a short history of the medal as an art form."
+    },
+    {
+     "name": "FIDEM",
+     "url": "https://www.fidem-medals.org/",
+     "tags": [
+      "societies",
+      "art medals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The international federation of art-medal makers and collectors, founded 1937, with a congress and exhibition every two years and a database of the medals shown at them."
+    },
+    {
+     "name": "British Art Medal Society",
+     "url": "https://bams.org.uk/",
+     "tags": [
+      "societies",
+      "art medals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Publishes The Medal, the leading journal on the art medal, and commissions new medals from British artists."
+    },
+    {
+     "name": "American Numismatic Association",
+     "url": "https://www.money.org/",
+     "tags": [
+      "societies",
+      "museums"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The national hobby association since 1891, headquartered in Colorado Springs with the Money Museum attached. Club directory, The Numismatist and the summer seminar."
+    },
+    {
+     "name": "American Numismatic Society",
+     "url": "https://numismatics.org/",
+     "tags": [
+      "societies",
+      "museums",
+      "archives"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The research society in New York, founded 1858: the MANTIS collection database, the Bass library and the Medallic Art Company archive."
+    },
+    {
+     "name": "Casino Chip &amp; Gaming Token Collectors Club",
+     "url": "https://www.ccgtcc.com/",
+     "tags": [
+      "societies",
+      "gaming tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "Chips, gaming tokens and the slot-machine tokens that replaced silver dollars in Nevada."
+    },
+    {
+     "name": "American Tax Token Society",
+     "url": "https://www.salestaxtokens.org/",
+     "tags": [
+      "societies",
+      "tax tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The sales-tax tokens of the 1930s, state by state. Colorado was one of the states that issued them."
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Reading",
+   "note": "Current writing on the hobby.",
+   "entries": [
+    {
+     "name": "The E-Sylum",
+     "url": "https://www.coinbooks.org/esylum/",
+     "tags": [
+      "periodicals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The Numismatic Bibliomania Society's weekly email since 1998, heavy on exonumia, book reviews and the people behind the references. The complete archive is on the site and is where half our sources came from."
+    },
+    {
+     "name": "CoinWeek on exonumia",
+     "url": "https://coinweek.com/tag/exonumia/",
+     "tags": [
+      "periodicals"
+     ],
+     "checked": "2026-10-23",
+     "desc": "CoinWeek's tag page for tokens and medals: book releases, auction previews and the Exonumia of the Week pieces."
+    }
+   ]
+  },
+  {
+   "id": "colorado",
+   "title": "Colorado",
+   "note": "Our home state. The essays are on the <a href=\"/colorado/\">Colorado pages</a>; these are the institutions.",
+   "entries": [
+    {
+     "name": "ANA Money Museum",
+     "url": "https://money.org/money-museum",
+     "tags": [
+      "colorado",
+      "museums"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The American Numismatic Association's museum at 818 N. Cascade Ave., Colorado Springs. Lesher dollars and Clark Gruber gold in the Colorado exhibit; ANA members get in free."
+    },
+    {
+     "name": "Colorado Springs Coin Club",
+     "url": "http://cscc.anaclubs.org/cscc_home.htm",
+     "tags": [
+      "colorado",
+      "societies"
+     ],
+     "checked": "2026-10-23",
+     "note": "The Colorado Springs Numismatic Society shares the site.",
+     "desc": "Founded 1962; meets the fourth Tuesday at the Eagles hall on 21st Street. With the Numismatic Society it runs the Colorado Springs Coin Show every June."
+    },
+    {
+     "name": "Steelworks Center of the West",
+     "url": "https://www.steelworks.us/",
+     "tags": [
+      "colorado",
+      "museums",
+      "scrip",
+      "archives"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The CF&amp;I museum and archives in Pueblo, with the Colorado Supply Company's records among six thousand cubic feet of company papers. Archive research by appointment."
+    },
+    {
+     "name": "Pueblo library local history",
+     "url": "https://www.pueblolibrary.org/LocalHistoryGenealogy",
+     "tags": [
+      "colorado",
+      "archives",
+      "trade tokens"
+     ],
+     "checked": "2026-10-23",
+     "desc": "The Pueblo city directories, newspapers on microfilm and photo archive on the third floor of the Rawlings Library. How a \"good for 5\" with an address becomes a named saloon with dates."
+    },
+    {
+     "name": "The Colorado Fuel and Iron Company, USC Scalar",
+     "url": "https://scalar.usc.edu/works/the-colorado-fuel-and-iron-company/introduction-to-the-colorado-supply-company",
+     "tags": [
+      "colorado",
+      "scrip",
+      "archives"
+     ],
+     "checked": "2026-10-23",
+     "desc": "A scholarly web book built on the Steelworks archives, with chapters on the Colorado Supply Company stores and how scrip worked in the camps."
+    }
+   ]
+  }
+ ]
 }

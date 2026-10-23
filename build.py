@@ -119,7 +119,9 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
 # ---------------------------------------------------------------- library
 
 def domain_of(url):
-    return re.sub(r"^https?://(www\.)?", "", url).rstrip("/")
+    """Short label for the card: the host, plus the path only when it is short."""
+    full = re.sub(r"^https?://(www\.)?", "", url).rstrip("/")
+    return full if len(full) <= 36 else full.split("/")[0]
 
 
 def render_entry(e):
