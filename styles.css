@@ -292,3 +292,159 @@ h2 {
   .domain { white-space: normal; }
   .menu { gap: 1.1rem; }
 }
+
+/* ---------------------------------------------------------------- v2 additions */
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+.menu a[aria-current="page"] { border-bottom-color: var(--bronze-light); color: var(--card); }
+
+/* Breadcrumbs */
+.crumbs {
+  max-width: 1100px; margin: 0 auto; padding: 1.25rem var(--gutter) 0;
+  font-size: 0.95rem; color: var(--silver-dim);
+}
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.crumbs li + li::before { content: "/"; margin-right: 0.4rem; color: var(--felt-edge); }
+.crumbs a { color: var(--silver); text-decoration: none; }
+.crumbs a:hover { color: var(--card); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Library finder */
+.library-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.count { margin: 0 0 1.25rem; color: var(--silver-dim); font-size: 0.95rem; }
+.finder { margin: 0 0 1.5rem; }
+.finder input[type="search"] {
+  width: 100%; font: inherit; font-size: 1.1rem;
+  padding: 0.75rem 1rem; color: var(--ink); background: var(--card);
+  border: 1px solid var(--card-edge); border-left: 4px solid var(--bronze); border-radius: 0;
+  -webkit-appearance: none; appearance: none;
+}
+.finder input[type="search"]:focus { outline: 2px solid var(--bronze-light); outline-offset: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+.chip {
+  font: inherit; font-size: 0.85rem; font-weight: 500; letter-spacing: 0.02em;
+  color: var(--silver); background: transparent; border: 1px solid var(--felt-edge);
+  border-radius: 999px; padding: 0.25rem 0.75rem; cursor: pointer;
+}
+.chip:hover { border-color: var(--bronze-light); color: var(--card); }
+.chip[aria-pressed="true"] { background: var(--bronze); border-color: var(--bronze); color: var(--card); }
+.no-match { max-width: var(--measure); color: var(--silver); padding: 1rem 0; }
+.no-match a { color: var(--bronze-light); }
+.shelf-note { margin: 0.5rem 0 0; color: var(--silver-dim); font-size: 0.95rem; line-height: 1.4; }
+.entries li { grid-template-areas: "name domain" "desc desc" "note note"; }
+.entries .note { grid-area: note; font-size: 0.85rem; color: var(--ink-soft); font-style: italic; }
+.entries li[hidden], .shelf[hidden] { display: none; }
+
+/* Reading pages (Colorado essays, decoder) */
+.leaf {
+  max-width: 1100px; margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3rem) var(--gutter) clamp(2rem, 5vw, 4rem);
+}
+.leaf .paper {
+  background: var(--card); color: var(--ink);
+  border: 1px solid var(--card-edge); border-top: 6px solid var(--bronze);
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1.25rem, 4vw, 3.5rem);
+}
+.paper h1 {
+  font-family: var(--display); font-weight: 500; line-height: 1.08;
+  font-size: clamp(2.1rem, 4.4vw, 3.2rem); color: var(--ink); margin: 0 0 0.5rem; max-width: 24ch;
+}
+.paper .lede { font-size: 1.2rem; color: var(--ink-soft); max-width: var(--measure); margin: 0 0 1.75rem; }
+.paper h2 {
+  color: var(--ink); font-size: clamp(1.5rem, 2.6vw, 1.9rem); margin: 2.25rem 0 0.75rem;
+  padding-top: 1rem; border-top: 1px solid var(--card-edge);
+}
+.paper h3 { font-family: var(--display); font-weight: 600; font-size: 1.3rem; color: var(--bronze); margin: 1.5rem 0 0.4rem; }
+.paper p, .paper li { max-width: var(--measure); color: var(--ink); }
+.paper p { margin: 0 0 1rem; }
+.paper a { color: var(--bronze); text-underline-offset: 3px; }
+.paper a:hover { color: var(--ink); }
+.paper ul, .paper ol { padding-left: 1.3rem; margin: 0 0 1rem; }
+.paper li { margin-bottom: 0.4rem; }
+.paper .aside {
+  border-left: 4px solid var(--bronze); background: rgba(168, 111, 58, 0.08);
+  padding: 0.8rem 1.1rem; margin: 1.25rem 0; max-width: var(--measure);
+}
+.paper .aside p:last-child { margin-bottom: 0; }
+.paper table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.98rem; }
+.paper th, .paper td { text-align: left; vertical-align: top; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--card-edge); }
+.paper th { font-family: var(--display); font-weight: 600; font-size: 1.05rem; color: var(--ink); }
+.paper thead th { border-bottom: 2px solid var(--bronze); }
+.paper code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.92em; background: rgba(0,0,0,0.05); padding: 0.05em 0.3em; }
+.paper .sources { font-size: 0.92rem; color: var(--ink-soft); }
+.paper .sources li { margin-bottom: 0.3rem; }
+.paper .muted { color: var(--ink-soft); }
+.paper .cite { font-size: 0.9rem; color: var(--ink-soft); }
+.paper .example { font-size: 0.9rem; color: var(--ink-soft); }
+
+/* Colorado index cards */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0 0; }
+.cards a {
+  display: block; background: var(--card); color: var(--ink); text-decoration: none;
+  border: 1px solid var(--card-edge); border-left: 4px solid var(--bronze); padding: 1.1rem 1.25rem;
+}
+.cards a:hover { border-left-color: var(--bronze-light); }
+.cards h3 { font-family: var(--display); font-weight: 600; font-size: 1.45rem; margin: 0 0 0.3rem; color: var(--ink); }
+.cards a:hover h3 { color: var(--bronze); }
+.cards p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+.cards .kicker { display: block; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--bronze); margin-bottom: 0.3rem; }
+
+/* Teaser strips on the home page */
+.teaser {
+  max-width: 1100px; margin: 0 auto; padding: 0 var(--gutter) clamp(2rem, 5vw, 4rem);
+}
+.teaser .strip {
+  display: grid; grid-template-columns: minmax(140px, 220px) 1fr; gap: 1rem 2.5rem;
+  padding: 1.5rem 0; border-top: 1px solid var(--felt-edge); border-bottom: 1px solid var(--felt-edge);
+}
+.teaser h2 { margin-bottom: 0.25rem; }
+.teaser p { max-width: var(--measure); margin: 0 0 0.75rem; }
+.teaser .more { color: var(--bronze-light); font-weight: 500; text-underline-offset: 3px; }
+
+/* Decoder */
+.decoder-form { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem; max-width: 40rem; margin: 0 0 1rem; }
+.decoder-form input {
+  font: inherit; font-size: 1.2rem; padding: 0.7rem 0.9rem; color: var(--ink);
+  background: #fff; border: 1px solid var(--card-edge); border-left: 4px solid var(--bronze); border-radius: 0;
+}
+.decoder-form button {
+  font: inherit; font-weight: 500; padding: 0.7rem 1.2rem; cursor: pointer;
+  background: var(--bronze); color: var(--card); border: 1px solid var(--bronze); border-radius: 0;
+}
+.decoder-form button:hover { background: var(--bronze-light); border-color: var(--bronze-light); }
+.decoded { border: 1px solid var(--card-edge); border-left: 4px solid var(--bronze); padding: 1rem 1.25rem; margin: 0 0 1.5rem; max-width: 40rem; background: #fff; }
+.decoded.miss { border-left-color: var(--silver-dim); }
+.decoded .eyebrow { font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 0.2rem; }
+.decoded .eyebrow .num { font-family: ui-monospace, Menlo, Consolas, monospace; text-transform: none; letter-spacing: 0; color: var(--ink); }
+.decoded h3 { margin: 0 0 0.25rem; color: var(--ink); font-size: 1.5rem; }
+.decoded .cite { margin: 0 0 0.75rem; }
+.decoded .lookup { font-weight: 500; }
+.decoded .rowlink { margin: 0; font-size: 0.9rem; }
+.reftable th[scope="row"] { white-space: nowrap; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.95rem; }
+.reftable th[scope="row"] code { background: none; padding: 0; }
+
+@media (max-width: 760px) {
+  .teaser .strip { grid-template-columns: 1fr; gap: 0.5rem; }
+  .decoder-form { grid-template-columns: 1fr; }
+  .reftable thead { display: none; }
+  .reftable tr { display: block; padding: 0.6rem 0; border-bottom: 1px solid var(--card-edge); }
+  .reftable th[scope="row"], .reftable td { display: block; border: 0; padding: 0.15rem 0; white-space: normal; }
+}
+
+@media print {
+  body { background: #fff; color: #000; }
+  .masthead, .crumbs, .colophon, .finder, .decoder-form, .skip { display: none; }
+  .leaf .paper { border: 0; padding: 0; }
+  .paper a { color: #000; text-decoration: none; }
+}
+
+/* Mobile fixes for the v2 additions */
+@media (max-width: 760px) {
+  .entries li { grid-template-areas: "name" "domain" "desc" "note"; }
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.5rem; -webkit-overflow-scrolling: touch; }
+.table-wrap table { margin: 0; min-width: 32rem; }
+.shelf > *, .entries li, .entries li > * { min-width: 0; }
+.domain { overflow-wrap: anywhere; }

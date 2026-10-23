@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tokens and Medals</title>
-  <meta name="description" content="A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies.">
+  <meta name="description" content="A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies, with a catalog-number decoder and pages on Colorado exonumia.">
   <link rel="canonical" href="https://tokensandmedals.com/">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -12,29 +12,33 @@
   <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tokens and Medals">
   <meta property="og:title" content="Tokens and Medals">
-  <meta property="og:description" content="A library of resources for collectors of tokens, medals and so-called dollars.">
+  <meta property="og:description" content="A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies, with a catalog-number decoder and pages on Colorado exonumia.">
   <meta property="og:url" content="https://tokensandmedals.com/">
   <meta property="og:image" content="https://tokensandmedals.com/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Tokens and Medals", "url": "https://tokensandmedals.com/", "description": "A library of resources for collectors of tokens, medals and so-called dollars.", "publisher": {"@type": "Organization", "name": "Pueblo Internet Publishing LLC", "url": "https://pueblointernetpublishing.com/"}}</script>
 </head>
 <body>
-  <a class="skip" href="#library">Skip to the library</a>
+  <a class="skip" href="#main">Skip to content</a>
 
   <header class="masthead">
     <a class="wordmark" href="/">Tokens <span class="amp">&amp;</span> Medals</a>
     <nav class="menu" aria-label="Site">
-      <a href="#library">Library</a>
-      <a href="#about">About</a>
+      <a href="/#library" aria-current="page">Library</a>
+      <a href="/colorado/">Colorado</a>
+      <a href="/decoder/">Decoder</a>
+      <a href="/#about">About</a>
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main">
+<section class="hero">
       <div class="medal" aria-hidden="true">
         <svg viewBox="0 0 400 400" role="img">
           <defs>
@@ -57,70 +61,312 @@
       </div>
       <div class="hero-copy">
         <h1>A library for people who collect the pieces that were never money.</h1>
-        <p>Tokens, medals and so-called dollars have their own mints, their own catalogs and their own societies. This page keeps the good ones in one place.</p>
+        <p>Tokens, medals and so-called dollars have their own mints, their own catalogs and their own societies. This site keeps the good ones in one place, decodes the catalog numbers dealers use, and pays particular attention to Colorado.</p>
       </div>
     </section>
 
     <section id="library" class="library">
-      <h2>The library</h2>
-
-      <div class="shelf">
-        <h3>Mints and makers</h3>
+      <div class="library-head">
+        <h2>The library</h2>
+        <p class="count"><span id="shown">41</span> of 41 entries</p>
+      </div>
+      <form class="finder" role="search" onsubmit="return false">
+        <label for="q" class="visually-hidden">Search the library</label>
+        <input id="q" type="search" placeholder="Search the library: a society, a catalog, a kind of token…" autocomplete="off">
+        <div class="chips" aria-label="Filter by subject"><button type="button" class="chip" data-tag="archives" aria-pressed="false">archives</button><button type="button" class="chip" data-tag="art medals" aria-pressed="false">art medals</button><button type="button" class="chip" data-tag="catalogs" aria-pressed="false">catalogs</button><button type="button" class="chip" data-tag="civil war tokens" aria-pressed="false">civil war tokens</button><button type="button" class="chip" data-tag="colorado" aria-pressed="false">colorado</button><button type="button" class="chip" data-tag="conder tokens" aria-pressed="false">conder tokens</button><button type="button" class="chip" data-tag="elongateds" aria-pressed="false">elongateds</button><button type="button" class="chip" data-tag="gaming tokens" aria-pressed="false">gaming tokens</button><button type="button" class="chip" data-tag="love tokens" aria-pressed="false">love tokens</button><button type="button" class="chip" data-tag="medals" aria-pressed="false">medals</button><button type="button" class="chip" data-tag="mints" aria-pressed="false">mints</button><button type="button" class="chip" data-tag="museums" aria-pressed="false">museums</button><button type="button" class="chip" data-tag="periodicals" aria-pressed="false">periodicals</button><button type="button" class="chip" data-tag="scrip" aria-pressed="false">scrip</button><button type="button" class="chip" data-tag="so-called dollars" aria-pressed="false">so-called dollars</button><button type="button" class="chip" data-tag="societies" aria-pressed="false">societies</button><button type="button" class="chip" data-tag="tax tokens" aria-pressed="false">tax tokens</button><button type="button" class="chip" data-tag="trade tokens" aria-pressed="false">trade tokens</button><button type="button" class="chip" data-tag="transportation tokens" aria-pressed="false">transportation tokens</button><button type="button" class="chip" data-tag="wooden money" aria-pressed="false">wooden money</button></div>
+      </form>
+      <p class="no-match" id="no-match" hidden>Nothing on the shelves matches that. Try a broader word, or <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">tell us what is missing</a>.</p>
+      <div class="shelf" id="mints">
+        <div class="shelf-head">
+          <h3>Mints and makers</h3>
+          <p class="shelf-note">Who strikes the pieces, and the records of who used to.</p>
+        </div>
         <ul class="entries">
-          <li>
+          <li data-tags="colorado medals mints" data-checked="2026-10-23">
             <a href="http://moonlightmint.com/" rel="noopener">Moonlight Mint</a>
-            <p>Daniel Carr's private mint in Colorado. Medals, tokens and fantasy pieces struck on his own presses, with open-house dates posted on the site.</p>
+            <p>Daniel Carr's private mint in Loveland, Colorado, striking his own designs on a press that served the Denver Mint for fifteen years: overstrikes, Hard Times and Lesher tributes, medals and bullion. The catalog page carries mintage figures. More on our <a href="/colorado/">Colorado page</a>.</p>
             <span class="domain">moonlightmint.com</span>
+            <span class="note">Plain http; the site&#x27;s certificate lapsed in 2018. The store is at dc-coin.com.</span>
+          </li>
+          <li data-tags="archives art medals mints" data-checked="2026-10-23">
+            <a href="https://numismatics.org/maco/" rel="noopener">Medallic Art Company archive</a>
+            <p>The American Numismatic Society holds the records, specimen archive and dies of the Medallic Art Company, maker of the Pulitzer, Newbery and presidential inaugural medals from 1903 until its 2018 bankruptcy. Essays and photo archives alongside the specimens.</p>
+            <span class="domain">numismatics.org/maco</span>
+          </li>
+          <li data-tags="art medals catalogs" data-checked="2026-10-23">
+            <a href="https://www.medallicartcollector.com/" rel="noopener">Medallic Art Collector</a>
+            <p>Twentieth-century American medals series by series, mostly Medallic Art Company work: every Society of Medalists issue, the Circle of Friends of the Medallion, Brookgreen Gardens, the Marqusee collection by number.</p>
+            <span class="domain">medallicartcollector.com</span>
+            <span class="note">A new version with a better index is in public beta at beta.medallicartcollector.com.</span>
           </li>
         </ul>
       </div>
-
-      <div class="shelf">
-        <h3>References and catalogs</h3>
+      <div class="shelf" id="references">
+        <div class="shelf-head">
+          <h3>References and catalogs</h3>
+          <p class="shelf-note">Where the numbers come from. The <a href="/decoder/">decoder</a> explains the abbreviations.</p>
+        </div>
         <ul class="entries">
-          <li>
-            <a href="https://so-calleddollars.com/" rel="noopener">So-Called Dollars</a>
-            <p>The online companion to Hibler and Kappen's reference, kept by the Coin &amp; Currency Institute. Look up HK numbers, varieties and pieces the book never listed.</p>
+          <li data-tags="catalogs so-called dollars" data-checked="2026-10-23">
+            <a href="https://www.so-calleddollars.com/" rel="noopener">So-Called Dollars</a>
+            <p>The online companion to Hibler and Kappen's reference, kept by the Coin &amp; Currency Institute. Browse by HK number, by event or by year, with the unlisted varieties found since the book. No prices; those stay in the book.</p>
             <span class="domain">so-calleddollars.com</span>
           </li>
-          <li>
-            <a href="https://nnp.wustl.edu/" rel="noopener">Newman Numismatic Portal</a>
-            <p>Washington University's free digital library: auction catalogs, periodicals and decades of the TAMS Journal, all searchable.</p>
-            <span class="domain">nnp.wustl.edu</span>
+          <li data-tags="catalogs so-called dollars" data-checked="2026-10-23">
+            <a href="https://www.ngccoin.com/coin-explorer/united-states/so-called-dollars/" rel="noopener">NGC Coin Explorer: so-called dollars</a>
+            <p>NGC's catalog pages for HK-numbered pieces, with photographs, grading populations and price history. There is a sibling section for tokens.</p>
+            <span class="domain">ngccoin.com/coin-explorer/united-states/so-called-dollars</span>
           </li>
-          <li>
+          <li data-tags="catalogs colorado trade tokens" data-checked="2026-10-23">
+            <a href="https://www.tokencatalog.com/" rel="noopener">TokenCatalog</a>
+            <p>Richard Greever's collector-built database of more than 700,000 tokens, each with a TC number and, where a contributor has done the directory work, the issuer and dates. Searchable by state and town without an account; 680 Pueblo entries when we last looked.</p>
+            <span class="domain">tokencatalog.com</span>
+          </li>
+          <li data-tags="catalogs medals trade tokens" data-checked="2026-10-23">
             <a href="https://en.numista.com/" rel="noopener">Numista</a>
-            <p>A collector-built catalog of coins, tokens and medals from every country, with photographs and collection tracking.</p>
-            <span class="domain">numista.com</span>
+            <p>A collector-built catalog of coins, tokens and medals from every country, with photographs, reference-number fields for HK, DH, TC and the rest, and collection tracking.</p>
+            <span class="domain">en.numista.com</span>
           </li>
-          <li>
-            <a href="https://numismatics.org/maco/" rel="noopener">Medallic Art Company archive</a>
-            <p>The American Numismatic Society holds the records and some 20,000 pre-1998 dies of the Medallic Art Company, maker of the Pulitzer, Newbery and presidential inaugural medals from 1903 until its 2018 bankruptcy.</p>
-            <span class="domain">numismatics.org</span>
+          <li data-tags="catalogs societies trade tokens" data-checked="2026-10-23">
+            <a href="https://tokenandmedal.org/TAMS_files/tams_mavericks.html" rel="noopener">TAMS maverick records</a>
+            <p>The Token and Medal Society's register of mavericks, tokens that name a merchant but no town, published in batches since 1965. Members submit; anyone may propose an attribution.</p>
+            <span class="domain">tokenandmedal.org/TAMS_files/tams_mavericks.html</span>
+          </li>
+          <li data-tags="catalogs medals museums" data-checked="2026-10-23">
+            <a href="https://numismatics.org/search/" rel="noopener">ANS MANTIS</a>
+            <p>The American Numismatic Society's collection database, more than 600,000 objects including its tokens, medals and decorations, with photographs and an advanced search.</p>
+            <span class="domain">numismatics.org/search</span>
+          </li>
+          <li data-tags="catalogs civil war tokens" data-checked="2026-10-23">
+            <a href="https://www.cwtsociety.com/addendum-to-store-cardbook-4th-ed" rel="noopener">Civil War Token Society addenda</a>
+            <p>The Fuld books have no online edition, but the society posts the corrections, new merchants and new dies reported since the Store Cards fourth edition and the Patriotics sixth edition.</p>
+            <span class="domain">cwtsociety.com/addendum-to-store-cardbook-4th-ed</span>
+          </li>
+          <li data-tags="art medals catalogs" data-checked="2026-10-23">
+            <a href="https://www.medalcollectors.org/discover/guides/society-of-medalists" rel="noopener">Society of Medalists guide</a>
+            <p>Medal Collectors of America's guide to the Society of Medalists series, 1930 to 1995, the long-running subscription series of American art medals. One of several series guides on the site.</p>
+            <span class="domain">medalcollectors.org/discover/guides/society-of-medalists</span>
           </li>
         </ul>
       </div>
-
-      <div class="shelf">
-        <h3>Societies</h3>
+      <div class="shelf" id="archives">
+        <div class="shelf-head">
+          <h3>Libraries and archives</h3>
+          <p class="shelf-note">The scans and the periodicals, most of them free.</p>
+        </div>
         <ul class="entries">
-          <li>
-            <a href="https://tokenandmedal.org/" rel="noopener">Token and Medal Society</a>
-            <p>The hobby's society since 1960. Publishes the TAMS Journal and keeps the maverick database for tokens nobody has attributed yet.</p>
+          <li data-tags="archives periodicals" data-checked="2026-10-23">
+            <a href="https://nnp.washu.edu/" rel="noopener">Newman Numismatic Portal</a>
+            <p>Washington University's free digital library of numismatic literature: auction catalogs, society journals, out-of-copyright references and decades of periodicals, all searchable. The first place to look for a scan of any reference on the decoder.</p>
+            <span class="domain">nnp.washu.edu</span>
+            <span class="note">Moved from nnp.wustl.edu; old links to it are dead.</span>
+          </li>
+          <li data-tags="archives periodicals trade tokens" data-checked="2026-10-23">
+            <a href="https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37783" rel="noopener">TAMS Journal on the Newman Portal</a>
+            <p>The Token and Medal Society's journal, scanned and searchable. Most of what is known about American trade tokens was first printed here.</p>
+            <span class="domain">nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37783</span>
+          </li>
+          <li data-tags="archives periodicals" data-checked="2026-10-23">
+            <a href="https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37575" rel="noopener">The Numismatist, 1888 to 2002</a>
+            <p>Full view of the ANA's monthly through 2002, which is where Wright's store-card series, King's Lincoln listings and Wilde's Lesher census were serialized. Later issues are in the members' archive at money.org.</p>
+            <span class="domain">nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37575</span>
+          </li>
+          <li data-tags="archives civil war tokens periodicals" data-checked="2026-10-23">
+            <a href="https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37875" rel="noopener">Civil War Token Journal on the Newman Portal</a>
+            <p>The Civil War Token Society's journal, scanned: die studies, merchant research and the arguments behind the Fuld numbers.</p>
+            <span class="domain">nnp.washu.edu/periodicals-list/list/periodicals-subcollections/37875</span>
+          </li>
+          <li data-tags="archives" data-checked="2026-10-23">
+            <a href="https://archive.org/details/newmannumismatic" rel="noopener">Newman collection on the Internet Archive</a>
+            <p>Many of the portal's scans are hosted here, which is handy when you want a PDF rather than a page viewer. Low's Hard Times Tokens, Baker, Betts, Loubat and Storer are all open-access.</p>
+            <span class="domain">archive.org/details/newmannumismatic</span>
+          </li>
+          <li data-tags="archives museums" data-checked="2026-10-23">
+            <a href="https://americanhistory.si.edu/numismatics" rel="noopener">Smithsonian National Numismatic Collection</a>
+            <p>The national collection at the Museum of American History, about 1.6 million objects, with research guides and online galleries. Colorado territorial gold included.</p>
+            <span class="domain">americanhistory.si.edu/numismatics</span>
+          </li>
+        </ul>
+      </div>
+      <div class="shelf" id="societies">
+        <div class="shelf-head">
+          <h3>Societies</h3>
+          <p class="shelf-note">Each specialty has one, and each one publishes something worth reading.</p>
+        </div>
+        <ul class="entries">
+          <li data-tags="medals societies trade tokens" data-checked="2026-10-23">
+            <a href="https://www.tokenandmedal.org/" rel="noopener">Token and Medal Society</a>
+            <p>The hobby's umbrella society since 1960. Publishes the TAMS Journal, keeps the maverick records and maintains a links page to every specialist group below.</p>
             <span class="domain">tokenandmedal.org</span>
           </li>
+          <li data-tags="civil war tokens societies" data-checked="2026-10-23">
+            <a href="https://www.cwtsociety.com/" rel="noopener">Civil War Token Society</a>
+            <p>Founded 1967 for the patriotic tokens and store cards of 1861 to 1865. Publishes the Fuld references, a journal, a known-fakes list and a lending library.</p>
+            <span class="domain">cwtsociety.com</span>
+          </li>
+          <li data-tags="conder tokens societies" data-checked="2026-10-23">
+            <a href="https://ctcc.info/" rel="noopener">Conder Token Collector&#x27;s Club</a>
+            <p>For the British and Irish provincial tokens of 1787 to 1804 catalogued by Dalton and Hamer. A journal, a mail-lending library and links to the free historical references.</p>
+            <span class="domain">ctcc.info</span>
+          </li>
+          <li data-tags="societies transportation tokens" data-checked="2026-10-23">
+            <a href="https://vecturist.com/" rel="noopener">American Vecturist Association</a>
+            <p>Transportation-token collectors. Publishes the Atwood-Coffee catalog, free as a PDF to members, and the monthly Fare Box.</p>
+            <span class="domain">vecturist.com</span>
+          </li>
+          <li data-tags="elongateds societies" data-checked="2026-10-23">
+            <a href="https://tecnews.org/" rel="noopener">The Elongated Collectors</a>
+            <p>The club for rolled and elongated coins, founded 1966, with TEC News back issues and listings of every club-issued elongated.</p>
+            <span class="domain">tecnews.org</span>
+          </li>
+          <li data-tags="societies wooden money" data-checked="2026-10-23">
+            <a href="http://woodenmoney.org/" rel="noopener">International Organization of Wooden Money Collectors</a>
+            <p>Wooden nickels and their relatives, with the club newsletter Bunyan's Chips.</p>
+            <span class="domain">woodenmoney.org</span>
+            <span class="note">Plain http; the https certificate belongs to another site.</span>
+          </li>
+          <li data-tags="love tokens societies" data-checked="2026-10-23">
+            <a href="http://lovetokensociety.com/" rel="noopener">Love Token Society</a>
+            <p>Coins engraved for sweethearts, by category: silver, gold, enamel, cut-down, jewelry. Registers of reported pieces and the Love Letter newsletter.</p>
+            <span class="domain">lovetokensociety.com</span>
+            <span class="note">Plain http.</span>
+          </li>
+          <li data-tags="societies trade tokens" data-checked="2026-10-23">
+            <a href="http://tokencollectors.org/" rel="noopener">National Token Collectors Association</a>
+            <p>The trade-token collectors' association: the monthly Talkin' Tokens, mail auctions and a free trial membership.</p>
+            <span class="domain">tokencollectors.org</span>
+            <span class="note">Plain http.</span>
+          </li>
+          <li data-tags="scrip societies" data-checked="2026-10-23">
+            <a href="https://www.scripcollectors.org/" rel="noopener">National Scrip Collectors Association</a>
+            <p>Coal and lumber company scrip. Scrip Talk newsletters, county lists, record prices and the running revisions to the Edkins catalog.</p>
+            <span class="domain">scripcollectors.org</span>
+            <span class="note">The older address nationalscripcollectors.org is parked; do not use it.</span>
+          </li>
+          <li data-tags="art medals medals societies" data-checked="2026-10-23">
+            <a href="https://www.medalcollectors.org/" rel="noopener">Medal Collectors of America</a>
+            <p>American medals of every kind. The MCA Advisory, series guides, recorded member talks and oral histories with the people who made the market.</p>
+            <span class="domain">medalcollectors.org</span>
+          </li>
+          <li data-tags="art medals societies" data-checked="2026-10-23">
+            <a href="https://amsamedals.org/" rel="noopener">American Medallic Sculpture Association</a>
+            <p>The artists' side of the medal, founded 1982: exhibitions, the American Medal of the Year and a short history of the medal as an art form.</p>
+            <span class="domain">amsamedals.org</span>
+          </li>
+          <li data-tags="art medals societies" data-checked="2026-10-23">
+            <a href="https://www.fidem-medals.org/" rel="noopener">FIDEM</a>
+            <p>The international federation of art-medal makers and collectors, founded 1937, with a congress and exhibition every two years and a database of the medals shown at them.</p>
+            <span class="domain">fidem-medals.org</span>
+          </li>
+          <li data-tags="art medals societies" data-checked="2026-10-23">
+            <a href="https://bams.org.uk/" rel="noopener">British Art Medal Society</a>
+            <p>Publishes The Medal, the leading journal on the art medal, and commissions new medals from British artists.</p>
+            <span class="domain">bams.org.uk</span>
+          </li>
+          <li data-tags="museums societies" data-checked="2026-10-23">
+            <a href="https://www.money.org/" rel="noopener">American Numismatic Association</a>
+            <p>The national hobby association since 1891, headquartered in Colorado Springs with the Money Museum attached. Club directory, The Numismatist and the summer seminar.</p>
+            <span class="domain">money.org</span>
+          </li>
+          <li data-tags="archives museums societies" data-checked="2026-10-23">
+            <a href="https://numismatics.org/" rel="noopener">American Numismatic Society</a>
+            <p>The research society in New York, founded 1858: the MANTIS collection database, the Bass library and the Medallic Art Company archive.</p>
+            <span class="domain">numismatics.org</span>
+          </li>
+          <li data-tags="gaming tokens societies" data-checked="2026-10-23">
+            <a href="https://www.ccgtcc.com/" rel="noopener">Casino Chip &amp;amp; Gaming Token Collectors Club</a>
+            <p>Chips, gaming tokens and the slot-machine tokens that replaced silver dollars in Nevada.</p>
+            <span class="domain">ccgtcc.com</span>
+          </li>
+          <li data-tags="societies tax tokens" data-checked="2026-10-23">
+            <a href="https://www.salestaxtokens.org/" rel="noopener">American Tax Token Society</a>
+            <p>The sales-tax tokens of the 1930s, state by state. Colorado was one of the states that issued them.</p>
+            <span class="domain">salestaxtokens.org</span>
+          </li>
         </ul>
       </div>
+      <div class="shelf" id="reading">
+        <div class="shelf-head">
+          <h3>Reading</h3>
+          <p class="shelf-note">Current writing on the hobby.</p>
+        </div>
+        <ul class="entries">
+          <li data-tags="periodicals" data-checked="2026-10-23">
+            <a href="https://www.coinbooks.org/esylum/" rel="noopener">The E-Sylum</a>
+            <p>The Numismatic Bibliomania Society's weekly email since 1998, heavy on exonumia, book reviews and the people behind the references. The complete archive is on the site and is where half our sources came from.</p>
+            <span class="domain">coinbooks.org/esylum</span>
+          </li>
+          <li data-tags="periodicals" data-checked="2026-10-23">
+            <a href="https://coinweek.com/tag/exonumia/" rel="noopener">CoinWeek on exonumia</a>
+            <p>CoinWeek's tag page for tokens and medals: book releases, auction previews and the Exonumia of the Week pieces.</p>
+            <span class="domain">coinweek.com/tag/exonumia</span>
+          </li>
+        </ul>
+      </div>
+      <div class="shelf" id="colorado">
+        <div class="shelf-head">
+          <h3>Colorado</h3>
+          <p class="shelf-note">Our home state. The essays are on the <a href="/colorado/">Colorado pages</a>; these are the institutions.</p>
+        </div>
+        <ul class="entries">
+          <li data-tags="colorado museums" data-checked="2026-10-23">
+            <a href="https://money.org/money-museum" rel="noopener">ANA Money Museum</a>
+            <p>The American Numismatic Association's museum at 818 N. Cascade Ave., Colorado Springs. Lesher dollars and Clark Gruber gold in the Colorado exhibit; ANA members get in free.</p>
+            <span class="domain">money.org/money-museum</span>
+          </li>
+          <li data-tags="colorado societies" data-checked="2026-10-23">
+            <a href="http://cscc.anaclubs.org/cscc_home.htm" rel="noopener">Colorado Springs Coin Club</a>
+            <p>Founded 1962; meets the fourth Tuesday at the Eagles hall on 21st Street. With the Numismatic Society it runs the Colorado Springs Coin Show every June.</p>
+            <span class="domain">cscc.anaclubs.org/cscc_home.htm</span>
+            <span class="note">Plain http. The Colorado Springs Numismatic Society shares the site.</span>
+          </li>
+          <li data-tags="archives colorado museums scrip" data-checked="2026-10-23">
+            <a href="https://www.steelworks.us/" rel="noopener">Steelworks Center of the West</a>
+            <p>The CF&amp;I museum and archives in Pueblo, with the Colorado Supply Company's records among six thousand cubic feet of company papers. Archive research by appointment.</p>
+            <span class="domain">steelworks.us</span>
+          </li>
+          <li data-tags="archives colorado trade tokens" data-checked="2026-10-23">
+            <a href="https://www.pueblolibrary.org/LocalHistoryGenealogy" rel="noopener">Pueblo library local history</a>
+            <p>The Pueblo city directories, newspapers on microfilm and photo archive on the third floor of the Rawlings Library. How a "good for 5" with an address becomes a named saloon with dates.</p>
+            <span class="domain">pueblolibrary.org/LocalHistoryGenealogy</span>
+          </li>
+          <li data-tags="archives colorado scrip" data-checked="2026-10-23">
+            <a href="https://scalar.usc.edu/works/the-colorado-fuel-and-iron-company/introduction-to-the-colorado-supply-company" rel="noopener">The Colorado Fuel and Iron Company, USC Scalar</a>
+            <p>A scholarly web book built on the Steelworks archives, with chapters on the Colorado Supply Company stores and how scrip worked in the camps.</p>
+            <span class="domain">scalar.usc.edu/works/the-colorado-fuel-and-iron-company/introduction-to-the-colorado-supply-company</span>
+          </li>
+        </ul>
+      </div>
+      <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>. Every link is checked by hand; the date on each card is the last time we looked.</p>
+    </section>
 
-      <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>.</p>
+    <section class="teaser" id="colorado">
+      <div class="strip">
+        <h2>Colorado</h2>
+        <div>
+          <p>Joseph Lesher's silver Referendum dollars from Victor. The company scrip and trade tokens of Pueblo, where this site is published. The private mint in Loveland, the museums and the shows within a day's drive. Colorado exonumia has a literature of its own, and it starts here.</p>
+          <a class="more" href="/colorado/">Read the Colorado pages</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="teaser" id="decoder-teaser">
+      <div class="strip">
+        <h2>Decoder</h2>
+        <div>
+          <p>HK-449. Fuld NY-630A-1a. DH Warwickshire 12. Atwood-Coffee 800A. Every corner of the hobby has its own reference and its own shorthand. Type a catalog number and the decoder tells you which book it comes from, what that book covers and where to look the number up.</p>
+          <a class="more" href="/decoder/">Open the decoder</a>
+        </div>
+      </div>
     </section>
 
     <section id="about" class="about">
       <h2>About this site</h2>
-      <p>Tokens and Medals is a reading list for exonumia: the tokens, medals, so-called dollars and other struck pieces that circulated beside money without ever being money. The hobby's best references are scattered across private mints, society journals, university libraries and collector-built catalogs. This page keeps the ones worth knowing in one place.</p>
-      <p>Every entry is a site we use ourselves. Nothing here is sponsored, and no link is an endorsement of anything a site sells. Descriptions are ours, written to say what each resource is good for.</p>
+      <p>Tokens and Medals is a reading list for exonumia: the tokens, medals, so-called dollars and other struck pieces that circulated beside money without ever being money. The hobby's best references are scattered across private mints, society journals, university libraries and collector-built catalogs. This site keeps the ones worth knowing in one place.</p>
+      <p>Every entry is a site we use ourselves. Nothing here is sponsored, and no link is an endorsement of anything a site sells. Descriptions are ours, written to say what each resource is good for. The Colorado pages are our own research, with sources listed at the foot of each page; corrections are welcome.</p>
       <p>The site is published by Pueblo Internet Publishing LLC in Pueblo, Colorado, and it will grow as the list does.</p>
     </section>
+
   </main>
 
   <footer class="colophon">
@@ -129,5 +375,6 @@
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="/search.js" defer></script>
 </body>
 </html>
