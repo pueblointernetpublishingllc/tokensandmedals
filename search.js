@@ -11,10 +11,10 @@
 
   var active = null;
   var hay = items.map(function (li) {
-    return (li.textContent + ' ' + (li.getAttribute('data-tags') || '')).toLowerCase();
+    return (li.textContent + ' ' + (li.getAttribute('data-tags') || '').replace(/\|/g, ' ')).toLowerCase();
   });
   var tagsOf = items.map(function (li) {
-    return (li.getAttribute('data-tags') || '').split(/\s+/);
+    return (li.getAttribute('data-tags') || '').split('|');
   });
 
   function norm(s) { return s.toLowerCase().replace(/[^a-z0-9&'\s-]/g, ' ').trim(); }

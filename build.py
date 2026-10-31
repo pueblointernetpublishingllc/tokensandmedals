@@ -125,7 +125,8 @@ def domain_of(url):
 
 
 def render_entry(e):
-    tags = " ".join(sorted(set(e.get("tags", []))))
+    # "|" separates tags because a tag can be several words ("civil war tokens")
+    tags = "|".join(sorted(set(e.get("tags", []))))
     rel = "noopener"
     note = ""
     if e.get("note"):
