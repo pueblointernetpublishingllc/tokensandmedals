@@ -6,7 +6,7 @@
 // and shows premium + metal at today's price. Without it (or if the feed is unreachable or more
 // than four days old) the page keeps the figures computed when the edition was built.
 (function () {
-  var rows = Array.prototype.slice.call(document.querySelectorAll('tr[data-ag], tr[data-au]'));
+  var rows = Array.prototype.slice.call(document.querySelectorAll('tr[data-ag], tr[data-au], tr[data-ptm]'));
   var note = document.getElementById('metal-live');
   if (!rows.length || !note || !window.fetch) return;
 
@@ -16,12 +16,13 @@
   function call(id, to, data) {
     return { jsonrpc: '2.0', id: id, method: 'eth_call', params: [{ to: to, data: data }, 'latest'] };
   }
-  // same rounding as the guide's build script
-  function nice(x) {
-    var steps = [[20, 1], [100, 5], [500, 10], [2000, 25], [10000, 100], [Infinity, 500]];
-    for (var i = 0; i < steps.length; i++) {
-      if (x < steps[i][0]) return Math.max(steps[i][1], Math.round(x / steps[i][1]) * steps[i][1]);
-    }
+  // same rounding as the guide's build script, never below `floor` (the metal a piece contains)
+  var STEPS = [[20, 1], [100, 5], [500, 10], [2000, 25], [10000, 100], [Infinity, 500]];
+  function stepFor(x) { for (var i = 0; i < STEPS.length; i++) if (x < STEPS[i][0]) return STEPS[i][1]; }
+  function nice(x, floor) {
+    var s = stepFor(x), v = Math.max(s, Math.round(x / s) * s);
+    if (floor && v < floor) { var fs = stepFor(floor); v = Math.ceil(floor / fs) * fs; }
+    return v;
   }
   function money(v) { return '$' + v.toLocaleString('en-US'); }
   function ounce(v) { return '$' + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
@@ -40,7 +41,8 @@
       var now = Date.now() / 1000;
       if (!(g.price > 0 && s.price > 0) || now - Math.min(g.t, s.t) > 4 * 86400) throw new Error('stale feed');
       rows.forEach(function (tr) {
-        var melt = parseFloat(tr.getAttribute('data-ag') || '0') * s.price + parseFloat(tr.getAttribute('data-au') || '0') * g.price;
+        var melt = parseFloat(tr.getAttribute('data-ag') || '0') * s.price + parseFloat(tr.getAttribute('data-au') || '0') * g.price
+          + parseFloat(tr.getAttribute('data-ptm') || '0');          // platinum: fixed, latest monthly price
         Array.prototype.forEach.call(tr.querySelectorAll('td[data-p], td[data-f]'), function (td) {
           var v;
           if (td.hasAttribute('data-p')) {                 // metal + premium
@@ -50,8 +52,8 @@
             v[2] = Math.max(v[2], v[0]);
           }
           var est = td.querySelector('.est'), rng = td.querySelector('.rng');
-          if (est) est.textContent = money(nice(v[0]));
-          if (rng) rng.textContent = money(nice(v[1])) + '–' + money(nice(v[2]));
+          if (est) est.textContent = money(nice(v[0], melt));
+          if (rng) rng.textContent = money(nice(v[1], melt)) + '–' + money(nice(v[2], melt));
         });
       });
       var when = new Date(Math.max(g.t, s.t) * 1000);
