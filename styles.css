@@ -547,3 +547,71 @@ body:has(.leaf.wide) .crumbs { max-width: 1100px; }
   .gtable.carr thead th:nth-child(n+2) { width: 21%; }
   .gtable.carr th[scope="row"] { min-width: 0; }
 }
+
+/* ---------------------------------------------------------------- polish pass (2026-11-07) */
+/* Text tones that meet WCAG AA (4.5:1): bronze-ink on the cream sheets and for button fills
+   (5.4:1 with cream text), bronze-text for links on the green felt (5.1:1). */
+:root { --bronze-ink: #875626; --bronze-ink-deep: #6f4620; --bronze-text: #d29b66; }
+h1, h2, h3 { text-wrap: balance; }
+
+.paper a, .paper h3, .cards a:hover h3, .g-piece .hk { color: var(--bronze-ink); }
+.paper a:hover { color: var(--ink); }
+.decoder-form button, .hero-cta .button { background: var(--bronze-ink); border-color: var(--bronze-ink); color: var(--card); }
+.decoder-form button:hover, .hero-cta .button:hover { background: var(--bronze-ink-deep); border-color: var(--bronze-ink-deep); }
+.chip[aria-pressed="true"] { background: var(--bronze-ink); border-color: var(--bronze-ink); }
+.suggest a, .no-match a, .shelf h3, .shelf-note a, .entries p a { color: var(--bronze-text); }
+
+/* The bronze stripe is kept for notes and warnings only (.aside, .guide-warning) */
+.finder input[type="search"], .decoder-form input, .decoded { border-left: 1px solid var(--card-edge); }
+.cards a { border: 1px solid var(--card-edge); }
+.cards a:hover { border-color: var(--bronze-ink); }
+.cards .meta { margin: 0.6rem 0 0; font-size: 0.9rem; color: var(--ink-soft); }
+
+/* Home: search in the hero, one row of destinations, then the library */
+.hero-copy h1 { font-size: clamp(2rem, 4.2vw, 3.1rem); max-width: 22ch; }
+.hero-finder { margin: 1.5rem 0 0; max-width: 34rem; }
+.hero-copy .hero-hint { margin: 0.5rem 0 0; color: var(--silver-dim); font-size: 0.95rem; }
+.hero-hint a { color: var(--bronze-text); text-underline-offset: 3px; }
+.hero-copy .hero-cta { margin: 1.25rem 0 0; }
+.paper .cards h3 { color: var(--ink); }
+.paper .cards a:hover h3 { color: var(--bronze-ink); }
+.nowrap { white-space: nowrap; }
+.destinations {
+  width: min(calc(100% - 2 * var(--gutter)), calc(1100px - 2 * var(--gutter)));
+  margin: 0 auto clamp(2.5rem, 5vw, 4rem);
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--felt-edge); border-bottom: 1px solid var(--felt-edge);
+}
+.destinations a { display: block; padding: 1.1rem 1.25rem 1.2rem; text-decoration: none; color: var(--silver); }
+.destinations a:first-child { padding-left: 0; }
+.destinations a + a { border-left: 1px solid var(--felt-edge); }
+.dest-title { display: block; font-family: var(--display); font-weight: 600; font-size: 1.45rem; line-height: 1.2; color: var(--card); margin-bottom: 0.3rem; }
+.dest-text { display: block; font-size: 0.98rem; line-height: 1.45; }
+.destinations a:hover .dest-title { color: var(--bronze-text); text-decoration: underline; text-underline-offset: 4px; }
+
+/* Library: a ruled reference list instead of a stack of identical cards */
+.entries { gap: 0; }
+.entries li { background: transparent; color: var(--silver); border: 0; border-bottom: 1px solid var(--felt-edge); padding: 0.95rem 0 1rem; }
+.entries li:first-child { padding-top: 0.25rem; }
+.entries li:last-child { border-bottom: 0; }
+.entries li > a { color: var(--card); font-size: 1.35rem; }
+.entries li > a:hover { color: var(--bronze-text); }
+.entries p { color: var(--silver); }
+.entries .domain, .entries .note { color: var(--silver-dim); }
+.subjects { margin: 0 0 1.25rem; }
+.subjects summary { cursor: pointer; color: var(--silver); font-weight: 500; padding: 0.3rem 0; width: max-content; }
+.subjects summary:hover { color: var(--card); }
+.subjects summary:focus-visible { outline: 2px solid var(--bronze-light); outline-offset: 3px; }
+.subjects .chips { margin-top: 0.6rem; }
+
+@media (max-width: 900px) {
+  .destinations { grid-template-columns: repeat(2, 1fr); }
+  .destinations a, .destinations a:first-child, .destinations a + a { padding: 1rem 1rem 1.1rem 0; border-left: 0; }
+  .destinations a:nth-child(even) { padding-left: 1rem; border-left: 1px solid var(--felt-edge); }
+  .destinations a:nth-child(n+3) { border-top: 1px solid var(--felt-edge); }
+}
+@media (max-width: 560px) {
+  .destinations { grid-template-columns: 1fr; }
+  .destinations a, .destinations a + a, .destinations a:nth-child(even) { padding: 0.9rem 0; border-left: 0; }
+  .destinations a + a { border-top: 1px solid var(--felt-edge); }
+}

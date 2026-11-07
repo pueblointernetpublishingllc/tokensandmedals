@@ -44,10 +44,10 @@ def esc(s):
 
 NAV = [
     ("/#library", "Library", "library"),
-    ("/colorado/", "Colorado", "colorado"),
-    ("/decoder/", "Decoder", "decoder"),
     ("/price-guide/", "Price guide", "guide"),
-    ("/#about", "About", "about"),
+    ("/decoder/", "Decoder", "decoder"),
+    ("/colorado/", "Colorado", "colorado"),
+    ("/about/", "About", "about"),
 ]
 
 
@@ -165,17 +165,17 @@ def render_library(lib):
         </ul>
       </div>""")
     count = sum(len(s["entries"]) for s in lib["shelves"])
+    # the search box sits in the home-page hero (content/index.html); search.js finds it by id
     return f"""    <section id="library" class="library">
       <div class="library-head">
         <h2>The library</h2>
         <p class="count"><span id="shown">{count}</span> of {count} entries</p>
       </div>
-      <form class="finder" role="search" onsubmit="return false">
-        <label for="q" class="visually-hidden">Search the library</label>
-        <input id="q" type="search" placeholder="Search the library" autocomplete="off">
+      <details class="subjects">
+        <summary>Filter by subject</summary>
         <div class="chips" aria-label="Filter by subject">{chips}</div>
-      </form>
-      <p class="no-match" id="no-match" hidden>Nothing on the shelves matches that. Try a broader word, or <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">tell us what is missing</a>.</p>
+      </details>
+      <p class="no-match" id="no-match" hidden>Nothing in the library matches that. Try a broader word, or <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">tell us what is missing</a>.</p>
 {chr(10).join(shelves)}
       <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>.</p>
     </section>"""

@@ -3,7 +3,7 @@
   {
    "id": "mints",
    "title": "Mints and makers",
-   "note": "Who strikes the pieces, and the records of who used to.",
+   "note": "Private mints, and the archives of mints that have closed.",
    "entries": [
     {
      "name": "Moonlight Mint",
@@ -44,7 +44,7 @@
   {
    "id": "references",
    "title": "References and catalogs",
-   "note": "Where the numbers come from. The <a href=\"/decoder/\">decoder</a> explains the abbreviations.",
+   "note": "The catalogs that assign the reference numbers. The <a href=\"/decoder/\">decoder</a> explains the abbreviations.",
    "entries": [
     {
      "name": "So-Called Dollars",
@@ -155,7 +155,7 @@
   {
    "id": "archives",
    "title": "Libraries and archives",
-   "note": "The scans and the periodicals, most of them free.",
+   "note": "Scanned books and periodicals, most of them free to read.",
    "entries": [
     {
      "name": "Newman Numismatic Portal",
@@ -224,7 +224,7 @@
   {
    "id": "societies",
    "title": "Societies",
-   "note": "Each specialty has one, and each one publishes something worth reading.",
+   "note": "Collector societies, most with a journal or newsletter.",
    "entries": [
     {
      "name": "Token and Medal Society",
@@ -430,7 +430,7 @@
   {
    "id": "colorado",
    "title": "Colorado",
-   "note": "Our home state. The essays are on the <a href=\"/colorado/\">Colorado pages</a>; these are the institutions.",
+   "note": "Museums, clubs and institutions in Colorado. Our own articles are on the <a href=\"/colorado/\">Colorado pages</a>.",
    "entries": [
     {
      "name": "ANA Money Museum",

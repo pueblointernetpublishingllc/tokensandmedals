@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tokens and Medals</title>
-  <meta name="description" content="A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies, with a catalog-number decoder and pages on Colorado exonumia.">
+  <meta name="description" content="A reference guide for collectors of tokens, medals and so-called dollars: catalogs, societies, archives and makers, a catalog-number decoder, a price guide, and articles on Colorado exonumia.">
   <link rel="canonical" href="https://tokensandmedals.com/">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Tokens and Medals">
   <meta property="og:title" content="Tokens and Medals">
-  <meta property="og:description" content="A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies, with a catalog-number decoder and pages on Colorado exonumia.">
+  <meta property="og:description" content="A reference guide for collectors of tokens, medals and so-called dollars: catalogs, societies, archives and makers, a catalog-number decoder, a price guide, and articles on Colorado exonumia.">
   <meta property="og:url" content="https://tokensandmedals.com/">
   <meta property="og:image" content="https://tokensandmedals.com/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Tokens and Medals", "url": "https://tokensandmedals.com/", "description": "A library of resources for collectors of tokens, medals and so-called dollars.", "publisher": {"@type": "Organization", "name": "Pueblo Internet Publishing LLC", "url": "https://pueblointernetpublishing.com/"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Tokens and Medals", "url": "https://tokensandmedals.com/", "description": "A reference guide for collectors of tokens, medals and so-called dollars.", "publisher": {"@type": "Organization", "name": "Pueblo Internet Publishing LLC", "url": "https://pueblointernetpublishing.com/"}}</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -31,10 +31,10 @@
     <a class="wordmark" href="/">Tokens <span class="amp">&amp;</span> Medals</a>
     <nav class="menu" aria-label="Site">
       <a href="/#library" aria-current="page">Library</a>
-      <a href="/colorado/">Colorado</a>
-      <a href="/decoder/">Decoder</a>
       <a href="/price-guide/">Price guide</a>
-      <a href="/#about">About</a>
+      <a href="/decoder/">Decoder</a>
+      <a href="/colorado/">Colorado</a>
+      <a href="/about/">About</a>
     </nav>
   </header>
 
@@ -61,37 +61,38 @@
         </svg>
       </div>
       <div class="hero-copy">
-        <h1>A library for people who collect the pieces that were never money.</h1>
-        <p>Tokens, medals and so-called dollars have their own mints, their own catalogs and their own societies. This site keeps the good ones in one place, decodes the catalog numbers dealers use, pays particular attention to Colorado, and publishes its own price guide.</p>
-        <p class="hero-cta"><a class="button" href="/price-guide/">Open the price guide</a> <a class="quiet" href="#library">Browse the library</a></p>
+        <h1>A reference guide for collectors of tokens, medals and so-called dollars.</h1>
+        <p>Links to the catalogs, societies, archives and makers worth knowing, a decoder for catalog numbers, a price guide, and articles on Colorado exonumia.</p>
+        <form class="finder hero-finder" id="hero-search" role="search" action="/#library">
+          <label for="q" class="visually-hidden">Search the library</label>
+          <input id="q" name="q" type="search" placeholder="Search the library" autocomplete="off">
+        </form>
+        <p class="hero-hint" id="hero-hint" aria-live="polite" hidden></p>
+        <p class="hero-cta"><a class="button" href="/price-guide/">Open the price guide</a></p>
       </div>
     </section>
 
-    <section class="teaser" id="guide-teaser">
-      <div class="strip">
-        <h2>Price guide</h2>
-        <div>
-          <p>What is a slabbed HK-449 worth in MS64? A raw 1964-D Peace over-strike from Daniel Carr? Our own estimates for so-called dollars and Moonlight Mint pieces, grade by grade, each with a range, from a pricing formula tested on real sales. An opinion of value, never a promise.</p>
-          <a class="more" href="/price-guide/so-called-dollars/">So-called dollars</a> <span class="sep" aria-hidden="true">&middot;</span> <a class="more" href="/price-guide/daniel-carr/">Daniel Carr &middot; Moonlight Mint</a>
-        </div>
-      </div>
-    </section>
+    <nav class="destinations" aria-label="Sections of the site">
+      <a href="#library"><span class="dest-title">Library</span><span class="dest-text">43 catalogs, societies, archives and makers, with what each one covers.</span></a>
+      <a href="/price-guide/"><span class="dest-title">Price guide</span><span class="dest-text">Estimated values for so-called dollars and Daniel Carr pieces, by grade.</span></a>
+      <a href="/decoder/"><span class="dest-title">Decoder</span><span class="dest-text">Type a catalog number such as <span class="nowrap">HK-449</span> to see which reference it comes from.</span></a>
+      <a href="/colorado/"><span class="dest-title">Colorado</span><span class="dest-text">Lesher dollars, Pueblo tokens and scrip, and the state's private mints.</span></a>
+    </nav>
 
     <section id="library" class="library">
       <div class="library-head">
         <h2>The library</h2>
         <p class="count"><span id="shown">43</span> of 43 entries</p>
       </div>
-      <form class="finder" role="search" onsubmit="return false">
-        <label for="q" class="visually-hidden">Search the library</label>
-        <input id="q" type="search" placeholder="Search the library" autocomplete="off">
+      <details class="subjects">
+        <summary>Filter by subject</summary>
         <div class="chips" aria-label="Filter by subject"><button type="button" class="chip" data-tag="archives" aria-pressed="false">archives</button><button type="button" class="chip" data-tag="art medals" aria-pressed="false">art medals</button><button type="button" class="chip" data-tag="catalogs" aria-pressed="false">catalogs</button><button type="button" class="chip" data-tag="civil war tokens" aria-pressed="false">civil war tokens</button><button type="button" class="chip" data-tag="colorado" aria-pressed="false">colorado</button><button type="button" class="chip" data-tag="conder tokens" aria-pressed="false">conder tokens</button><button type="button" class="chip" data-tag="elongateds" aria-pressed="false">elongateds</button><button type="button" class="chip" data-tag="gaming tokens" aria-pressed="false">gaming tokens</button><button type="button" class="chip" data-tag="love tokens" aria-pressed="false">love tokens</button><button type="button" class="chip" data-tag="medals" aria-pressed="false">medals</button><button type="button" class="chip" data-tag="mints" aria-pressed="false">mints</button><button type="button" class="chip" data-tag="museums" aria-pressed="false">museums</button><button type="button" class="chip" data-tag="periodicals" aria-pressed="false">periodicals</button><button type="button" class="chip" data-tag="scrip" aria-pressed="false">scrip</button><button type="button" class="chip" data-tag="so-called dollars" aria-pressed="false">so-called dollars</button><button type="button" class="chip" data-tag="societies" aria-pressed="false">societies</button><button type="button" class="chip" data-tag="tax tokens" aria-pressed="false">tax tokens</button><button type="button" class="chip" data-tag="trade tokens" aria-pressed="false">trade tokens</button><button type="button" class="chip" data-tag="transportation tokens" aria-pressed="false">transportation tokens</button><button type="button" class="chip" data-tag="wooden money" aria-pressed="false">wooden money</button></div>
-      </form>
-      <p class="no-match" id="no-match" hidden>Nothing on the shelves matches that. Try a broader word, or <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">tell us what is missing</a>.</p>
+      </details>
+      <p class="no-match" id="no-match" hidden>Nothing in the library matches that. Try a broader word, or <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">tell us what is missing</a>.</p>
       <div class="shelf" id="mints">
         <div class="shelf-head">
           <h3>Mints and makers</h3>
-          <p class="shelf-note">Who strikes the pieces, and the records of who used to.</p>
+          <p class="shelf-note">Private mints, and the archives of mints that have closed.</p>
         </div>
         <ul class="entries">
           <li data-tags="colorado|medals|mints" data-checked="2026-10-23">
@@ -116,7 +117,7 @@
       <div class="shelf" id="references">
         <div class="shelf-head">
           <h3>References and catalogs</h3>
-          <p class="shelf-note">Where the numbers come from. The <a href="/decoder/">decoder</a> explains the abbreviations.</p>
+          <p class="shelf-note">The catalogs that assign the reference numbers. The <a href="/decoder/">decoder</a> explains the abbreviations.</p>
         </div>
         <ul class="entries">
           <li data-tags="catalogs|so-called dollars" data-checked="2026-10-23">
@@ -174,7 +175,7 @@
       <div class="shelf" id="archives">
         <div class="shelf-head">
           <h3>Libraries and archives</h3>
-          <p class="shelf-note">The scans and the periodicals, most of them free.</p>
+          <p class="shelf-note">Scanned books and periodicals, most of them free to read.</p>
         </div>
         <ul class="entries">
           <li data-tags="archives|periodicals" data-checked="2026-10-23">
@@ -213,7 +214,7 @@
       <div class="shelf" id="societies">
         <div class="shelf-head">
           <h3>Societies</h3>
-          <p class="shelf-note">Each specialty has one, and each one publishes something worth reading.</p>
+          <p class="shelf-note">Collector societies, most with a journal or newsletter.</p>
         </div>
         <ul class="entries">
           <li data-tags="medals|societies|trade tokens" data-checked="2026-10-23">
@@ -325,7 +326,7 @@
       <div class="shelf" id="colorado">
         <div class="shelf-head">
           <h3>Colorado</h3>
-          <p class="shelf-note">Our home state. The essays are on the <a href="/colorado/">Colorado pages</a>; these are the institutions.</p>
+          <p class="shelf-note">Museums, clubs and institutions in Colorado. Our own articles are on the <a href="/colorado/">Colorado pages</a>.</p>
         </div>
         <ul class="entries">
           <li data-tags="colorado|museums" data-checked="2026-10-23">
@@ -357,33 +358,6 @@
         </ul>
       </div>
       <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>.</p>
-    </section>
-
-    <section class="teaser" id="colorado">
-      <div class="strip">
-        <h2>Colorado</h2>
-        <div>
-          <p>Joseph Lesher's silver Referendum dollars from Victor. The company scrip and trade tokens of Pueblo, where this site is published. The private mint in Loveland, the museums and the shows within a day's drive. Colorado exonumia has a literature of its own, and it starts here.</p>
-          <a class="more" href="/colorado/">Read the Colorado pages</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="teaser" id="decoder-teaser">
-      <div class="strip">
-        <h2>Decoder</h2>
-        <div>
-          <p>HK-449. Fuld NY-630A-1a. DH Warwickshire 12. Atwood-Coffee 800A. Every corner of the hobby has its own reference and its own shorthand. Type a catalog number and the decoder tells you which book it comes from, what that book covers and where to look the number up.</p>
-          <a class="more" href="/decoder/">Open the decoder</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <h2>About this site</h2>
-      <p>Tokens and Medals is a reading list for exonumia: the tokens, medals, so-called dollars and other struck pieces that circulated beside money without ever being money. The hobby's best references are scattered across private mints, society journals, university libraries and collector-built catalogs. This site keeps the ones worth knowing in one place, and its <a href="/price-guide/">price guide</a> gives our own estimates of value, worked out from sales we studied and published as opinion.</p>
-      <p>Nothing here is sponsored, and no link is an endorsement of anything a site sells. Descriptions are ours, written to say what each resource is good for. The Colorado pages are our own research, with sources listed at the foot of each page; corrections are welcome.</p>
-      <p>The site is published by Pueblo Internet Publishing LLC in Pueblo, Colorado, and it will grow as the list does.</p>
     </section>
 
   </main>

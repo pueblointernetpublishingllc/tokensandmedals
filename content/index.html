@@ -1,5 +1,5 @@
-<!-- {"path": "/", "title": "Tokens and Medals", "description": "A library of resources for collectors of tokens, medals and so-called dollars: mints, references, catalogs and societies, with a catalog-number decoder and pages on Colorado exonumia.", "nav": "library", "priority": "1.0", "scripts": ["/search.js"],
-"ld": {"@context": "https://schema.org", "@type": "WebSite", "name": "Tokens and Medals", "url": "https://tokensandmedals.com/", "description": "A library of resources for collectors of tokens, medals and so-called dollars.", "publisher": {"@type": "Organization", "name": "Pueblo Internet Publishing LLC", "url": "https://pueblointernetpublishing.com/"}}} -->
+<!-- {"path": "/", "title": "Tokens and Medals", "description": "A reference guide for collectors of tokens, medals and so-called dollars: catalogs, societies, archives and makers, a catalog-number decoder, a price guide, and articles on Colorado exonumia.", "nav": "library", "priority": "1.0", "scripts": ["/search.js"],
+"ld": {"@context": "https://schema.org", "@type": "WebSite", "name": "Tokens and Medals", "url": "https://tokensandmedals.com/", "description": "A reference guide for collectors of tokens, medals and so-called dollars.", "publisher": {"@type": "Organization", "name": "Pueblo Internet Publishing LLC", "url": "https://pueblointernetpublishing.com/"}}} -->
     <section class="hero">
       <div class="medal" aria-hidden="true">
         <svg viewBox="0 0 400 400" role="img">
@@ -22,47 +22,22 @@
         </svg>
       </div>
       <div class="hero-copy">
-        <h1>A library for people who collect the pieces that were never money.</h1>
-        <p>Tokens, medals and so-called dollars have their own mints, their own catalogs and their own societies. This site keeps the good ones in one place, decodes the catalog numbers dealers use, pays particular attention to Colorado, and publishes its own price guide.</p>
-        <p class="hero-cta"><a class="button" href="/price-guide/">Open the price guide</a> <a class="quiet" href="#library">Browse the library</a></p>
+        <h1>A reference guide for collectors of tokens, medals and so-called dollars.</h1>
+        <p>Links to the catalogs, societies, archives and makers worth knowing, a decoder for catalog numbers, a price guide, and articles on Colorado exonumia.</p>
+        <form class="finder hero-finder" id="hero-search" role="search" action="/#library">
+          <label for="q" class="visually-hidden">Search the library</label>
+          <input id="q" name="q" type="search" placeholder="Search the library" autocomplete="off">
+        </form>
+        <p class="hero-hint" id="hero-hint" aria-live="polite" hidden></p>
+        <p class="hero-cta"><a class="button" href="/price-guide/">Open the price guide</a></p>
       </div>
     </section>
 
-    <section class="teaser" id="guide-teaser">
-      <div class="strip">
-        <h2>Price guide</h2>
-        <div>
-          <p>What is a slabbed HK-449 worth in MS64? A raw 1964-D Peace over-strike from Daniel Carr? Our own estimates for so-called dollars and Moonlight Mint pieces, grade by grade, each with a range, from a pricing formula tested on real sales. An opinion of value, never a promise.</p>
-          <a class="more" href="/price-guide/so-called-dollars/">So-called dollars</a> <span class="sep" aria-hidden="true">&middot;</span> <a class="more" href="/price-guide/daniel-carr/">Daniel Carr &middot; Moonlight Mint</a>
-        </div>
-      </div>
-    </section>
+    <nav class="destinations" aria-label="Sections of the site">
+      <a href="#library"><span class="dest-title">Library</span><span class="dest-text">{{LIBRARY_COUNT}} catalogs, societies, archives and makers, with what each one covers.</span></a>
+      <a href="/price-guide/"><span class="dest-title">Price guide</span><span class="dest-text">Estimated values for so-called dollars and Daniel Carr pieces, by grade.</span></a>
+      <a href="/decoder/"><span class="dest-title">Decoder</span><span class="dest-text">Type a catalog number such as <span class="nowrap">HK-449</span> to see which reference it comes from.</span></a>
+      <a href="/colorado/"><span class="dest-title">Colorado</span><span class="dest-text">Lesher dollars, Pueblo tokens and scrip, and the state's private mints.</span></a>
+    </nav>
 
 {{LIBRARY}}
-
-    <section class="teaser" id="colorado">
-      <div class="strip">
-        <h2>Colorado</h2>
-        <div>
-          <p>Joseph Lesher's silver Referendum dollars from Victor. The company scrip and trade tokens of Pueblo, where this site is published. The private mint in Loveland, the museums and the shows within a day's drive. Colorado exonumia has a literature of its own, and it starts here.</p>
-          <a class="more" href="/colorado/">Read the Colorado pages</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="teaser" id="decoder-teaser">
-      <div class="strip">
-        <h2>Decoder</h2>
-        <div>
-          <p>HK-449. Fuld NY-630A-1a. DH Warwickshire 12. Atwood-Coffee 800A. Every corner of the hobby has its own reference and its own shorthand. Type a catalog number and the decoder tells you which book it comes from, what that book covers and where to look the number up.</p>
-          <a class="more" href="/decoder/">Open the decoder</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <h2>About this site</h2>
-      <p>Tokens and Medals is a reading list for exonumia: the tokens, medals, so-called dollars and other struck pieces that circulated beside money without ever being money. The hobby's best references are scattered across private mints, society journals, university libraries and collector-built catalogs. This site keeps the ones worth knowing in one place, and its <a href="/price-guide/">price guide</a> gives our own estimates of value, worked out from sales we studied and published as opinion.</p>
-      <p>Nothing here is sponsored, and no link is an endorsement of anything a site sells. Descriptions are ours, written to say what each resource is good for. The Colorado pages are our own research, with sources listed at the foot of each page; corrections are welcome.</p>
-      <p>The site is published by Pueblo Internet Publishing LLC in Pueblo, Colorado, and it will grow as the list does.</p>
-    </section>

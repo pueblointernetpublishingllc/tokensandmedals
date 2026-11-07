@@ -1,4 +1,5 @@
 // Library finder: filters the pre-rendered shelves by text and subject chips.
+// The search box sits in the home-page hero; the hint under it reports matches and links down to them.
 // The page is complete without this script; it only hides what does not match.
 (function () {
   var q = document.getElementById('q');
@@ -7,7 +8,15 @@
   var items = Array.prototype.slice.call(document.querySelectorAll('.entries li'));
   var shown = document.getElementById('shown');
   var noMatch = document.getElementById('no-match');
+  var hint = document.getElementById('hero-hint');
+  var form = document.getElementById('hero-search');
+  var subjects = document.querySelector('details.subjects');
   if (!q || !items.length) return;
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function toLibrary() {
+    var lib = document.getElementById('library');
+    if (lib) lib.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+  }
 
   var active = null;
   var hay = items.map(function (li) {
@@ -34,6 +43,10 @@
     });
     if (shown) shown.textContent = n;
     if (noMatch) noMatch.hidden = n !== 0;
+    if (hint) {
+      hint.hidden = !(words.length || active);
+      hint.innerHTML = n ? '<a href="#library">' + n + (n === 1 ? ' match' : ' matches') + ' in the library</a>' : 'No matches in the library';
+    }
     var url = new URL(location.href);
     if (words.length) url.searchParams.set('q', q.value.trim()); else url.searchParams.delete('q');
     if (active) url.searchParams.set('tag', active); else url.searchParams.delete('tag');
@@ -49,6 +62,7 @@
     });
   });
   q.addEventListener('input', apply);
+  if (form) form.addEventListener('submit', function (e) { e.preventDefault(); apply(); toLibrary(); });
 
   var params = new URLSearchParams(location.search);
   if (params.get('q')) q.value = params.get('q');
@@ -56,6 +70,7 @@
     chips.forEach(function (c) {
       if (c.getAttribute('data-tag') === params.get('tag')) { active = params.get('tag'); c.setAttribute('aria-pressed', 'true'); }
     });
+    if (active && subjects) subjects.open = true;
   }
   if (q.value || active) apply();
 })();
