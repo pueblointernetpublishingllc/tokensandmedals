@@ -289,8 +289,10 @@ def render_carr(doc):
                     f'<td data-label="{esc(h)}">{est_cell(by[k]["estimate"], by[k]["low"], by[k]["high"])}</td>' if k in by
                     else f'<td class="na" data-label="{esc(h)}">&mdash;</td>'
                     for k, h in CARR_GRADES)
-                keys = f"{head} {L['group']} {L['item']}".lower()
-                trs.append(f'<tr data-g data-k="{esc(keys)}"><th scope="row">{label}</th>{cells}</tr>')
+                formula = L.get("basis") == "formula"
+                keys = f"{head} {L['group']} {L['item']}".lower() + (" formula only" if formula else "")
+                tag = ' <span class="basis-tag">formula only</span>' if formula else ""
+                trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}" data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
             heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
             h3 = f"<h3>{esc(head)}</h3>" if head else ""
             blocks.append(f"""          <div class="g-group" data-gg>
@@ -332,6 +334,11 @@ def guide_placeholders():
         "{{SCD_EBAY}}": pct(1 - scd["venue_factors"]["eBay"]),
         "{{CARR_GUIDE}}": render_carr(carr),
         "{{CARR_COUNT}}": str(len(carr["lines"])),
+        "{{CARR_SALES_COUNT}}": str(sum(1 for L in carr["lines"] if L.get("basis") != "formula")),
+        "{{CARR_FORMULA_COUNT}}": str(sum(1 for L in carr["lines"] if L.get("basis") == "formula")),
+        "{{CARR_FORMULA_TESTED}}": str(carr["accuracy"]["formula_tested"]),
+        "{{CARR_FORMULA_MISS}}": pct(carr["accuracy"]["formula_median_miss"]),
+        "{{CARR_FORMULA_INSIDE}}": pct(carr["accuracy"]["formula_inside"]),
         "{{CARR_THROUGH}}": month_name(carr["sales_through"]),
         "{{CARR_THROUGH_YEAR}}": carr["sales_through"][:4],
         "{{CARR_GENERATED}}": carr["generated"],
@@ -350,6 +357,9 @@ def guide_placeholders():
         "{{CARR_MONTH}}": f"{(1 - cf['month']) * 100:.1f}%",
         "{{CARR_SILVER}}": f"{cf['silver']:.1f}",
         "{{CARR_SOFT}}": pct(1 - cf["newest_actual_over_estimate"]),
+        "{{CARR_SILVER_SPOT}}": f"${cf['silver_spot']:.2f}",
+        "{{CARR_SPOT_NOTE}}": (f"the Chainlink price on {cf['spot_date']}, when this edition was built" if cf["spot_source"].startswith("Chainlink")
+                               else f"the monthly average for {month_name(cf['spot_date'])}"),
         "{{CARR_LOT5}}": f"{cf['lot5']:.1f}",
         "{{CARR_AUCTION}}": pct(1 - cf["auction"]),
     }

@@ -635,3 +635,7 @@ h1, h2, h3 { text-wrap: balance; }
 }
 .basis-toggle { display: inline-flex; align-items: center; gap: 0.45rem; margin: 0.5rem 0 0; font-size: 0.95rem; color: var(--ink); cursor: pointer; }
 .basis-toggle input { width: 1.05rem; height: 1.05rem; accent-color: var(--formula); }
+.gtable.carr tr.formula { background: var(--formula-tint); }
+.gtable.carr tr.formula .est { color: var(--formula); }
+.gtable.carr tr.formula th[scope="row"] { padding-left: 0.4rem; }
+.gtable.carr .basis-tag { font-size: 0.72rem; padding: 0 0.4rem; }
