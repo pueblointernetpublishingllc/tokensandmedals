@@ -58,6 +58,7 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
         f'      <a href="{href}"{" aria-current=\"page\"" if key == nav else ""}>{label}</a>'
         for href, label, key in NAV
     )
+    footer_nav = "\n".join(f'      <a href="{href}">{label}</a>' for href, label, key in NAV)
     crumbs = ""
     if breadcrumbs:
         items = "".join(
@@ -108,9 +109,12 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
   </main>
 
   <footer class="colophon">
-    <p>Tokens and Medals is a project of <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>, Pueblo, Colorado.</p>
-    <p>This site and its contents are &copy; <span id="year">{date.today().year}</span> <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>. All rights reserved. Linked sites belong to their own owners and are not affiliated with us.</p>
-    <p>AI assistance was used in researching and building this site. Mistakes are possible; if you find one, <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals%20correction">please tell us</a>.</p>
+    <nav class="footer-nav" aria-label="Site sections">
+{footer_nav}
+    </nav>
+    <p>Tokens and Medals &middot; published by <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>, Pueblo, Colorado</p>
+    <p>&copy; <span id="year">{date.today().year}</span> Pueblo Internet Publishing LLC &middot; linked sites belong to their owners</p>
+    <p>AI assistance was used in building this site; mistakes are possible. <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals%20correction">Tell us</a></p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>{scripts}
