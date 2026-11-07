@@ -7,6 +7,7 @@
   var parts = Array.prototype.slice.call(document.querySelectorAll('[data-gp]'));
   var shown = document.getElementById('gshown');
   var none = document.getElementById('gnone');
+  var showFormula = document.getElementById('gformula');   // formula-only estimates on/off
   if (!q || !items.length) return;
 
   function norm(s) {
@@ -24,6 +25,7 @@
     var n = 0;
     items.forEach(function (el, i) {
       var ok = words.every(function (w) { return hay[i].indexOf(w) !== -1; });
+      if (ok && showFormula && !showFormula.checked && el.getAttribute('data-basis') === 'formula') ok = false;
       el.hidden = !ok;
       if (ok) n++;
     });
@@ -37,6 +39,7 @@
   }
 
   q.addEventListener('input', apply);
+  if (showFormula) showFormula.addEventListener('change', apply);
   var params = new URLSearchParams(location.search);
   if (params.get('q')) { q.value = params.get('q'); apply(); }
 })();

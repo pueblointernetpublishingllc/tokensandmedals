@@ -242,9 +242,11 @@ def render_scd(doc):
             f'<tr><th scope="row">{esc(g["grade"])}</th><td>{est_cell(*g["pcgs"])}</td><td>{est_cell(*g["ngc"])}</td></tr>'
             for g in p["grades"])
         anchor = slug(f"hk-{p['hk']}-{p['metal']}-{p['finish']}")
-        keys = f"hk{p['hk']} {p['event']} {p['year']} {p['metal']} {p['finish']}"
-        out.append(f"""        <div class="g-piece" id="{anchor}" data-g data-k="{esc(keys.lower())}">
-          <h3><span class="hk">HK-{esc(p["hk"])}</span> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}</h3>
+        formula = p.get("basis") == "formula"
+        keys = f"hk{p['hk']} {p['event']} {p['year']} {p['metal']} {p['finish']}" + (" formula only" if formula else "")
+        tag = ' <span class="basis-tag">formula only &middot; never sold</span>' if formula else ""
+        out.append(f"""        <div class="g-piece{' formula' if formula else ''}" id="{anchor}" data-g data-basis="{'formula' if formula else 'sales'}" data-k="{esc(keys.lower())}">
+          <h3><span class="hk">HK-{esc(p["hk"])}</span> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}{tag}</h3>
           <div class="table-wrap"><table class="gtable scd">
             <thead><tr><th scope="col">Grade</th><th scope="col">PCGS slab</th><th scope="col">NGC slab</th></tr></thead>
             <tbody>{rows}</tbody>
@@ -314,6 +316,11 @@ def guide_placeholders():
     return {
         "{{SCD_GUIDE}}": render_scd(scd),
         "{{SCD_COUNT}}": str(len(scd["pieces"])),
+        "{{SCD_SALES_COUNT}}": str(sum(1 for p in scd["pieces"] if p.get("basis") != "formula")),
+        "{{SCD_FORMULA_COUNT}}": str(sum(1 for p in scd["pieces"] if p.get("basis") == "formula")),
+        "{{SCD_FORMULA_TESTED}}": str(scd["accuracy"]["formula_tested"]),
+        "{{SCD_FORMULA_MISS}}": pct(scd["accuracy"]["formula_median_miss"]),
+        "{{SCD_FORMULA_INSIDE}}": pct(scd["accuracy"]["formula_inside"]),
         "{{SCD_THROUGH}}": month_name(scd["sales_through"]),
         "{{SCD_GENERATED}}": scd["generated"],
         "{{SCD_MISS}}": pct(scd["accuracy"]["median_miss"]),

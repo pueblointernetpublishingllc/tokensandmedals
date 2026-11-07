@@ -622,3 +622,16 @@ h1, h2, h3 { text-wrap: balance; }
 .footer-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 1.5rem; margin: 0 0 1rem; }
 .footer-nav a { color: var(--silver); text-decoration: none; font-weight: 500; font-size: 0.98rem; }
 .footer-nav a:hover { color: var(--card); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Formula-only estimates (pieces that have never sold): blue figures on a blue-grey tint */
+:root { --formula: #2f5a86; --formula-tint: #e8edf2; }
+.formula-ink { color: var(--formula); }
+.g-piece.formula .gtable { background: var(--formula-tint); }
+.g-piece.formula .gtable th, .g-piece.formula .gtable td { padding-left: 0.5rem; }
+.g-piece.formula .gtable .est { color: var(--formula); }
+.basis-tag {
+  display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.5rem; border: 1px solid var(--formula);
+  color: var(--formula); font-size: 0.8rem; font-weight: 500; white-space: nowrap; vertical-align: 0.1em;
+}
+.basis-toggle { display: inline-flex; align-items: center; gap: 0.45rem; margin: 0.5rem 0 0; font-size: 0.95rem; color: var(--ink); cursor: pointer; }
+.basis-toggle input { width: 1.05rem; height: 1.05rem; accent-color: var(--formula); }
