@@ -14,6 +14,7 @@
         <ul>
           <li>The <strong>bold figure</strong> is our estimate as the piece would sell today on eBay at a fixed price. The smaller figures are the range we expect about four sales in five to land in.</li>
           <li><strong>70 slab</strong> and <strong>69 or lower</strong> are for graded pieces (most of the graded Carr pieces in the sales we studied were ANACS slabs); <strong>Raw</strong> is ungraded. A dash means we have no basis for that grade: for a piece with sales, it never sold in that grade; for a piece that has never sold, ANACS reports no slabs at that grade for the piece or its issue, so there is nothing to price.</li>
+          <li>Catalogue numbers link to that number in the maker's catalogue (most browsers jump straight to it), fantasy dates link to the maker's write-up of the over-strike, and each section links to the maker's catalogue page and store. Never-sold pieces the formula cannot tell apart, such as the finishes of one issue, share a line that lists all their numbers.</li>
           <li>Pieces that contain gold or silver follow the metal: the line above the list shows the gold and silver price in use, live from Chainlink's on-chain price feeds when your browser can reach them.</li>
           <li><strong class="formula-ink">Blue figures</strong> are formula-only estimates for pieces that have never sold. We tested the same method on {{CARR_FORMULA_TESTED}} first-ever sales, each predicted before the piece had sold: half came within {{CARR_FORMULA_MISS}} of the figure, and {{CARR_FORMULA_INSIDE}} fell inside the range, which is much wider than for pieces with sales. Use the switch above the list to hide them.</li>
           <li>Over-strikes are listed by design and fantasy date, following the maker's own over-strike list where the piece is on it; catalogue issues by the sections and numbers of the <a href="http://moonlightmint.com/" rel="noopener">Moonlight Mint catalogue</a>, where the maker gives mintages and issue prices.</li>
@@ -25,7 +26,7 @@
           <input id="gq" type="search" placeholder="1964-D, Peace, Lesher, privy…" autocomplete="off">
           <label class="basis-toggle"><input type="checkbox" id="gformula" checked> Show formula-only estimates ({{CARR_FORMULA_COUNT}})</label>
           <p class="metal-live" id="metal-live"><strong>Gold {{CARR_GOLD_SPOT}} &middot; silver {{CARR_SILVER_SPOT}} an ounce</strong>, the Chainlink price on {{CARR_SPOT_DATE}}, when this edition was built. With JavaScript on, the page updates the {{CARR_METAL_PIECES}} pieces that contain gold or silver to the live price.</p>
-          <p class="count"><span id="gshown">{{CARR_COUNT}}</span> of {{CARR_COUNT}} pieces &middot; estimates are our opinion, not a price promise</p>
+          <p class="count"><span id="gshown">{{CARR_LINES}}</span> of {{CARR_LINES}} lines ({{CARR_COUNT}} pieces) &middot; estimates are our opinion, not a price promise</p>
         </form>
         <p class="no-match" id="gnone" hidden>No piece in the guide matches that. It may not have sold in the period we studied.</p>
 

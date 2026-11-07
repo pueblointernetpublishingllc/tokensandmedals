@@ -271,12 +271,24 @@ def render_carr(doc):
         lines = [L for L in doc["lines"] if L["part"] == part]
         groups = {}
         for L in lines:
+            links = L.get("links") or []
+
+            def linked(lab, url, code=False):
+                inner = f"<code>{esc(lab)}</code>" if code else esc(lab)
+                return f'<a href="{esc(url)}" rel="noopener">{inner}</a>' if url else inner
             if part == "Catalogue":
                 head, _, issue = L["group"].partition(" \u00b7 ")
-                label = issue + (f" &middot; <code>{esc(L['item'])}</code>" if L["item"] else " <span class=\"muted\">(number not stated)</span>")
-                label = esc(issue) + label[len(issue):]
+                if L["item"]:      # each catalogue number links to its row in the maker's catalogue
+                    nums = ([linked(L["item"], links[0][1], True)] if len(links) == 1
+                            else [linked(lab, url, True) for lab, url in links] if links
+                            else [f"<code>{esc(x)}</code>" for x in L["item"].split(", ")])
+                    label = f"{esc(issue)} &middot; " + ", ".join(nums)
+                else:
+                    url = links[0][1] if links else None
+                    label = linked(issue, url) + ' <span class="muted">(number not stated)</span>'
             elif part == "Over-strikes":
-                head, label = L["group"], esc(L["item"])
+                head = L["group"]      # each fantasy date links to the maker's write-up
+                label = ", ".join(linked(lab, url) for lab, url in links) if links else esc(L["item"])
             else:
                 head, label = "", esc(L["group"])
             groups.setdefault(head, []).append((label, L))
@@ -299,7 +311,9 @@ def render_carr(doc):
                 tag = ' <span class="basis-tag">formula only</span>' if formula else ""
                 trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}"{metal} data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
             heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
-            h3 = f"<h3>{esc(head)}</h3>" if head else ""
+            src = doc.get("section_links", {}).get(head if part == "Catalogue" else ("Over-strikes" if part == "Over-strikes" else ""), {})
+            srcs = " &middot; ".join(f'<a href="{esc(src[k])}" rel="noopener">{lab}</a>' for k, lab in (("catalogue", "maker's catalogue"), ("store", "maker's store")) if src.get(k))
+            h3 = (f"<h3>{esc(head)}</h3>" if head else "") + (f'\n            <p class="g-src">{srcs}</p>' if srcs and part == "Catalogue" else "")
             blocks.append(f"""          <div class="g-group" data-gg>
             {h3}
             <div class="table-wrap"><table class="gtable carr">
@@ -307,9 +321,11 @@ def render_carr(doc):
               <tbody>{"".join(trs)}</tbody>
             </table></div>
           </div>""")
+        psrc = doc.get("section_links", {}).get("Over-strikes", {}) if part == "Over-strikes" else {}
+        plinks = " &middot; ".join(f'<a href="{esc(psrc[k])}" rel="noopener">{lab}</a>' for k, lab in (("catalogue", "maker's over-strike list"), ("store", "maker's store")) if psrc.get(k))
         out.append(f"""        <section class="g-part" data-gp id="{slug(title)}">
           <h2>{esc(title)}</h2>
-          <p class="muted">{esc(note)}</p>
+          <p class="muted">{esc(note)}</p>{f'{chr(10)}          <p class="g-src">{plinks}</p>' if plinks else ""}
 {chr(10).join(blocks)}
         </section>""")
     return "\n".join(out)
@@ -338,9 +354,10 @@ def guide_placeholders():
         "{{SCD_WEEKLY}}": pct(1 - scd["venue_factors"]["weekly online auction"]),
         "{{SCD_EBAY}}": pct(1 - scd["venue_factors"]["eBay"]),
         "{{CARR_GUIDE}}": render_carr(carr),
-        "{{CARR_COUNT}}": str(len(carr["lines"])),
-        "{{CARR_SALES_COUNT}}": str(sum(1 for L in carr["lines"] if L.get("basis") != "formula")),
-        "{{CARR_FORMULA_COUNT}}": str(sum(1 for L in carr["lines"] if L.get("basis") == "formula")),
+        "{{CARR_COUNT}}": str(sum(L.get("n", 1) for L in carr["lines"])),
+        "{{CARR_LINES}}": str(len(carr["lines"])),
+        "{{CARR_SALES_COUNT}}": str(sum(L.get("n", 1) for L in carr["lines"] if L.get("basis") != "formula")),
+        "{{CARR_FORMULA_COUNT}}": str(sum(L.get("n", 1) for L in carr["lines"] if L.get("basis") == "formula")),
         "{{CARR_FORMULA_TESTED}}": str(carr["accuracy"]["formula_tested"]),
         "{{CARR_FORMULA_MISS}}": pct(carr["accuracy"]["formula_median_miss"]),
         "{{CARR_FORMULA_INSIDE}}": pct(carr["accuracy"]["formula_inside"]),
