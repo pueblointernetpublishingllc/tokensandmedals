@@ -7,6 +7,8 @@ committed files; there is no build step on the server.
 Inputs
   data/library.json      resource entries, grouped into shelves
   data/references.json   catalog references for the decoder
+  data/price-guide/*.json price-guide estimates (formula output only; produced in the
+                         private analysis folder by tools/export_public_guides.py)
   content/*.html         page bodies; the first line is a JSON comment with
                          path, title, description (and optional nav key)
 Outputs
@@ -44,6 +46,7 @@ NAV = [
     ("/#library", "Library", "library"),
     ("/colorado/", "Colorado", "colorado"),
     ("/decoder/", "Decoder", "decoder"),
+    ("/price-guide/", "Price guide", "guide"),
     ("/#about", "About", "about"),
 ]
 
@@ -107,7 +110,7 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
   <footer class="colophon">
     <p>Tokens and Medals is a project of <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>, Pueblo, Colorado.</p>
     <p>This site and its contents are &copy; <span id="year">{date.today().year}</span> <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>. All rights reserved. Linked sites belong to their own owners and are not affiliated with us.</p>
-    <p>AI assistance was used in researching and building this site. Every fact was checked against the sources cited; the mistakes are ours.</p>
+    <p>AI assistance was used in researching and building this site. Mistakes are possible, and they are ours; if you find one, <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals%20correction">please tell us</a>.</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>{scripts}
@@ -169,12 +172,12 @@ def render_library(lib):
       </div>
       <form class="finder" role="search" onsubmit="return false">
         <label for="q" class="visually-hidden">Search the library</label>
-        <input id="q" type="search" placeholder="Search the library: a society, a catalog, a kind of token…" autocomplete="off">
+        <input id="q" type="search" placeholder="Search the library" autocomplete="off">
         <div class="chips" aria-label="Filter by subject">{chips}</div>
       </form>
       <p class="no-match" id="no-match" hidden>Nothing on the shelves matches that. Try a broader word, or <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">tell us what is missing</a>.</p>
 {chr(10).join(shelves)}
-      <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>. Every link is checked by hand; the date on each card is the last time we looked.</p>
+      <p class="suggest">Know a resource that belongs here? <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals">Send it along</a>.</p>
     </section>"""
 
 
@@ -203,6 +206,144 @@ def render_references(refs):
     return "\n".join(rows)
 
 
+# ---------------------------------------------------------------- price guide
+
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
+          "September", "October", "November", "December"]
+
+
+def month_name(ym):
+    y, m = ym.split("-")[:2]
+    return f"{MONTHS[int(m) - 1]} {y}"
+
+
+def money(v):
+    return f"${v:,}"
+
+
+def est_cell(est, lo, hi):
+    return (f'<span class="est">{money(est)}</span>'
+            f'<span class="rng">{money(lo)}&ndash;{money(hi)}</span>')
+
+
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def render_scd(doc):
+    out = []
+    for p in doc["pieces"]:
+        finish = f" &middot; {esc(p['finish'])}" if p["finish"] else ""
+        rows = "".join(
+            f'<tr><th scope="row">{esc(g["grade"])}</th><td>{est_cell(*g["pcgs"])}</td><td>{est_cell(*g["ngc"])}</td></tr>'
+            for g in p["grades"])
+        anchor = slug(f"hk-{p['hk']}-{p['metal']}-{p['finish']}")
+        keys = f"hk{p['hk']} {p['event']} {p['year']} {p['metal']} {p['finish']}"
+        out.append(f"""        <div class="g-piece" id="{anchor}" data-g data-k="{esc(keys.lower())}">
+          <h3><span class="hk">HK-{esc(p["hk"])}</span> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}</h3>
+          <div class="table-wrap"><table class="gtable scd">
+            <thead><tr><th scope="col">Grade</th><th scope="col">PCGS slab</th><th scope="col">NGC slab</th></tr></thead>
+            <tbody>{rows}</tbody>
+          </table></div>
+        </div>""")
+    return "\n".join(out)
+
+
+CARR_PARTS = (
+    ("Over-strikes", "Fantasy-date over-strikes",
+     "Grouped by the design on the maker's over-strike list; each row is a fantasy date, with the privy or set where there is one."),
+    ("Catalogue", "Catalogue issues",
+     "Grouped by the sections of the Moonlight Mint catalogue. A catalogue number appears where the pieces we studied could be pinned to one; otherwise the row covers the issue as a whole."),
+    ("Not in the maker's catalogue", "Other Carr pieces", "Carr pieces that are not in the online catalogue."),
+)
+CARR_GRADES = (("70", "70 slab"), ("69 or lower", "69 or lower"), ("ungraded", "Raw"))
+
+
+def render_carr(doc):
+    out = []
+    for part, title, note in CARR_PARTS:
+        lines = [L for L in doc["lines"] if L["part"] == part]
+        groups = {}
+        for L in lines:
+            if part == "Catalogue":
+                head, _, issue = L["group"].partition(" \u00b7 ")
+                label = issue + (f" &middot; <code>{esc(L['item'])}</code>" if L["item"] else " <span class=\"muted\">(number not stated)</span>")
+                label = esc(issue) + label[len(issue):]
+            elif part == "Over-strikes":
+                head, label = L["group"], esc(L["item"])
+            else:
+                head, label = "", esc(L["group"])
+            groups.setdefault(head, []).append((label, L))
+        blocks = []
+        for head, rows in groups.items():
+            trs = []
+            for label, L in rows:
+                by = {g["grade"]: g for g in L["grades"]}
+                cells = "".join(
+                    f'<td data-label="{esc(h)}">{est_cell(by[k]["estimate"], by[k]["low"], by[k]["high"])}</td>' if k in by
+                    else f'<td class="na" data-label="{esc(h)}">&mdash;</td>'
+                    for k, h in CARR_GRADES)
+                keys = f"{head} {L['group']} {L['item']}".lower()
+                trs.append(f'<tr data-g data-k="{esc(keys)}"><th scope="row">{label}</th>{cells}</tr>')
+            heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
+            h3 = f"<h3>{esc(head)}</h3>" if head else ""
+            blocks.append(f"""          <div class="g-group" data-gg>
+            {h3}
+            <div class="table-wrap"><table class="gtable carr">
+              <thead><tr><th scope="col">Piece</th>{heads}</tr></thead>
+              <tbody>{"".join(trs)}</tbody>
+            </table></div>
+          </div>""")
+        out.append(f"""        <section class="g-part" data-gp id="{slug(title)}">
+          <h2>{esc(title)}</h2>
+          <p class="muted">{esc(note)}</p>
+{chr(10).join(blocks)}
+        </section>""")
+    return "\n".join(out)
+
+
+def guide_placeholders():
+    scd = json.loads(read("data/price-guide/scd.json"))
+    carr = json.loads(read("data/price-guide/carr.json"))
+    pct = lambda x: f"{round(x * 100)}%"
+    sf, cf = scd["factors"], carr["factors"]
+    return {
+        "{{SCD_GUIDE}}": render_scd(scd),
+        "{{SCD_COUNT}}": str(len(scd["pieces"])),
+        "{{SCD_THROUGH}}": month_name(scd["sales_through"]),
+        "{{SCD_GENERATED}}": scd["generated"],
+        "{{SCD_MISS}}": pct(scd["accuracy"]["median_miss"]),
+        "{{SCD_INSIDE}}": pct(scd["accuracy"]["inside_range"]),
+        "{{SCD_NEWEST_INSIDE}}": pct(scd["accuracy"]["newest_inside_range"]),
+        "{{SCD_NEWEST_SINCE}}": scd["accuracy"]["newest_since"][:4],
+        "{{SCD_FLOOR}}": pct(scd["accuracy"]["floor"]),
+        "{{SCD_WEEKLY}}": pct(1 - scd["venue_factors"]["weekly online auction"]),
+        "{{SCD_EBAY}}": pct(1 - scd["venue_factors"]["eBay"]),
+        "{{CARR_GUIDE}}": render_carr(carr),
+        "{{CARR_COUNT}}": str(len(carr["lines"])),
+        "{{CARR_THROUGH}}": month_name(carr["sales_through"]),
+        "{{CARR_THROUGH_YEAR}}": carr["sales_through"][:4],
+        "{{CARR_GENERATED}}": carr["generated"],
+        "{{CARR_MISS}}": pct(carr["accuracy"]["median_miss"]),
+        "{{CARR_NEWEST_INSIDE}}": pct(carr["accuracy"]["newest_inside_range"]),
+        # the formula's own factors, so the method text always matches this edition
+        "{{SCD_GRADE_PT}}": pct(sf["grade_point"] - 1),
+        "{{SCD_YEAR}}": pct(sf["year"] - 1),
+        "{{SCD_NGC}}": pct(1 - sf["ngc"]),
+        "{{SCD_SEASON}}": pct(1 - sf["spring_summer"]),
+        "{{SCD_SILVER}}": f"{sf['silver']:.1f}",
+        "{{SCD_GOLD}}": f"{sf['gold']:.1f}",
+        "{{SCD_RARITY}}": pct(1 - sf["double_appearances"]),
+        "{{CARR_70}}": pct(cf["slab70"] - 1),
+        "{{CARR_69}}": pct(cf["slab69"] - 1),
+        "{{CARR_MONTH}}": f"{(1 - cf['month']) * 100:.1f}%",
+        "{{CARR_SILVER}}": f"{cf['silver']:.1f}",
+        "{{CARR_SOFT}}": pct(1 - cf["newest_actual_over_estimate"]),
+        "{{CARR_LOT5}}": f"{cf['lot5']:.1f}",
+        "{{CARR_AUCTION}}": pct(1 - cf["auction"]),
+    }
+
+
 # ---------------------------------------------------------------- pages
 
 def parse_content(raw):
@@ -223,11 +364,13 @@ def main():
         "{{REFERENCE_ROWS}}": render_references(refs),
         "{{REFERENCES_JSON}}": json.dumps(refs, ensure_ascii=False),
         "{{LIBRARY_COUNT}}": str(sum(len(s["entries"]) for s in lib["shelves"])),
+        **guide_placeholders(),
     }
 
-    for name in sorted(os.listdir(os.path.join(ROOT, "content"))) + [
-        os.path.join("colorado", n) for n in sorted(os.listdir(os.path.join(ROOT, "content", "colorado")))
-    ]:
+    names = sorted(os.listdir(os.path.join(ROOT, "content")))
+    for sub in ("colorado", "price-guide"):
+        names += [os.path.join(sub, n) for n in sorted(os.listdir(os.path.join(ROOT, "content", sub)))]
+    for name in names:
         if not name.endswith(".html"):
             continue
         meta, body = parse_content(read(os.path.join("content", name)))

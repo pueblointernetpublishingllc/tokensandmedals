@@ -1,0 +1,3477 @@
+{
+ "title": "Daniel Carr / Moonlight Mint price guide",
+ "generated": "2026-11-07",
+ "sales_through": "2026-11",
+ "basis": "formula estimates (see method); no individual sales are included",
+ "anchor": "eBay Buy It Now price; graded = ANACS slab",
+ "range": "about 4 in 5 sales should land inside the range",
+ "factors": {
+  "slab70": 1.19,
+  "slab69": 1.04,
+  "month": 0.992,
+  "silver": 1.65,
+  "newest_actual_over_estimate": 0.85,
+  "lot5": 3.5,
+  "auction": 0.86
+ },
+ "accuracy": {
+  "median_miss": 0.23,
+  "newest_inside_range": 0.8,
+  "newest_tested": 113
+ },
+ "lines": [
+  {
+   "part": "Over-strikes",
+   "group": "1-Cent Flying Eagle",
+   "item": "“1859”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 250,
+     "low": 170,
+     "high": 410
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 220,
+     "low": 150,
+     "high": 360
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Cent Lincoln",
+   "item": "“1908-S”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Cent Lincoln",
+   "item": "“1958-D”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 140,
+     "low": 100,
+     "high": 270
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 85,
+     "high": 230
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 85,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Cent Native Head",
+   "item": "“1857”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar (small) Sacagawea",
+   "item": "“1999-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 200,
+     "low": 130,
+     "high": 320
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Draped Bust",
+   "item": "“1805”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 350,
+     "low": 230,
+     "high": 550
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Eisenhower",
+   "item": "“1970”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 95,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Eisenhower",
+   "item": "“1975”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 95,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Eisenhower",
+   "item": "“1979-P”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 120,
+     "low": 80,
+     "high": 220
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 110,
+     "low": 70,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Flowing Hair",
+   "item": "“1792”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 220,
+     "low": 150,
+     "high": 340
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Flowing Hair",
+   "item": "“1793”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 230,
+     "low": 160,
+     "high": 380
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 190,
+     "low": 130,
+     "high": 320
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“1905-CC”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 250,
+     "low": 170,
+     "high": 420
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 210,
+     "low": 140,
+     "high": 350
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“1905-S”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 220,
+     "low": 150,
+     "high": 340
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“1906-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 220,
+     "low": 150,
+     "high": 370
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“1909-O”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 210,
+     "low": 140,
+     "high": 330
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“1920-D”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 200,
+     "low": 140,
+     "high": 320
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“1964-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 240,
+     "low": 150,
+     "high": 420
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 230,
+     "low": 150,
+     "high": 410
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Morgan",
+   "item": "“2022”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 230,
+     "low": 160,
+     "high": 390
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 200,
+     "low": 130,
+     "high": 330
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1917”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 240,
+     "low": 160,
+     "high": 400
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 230,
+     "low": 150,
+     "high": 380
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1918”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 70,
+     "low": 50,
+     "high": 120
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 70,
+     "low": 45,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1919”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 250,
+     "low": 170,
+     "high": 420
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 160,
+     "high": 400
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1920”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 160,
+     "high": 370
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1929-S”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 250,
+     "low": 170,
+     "high": 410
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 160,
+     "high": 390
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1931-S”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 300,
+     "low": 200,
+     "high": 490
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 260,
+     "low": 180,
+     "high": 430
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1932-D”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 230,
+     "low": 160,
+     "high": 360
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1933-S”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 190,
+     "low": 130,
+     "high": 300
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1944-D”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 170,
+     "low": 120,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1964-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 290,
+     "low": 200,
+     "high": 525
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 270,
+     "low": 190,
+     "high": 500
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1964”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 210,
+     "low": 140,
+     "high": 380
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 200,
+     "low": 130,
+     "high": 360
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“1965-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 220,
+     "low": 150,
+     "high": 340
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Peace",
+   "item": "“2022”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 190,
+     "low": 130,
+     "high": 310
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1792, 1992”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 170,
+     "low": 110,
+     "high": 310
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1985”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 270
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 95,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1986”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 170,
+     "low": 110,
+     "high": 300
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 95,
+     "high": 260
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 90,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1987”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 100,
+     "high": 280
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1988”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 90,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1990”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1992”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1993”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1994”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 230
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1995”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 90,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1996”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 95,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“1997”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 85,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2006-DC”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2006”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 100,
+     "high": 280
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 85,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2009-DC”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 270
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 150,
+     "low": 95,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2009”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 170,
+     "low": 120,
+     "high": 320
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 160,
+     "low": 110,
+     "high": 300
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2011”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2019-DC”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2019”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 100,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Silver Eagle",
+   "item": "“2020”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 95,
+     "high": 270
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Trade",
+   "item": "“1886-O”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 340,
+     "low": 230,
+     "high": 525
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Dollar” Kennedy",
+   "item": "“1776”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 140,
+     "low": 95,
+     "high": 230
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Dollar” Kennedy",
+   "item": "“1976”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 140,
+     "low": 95,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Dollar” Morgan Engraved",
+   "item": "“1921-D”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 280,
+     "low": 190,
+     "high": 470
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 160,
+     "high": 390
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Dollar” Oregon Trail",
+   "item": "“1848”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 210,
+     "low": 140,
+     "high": 390
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 190,
+     "low": 120,
+     "high": 340
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Silver Dollar” Morgan Pattern",
+   "item": "“1887-CC”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Silver Dollar” Peace / Walking-Eagle",
+   "item": "“1922”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 190,
+     "low": 120,
+     "high": 340
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 170,
+     "low": 110,
+     "high": 300
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Silver Dollar” Trade Concept",
+   "item": "“1878-CC”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 290,
+     "low": 190,
+     "high": 480
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-“Silver Dollar” Winged Liberty Head / Walking-Eagle",
+   "item": "“2016”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 75,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "10-Cent Barber",
+   "item": "“1917-D”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 180,
+     "low": 120,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "10-Cent Winged Liberty Head",
+   "item": "“1915”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 95,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 240,
+     "low": 160,
+     "high": 430
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 210,
+     "low": 140,
+     "high": 380
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 200,
+     "low": 140,
+     "high": 360
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026” · 5-coin set",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 1900,
+     "low": 1225,
+     "high": 3400
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026” · Constitution",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 340,
+     "low": 230,
+     "high": 625
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 300,
+     "low": 210,
+     "high": 550
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026” · Declaration",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 330,
+     "low": 210,
+     "high": 600
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026” · Flag",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 340,
+     "low": 230,
+     "high": 625
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026” · Independence",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 300,
+     "low": 200,
+     "high": 550
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 260,
+     "low": 180,
+     "high": 480
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1776-2026 dual-dated Silver Eagle",
+   "item": "“1776-2026” · Minuteman",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 380,
+     "low": 260,
+     "high": 700
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "2-Cent Shield",
+   "item": "“1874”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 130,
+     "low": 90,
+     "high": 220
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 75,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "25-Cent Barber",
+   "item": "“1917-S”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 160,
+     "low": 110,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "25-Cent Standing Liberty",
+   "item": "“1922”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 170,
+     "low": 120,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "25-Cent Washington",
+   "item": "“1975-S”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 330,
+     "low": 220,
+     "high": 525
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "25-Cent Washington",
+   "item": "“1975”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 360,
+     "low": 240,
+     "high": 575
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Jefferson",
+   "item": "“1937-S”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 90,
+     "low": 60,
+     "high": 140
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Jefferson",
+   "item": "“2004-W”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 80,
+     "low": 55,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Jefferson",
+   "item": "“2005-W”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 80,
+     "low": 55,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Liberty “V”",
+   "item": "“1914”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Native-Head/Bison",
+   "item": "“1911-D”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 120,
+     "low": 80,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Native-Head/Bison",
+   "item": "“1922”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 120,
+     "low": 80,
+     "high": 220
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 110,
+     "low": 70,
+     "high": 190
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 65,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Cent Native-Head/Bison",
+   "item": "“1933”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 100,
+     "low": 70,
+     "high": 170
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 95,
+     "low": 65,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "5-Dollar Native-Head",
+   "item": "“1933”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 250,
+     "low": 170,
+     "high": 390
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Barber",
+   "item": "“1916”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 250,
+     "low": 160,
+     "high": 450
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 150,
+     "high": 430
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Franklin",
+   "item": "“1948”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 250,
+     "low": 170,
+     "high": 390
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Franklin",
+   "item": "“1964-D”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 160,
+     "high": 400
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Franklin/Bell with Privy",
+   "item": "“1776”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 240,
+     "low": 160,
+     "high": 380
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Franklin/Bell with Privy",
+   "item": "“2026”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 340,
+     "low": 220,
+     "high": 625
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Kennedy",
+   "item": "“1963-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 230,
+     "low": 150,
+     "high": 360
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Kennedy",
+   "item": "“1963”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 190,
+     "low": 130,
+     "high": 320
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 180,
+     "low": 120,
+     "high": 300
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Kennedy",
+   "item": "“1975-S”",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 220,
+     "low": 150,
+     "high": 350
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Kennedy",
+   "item": "“1975”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 230,
+     "low": 160,
+     "high": 380
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 220,
+     "low": 150,
+     "high": 370
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Walking Liberty",
+   "item": "“1915-S”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 190,
+     "low": 130,
+     "high": 310
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 180,
+     "low": 120,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Walking Liberty",
+   "item": "“1922-D”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 260,
+     "low": 170,
+     "high": 400
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "50-Cent Walking-Liberty/Mercanti",
+   "item": "“2016-W”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 90,
+     "high": 210
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 85,
+     "high": 210
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "Amazonian Assay Office “Silver Dollar”",
+   "item": "“2024”",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 300
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 160,
+     "low": 110,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Over-strikes",
+   "group": "Columbian Half",
+   "item": "“1891”",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 170,
+     "low": 110,
+     "high": 280
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2007 Seated Liberty “20 Trade Dollars” (Not government-issue legal tender. Reeded edge.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 75,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2007 Seated Liberty “20 Trade Dollars” (Not government-issue legal tender. Reeded edge.)",
+   "item": "TD0020_2007SP",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 120,
+     "low": 80,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2007 Union of North America (UNA) Amero Patterns (Various Seated Liberty obverse designs.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 30,
+     "low": 19,
+     "high": 45
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 UNA 100 Ameros Seated Liberty Pattern",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 65,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 UNA 100 Ameros Seated Liberty Pattern",
+   "item": "UNA100S_2008SS",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 65,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 Union of North America (UNA) Amero Patterns (Winged Liberty Head obverse design.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 30,
+     "low": 20,
+     "high": 50
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA 100 Ameros Winged Liberty Head Pattern (Reeded edge.)",
+   "item": "UNA0100W_2009SP",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA Riding Liberty Pattern",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 40,
+     "low": 30,
+     "high": 65
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 40,
+     "low": 25,
+     "high": 65
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 40,
+     "low": 25,
+     "high": 65
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns",
+   "item": "UNA0001A_2010CP",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 40,
+     "low": 25,
+     "high": 60
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns Mexico (Bi)Centennial Hidalgo-Zapata Commemorative English Amero Reverse",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 85,
+     "high": 210
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 United States of North America “Trade Dollars” (Not government-issue legal tender.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 40,
+     "low": 30,
+     "high": 70
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2011 UNA Patterns",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 50,
+     "low": 30,
+     "high": 85
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2012 UNA Patterns",
+   "item": "UNA0001A_2012CS",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 50,
+     "low": 35,
+     "high": 85
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 45,
+     "low": 30,
+     "high": 75
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2012 UNA Patterns",
+   "item": "UNA0020A_2012SP",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 90,
+     "low": 60,
+     "high": 140
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2013 “Exchange Currency” Concepts (Not government-issue legal tender.)",
+   "item": "XC_2013_1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 55,
+     "low": 35,
+     "high": 90
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 50,
+     "low": 35,
+     "high": 85
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2014 “Exchange Currency” & “Trade Dollar” Concepts (Not government-issue legal tender.)",
+   "item": "TD_2014_50",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 70,
+     "high": 170
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2015 UNA Patterns",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 70,
+     "low": 45,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2015 UNA Patterns",
+   "item": "UNA0001A_2015CS",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 55,
+     "low": 40,
+     "high": 90
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2018 & 2025 UNA Patterns",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 110,
+     "low": 75,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 1955-2015 Fort Collins Colorado Coin Club 60 th Anniversary Medal (Distributed by FCCC.) ( Die 1 – Fort Collins Municipal Railway Car reverse. Smooth edge.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 30,
+     "low": 19,
+     "high": 50
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 30,
+     "low": 18,
+     "high": 50
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 1955-2025 Fort Collins Colorado Coin Club 70 th Anniversary Medal (Distributed by FCCC.)",
+   "item": "FCCC_2025_A",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 70,
+     "low": 50,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2008 Knights of the Coin Table Medal (Smooth Edge. Distributed to KotCT members.) (Same reverse shield design as 2007.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2011 Knights of the Coin Table Medal (Smooth Edge. Distributed to KotCT members.) (Same reverse shield design as 2009.) (Struck OCT 2012.)",
+   "item": "KCT2011BP",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 55,
+     "low": 35,
+     "high": 90
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2011 Knights of the Coin Table Medal (Smooth Edge. Distributed to KotCT members.) (Same reverse shield design as 2009.) (Struck OCT 2012.)",
+   "item": "KCT2011CP",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 50,
+     "low": 35,
+     "high": 85
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2012-2015 Knights of the Coin Table Medal (Smooth Edge. Distributed to KotCT members.) (Same reverse shield design as 2009.) (Struck MAY 2015.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 65,
+     "high": 170
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2012-2015 Knights of the Coin Table Medal (Smooth Edge. Distributed to KotCT members.) (Same reverse shield design as 2009.) (Struck MAY 2015.)",
+   "item": "KCT2015NI",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 85,
+     "low": 55,
+     "high": 140
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2013 Original Hobo Nickel Society (OHNS) Token 100 th Anniversary of the Indian Head Bison Nickel (Distributed by OHNS.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 90,
+     "high": 210
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2013 Sarasota [Florida] Coin Club 50 th Anniversary (Distributed by SCC.)",
+   "item": "SCC_B1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2013 Sarasota [Florida] Coin Club 50 th Anniversary (Distributed by SCC.)",
+   "item": "SCC_C1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2014 Glendale Coin Club 55 th Anniversary (Distributed by GCC.)",
+   "item": "GCC_2014_C1",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 35,
+     "low": 25,
+     "high": 60
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2014 Glendale Coin Club 55 th Anniversary (Distributed by GCC.)",
+   "item": "GCC_2014_S1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 75,
+     "low": 50,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2015 Glendale Coin Club Medal (Distributed by GCC.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 50,
+     "low": 35,
+     "high": 80
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2015 Greater Houston Coin Club 60 th Anniversary (Distributed by GHCC.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 170,
+     "low": 110,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2016 Glendale Coin Club Medal (Distributed by GCC.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 50,
+     "low": 30,
+     "high": 80
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2016 So-Called Dollar 3 rd Annual Gathering (Distributed to attendees.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 90,
+     "low": 60,
+     "high": 150
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2017 So-Called Dollar 4 th Annual Gathering & Pacific Coast Expositions So-Called Dollars Book Issue (Distributed to attendees & book buyers.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 100
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2019 Glendale Coin Club Medal (Distributed by GCC.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 85,
+     "low": 60,
+     "high": 140
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2019 Knights of the Coin Table Medal (Smooth Edge. Distributed to KotCT members.) (Same reverse shield die as 2017.)",
+   "item": "KCT2019BR2",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 70,
+     "low": 45,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2023-2024 Denver Coin Club (DCC) (Distributed by DCC.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 100,
+     "high": 270
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 85,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2023-2024 Denver Coin Club (DCC) (Distributed by DCC.)",
+   "item": "DCC_2024_C1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 80,
+     "low": 55,
+     "high": 130
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2025 Front Range Coin Club 30 th Anniversary (Distributed to FRCC members.)",
+   "item": "FRCC_30_C1",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 80,
+     "low": 55,
+     "high": 130
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2026 Madison County Coin Club (Distributed to MCCC members.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 70,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2026 Northside Coin Club (Broomfield Colorado) (Distributed to NSCC members)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 35,
+     "low": 25,
+     "high": 60
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · [2017] Glendale Coin Club Medal (Distributed by GCC.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 30,
+     "low": 19,
+     "high": 45
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 25,
+     "low": 18,
+     "high": 45
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Cobs (Atocha, 1715 Fleet, S.S. Republic…) · S.S. Republic Cobs (Most produced on commission for distributor)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 65,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Cobs (Atocha, 1715 Fleet, S.S. Republic…) · Spice Islands Shipwreck Cobs (Most produced on commission for distributor)",
+   "item": "COB_S",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 100,
+     "low": 65,
+     "high": 180
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 65,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1776-2026” Draped Bust / Flying Eagle.",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1776-2026” Draped Bust / Flying Eagle.",
+   "item": "DB_ED_CN_1776",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 70,
+     "high": 200
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1776-2026” Draped Bust / Flying Eagle.",
+   "item": "DB_ED_SC_1776",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 160,
+     "low": 110,
+     "high": 270
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1776-2026” Draped Bust / Heraldic Eagle Silver.",
+   "item": "DB_ASE_1776",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 330,
+     "low": 220,
+     "high": 525
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1776” Flowing-Hair/Fugio Token (Produced in 2026.)",
+   "item": "FUGIO_1776_1B",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 85,
+     "high": 200
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1792” Flowing-Hair/Chain Token (Produced in 2019, 2020, 2022. Most of type 2A* handled by distributor)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 210,
+     "low": 140,
+     "high": 340
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 180,
+     "low": 120,
+     "high": 300
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1792” Flowing-Hair/Chain Token (Produced in 2019, 2020, 2022. Most of type 2A* handled by distributor)",
+   "item": "SCCT_2B3",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 200,
+     "low": 130,
+     "high": 310
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1933” Native-Head Half Eagle (normal raised relief concept)",
+   "item": "NH_500_",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 100,
+     "low": 70,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · “1933” Native-Head Half Eagle (normal raised relief concept)",
+   "item": "NH_500_A",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 130,
+     "low": 85,
+     "high": 210
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Concept dollars · 2019-D Apollo Astronaut (Small Dollars Over-Struck in 2016.) (Quarter-Dollars, Half-Dollars, and Large-Dollars Over-Struck in 2019.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 95,
+     "low": 60,
+     "high": 170
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 85,
+     "low": 55,
+     "high": 150
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 80,
+     "low": 50,
+     "high": 150
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Event tokens · 2009 Moonlight Mint Open House Dollar Token (Struck for attendees of the October 2009 event. Not legal tender.)",
+   "item": "MMOH_2009",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 90,
+     "low": 60,
+     "high": 140
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Event tokens · 2012 Moonlight Mint Open House Dollar Token (Struck for attendees of various 2012 events. Not legal tender.)",
+   "item": "MMOH_2012",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 140,
+     "low": 95,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Event tokens · 2013 Moonlight Mint Open House Token (Struck for attendees of various 2013 events. Not legal tender.)",
+   "item": "MMOH_2013",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 85,
+     "high": 210
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Event tokens · 2018 Moonlight Mint Open House Token (Struck for attendees of various 2018 events. Not legal tender.)",
+   "item": "MMOH_2018",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 95,
+     "low": 65,
+     "high": 150
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Event tokens · 2019 Moonlight Mint Open House Token (Struck for attendees of various 2019 events. Not legal tender.)",
+   "item": "MMOH_2019",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Event tokens · Pirate & Halloween Tokens (Distributed by Chris M. Geiner – CMG Mint.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 150,
+     "low": 100,
+     "high": 230
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1913-2013 Indian-Head/Bison Nickel Centennial Silver Rounds",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1916-2016 Centennial Silver Rounds Winged Liberty Dime, Standing Liberty Quarter, Walking Liberty Half Dollar",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 90,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1921-2021 Silver Dollar Centennial Rounds Last Morgan Dollar, First Peace Dollar",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 260,
+     "low": 170,
+     "high": 420
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2009 Indian-Head / Eagle Fractional Gold",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 600,
+     "low": 400,
+     "high": 975
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 575,
+     "low": 380,
+     "high": 925
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011 Capped Bust Liberty Gold",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011 Indian-Head / Eagle Fractional Gold",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 625,
+     "low": 420,
+     "high": 1000
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011-2012 Winged Liberty Head Palladium Eagle Concept Tokens",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 95,
+     "low": 65,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011-2012 Winged Liberty Head Palladium Eagle Concept Tokens",
+   "item": "PE_10_2011_PS",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 75,
+     "low": 50,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2012-2013 Moonlight Refinery Silver Ingot Bars",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 180,
+     "low": 120,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2015 Clark Gruber Silver Ingot Bars",
+   "item": "CG_01_2015_S_08",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 675,
+     "low": 450,
+     "high": 1050
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2017 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 170,
+     "low": 120,
+     "high": 270
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 80,
+     "low": 55,
+     "high": 130
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 65,
+     "low": 45,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2023 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 180,
+     "low": 120,
+     "high": 280
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2026 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_SE_2025_PL",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 190,
+     "low": 130,
+     "high": 300
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · Saint-Gaudens, Winged Liberty $100 Union “MMXIX” (2019) “MMXX” (2020) “MMXXI” (2021)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 220,
+     "low": 150,
+     "high": 350
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · Saint-Gaudens, Winged Liberty Ultra-High Relief “MMXXII” (2022), “MMXXIII” (2023), 2024, 2025, 2026",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 220,
+     "low": 150,
+     "high": 400
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 180,
+     "low": 130,
+     "high": 340
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · “MCMVI” (1906) Saint-Gaudens, Winged Liberty Concept (Struck in 2018)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 1917-2017 Failure of WW1 100 th Anniversary Hard Times Token [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 190,
+     "low": 130,
+     "high": 290
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 1917-2017 Failure of WW1 100 th Anniversary Hard Times Token [SOLD OUT]",
+   "item": "HTWW1_2017_2S",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 210,
+     "low": 140,
+     "high": 320
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2008 “Debt Pyramid / Demand Justice” Hard Times Token [SOLD OUT]",
+   "item": "HTP_2008_CS",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 55,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2009-2010 “Prosperity Tree / Weed Money” Hard Times Token [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 130,
+     "low": 85,
+     "high": 210
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2009-2011 Jefferson Hard Times Token [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 55,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2010 “Debt Pyramid / Uncle Scam” Hard Times Token [SOLD OUT]",
+   "item": "HTPS_2010_SPL",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2010 “Puppet Masters / Uncle Scam” Hard Times Token [SOLD OUT]",
+   "item": "HTMS_2010_CPL",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 55,
+     "low": 35,
+     "high": 90
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2011 & 2013 “Debt Pyramid / Flying Pigs & Monkeys” Hard Times Token [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 100,
+     "low": 65,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2011 & 2013 “Debt Pyramid / Flying Pigs & Monkeys” Hard Times Token [SOLD OUT]",
+   "item": "HTPYR_2013_BS",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2011 50 th Anniversary “Military Industrial Complex” Hard Times Token [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 70,
+     "high": 160
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2012 Euro/Amero sinking, Titanic Disaster 100 th Anniversary [SOLD OUT]",
+   "item": "HTTIT_2012_BP1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 70,
+     "low": 50,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2012 Euro/Amero sinking, Titanic Disaster 100 th Anniversary [SOLD OUT]",
+   "item": "HTTIT_2012_CP1",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 70,
+     "low": 45,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2012 Euro/Amero sinking, Titanic Disaster 100 th Anniversary [SOLD OUT]",
+   "item": "HTTIT_2012_PS2",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2013 Fiscal Cliff / US National Debt [SOLD OUT]",
+   "item": "HTCLF_2013_BS",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 80,
+     "low": 55,
+     "high": 130
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2013 Fiscal Cliff / US National Debt [SOLD OUT]",
+   "item": "HTCLF_2013_SS",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 95,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2013 “Debt Limit Evasion” Trillion Dollar Hard Times Token [SOLD OUT]",
+   "item": "HTDLE_2013_CP",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2013 “Debt Limit Evasion” Trillion Dollar Hard Times Token [SOLD OUT]",
+   "item": "HTDLE_2013_PP",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 95
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2013 “Debt Limit Evasion” Trillion Dollar Hard Times Token [SOLD OUT]",
+   "item": "HTDLE_2013_SP",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 100,
+     "low": 70,
+     "high": 170
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2013 “Weed Money / 1913-2013 Federal Reserve Centennial” Hard Times Token [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 60,
+     "low": 40,
+     "high": 90
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2018-D Year of the Dog",
+   "item": "DOG_B",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 85,
+     "low": 55,
+     "high": 130
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2018-D Year of the Dog",
+   "item": "DOG_S",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2020 & 2021 Covid-19 Outbreak [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 150,
+     "low": 95,
+     "high": 260
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 130,
+     "low": 80,
+     "high": 230
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 2024-2025 Year of the Dragon’s Revenge [SOLD OUT]",
+   "item": "YOD_S",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 130,
+     "low": 85,
+     "high": 210
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · [2023] Klepto Currency 0 NFT [SOLD OUT]",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 140,
+     "low": 90,
+     "high": 220
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 75,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · [2023] Klepto Currency 0 NFT [SOLD OUT]",
+   "item": "HT_0NFT_C",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 65,
+     "low": 45,
+     "high": 110
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 55,
+     "low": 35,
+     "high": 90
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · “13 Steps” (Escher Stairs) – 2020, 2021, 2025",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 95,
+     "high": 230
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Ingots · Clark Gruber / MG bars joint production",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 310,
+     "low": 210,
+     "high": 500
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Ingots · Denver Mint building / Prospector - Small Ingots",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 90,
+     "low": 60,
+     "high": 150
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 75,
+     "low": 50,
+     "high": 130
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Joke state quarters · 2001 New York - Defiant Finger Tower (Reeded edge.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 17,
+     "low": 11,
+     "high": 30
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Joke state quarters · 2001 Rhode Island - Little Island Surrounded By Water (Reeded edge.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 20,
+     "low": 15,
+     "high": 35
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Joke state quarters · 2001 Rhode Island - Little Island Surrounded By Water (Reeded edge.)",
+   "item": "AS_RI_N",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 20,
+     "low": 13,
+     "high": 30
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Joke state quarters · 2008 New Mexico - “Nuke Mexico” (Reeded edge.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 40,
+     "low": 25,
+     "high": 60
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Lesher tributes · Merchant imprint",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 100,
+     "high": 260
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Lesher tributes · Merchant imprint",
+   "item": "COPPER",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 75,
+     "low": 50,
+     "high": 120
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 70,
+     "low": 50,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Lesher tributes · Merchant imprint",
+   "item": "LESHER DISPLAY DENVER ANA",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Lesher tributes · Merchant imprint",
+   "item": "MOONLIGHT MINT LOVELAND COLO.",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 1914-2014 Panama Canal Centennial Medal",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 100,
+     "high": 250
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 140,
+     "low": 95,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 1915-2015 Panama Pacific International Exposition Centennial Medal",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 1915-2015 Rocky Mountain National Park Centennial Medal",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 220,
+     "low": 150,
+     "high": 350
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 2013 Battle of Lake Erie Bicentennial",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 35,
+     "low": 25,
+     "high": 60
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 30,
+     "low": 20,
+     "high": 55
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 30,
+     "low": 20,
+     "high": 50
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 2017 USA Total Solar Eclipse Medal",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 75,
+     "low": 50,
+     "high": 130
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 75,
+     "low": 50,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 2020 Carson City Mint Sesquicentennial Medal",
+   "item": "CCSQ_BR_BS",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 75,
+     "low": 50,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 2020 Carson City Mint Sesquicentennial Medal",
+   "item": "CCSQ_CU_BS",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 75,
+     "low": 50,
+     "high": 110
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 2025 Norse American Bicentennial Medal",
+   "item": "NABC_2025",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 350,
+     "low": 230,
+     "high": 550
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · John I. Blair / Blairstown NJ 2018 Blair Academy 170th Anniversary Medal (Distributed by the Blairstown Museum)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 190
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · All issues",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 50,
+     "low": 35,
+     "high": 85
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · Deseret Assay Office Restrikes “1860” Later-period Mormon Lion/Beehive $5 gold half eagles were struck in 1860. The original coins had a smooth edge and coin-flip orientation. Commissioned by Utah-based collectibles dealer. Production Data. These restrikes (in 2024-2025) have a reeded-edge and medal-turn orientation. All gold pieces were over-struck on vintage US Mint Liberty-Head gold coins (unless otherwise noted). Produced using tribute dies, based on photos of original coins. NOTE: Minted on commission for distributor.",
+   "item": "",
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 160,
+     "low": 110,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · Mormon Pioneer Restrikes “1850” Early-period Mormon $5 gold half eagles were struck in 1849 and 1850. The original coins had a smooth edge and coin-flip orientation. Commissioned by Utah-based collectibles dealer. Production Data. These restrikes (in 2025) have a reeded-edge and coin-flip orientation (unless otherwise noted). All gold pieces were over-struck on vintage US Mint Liberty-Head gold coins (unless otherwise noted). Produced using tribute dies, based on photos of original coins. NOTE: Minted on commission for distributor.",
+   "item": "M50_5_A",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 110,
+     "high": 260
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Portrait medals · 2011 Colbert Nation Dollar (Not Released.)",
+   "item": "SCPB_2011_BS",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 150,
+     "low": 100,
+     "high": 240
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Protest / alternative state quarters · 2003 Maine - Pemaquid Point Light & Victory Chimes Schooner ”CARRter Dollar” Reverse Original design chosen by Maine. (Reeded edge.)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 80,
+     "low": 55,
+     "high": 130
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Protest / alternative state quarters · 2006 Nevada - Topography, Carson City Mint Coin, Virginia & Truckee Locomotive, Aces (Reeded edge.)",
+   "item": "SQ_NV_N",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 45,
+     "low": 30,
+     "high": 70
+    }
+   ]
+  },
+  {
+   "part": "Not in the maker's catalogue",
+   "group": "Cast medals (Fallen Angel, Defiance)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 120,
+     "low": 80,
+     "high": 200
+    }
+   ]
+  },
+  {
+   "part": "Not in the maker's catalogue",
+   "group": "Presidential concept dollars (2007)",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 40,
+     "low": 25,
+     "high": 70
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 35,
+     "low": 25,
+     "high": 65
+    }
+   ]
+  },
+  {
+   "part": "Not in the maker's catalogue",
+   "group": "Sacagawea prototype / concept",
+   "item": "",
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 50,
+     "low": 30,
+     "high": 85
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 45,
+     "low": 30,
+     "high": 85
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+<!-- {"path": "/price-guide/daniel-carr/", "title": "Daniel Carr / Moonlight Mint price guide", "description": "Estimated values for Daniel Carr's Moonlight Mint pieces: fantasy-date over-strikes, catalogue issues and other Carr pieces, raw and in 69 and 70 slabs, from Tokens and Medals' tested pricing formula. Our opinion of value, with a range.", "nav": "guide", "priority": "0.8", "scripts": ["/guide.js"], "breadcrumbs": [["Home", "/"], ["Price guide", "/price-guide/"], ["Daniel Carr", null]]} -->
+    <section class="leaf">
+      <article class="paper guide">
+        <h1>Daniel Carr &middot; Moonlight Mint price guide</h1>
+        <p class="lede">Estimated values for {{CARR_COUNT}} pieces from Daniel Carr's Moonlight Mint in Loveland, Colorado: fantasy-date over-strikes, catalogue issues and a few pieces outside the catalogue. Edition of {{CARR_THROUGH}}. <a href="#method">How we make these figures</a>.</p>
+
+        <div class="guide-warning" role="note">
+          <h2>Our opinion, not a promise</h2>
+          <p>These are Tokens and Medals' own estimates from a statistical formula. They are not appraisals, not offers to buy or sell, and not a prediction of what your piece will bring. Real prices at any venue can land well above or below them; about one sale in five lands outside the range shown. Do not rely on this guide alone to buy, sell, insure or value a piece for tax or estate purposes. Tokens and Medals is not affiliated with Daniel Carr or Moonlight Mint.</p>
+        </div>
+
+        <h2>How to read it</h2>
+        <ul>
+          <li>The <strong>bold figure</strong> is our estimate as the piece would sell today on eBay at a fixed price. The smaller figures are the range we expect about four sales in five to land in.</li>
+          <li><strong>70 slab</strong> and <strong>69 or lower</strong> are for graded pieces (most of the graded Carr pieces in the sales we studied were ANACS slabs); <strong>Raw</strong> is ungraded. A dash means we have no basis for that grade.</li>
+          <li>Over-strikes are listed by design and fantasy date, following the maker's own over-strike list where the piece is on it; catalogue issues by the sections and numbers of the <a href="http://moonlightmint.com/" rel="noopener">Moonlight Mint catalogue</a>, where the maker gives mintages and issue prices.</li>
+          <li>The market for Carr's work is short on history: this edition rests mostly on sales from spring {{CARR_THROUGH_YEAR}} on. Treat new issues with extra care; their prices move fastest.</li>
+        </ul>
+
+        <form class="finder g-finder" role="search" onsubmit="return false">
+          <label for="gq" class="visually-hidden">Find a piece</label>
+          <input id="gq" type="search" placeholder="1964-D, Peace, Lesher, privy…" autocomplete="off">
+          <p class="count"><span id="gshown">{{CARR_COUNT}}</span> of {{CARR_COUNT}} pieces &middot; estimates are our opinion, not a price promise</p>
+        </form>
+        <p class="no-match" id="gnone" hidden>No piece in the guide matches that. It may not have sold in the period we studied.</p>
+
+{{CARR_GUIDE}}
+
+        <h2 id="method">How we make these figures</h2>
+        <p>The formula was built from completed eBay sales of Carr's pieces, each matched to the maker's catalogue or over-strike list by matching rules that were then spot-checked against a random sample of sales. We studied those sales; none of them is reproduced here.</p>
+        <h3>What goes in</h3>
+        <ul>
+          <li><strong>Grade.</strong> A 70 slab brought about {{CARR_70}} more than a raw piece, and a slab of 69 or lower about {{CARR_69}} more.</li>
+          <li><strong>Metal.</strong> Silver pieces brought about {{CARR_SILVER}} times what base-metal pieces of the same kind did.</li>
+          <li><strong>Sets and lots.</strong> They are priced by how many coins they hold: a five-coin set brought about {{CARR_LOT5}} times a single piece of the same kind.</li>
+          <li><strong>How it sold.</strong> Auctions ran about {{CARR_AUCTION}} below fixed-price sales; the guide is priced at fixed price.</li>
+          <li><strong>The date of the sale.</strong> Carr prices eased about {{CARR_MONTH}} a month on average across the period, and every estimate is brought forward to today.</li>
+          <li><strong>The piece's own sales.</strong> Each is adjusted to the grade and date being priced, the middle of them is taken, and the result is blended with what similar pieces bring (the same issue or over-strike design, then the same catalogue section), so one odd result can't set the price on its own.</li>
+        </ul>
+        <h3>What we tested and left out</h3>
+        <p>The grading service, proof finish, the maker's issue price, whether a piece is an over-strike or a catalogue issue, and a separate price trend for each issue were all tried. Once grade, metal and the piece itself were known, none improved the predictions of sales the formula hadn't seen reliably enough to keep, so none is used.</p>
+        <h3>How well it works</h3>
+        <p>We predicted each month's sales using only the months before it. Half of those sales landed within {{CARR_MISS}} of our figure, and {{CARR_NEWEST_INSIDE}} of the most recent months' sales fell inside the range. In the latest months Carr prices came in about {{CARR_SOFT}} under what the earlier months suggested; this edition includes those sales, and the next one will show whether the softening holds.</p>
+        <h3>What isn't listed</h3>
+        <p>Pieces we could not identify with confidence from the sale descriptions, mixed lots, sizes sold together under one name, and pieces with no sales in the period we studied. A piece missing from the guide is not a sign that it is common or rare.</p>
+        <p class="muted">Edition of {{CARR_THROUGH}}, published {{CARR_GENERATED}}. Tokens and Medals is not affiliated with Daniel Carr, Moonlight Mint, any grading service or eBay.</p>
+      </article>
+    </section>

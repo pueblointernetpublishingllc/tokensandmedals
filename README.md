@@ -11,12 +11,16 @@ server: run `python3 build.py` locally and commit the output.
   not in `index.html`. Each entry has a `checked` date (last time the link was
   verified) and `tags` that drive the subject chips.
 - `data/references.json` – the catalog references the decoder knows.
+- `data/price-guide/scd.json`, `carr.json` – price-guide estimates and ranges. They are
+  produced outside this repo by the pricing formula and contain formula output only:
+  never an individual sale, price realized, date, lot or listing.
 - `content/*.html` – page bodies; the first line is a JSON comment with the
   page's path, title, description and breadcrumbs. `content/colorado/` holds
   the Colorado essays; sources are listed at the foot of each.
-- `build.py` – renders `index.html`, `colorado/`, `decoder/` and `sitemap.xml`.
+- `build.py` – renders `index.html`, `colorado/`, `decoder/`, `price-guide/` and `sitemap.xml`.
 - `search.js` – filters the pre-rendered library (works without it).
 - `decoder.js` – the lookup box on `/decoder/` (the table works without it).
+- `guide.js` – the finder box on the price-guide pages (the pages work without it).
 - `styles.css` – all styling.
 - `_headers` – security headers for Pages; the `*.pages.dev` hostname is noindexed.
 
@@ -24,5 +28,7 @@ Cloudflare Pages settings: framework preset **None**, build command empty,
 output directory `/`.
 
 Editorial rules: no marketplace or dealer wording, no sponsored or affiliate
-links, link to catalog data rather than reproducing it, and every fact on the
-Colorado pages carries a source.
+links, link to catalog data rather than reproducing it, every fact on the
+Colorado pages carries a source, never claim something about our own process
+that did not happen ("checked by hand", "when we last looked"), and the price
+guide publishes the formula's opinion only, under its disclaimer.

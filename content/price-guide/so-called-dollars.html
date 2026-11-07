@@ -1,0 +1,52 @@
+<!-- {"path": "/price-guide/so-called-dollars/", "title": "So-called dollar price guide", "description": "Estimated values for slabbed so-called dollars by HK number and grade, in PCGS and NGC holders, from Tokens and Medals' tested pricing formula. Our opinion of value, with a range for every grade.", "nav": "guide", "priority": "0.8", "scripts": ["/guide.js"], "breadcrumbs": [["Home", "/"], ["Price guide", "/price-guide/"], ["So-called dollars", null]]} -->
+    <section class="leaf">
+      <article class="paper guide">
+        <h1>So-called dollar price guide</h1>
+        <p class="lede">Estimated values for {{SCD_COUNT}} slabbed so-called dollars by Hibler-Kappen number and grade. Edition of {{SCD_THROUGH}}. <a href="#method">How we make these figures</a>.</p>
+
+        <div class="guide-warning" role="note">
+          <h2>Our opinion, not a promise</h2>
+          <p>These are Tokens and Medals' own estimates from a statistical formula. They are not appraisals, not offers to buy or sell, and not a prediction of what your piece will bring. Real prices at any venue can land well above or below them; about one sale in five lands outside the range shown. Do not rely on this guide alone to buy, sell, insure or value a piece for tax or estate purposes.</p>
+        </div>
+
+        <h2>How to read it</h2>
+        <ul>
+          <li>The <strong>bold figure</strong> is our estimate for the piece in that grade as it would sell today at a major numismatic auction. The smaller figures are the range we expect about four sales in five to land in.</li>
+          <li>PCGS and NGC holders are priced separately: in the sales we studied, NGC-slabbed pieces brought about {{SCD_NGC}} less than the same piece and grade in a PCGS holder.</li>
+          <li>Weekly online auctions ran about {{SCD_WEEKLY}} below the major floor auctions, and eBay about {{SCD_EBAY}} below. Take that much off the figures for those venues.</li>
+          <li>Each piece lists the grades it exists in, within three points of a grade it has sold in. Further from the evidence we would rather say nothing.</li>
+          <li>Prices include the metal. For gold and silver pieces, check the melt value too; if the metal is worth more than our figure, the metal wins.</li>
+        </ul>
+
+        <form class="finder g-finder" role="search" onsubmit="return false">
+          <label for="gq" class="visually-hidden">Find a piece</label>
+          <input id="gq" type="search" placeholder="HK number, event or metal…" autocomplete="off">
+          <p class="count"><span id="gshown">{{SCD_COUNT}}</span> of {{SCD_COUNT}} pieces &middot; estimates are our opinion, not a price promise</p>
+        </form>
+        <p class="no-match" id="gnone" hidden>No piece in the guide matches that. It may not have sold in the period we studied.</p>
+
+        <div class="g-list">
+{{SCD_GUIDE}}
+        </div>
+
+        <h2 id="method">How we make these figures</h2>
+        <p>The formula was built from public auction results of the major numismatic auction houses and from completed eBay sales of slabbed pieces. We studied those sales; none of them is reproduced here.</p>
+        <h3>What goes in</h3>
+        <ul>
+          <li><strong>Grade.</strong> Each grade point is worth about {{SCD_GRADE_PT}}.</li>
+          <li><strong>Metal.</strong> Silver pieces bring about {{SCD_SILVER}} times what the same kind of piece brings in copper or bronze, and gold about {{SCD_GOLD}} times. The metal comes from the Hibler-Kappen catalogue or the grading service's own label, never from a guess.</li>
+          <li><strong>Scarcity.</strong> How often the piece turned up for sale between 1970 and 2000. A piece seen twice as often brings about {{SCD_RARITY}} less.</li>
+          <li><strong>Age.</strong> When it was issued. Older issues bring more.</li>
+          <li><strong>The holder</strong> (PCGS or NGC), <strong>the venue</strong> and <strong>the season</strong>. The holder is included because PCGS and NGC pieces plainly sell differently, even though it added little to the test scores; the venue and the season earned their place in the tests. Spring and summer sales ran about {{SCD_SEASON}} below January-to-March ones; the guide averages over the year.</li>
+          <li><strong>The date of the sale.</strong> Prices have drifted up about {{SCD_YEAR}} a year. Every estimate is brought forward to today.</li>
+          <li><strong>The piece's own sales.</strong> Each past sale is adjusted to today's grade, holder and venue, recent sales count for more, and the result is blended with what similar pieces bring, so one odd result can't set the price on its own.</li>
+        </ul>
+        <h3>What we tested and left out</h3>
+        <p>Copper colour designations (BN, RB, RD), CAC stickers, plus grades, how many pieces have been slabbed, the number struck and diameter were all tried. None of them improved the predictions of sales the formula hadn't seen reliably enough to keep, so none is used. The guide does not price colour designations separately.</p>
+        <h3>How well it works</h3>
+        <p>We predicted every sale from 2016 on using only the sales that came before it. Half of those sales landed within {{SCD_MISS}} of our figure. For scale, even a perfect estimate would miss a typical single sale by about {{SCD_FLOOR}}: that is how much sales of the same piece in the same grade scatter around their typical price. The range caught {{SCD_INSIDE}} of the sales in that test, and {{SCD_NEWEST_INSIDE}} of the sales since {{SCD_NEWEST_SINCE}}.</p>
+        <h3>What isn't listed</h3>
+        <p>Pieces with no sales we could study (the formula alone is too uncertain for those), restrikes, and grades below AU55. A piece missing from the guide is not a sign that it is common or rare.</p>
+        <p class="muted">Edition of {{SCD_THROUGH}}, published {{SCD_GENERATED}}. Tokens and Medals is not affiliated with PCGS, NGC, any auction house or eBay. Hibler-Kappen (HK) numbers are from <em>So-Called Dollars</em> by Harold E. Hibler and Charles V. Kappen; see the <a href="/decoder/">decoder</a>.</p>
+      </article>
+    </section>

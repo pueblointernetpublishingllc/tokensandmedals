@@ -450,3 +450,100 @@ h2 {
 .table-wrap .reftable { min-width: 48rem; }
 .shelf > *, .entries li, .entries li > * { min-width: 0; }
 .domain { overflow-wrap: anywhere; }
+
+/* ---------------------------------------------------------------- price guide */
+.guide-warning {
+  border: 2px solid var(--bronze); border-left-width: 8px; background: rgba(168, 111, 58, 0.10);
+  padding: 1rem 1.25rem; margin: 0 0 1.75rem; max-width: 74ch;
+}
+.paper .guide-warning h2 {
+  margin: 0 0 0.5rem; padding: 0; border: 0; font-size: clamp(1.35rem, 2.4vw, 1.6rem); color: var(--ink);
+}
+.guide-warning p { margin: 0 0 0.6rem; }
+.guide-warning p:last-child { margin-bottom: 0; }
+.g-finder {
+  position: sticky; top: 0; z-index: 2; background: var(--card);
+  padding: 0.75rem 0 0.25rem; margin: 1.5rem 0 0.5rem; border-bottom: 1px solid var(--card-edge);
+}
+.g-finder .count { margin: 0.4rem 0 0.25rem; color: var(--ink-soft); }
+.g-piece { border-top: 1px solid var(--card-edge); padding: 0.9rem 0 0.1rem; }
+.paper .g-piece h3 {
+  font-family: var(--text); font-weight: 500; font-size: 1.05rem; color: var(--ink); margin: 0 0 0.35rem; max-width: none;
+}
+.g-piece .hk { font-family: var(--display); font-weight: 600; font-size: 1.35rem; color: var(--bronze); margin-right: 0.3rem; }
+.paper .g-group h3 { margin-top: 1.25rem; }
+.paper .g-part > h2 { margin-top: 2.5rem; }
+.table-wrap table.gtable { min-width: 0; width: auto; margin: 0.25rem 0 0.75rem; font-size: 0.97rem; }
+.table-wrap table.gtable.carr { width: 100%; min-width: 34rem; }
+.gtable th, .gtable td { padding: 0.35rem 1.1rem 0.35rem 0; white-space: nowrap; }
+.gtable.carr th[scope="row"] { white-space: normal; font-family: var(--text); font-weight: 500; font-size: 0.97rem; min-width: 12rem; }
+.gtable tbody th[scope="row"] { font-family: var(--text); font-weight: 600; font-size: 0.97rem; }
+.gtable .est { font-weight: 700; margin-right: 0.45rem; }
+.gtable .rng { color: var(--ink-soft); font-size: 0.88em; }
+.gtable td.na { color: var(--ink-soft); }
+.gtable code { font-size: 0.85em; }
+[data-g][hidden], [data-gg][hidden], [data-gp][hidden] { display: none; }
+@media (max-width: 760px) {
+  .gtable th, .gtable td { padding-right: 0.7rem; }
+  .gtable .rng { display: block; }
+  /* Carr rows stack on phones: piece name, then one line per grade */
+  .table-wrap table.gtable.carr { min-width: 0; }
+  .gtable.carr thead { display: none; }
+  .gtable.carr tr { display: block; padding: 0.55rem 0; border-bottom: 1px solid var(--card-edge); }
+  .gtable.carr th[scope="row"], .gtable.carr td { display: block; border: 0; padding: 0.1rem 0; white-space: normal; min-width: 0; }
+  .gtable.carr td::before { content: attr(data-label); display: inline-block; min-width: 6.5rem; color: var(--ink-soft); font-size: 0.9em; }
+  .gtable.carr td.na { display: none; }
+  .gtable.carr .rng { display: inline; }
+}
+@media print {
+  .g-finder { display: none; }
+}
+
+/* ---------------------------------------------------------------- layout fixes (2026-11-07) */
+/* Reading pages: a sheet sized to its text, so paragraphs and tables share one column
+   instead of a narrow strip of text beside full-width tables. The decoder keeps the wide sheet. */
+.leaf, .crumbs { max-width: 900px; }
+.leaf.wide { max-width: 1100px; }
+body:has(.leaf.wide) .crumbs { max-width: 1100px; }
+.paper p, .paper li, .paper .lede { max-width: 72ch; }
+.paper .guide-warning { max-width: none; }
+.paper .aside { max-width: none; }
+
+/* Decoder table: give the text columns the room, not the abbreviations */
+@media (min-width: 761px) {
+  .reftable { table-layout: fixed; }
+  .reftable thead th:nth-child(1) { width: 14%; }
+  .reftable thead th:nth-child(2) { width: 26%; }
+  .reftable thead th:nth-child(3) { width: 29%; }
+  .reftable thead th:nth-child(4) { width: 14%; }
+  .reftable thead th:nth-child(5) { width: 17%; }
+  .reftable th[scope="row"] { white-space: normal; }
+  .table-wrap .reftable { min-width: 0; }
+}
+
+/* Library: the shelf title travels with its entries instead of sitting above empty space */
+@media (min-width: 761px) {
+  .shelf-head { position: sticky; top: 1.25rem; align-self: start; }
+}
+.entries .note { font-style: normal; font-size: 0.9rem; }
+
+/* Home: price-guide button under the hero text */
+.hero-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.5rem; margin-top: 1.4rem; }
+.hero-cta .button {
+  display: inline-block; background: var(--bronze); color: var(--card); text-decoration: none;
+  font-weight: 500; padding: 0.7rem 1.3rem; border: 1px solid var(--bronze);
+}
+.hero-cta .button:hover { background: var(--bronze-light); border-color: var(--bronze-light); }
+.hero-cta .quiet { color: var(--silver); text-underline-offset: 3px; }
+.hero-cta .quiet:hover { color: var(--card); }
+.teaser .sep { color: var(--silver-dim); margin: 0 0.4rem; }
+
+/* Price-guide tables: the same columns line up from one piece to the next */
+@media (min-width: 761px) {
+  .table-wrap table.gtable.scd { table-layout: fixed; width: 30rem; }
+  .gtable.scd thead th:nth-child(1) { width: 5.5rem; }
+  .table-wrap table.gtable.carr { table-layout: fixed; width: 100%; min-width: 0; }
+  .gtable.carr thead th:nth-child(1) { width: 37%; }
+  .gtable.carr thead th:nth-child(n+2) { width: 21%; }
+  .gtable.carr th[scope="row"] { min-width: 0; }
+}
