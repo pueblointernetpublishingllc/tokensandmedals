@@ -639,3 +639,5 @@ h1, h2, h3 { text-wrap: balance; }
 .gtable.carr tr.formula .est { color: var(--formula); }
 .gtable.carr tr.formula th[scope="row"] { padding-left: 0.4rem; }
 .gtable.carr .basis-tag { font-size: 0.72rem; padding: 0 0.4rem; }
+.paper .metal-live { margin: 0.5rem 0 0; font-size: 0.92rem; color: var(--ink-soft); max-width: none; }
+.metal-live.live strong { color: var(--ink); }

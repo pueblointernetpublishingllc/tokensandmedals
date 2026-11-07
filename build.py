@@ -285,14 +285,19 @@ def render_carr(doc):
             trs = []
             for label, L in rows:
                 by = {g["grade"]: g for g in L["grades"]}
-                cells = "".join(
-                    f'<td data-label="{esc(h)}">{est_cell(by[k]["estimate"], by[k]["low"], by[k]["high"])}</td>' if k in by
-                    else f'<td class="na" data-label="{esc(h)}">&mdash;</td>'
-                    for k, h in CARR_GRADES)
+                def td(k, h):
+                    if k not in by:
+                        return f'<td class="na" data-label="{esc(h)}">&mdash;</td>'
+                    g = by[k]
+                    dp = (f' data-p="{g["p"][0]},{g["p"][1]},{g["p"][2]}"' if g.get("p")           # metal + premium (live)
+                          else f' data-f="{g["f"][0]},{g["f"][1]},{g["f"][2]}"' if g.get("f") else "")  # floored at live melt
+                    return f'<td data-label="{esc(h)}"{dp}>{est_cell(g["estimate"], g["low"], g["high"])}</td>'
+                cells = "".join(td(k, h) for k, h in CARR_GRADES)
+                metal = (f' data-ag="{L["oz_ag"]}"' if L.get("oz_ag") else "") + (f' data-au="{L["oz_au"]}"' if L.get("oz_au") else "")
                 formula = L.get("basis") == "formula"
                 keys = f"{head} {L['group']} {L['item']}".lower() + (" formula only" if formula else "")
                 tag = ' <span class="basis-tag">formula only</span>' if formula else ""
-                trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}" data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
+                trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}"{metal} data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
             heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
             h3 = f"<h3>{esc(head)}</h3>" if head else ""
             blocks.append(f"""          <div class="g-group" data-gg>
@@ -358,8 +363,9 @@ def guide_placeholders():
         "{{CARR_SILVER}}": f"{cf['silver']:.1f}",
         "{{CARR_SOFT}}": pct(1 - cf["newest_actual_over_estimate"]),
         "{{CARR_SILVER_SPOT}}": f"${cf['silver_spot']:.2f}",
-        "{{CARR_SPOT_NOTE}}": (f"the Chainlink price on {cf['spot_date']}, when this edition was built" if cf["spot_source"].startswith("Chainlink")
-                               else f"the monthly average for {month_name(cf['spot_date'])}"),
+        "{{CARR_GOLD_SPOT}}": f"${cf.get('gold_spot', 0):,.2f}",
+        "{{CARR_METAL_PIECES}}": str(sum(1 for L in carr["lines"] if L.get("oz_ag") or L.get("oz_au"))),
+        "{{CARR_SPOT_DATE}}": cf["spot_date"],
         "{{CARR_LOT5}}": f"{cf['lot5']:.1f}",
         "{{CARR_AUCTION}}": pct(1 - cf["auction"]),
     }
