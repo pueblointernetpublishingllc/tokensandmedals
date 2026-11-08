@@ -21,6 +21,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pieces   # per-piece SEO pages (2026-11-08)
+
 # stylesheet version from its content: browsers may keep /styles.css for hours (Cloudflare max-age), so a
 # changed stylesheet gets a new URL and loads at once
 CSS_V = hashlib.sha256(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "styles.css"), "rb").read()).hexdigest()[:10]
@@ -259,7 +262,7 @@ def render_scd(doc):
             oz, m_ = (p["oz_au"], "gold") if p.get("oz_au") else (p["oz_ag"], "silver")
             tag += f' <span class="basis-tag">metal: {oz:.3f} oz fine {m_} ({esc(p.get("metal_src", ""))}); figures never below it</span>'
         out.append(f"""        <div class="g-piece{' formula' if formula else ''}" id="{anchor}" data-g data-basis="{'formula' if formula else 'sales'}" data-k="{esc(keys.lower())}">
-          <h3><span class="hk">HK-{esc(p["hk"])}</span> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}{tag}</h3>
+          <h3><a class="hk" href="{pieces.scd_url(p["hk"])}">HK-{esc(p["hk"])}</a> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}{tag}</h3>
           <div class="table-wrap"><table class="gtable scd">
             <thead><tr><th scope="col">Grade</th><th scope="col">PCGS slab</th><th scope="col">NGC slab</th></tr></thead>
             <tbody>{rows}</tbody>
@@ -331,7 +334,8 @@ def carr_tag(L):
     return f"formula only &middot; {many}: no sales in our records" + tail
 
 
-def render_carr(doc):
+def render_carr(doc, urls=None):
+    urls = urls or {}
     out = []
     for part, title, note in CARR_PARTS:
         lines = [L for L in doc["lines"] if L["part"] == part]
@@ -352,15 +356,19 @@ def render_carr(doc):
                     nums = [h + (f' <a class="g-store" href="{esc(st[n])}" rel="noopener" '
                                  f'aria-label="{esc(n)} on the maker\'s store">store</a>' if st.get(n) else "")
                             for n, h in pairs]
-                    label = f"{esc(issue)} &middot; " + ", ".join(nums)
+                    u = urls.get((part, L["group"]))
+                    label = (f'<a href="{u}">{esc(issue)}</a>' if u else esc(issue)) + " &middot; " + ", ".join(nums)
                 else:
                     url = links[0][1] if links else None
-                    label = linked(issue, url) + ' <span class="muted">(number not stated)</span>'
+                    u = urls.get((part, L["group"]))
+                    label = ((f'<a href="{u}">{esc(issue)}</a>' if u else linked(issue, url)) + ' <span class="muted">(number not stated)</span>'
+                             + (f' <a class="g-store" href="{esc(url)}" rel="noopener" aria-label="{esc(issue)} in the maker\'s catalogue">maker</a>' if u and url else ""))
             elif part == "Over-strikes":
                 head = L["group"]      # each fantasy date links to the maker's write-up
                 label = ", ".join(linked(lab, url) for lab, url in links) if links else esc(L["item"])
             else:
-                head, label = "", esc(L["group"])
+                u = urls.get((part, L["group"]))
+                head, label = "", (f'<a href="{u}">{esc(L["group"])}</a>' if u else esc(L["group"]))
             groups.setdefault(head, []).append((label, L))
         blocks = []
         for head, rows in groups.items():
@@ -389,7 +397,8 @@ def render_carr(doc):
             heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
             src = doc.get("section_links", {}).get(head if part == "Catalogue" else ("Over-strikes" if part == "Over-strikes" else ""), {})
             srcs = " &middot; ".join(f'<a href="{esc(src[k])}" rel="noopener">{lab}</a>' for k, lab in (("catalogue", "maker's catalogue"), ("store", "maker's store")) if src.get(k))
-            h3 = (f"<h3>{esc(head)}</h3>" if head else "") + (f'\n            <p class="g-src">{srcs}</p>' if srcs and part == "Catalogue" else "")
+            hu = urls.get((part, rows[0][1]["group"])) if part == "Over-strikes" else None
+            h3 = ((f'<h3><a href="{hu}">{esc(head)}</a></h3>' if hu else f"<h3>{esc(head)}</h3>") if head else "") + (f'\n            <p class="g-src">{srcs}</p>' if srcs and part == "Catalogue" else "")
             blocks.append(f"""          <div class="g-group" data-gg>
             {h3}
             <div class="table-wrap"><table class="gtable carr">
@@ -415,6 +424,7 @@ def guide_placeholders():
     ca = carr["accuracy"]
     return {
         "{{SCD_GUIDE}}": render_scd(scd),
+        "{{CARR_GUIDE}}": render_carr(carr, pieces.carr_urls(carr)),
         "{{SCD_COUNT}}": str(len(scd["pieces"])),
         "{{SCD_METAL_PIECES}}": plural(sf.get("metal_pieces", 0), "piece"),
         "{{SCD_GOLD_SPOT}}": f"${sf.get('gold_spot', 0):,.2f}",
@@ -434,7 +444,6 @@ def guide_placeholders():
         "{{SCD_FLOOR}}": pct(scd["accuracy"]["floor"]),
         "{{SCD_WEEKLY}}": pct(1 - scd["venue_factors"]["weekly online auction"]),
         "{{SCD_EBAY}}": pct(1 - scd["venue_factors"]["eBay"]),
-        "{{CARR_GUIDE}}": render_carr(carr),
         "{{CARR_COUNT}}": str(sum(L.get("n", 1) for L in carr["lines"])),
         "{{CARR_LINES}}": str(len(carr["lines"])),
         "{{CARR_SALES_COUNT}}": str(sum(L.get("n", 1) for L in carr["lines"] if L.get("basis") != "formula")),
@@ -526,6 +535,17 @@ def main():
         target = "index.html" if meta["path"] == "/" else meta["path"].strip("/") + "/index.html"
         write(target, out)
         pages.append((meta["path"], meta.get("updated", TODAY), meta.get("priority", "0.7")))
+
+    scd = json.loads(read("data/price-guide/scd.json"))
+    carr = json.loads(read("data/price-guide/carr.json"))
+    extra = (pieces.scd_pages(scd, render_scd, esc, placeholders, SITE)
+             + pieces.carr_pages(carr, render_carr, pieces.carr_urls(carr), esc, placeholders, SITE))
+    for pg in extra:
+        out = shell(path=pg["path"], title=pg["title"], description=pg["description"], body=pg["body"], nav="guide",
+                    scripts=pg["scripts"], breadcrumbs=pg["crumbs"], ld=pg["ld"])
+        write(pg["path"].strip("/") + "/index.html", out)
+        pages.append((pg["path"], TODAY, "0.6"))
+    print(f"piece pages: {len(extra)}")
 
     urls = "\n".join(
         f"  <url><loc>{SITE}{p}</loc><lastmod>{d}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>"
