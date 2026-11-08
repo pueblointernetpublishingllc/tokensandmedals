@@ -660,3 +660,7 @@ h1, h2, h3 { text-wrap: balance; }
 .piece-related { columns: 2 16rem; padding-left: 1.1rem; }
 .piece-related li { break-inside: avoid; margin-bottom: 0.25rem; }
 .piece-back { margin-top: 1.5rem; }
+
+/* Short questions and answers (price guide) */
+.qa dt { font-weight: 700; margin-top: 0.9rem; }
+.qa dd { margin: 0.2rem 0 0; }

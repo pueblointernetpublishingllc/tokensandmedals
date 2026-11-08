@@ -166,7 +166,7 @@ def carr_pages(carr, render_carr, urls, esc, ph, site):
                     f"{n} {'line' if n == 1 else 'lines'} below, with our estimated value raw and in slabs, from {lo} to {hi}{tail}.")
         elif part == "Catalogue":
             h1 = f"{esc(name)} &middot; Daniel Carr / Moonlight Mint"
-            title = f"{short(name, 52)}: Daniel Carr value"
+            title = f"{short(name, 50)}: Moonlight Mint value"
             lede = (f"{esc(name)}: a Moonlight Mint issue by Daniel Carr, in the {esc(section)} section of the maker's catalogue. "
                     f"{n} {'piece' if n == 1 else 'pieces'} below, with our estimated value raw and in slabs, from {lo} to {hi}{tail}.")
         else:
@@ -193,14 +193,14 @@ def carr_pages(carr, render_carr, urls, esc, ph, site):
                      f"More {esc(section) + ' issues' if section else esc(part_name.lower())}", related,
                      ("The full Daniel Carr / Moonlight Mint price guide", CARR_GUIDE))
         pages.append({"path": urls[(part, group)], "title": title, "description": desc, "body": body, "crumbs": crumbs,
-                      "ld": _breadcrumb_ld(crumbs, site), "scripts": scripts, "full": name})
+                      "ld": _breadcrumb_ld(crumbs, site), "scripts": scripts, "full": name, "suffix": title.rsplit(": ", 1)[-1]})
     seen = {}
     for pg in pages:                     # two names that shorten to the same title: keep more of each name
         seen.setdefault(pg["title"], []).append(pg)
     for same in seen.values():
         if len(same) > 1:
             for pg in same:
-                pg["title"] = f"{short(pg['full'], 100)}: Daniel Carr value"
+                pg["title"] = f"{short(pg['full'], 100)}: {pg['suffix']}"
     return pages
 
 

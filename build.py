@@ -464,6 +464,8 @@ def guide_placeholders():
         "{{SCD_SILVER}}": f"{sf['silver']:.1f}",
         "{{SCD_GOLD}}": f"{sf['gold']:.1f}",
         "{{SCD_RARITY}}": pct(1 - sf["double_appearances"]),
+        "{{CARR_MIN}}": money(min(g["estimate"] for L in carr["lines"] for g in L["grades"])),
+        "{{CARR_MAX}}": money(max(g["estimate"] for L in carr["lines"] for g in L["grades"])),
         "{{CARR_70}}": pct(cf["slab70"] - 1),
         "{{CARR_69}}": pct(cf["slab69"] - 1),
         "{{CARR_MONTH}}": f"{(1 - cf['month']) * 100:.1f}%",
@@ -502,6 +504,17 @@ def parse_content(raw):
     return meta, raw[m.end():]
 
 
+def fill_ld(ld, placeholders):
+    """Structured data in a page's front matter may use the same {{PLACEHOLDERS}} as its body."""
+    if not ld:
+        return ld
+    s = json.dumps(ld, ensure_ascii=False)
+    for k, v in placeholders.items():
+        if k in s:
+            s = s.replace(k, json.dumps(v, ensure_ascii=False)[1:-1])
+    return json.loads(s)
+
+
 def main():
     lib = json.loads(read("data/library.json"))
     refs = json.loads(read("data/references.json"))
@@ -530,7 +543,7 @@ def main():
         out = shell(
             path=meta["path"], title=meta["title"], description=meta["description"], body=body,
             nav=meta.get("nav", ""), scripts=scripts, og_title=meta.get("og_title"),
-            breadcrumbs=[tuple(b) for b in meta.get("breadcrumbs", [])] or None, ld=meta.get("ld"),
+            breadcrumbs=[tuple(b) for b in meta.get("breadcrumbs", [])] or None, ld=fill_ld(meta.get("ld"), placeholders),
         )
         target = "index.html" if meta["path"] == "/" else meta["path"].strip("/") + "/index.html"
         write(target, out)
