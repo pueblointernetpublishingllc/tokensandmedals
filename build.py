@@ -369,7 +369,7 @@ def render_carr(doc):
                 formula = L.get("basis") == "formula"
                 keys = f"{head} {L['group']} {L['item']}".lower() + (" formula only" if formula else "")
                 ipr = [g["ip"] for g in L["grades"] if g.get("ipr")]
-                ip_note = f"floor: the maker&rsquo;s issue price, {money(min(ipr))}" if ipr else ""
+                ip_note = f"floor: the maker&rsquo;s issue price, ${min(ipr):,.2f}".replace(".00", "") if ipr else ""
                 tag = (f' <span class="basis-tag">{carr_tag(L)}{" &middot; " + ip_note if ip_note else ""}</span>' if formula
                        else f' <span class="basis-tag">{ip_note}</span>' if ip_note else "")
                 trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}"{metal} data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
