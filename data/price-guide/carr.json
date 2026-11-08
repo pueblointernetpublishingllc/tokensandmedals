@@ -83,8 +83,8 @@
   "auction": 0.77,
   "silver_spot": 51.95,
   "gold_spot": 4070.58,
-  "platinum_spot": 1534.45,
-  "palladium_spot": 1022.75,
+  "platinum_spot": 1535.75,
+  "palladium_spot": 1022.15,
   "pgm_source": "Hyperliquid",
   "vars_used": [
    "metal",
