@@ -83,8 +83,8 @@
   "auction": 0.78,
   "silver_spot": 51.95,
   "gold_spot": 4070.58,
-  "platinum_spot": 1535.25,
-  "palladium_spot": 1022.15,
+  "platinum_spot": 1535.35,
+  "palladium_spot": 1022.45,
   "pgm_source": "Hyperliquid",
   "spot_date": "2026-11-07",
   "spot_source": "Chainlink",
@@ -94,6 +94,11 @@
   "formula_tested": 331,
   "formula_median_miss": 0.36,
   "formula_inside": 0.78,
+  "sib_tested_sales": 102,
+  "sib_tested_pieces": 71,
+  "sib_used": true,
+  "sib_median_miss": 0.19,
+  "sib_plain_miss": 0.24,
   "gold_tested_pieces": 4,
   "gold_tested_sales": 8,
   "gold_method": "melt + premium",
@@ -138,7 +143,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -168,7 +174,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -204,7 +211,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -240,7 +248,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -264,7 +273,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -322,7 +332,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -340,25 +351,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 180,
-     "low": 80,
-     "high": 400
+     "estimate": 150,
+     "low": 95,
+     "high": 260
     },
     {
      "grade": "69 or lower",
-     "estimate": 150,
-     "low": 70,
-     "high": 350
+     "estimate": 130,
+     "low": 80,
+     "high": 230
     },
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 330
+     "estimate": 120,
+     "low": 75,
+     "high": 210
     }
    ],
    "group_sales": 14,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -402,19 +414,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 150,
-     "low": 70,
-     "high": 350
+     "estimate": 130,
+     "low": 80,
+     "high": 230
     },
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 330
+     "estimate": 120,
+     "low": 75,
+     "high": 210
     }
    ],
    "group_sales": 14,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -466,13 +479,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 330
+     "estimate": 120,
+     "low": 75,
+     "high": 210
     }
    ],
    "group_sales": 14,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -502,7 +516,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -520,25 +535,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 190,
-     "low": 90,
-     "high": 450
+     "estimate": 180,
+     "low": 120,
+     "high": 320
     },
     {
      "grade": "69 or lower",
-     "estimate": 170,
-     "low": 80,
-     "high": 390
+     "estimate": 160,
+     "low": 100,
+     "high": 280
     },
     {
      "grade": "ungraded",
-     "estimate": 160,
-     "low": 70,
-     "high": 360
+     "estimate": 140,
+     "low": 95,
+     "high": 260
     }
    ],
    "group_sales": 1,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -578,19 +594,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 170,
-     "low": 80,
-     "high": 390
+     "estimate": 160,
+     "low": 100,
+     "high": 280
     },
     {
      "grade": "ungraded",
-     "estimate": 160,
-     "low": 70,
-     "high": 360
+     "estimate": 140,
+     "low": 95,
+     "high": 260
     }
    ],
    "group_sales": 1,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -640,7 +657,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -989,40 +1007,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 270,
-     "low": 130,
-     "high": 625,
+     "estimate": 250,
+     "low": 170,
+     "high": 460,
      "f": [
-      271.82,
-      125.43,
-      626.44
+      254.85,
+      165.74,
+      457.4
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 240,
-     "low": 110,
-     "high": 550,
+     "estimate": 220,
+     "low": 140,
+     "high": 400,
      "f": [
-      237.11,
-      109.41,
-      546.45
+      222.31,
+      144.58,
+      398.99
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 220,
-     "low": 100,
-     "high": 500,
+     "estimate": 210,
+     "low": 130,
+     "high": 370,
      "f": [
-      218.93,
-      101.02,
-      504.55
+      205.26,
+      133.49,
+      368.39
      ]
     }
    ],
    "group_sales": 16,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -1362,40 +1381,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 300,
-     "low": 140,
-     "high": 700,
+     "estimate": 340,
+     "low": 220,
+     "high": 600,
      "f": [
-      299.71,
-      138.29,
-      690.7
+      340.2,
+      221.25,
+      610.58
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 260,
-     "low": 120,
-     "high": 600,
+     "estimate": 300,
+     "low": 190,
+     "high": 525,
      "f": [
-      261.44,
-      120.64,
-      602.51
+      296.76,
+      193.0,
+      532.61
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 240,
-     "low": 110,
-     "high": 550,
+     "estimate": 270,
+     "low": 180,
+     "high": 490,
      "f": [
-      241.39,
-      111.38,
-      556.31
+      274.0,
+      178.2,
+      491.77
      ]
     }
    ],
    "group_sales": 44,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -1651,18 +1671,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 240,
-     "low": 110,
-     "high": 550,
+     "estimate": 270,
+     "low": 180,
+     "high": 490,
      "f": [
-      241.39,
-      111.38,
-      556.31
+      274.0,
+      178.2,
+      491.77
      ]
     }
    ],
    "group_sales": 44,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -1757,6 +1778,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2383,13 +2405,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 150,
-     "low": 70,
-     "high": 340
+     "estimate": 100,
+     "low": 65,
+     "high": 180
     }
    ],
    "group_sales": 3,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -2459,18 +2482,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 230,
+     "low": 150,
+     "high": 410,
      "f": [
-      199.17,
-      91.9,
-      459.0
+      226.19,
+      147.11,
+      405.96
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2571,6 +2595,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2625,18 +2650,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 80,
-     "high": 410,
+     "estimate": 160,
+     "low": 100,
+     "high": 280,
      "f": [
-      178.7,
-      82.46,
-      411.84
+      156.23,
+      101.61,
+      280.39
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2765,7 +2791,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -2816,29 +2843,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 140,
+     "low": 90,
+     "high": 250,
      "f": [
-      182.24,
-      84.09,
-      419.98
+      137.34,
+      89.32,
+      246.49
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 170,
+     "estimate": 130,
      "low": 80,
-     "high": 390,
+     "high": 230,
      "f": [
-      168.26,
-      77.64,
-      387.78
+      126.81,
+      82.47,
+      227.59
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.0723,
    "oz_au": 0
   },
@@ -2858,40 +2886,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 210,
-     "low": 95,
-     "high": 480,
+     "estimate": 160,
+     "low": 100,
+     "high": 280,
      "f": [
-      208.91,
-      96.4,
-      481.46
+      157.44,
+      102.39,
+      282.57
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 140,
+     "low": 90,
+     "high": 250,
      "f": [
-      182.24,
-      84.09,
-      419.98
+      137.34,
+      89.32,
+      246.49
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 170,
+     "estimate": 130,
      "low": 80,
-     "high": 390,
+     "high": 230,
      "f": [
-      168.26,
-      77.64,
-      387.78
+      126.81,
+      82.47,
+      227.59
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.0723,
    "oz_au": 0
   },
@@ -3173,6 +3202,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.9675
   },
@@ -3226,6 +3256,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.9675
   },
@@ -3278,40 +3309,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 210,
-     "low": 100,
-     "high": 490,
+     "estimate": 190,
+     "low": 120,
+     "high": 340,
      "f": [
-      214.68,
-      99.06,
-      494.75
+      188.45,
+      122.56,
+      338.23
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 190,
-     "low": 85,
-     "high": 430,
+     "estimate": 160,
+     "low": 110,
+     "high": 300,
      "f": [
-      187.27,
-      86.41,
-      431.58
+      164.39,
+      106.91,
+      295.04
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 170,
-     "low": 80,
-     "high": 400,
+     "estimate": 150,
+     "low": 100,
+     "high": 270,
      "f": [
-      172.91,
-      79.79,
-      398.48
+      151.78,
+      98.71,
+      272.41
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.1808,
    "oz_au": 0
   },
@@ -3360,25 +3392,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 360,
-     "low": 170,
-     "high": 825
+     "estimate": 440,
+     "low": 290,
+     "high": 800
     },
     {
      "grade": "69 or lower",
-     "estimate": 310,
-     "low": 140,
-     "high": 725
+     "estimate": 380,
+     "low": 250,
+     "high": 700
     },
     {
      "grade": "ungraded",
-     "estimate": 290,
-     "low": 130,
-     "high": 675
+     "estimate": 360,
+     "low": 230,
+     "high": 650
     }
    ],
    "group_sales": 2,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -3404,19 +3437,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 310,
-     "low": 140,
-     "high": 725
+     "estimate": 380,
+     "low": 250,
+     "high": 700
     },
     {
      "grade": "ungraded",
-     "estimate": 290,
-     "low": 130,
-     "high": 675
+     "estimate": 360,
+     "low": 230,
+     "high": 650
     }
    ],
    "group_sales": 2,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -3491,7 +3525,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -3531,25 +3566,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
-     "low": 45,
-     "high": 230
+     "estimate": 75,
+     "low": 50,
+     "high": 140
     },
     {
      "grade": "69 or lower",
-     "estimate": 85,
-     "low": 40,
-     "high": 200
+     "estimate": 65,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 35,
-     "high": 180
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 3,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -3611,13 +3647,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 300
+     "estimate": 140,
+     "low": 90,
+     "high": 250
     }
    ],
    "group_sales": 1,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -3683,25 +3720,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 300
+     "estimate": 120,
+     "low": 75,
+     "high": 210
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 50,
-     "high": 260
+     "estimate": 100,
+     "low": 65,
+     "high": 180
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 50,
-     "high": 240
+     "estimate": 95,
+     "low": 60,
+     "high": 170
     }
    ],
    "group_sales": 8,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -3873,6 +3911,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -3945,18 +3984,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 240,
-     "low": 110,
-     "high": 550,
+     "estimate": 230,
+     "low": 150,
+     "high": 410,
      "f": [
-      242.96,
-      112.11,
-      559.92
+      226.89,
+      147.56,
+      407.21
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -4080,18 +4120,19 @@
     {
      "grade": "69 or lower",
      "estimate": 240,
-     "low": 110,
-     "high": 550
+     "low": 150,
+     "high": 420
     },
     {
      "grade": "ungraded",
      "estimate": 220,
-     "low": 100,
-     "high": 500
+     "low": 140,
+     "high": 390
     }
    ],
    "group_sales": 7,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": true
   },
   {
    "part": "Over-strikes",
@@ -4165,7 +4206,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -4201,7 +4243,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -4288,40 +4331,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 110,
-     "high": 525,
+     "estimate": 190,
+     "low": 130,
+     "high": 350,
      "f": [
-      230.76,
-      106.48,
-      531.81
+      194.51,
+      126.51,
+      349.11
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 95,
-     "high": 460,
+     "estimate": 170,
+     "low": 110,
+     "high": 300,
      "f": [
-      201.3,
-      92.88,
-      463.91
+      169.68,
+      110.35,
+      304.53
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 190,
-     "low": 85,
-     "high": 430,
+     "estimate": 160,
+     "low": 100,
+     "high": 280,
      "f": [
-      185.86,
-      85.76,
-      428.33
+      156.67,
+      101.89,
+      281.18
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "design",
+   "sib": true,
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -4494,6 +4538,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0.6964,
    "oz_au": 0
   },
@@ -4547,6 +4592,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -4600,6 +4646,7 @@
    ],
    "group_sales": 0,
    "group_kind": "design",
+   "sib": false,
    "oz_ag": 0.7801,
    "oz_au": 0
   },
@@ -4625,7 +4672,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -4649,7 +4697,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -4685,7 +4734,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Over-strikes",
@@ -4709,7 +4759,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "design"
+   "group_kind": "design",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -4791,17 +4842,18 @@
     {
      "grade": "ungraded",
      "estimate": 100,
-     "low": 55,
-     "high": 240,
+     "low": 65,
+     "high": 180,
      "f": [
-      103.78,
-      47.89,
-      239.18
+      101.45,
+      65.98,
+      182.08
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -4852,7 +4904,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -4917,6 +4970,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -4974,6 +5028,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5043,19 +5098,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 45,
-     "low": 20,
-     "high": 110
+     "estimate": 40,
+     "low": 25,
+     "high": 70
     },
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 100
+     "estimate": 35,
+     "low": 25,
+     "high": 65
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -5077,25 +5133,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 55,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 80
     },
     {
      "grade": "69 or lower",
-     "estimate": 45,
-     "low": 20,
-     "high": 110
+     "estimate": 40,
+     "low": 25,
+     "high": 70
     },
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 100
+     "estimate": 35,
+     "low": 25,
+     "high": 65
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -5117,29 +5174,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 85,
-     "low": 40,
-     "high": 190,
+     "estimate": 70,
+     "low": 45,
+     "high": 120,
      "f": [
-      82.69,
-      38.16,
-      190.57
+      69.51,
+      45.21,
+      124.75
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 180,
+     "estimate": 65,
+     "low": 40,
+     "high": 120,
      "f": [
-      76.35,
-      35.23,
-      175.95
+      64.18,
+      41.74,
+      115.19
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -5163,40 +5221,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 95,
-     "low": 45,
-     "high": 220,
+     "estimate": 80,
+     "low": 50,
+     "high": 140,
      "f": [
-      94.79,
-      43.74,
-      218.46
+      79.68,
+      51.82,
+      143.01
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 85,
-     "low": 40,
-     "high": 190,
+     "estimate": 70,
+     "low": 45,
+     "high": 120,
      "f": [
-      82.69,
-      38.16,
-      190.57
+      69.51,
+      45.21,
+      124.75
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 180,
+     "estimate": 65,
+     "low": 40,
+     "high": 120,
      "f": [
-      76.35,
-      35.23,
-      175.95
+      64.18,
+      41.74,
+      115.19
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -5220,40 +5279,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 95,
+     "estimate": 80,
      "low": 55,
-     "high": 220,
+     "high": 140,
      "f": [
-      94.79,
-      43.74,
-      218.46
+      79.68,
+      51.82,
+      143.01
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 85,
+     "estimate": 70,
      "low": 55,
-     "high": 190,
+     "high": 120,
      "f": [
-      82.69,
-      38.16,
-      190.57
+      69.51,
+      45.21,
+      124.75
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
+     "estimate": 65,
      "low": 55,
-     "high": 180,
+     "high": 120,
      "f": [
-      76.35,
-      35.23,
-      175.95
+      64.18,
+      41.74,
+      115.19
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5300,6 +5360,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -5351,6 +5412,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -5400,39 +5462,40 @@
     {
      "grade": "70",
      "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "low": 85,
+     "high": 240,
      "f": [
-      131.41,
-      60.63,
-      302.84
+      132.46,
+      86.15,
+      237.74
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 120,
+     "low": 75,
+     "high": 210,
      "f": [
-      114.63,
-      52.89,
-      264.17
+      115.55,
+      75.15,
+      207.38
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 110,
-     "low": 55,
-     "high": 240,
+     "low": 70,
+     "high": 190,
      "f": [
-      105.84,
-      48.84,
-      243.91
+      106.69,
+      69.39,
+      191.48
      ]
     }
    ],
    "group_sales": 4,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5515,19 +5578,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 75
     },
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 110
+     "estimate": 40,
+     "low": 25,
+     "high": 70
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -5549,25 +5613,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 60,
-     "low": 25,
-     "high": 130
+     "estimate": 50,
+     "low": 30,
+     "high": 90
     },
     {
      "grade": "69 or lower",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 75
     },
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 110
+     "estimate": 40,
+     "low": 25,
+     "high": 70
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -5589,40 +5654,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
-     "low": 45,
-     "high": 240,
+     "estimate": 85,
+     "low": 55,
+     "high": 160,
      "f": [
-      102.63,
-      47.36,
-      236.53
+      87.49,
+      56.9,
+      157.03
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 90,
-     "low": 40,
-     "high": 210,
+     "estimate": 75,
+     "low": 50,
+     "high": 140,
      "f": [
-      89.53,
-      41.31,
-      206.33
+      76.32,
+      49.64,
+      136.98
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
-     "low": 40,
-     "high": 190,
+     "estimate": 70,
+     "low": 45,
+     "high": 130,
      "f": [
-      82.66,
-      38.14,
-      190.51
+      70.47,
+      45.83,
+      126.47
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -5646,40 +5712,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
-     "low": 45,
-     "high": 240,
+     "estimate": 85,
+     "low": 55,
+     "high": 160,
      "f": [
-      102.63,
-      47.36,
-      236.53
+      87.49,
+      56.9,
+      157.03
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 90,
-     "low": 40,
-     "high": 210,
+     "estimate": 75,
+     "low": 50,
+     "high": 140,
      "f": [
-      89.53,
-      41.31,
-      206.33
+      76.32,
+      49.64,
+      136.98
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
-     "low": 40,
-     "high": 190,
+     "estimate": 70,
+     "low": 45,
+     "high": 130,
      "f": [
-      82.66,
-      38.14,
-      190.51
+      70.47,
+      45.83,
+      126.47
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -5737,6 +5804,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -5760,40 +5828,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
+     "estimate": 85,
      "low": 55,
-     "high": 240,
+     "high": 160,
      "f": [
-      102.63,
-      47.36,
-      236.53
+      87.49,
+      56.9,
+      157.03
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 90,
+     "estimate": 75,
      "low": 55,
-     "high": 210,
+     "high": 140,
      "f": [
-      89.53,
-      41.31,
-      206.33
+      76.32,
+      49.64,
+      136.98
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
+     "estimate": 70,
      "low": 55,
-     "high": 190,
+     "high": 130,
      "f": [
-      82.66,
-      38.14,
-      190.51
+      70.47,
+      45.83,
+      126.47
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5840,6 +5909,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -5886,6 +5956,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -5944,6 +6015,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6042,19 +6114,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 55,
-     "low": 25,
-     "high": 130
+     "estimate": 50,
+     "low": 35,
+     "high": 90
     },
     {
      "grade": "ungraded",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 85
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -6076,25 +6149,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 100
     },
     {
      "grade": "69 or lower",
-     "estimate": 55,
-     "low": 25,
-     "high": 130
+     "estimate": 50,
+     "low": 35,
+     "high": 90
     },
     {
      "grade": "ungraded",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 85
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -6116,29 +6190,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 45,
-     "high": 230,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      98.58,
-      45.49,
-      227.18
+      90.86,
+      59.09,
+      163.07
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 40,
-     "high": 210,
+     "estimate": 85,
+     "low": 55,
+     "high": 150,
      "f": [
-      91.02,
-      42.0,
-      209.76
+      83.89,
+      54.56,
+      150.57
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -6162,29 +6237,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 45,
-     "high": 230,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      98.58,
-      45.49,
-      227.18
+      90.86,
+      59.09,
+      163.07
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 40,
-     "high": 210,
+     "estimate": 85,
+     "low": 55,
+     "high": 150,
      "f": [
-      91.02,
-      42.0,
-      209.76
+      83.89,
+      54.56,
+      150.57
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -6208,40 +6284,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 100,
+     "low": 70,
+     "high": 190,
      "f": [
-      113.01,
-      52.15,
-      260.44
+      104.16,
+      67.74,
+      186.94
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 55,
-     "high": 230,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      98.58,
-      45.49,
-      227.18
+      90.86,
+      59.09,
+      163.07
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
+     "estimate": 85,
      "low": 55,
-     "high": 210,
+     "high": 150,
      "f": [
-      91.02,
-      42.0,
-      209.76
+      83.89,
+      54.56,
+      150.57
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6299,6 +6376,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -6346,6 +6424,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.25
   },
@@ -6404,6 +6483,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -6450,6 +6530,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -6491,7 +6572,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -6543,6 +6625,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.97,
    "oz_au": 0
   },
@@ -6596,6 +6679,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6627,6 +6711,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6663,6 +6748,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6737,29 +6823,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 95,
-     "low": 45,
-     "high": 210,
+     "estimate": 85,
+     "low": 55,
+     "high": 150,
      "f": [
-      93.22,
-      43.01,
-      214.83
+      84.3,
+      54.83,
+      151.3
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
-     "low": 40,
-     "high": 200,
+     "estimate": 80,
+     "low": 50,
+     "high": 140,
      "f": [
-      86.07,
-      39.72,
-      198.36
+      77.84,
+      50.62,
+      139.7
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -6796,25 +6883,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     },
     {
      "grade": "69 or lower",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 85
     },
     {
      "grade": "ungraded",
-     "estimate": 50,
-     "low": 20,
-     "high": 110
+     "estimate": 45,
+     "low": 30,
+     "high": 80
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -6837,40 +6925,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 50,
-     "high": 250,
+     "estimate": 95,
+     "low": 65,
+     "high": 170,
      "f": [
-      106.86,
-      49.31,
-      246.28
+      96.64,
+      62.85,
+      173.45
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 95,
-     "low": 45,
-     "high": 210,
+     "estimate": 85,
+     "low": 55,
+     "high": 150,
      "f": [
-      93.22,
-      43.01,
-      214.83
+      84.3,
+      54.83,
+      151.3
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
-     "low": 40,
-     "high": 200,
+     "estimate": 80,
+     "low": 50,
+     "high": 140,
      "f": [
-      86.07,
-      39.72,
-      198.36
+      77.84,
+      50.62,
+      139.7
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -6906,40 +6995,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 95,
+     "low": 65,
+     "high": 170,
      "f": [
-      106.86,
-      49.31,
-      246.28
+      96.64,
+      62.85,
+      173.45
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 95,
+     "estimate": 85,
      "low": 55,
-     "high": 210,
+     "high": 150,
      "f": [
-      93.22,
-      43.01,
-      214.83
+      84.3,
+      54.83,
+      151.3
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
+     "estimate": 80,
      "low": 55,
-     "high": 200,
+     "high": 140,
      "f": [
-      86.07,
-      39.72,
-      198.36
+      77.84,
+      50.62,
+      139.7
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6966,27 +7056,28 @@
      "grade": "69 or lower",
      "estimate": 110,
      "low": 110,
-     "high": 170,
+     "high": 120,
      "f": [
-      74.15,
-      34.22,
-      170.89
+      67.06,
+      43.61,
+      120.35
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 110,
      "low": 110,
-     "high": 160,
+     "high": 110,
      "f": [
-      68.46,
-      31.59,
-      157.78
+      61.92,
+      40.27,
+      111.13
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_pd": 0.1
   },
   {
@@ -7044,6 +7135,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -7091,6 +7183,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -7136,40 +7229,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "estimate": 140,
+     "low": 95,
+     "high": 260,
      "f": [
-      133.51,
-      61.61,
-      307.69
+      142.35,
+      92.58,
+      255.49
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "low": 80,
+     "high": 220,
      "f": [
-      116.46,
-      53.74,
-      268.4
+      124.18,
+      80.76,
+      222.87
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "low": 75,
+     "high": 210,
      "f": [
-      107.53,
-      49.62,
-      247.82
+      114.65,
+      74.57,
+      205.78
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7219,13 +7313,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -7276,40 +7371,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 65,
-     "high": 310,
+     "estimate": 120,
+     "low": 80,
+     "high": 220,
      "f": [
-      135.76,
-      62.64,
-      312.88
+      123.76,
+      80.49,
+      222.12
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 110,
+     "low": 70,
+     "high": 190,
      "f": [
-      118.43,
-      54.65,
-      272.92
+      107.96,
+      70.21,
+      193.76
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 50,
-     "high": 250,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      109.34,
-      50.46,
-      252.0
+      99.68,
+      64.83,
+      178.9
      ]
     }
    ],
    "group_sales": 7,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -7334,40 +7430,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 65,
-     "high": 310,
+     "estimate": 120,
+     "low": 80,
+     "high": 220,
      "f": [
-      135.76,
-      62.64,
-      312.88
+      123.76,
+      80.49,
+      222.12
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 110,
+     "low": 70,
+     "high": 190,
      "f": [
-      118.43,
-      54.65,
-      272.92
+      107.96,
+      70.21,
+      193.76
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 50,
-     "high": 250,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      109.34,
-      50.46,
-      252.0
+      99.68,
+      64.83,
+      178.9
      ]
     }
    ],
    "group_sales": 7,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -7407,40 +7504,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 65,
-     "high": 310,
+     "estimate": 120,
+     "low": 80,
+     "high": 220,
      "f": [
-      135.76,
-      62.64,
-      312.88
+      123.76,
+      80.49,
+      222.12
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 110,
+     "low": 70,
+     "high": 190,
      "f": [
-      118.43,
-      54.65,
-      272.92
+      107.96,
+      70.21,
+      193.76
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      109.34,
-      50.46,
-      252.0
+      99.68,
+      64.83,
+      178.9
      ]
     }
    ],
    "group_sales": 7,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7477,25 +7575,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 35,
-     "high": 180
+     "estimate": 70,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     }
    ],
    "group_sales": 7,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -7518,19 +7617,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     }
    ],
    "group_sales": 7,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -7576,6 +7676,7 @@
    ],
    "group_sales": 7,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -7686,6 +7787,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -7722,6 +7824,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -7757,6 +7860,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7793,6 +7897,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.25
   },
@@ -7839,7 +7944,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -7869,6 +7975,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -7905,6 +8012,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -7940,6 +8048,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 2.0,
    "oz_au": 0
   },
@@ -7976,6 +8085,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 4.0,
    "oz_au": 0
   },
@@ -8012,7 +8122,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -8061,7 +8172,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -8118,6 +8230,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -8171,6 +8284,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8224,6 +8338,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8244,24 +8359,25 @@
     {
      "grade": "70",
      "estimate": 60,
-     "low": 30,
-     "high": 140
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "69 or lower",
-     "estimate": 55,
-     "low": 25,
-     "high": 130
+     "estimate": 50,
+     "low": 35,
+     "high": 95
     },
     {
      "grade": "ungraded",
      "estimate": 50,
-     "low": 25,
-     "high": 120
+     "low": 30,
+     "high": 85
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -8343,7 +8459,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -8395,6 +8512,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8448,6 +8566,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8501,19 +8620,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     },
     {
      "grade": "ungraded",
-     "estimate": 55,
-     "low": 25,
-     "high": 130
+     "estimate": 50,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -8580,40 +8700,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      115.13,
-      53.13,
-      265.33
+      100.06,
+      65.08,
+      179.59
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 100,
+     "estimate": 85,
      "low": 55,
-     "high": 230,
+     "high": 160,
      "f": [
-      100.43,
-      46.34,
-      231.45
+      87.29,
+      56.77,
+      156.66
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 95,
+     "estimate": 80,
      "low": 55,
-     "high": 210,
+     "high": 140,
      "f": [
-      92.73,
-      42.79,
-      213.7
+      80.59,
+      52.42,
+      144.65
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8667,6 +8788,7 @@
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8767,6 +8889,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8809,7 +8932,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -8866,6 +8990,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8908,6 +9033,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8950,7 +9076,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9007,6 +9134,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9062,24 +9190,25 @@
     {
      "grade": "70",
      "estimate": 90,
-     "low": 40,
-     "high": 200
+     "low": 60,
+     "high": 160
     },
     {
      "grade": "69 or lower",
-     "estimate": 75,
-     "low": 35,
-     "high": 180
+     "estimate": 80,
+     "low": 50,
+     "high": 140
     },
     {
      "grade": "ungraded",
-     "estimate": 70,
-     "low": 35,
-     "high": 160
+     "estimate": 75,
+     "low": 50,
+     "high": 130
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -9111,39 +9240,40 @@
     {
      "grade": "70",
      "estimate": 160,
-     "low": 70,
-     "high": 360,
+     "low": 110,
+     "high": 290,
      "f": [
-      156.39,
-      72.16,
-      360.42
+      161.8,
+      105.23,
+      290.39
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 65,
-     "high": 310,
+     "low": 90,
+     "high": 250,
      "f": [
-      136.42,
-      62.95,
-      314.4
+      141.14,
+      91.79,
+      253.31
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 130,
-     "low": 60,
-     "high": 290,
+     "low": 85,
+     "high": 230,
      "f": [
-      125.96,
-      58.12,
-      290.29
+      130.32,
+      84.75,
+      233.89
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9183,7 +9313,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9228,6 +9359,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -9259,7 +9391,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9300,6 +9433,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -9367,25 +9501,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 55,
+     "estimate": 35,
      "low": 25,
-     "high": 130
+     "high": 65
     },
     {
      "grade": "69 or lower",
-     "estimate": 50,
+     "estimate": 30,
      "low": 20,
-     "high": 110
+     "high": 55
     },
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 100
+     "estimate": 30,
+     "low": 19,
+     "high": 50
     }
    ],
    "group_sales": 7,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -9437,6 +9572,7 @@
    ],
    "group_sales": 7,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -9464,40 +9600,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
+     "estimate": 65,
      "low": 55,
-     "high": 220,
+     "high": 110,
      "f": [
-      97.57,
-      45.02,
-      224.87
+      63.82,
+      41.51,
+      114.55
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 85,
+     "estimate": 55,
      "low": 55,
-     "high": 200,
+     "high": 100,
      "f": [
-      85.11,
-      39.27,
-      196.15
+      55.67,
+      36.21,
+      99.92
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 80,
+     "estimate": 55,
      "low": 55,
-     "high": 180,
+     "high": 90,
      "f": [
-      78.59,
-      36.26,
-      181.11
+      51.4,
+      33.43,
+      92.26
      ]
     }
    ],
    "group_sales": 7,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9546,13 +9683,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 50,
+     "estimate": 40,
      "low": 25,
-     "high": 110
+     "high": 70
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -9576,7 +9714,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9610,6 +9749,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9663,7 +9803,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9719,6 +9860,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9776,13 +9918,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 35,
-     "high": 190
+     "estimate": 90,
+     "low": 60,
+     "high": 160
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -9804,18 +9947,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 330,
+     "estimate": 160,
+     "low": 100,
+     "high": 290,
      "f": [
-      143.71,
-      66.31,
-      331.19
+      161.4,
+      104.97,
+      289.68
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9859,7 +10003,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9904,6 +10049,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9939,7 +10085,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -9971,7 +10118,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10007,7 +10155,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10045,6 +10194,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10070,7 +10220,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10100,6 +10251,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10125,7 +10277,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10161,7 +10314,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10199,6 +10353,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10236,7 +10391,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10254,40 +10410,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 290,
+     "estimate": 110,
+     "low": 70,
+     "high": 190,
      "f": [
-      125.22,
-      57.78,
-      288.58
+      105.25,
+      68.45,
+      188.91
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      109.23,
-      50.4,
-      251.74
+      91.81,
+      59.71,
+      164.78
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 100,
+     "estimate": 85,
      "low": 55,
-     "high": 230,
+     "high": 150,
      "f": [
-      100.86,
-      46.54,
-      232.43
+      84.77,
+      55.13,
+      152.15
      ]
     }
    ],
    "group_sales": 6,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10377,7 +10534,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10415,6 +10573,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10476,25 +10635,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 65,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 100
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 25,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -10550,6 +10710,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -10569,25 +10730,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
-     "low": 50,
-     "high": 240
+     "estimate": 95,
+     "low": 60,
+     "high": 170
     },
     {
      "grade": "69 or lower",
-     "estimate": 90,
-     "low": 40,
-     "high": 210
+     "estimate": 85,
+     "low": 55,
+     "high": 150
     },
     {
      "grade": "ungraded",
-     "estimate": 85,
-     "low": 40,
-     "high": 190
+     "estimate": 75,
+     "low": 50,
+     "high": 140
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -10609,40 +10771,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 120,
+     "low": 80,
+     "high": 210,
      "f": [
-      130.19,
-      60.08,
-      300.05
+      119.39,
+      77.65,
+      214.28
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 100,
+     "low": 70,
+     "high": 190,
      "f": [
-      113.57,
-      52.41,
-      261.73
+      104.14,
+      67.73,
+      186.91
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 100,
-     "low": 55,
-     "high": 240,
+     "estimate": 95,
+     "low": 65,
+     "high": 170,
      "f": [
-      104.86,
-      48.39,
-      241.66
+      96.16,
+      62.54,
+      172.58
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10684,7 +10847,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10740,6 +10904,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10781,7 +10946,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -10819,6 +10985,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10886,18 +11053,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 320,
+     "estimate": 160,
+     "low": 110,
+     "high": 290,
      "f": [
-      140.35,
-      64.76,
-      323.45
+      163.09,
+      106.07,
+      292.71
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10923,16 +11091,17 @@
      "grade": "ungraded",
      "estimate": 260,
      "low": 260,
-     "high": 320,
+     "high": 290,
      "f": [
-      140.35,
-      64.76,
-      323.45
+      163.09,
+      106.07,
+      292.71
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 5.0,
    "oz_au": 0
   },
@@ -11026,13 +11195,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 35,
-     "high": 180
+     "estimate": 90,
+     "low": 60,
+     "high": 160
     }
    ],
    "group_sales": 5,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -11068,7 +11238,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -11120,6 +11291,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -11185,6 +11357,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11216,7 +11389,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -11257,6 +11431,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11302,13 +11477,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
+     "estimate": 90,
+     "low": 60,
      "high": 170
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -11330,18 +11506,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 160,
+     "low": 110,
+     "high": 290,
      "f": [
-      129.55,
-      59.78,
-      298.56
+      164.24,
+      106.82,
+      294.78
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.2023,
    "oz_au": 0
   },
@@ -11395,7 +11572,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -11455,6 +11633,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11519,39 +11698,40 @@
     {
      "grade": "70",
      "estimate": 120,
-     "low": 55,
-     "high": 280,
+     "low": 75,
+     "high": 210,
      "f": [
-      122.4,
-      56.48,
-      282.09
+      115.67,
+      75.23,
+      207.6
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      106.77,
-      49.27,
-      246.07
+      100.9,
+      65.62,
+      181.09
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 100,
-     "low": 55,
-     "high": 230,
+     "estimate": 95,
+     "low": 60,
+     "high": 170,
      "f": [
-      98.59,
-      45.49,
-      227.2
+      93.16,
+      60.59,
+      167.2
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11627,6 +11807,7 @@
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -11689,7 +11870,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -11723,6 +11905,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2023,
    "oz_au": 0
   },
@@ -11752,7 +11935,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -11782,6 +11966,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -11835,7 +12020,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -11887,6 +12073,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -11940,6 +12127,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -11977,7 +12165,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12013,7 +12202,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12065,6 +12255,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12102,7 +12293,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12158,6 +12350,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -12207,25 +12400,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     },
     {
      "grade": "69 or lower",
-     "estimate": 55,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 85
     },
     {
      "grade": "ungraded",
-     "estimate": 50,
-     "low": 25,
-     "high": 110
+     "estimate": 45,
+     "low": 30,
+     "high": 80
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -12277,6 +12471,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -12300,40 +12495,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 95,
+     "low": 65,
+     "high": 170,
      "f": [
-      109.74,
-      50.64,
-      252.92
+      96.42,
+      62.71,
+      173.04
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 95,
+     "estimate": 85,
      "low": 55,
-     "high": 220,
+     "high": 150,
      "f": [
-      95.73,
-      44.17,
-      220.62
+      84.1,
+      54.7,
+      150.95
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
+     "estimate": 80,
      "low": 55,
-     "high": 200,
+     "high": 140,
      "f": [
-      88.39,
-      40.79,
-      203.7
+      77.65,
+      50.5,
+      139.37
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12386,25 +12582,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 90,
-     "low": 40,
-     "high": 210
+     "estimate": 110,
+     "low": 75,
+     "high": 200
     },
     {
      "grade": "69 or lower",
-     "estimate": 80,
-     "low": 35,
+     "estimate": 100,
+     "low": 65,
      "high": 180
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 90,
+     "low": 60,
+     "high": 160
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -12430,40 +12627,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 160,
-     "low": 75,
-     "high": 370,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      161.49,
-      74.52,
-      372.17
+      201.35,
+      130.95,
+      361.38
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 140,
-     "low": 65,
+     "estimate": 180,
+     "low": 110,
      "high": 320,
      "f": [
-      140.87,
-      65.0,
-      324.64
+      175.64,
+      114.23,
+      315.23
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 160,
+     "low": 110,
+     "high": 290,
      "f": [
-      130.07,
-      60.02,
-      299.75
+      162.17,
+      105.47,
+      291.06
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12513,7 +12711,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12543,6 +12742,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -12600,6 +12800,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12635,7 +12836,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12676,6 +12878,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2023,
    "oz_au": 0
   },
@@ -12721,7 +12924,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12777,6 +12981,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.4694,
    "oz_au": 0
   },
@@ -12838,6 +13043,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12863,7 +13069,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12915,7 +13122,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12951,7 +13159,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -12981,6 +13190,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -13058,7 +13268,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -13114,6 +13325,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -13155,7 +13367,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -13227,6 +13440,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -13273,24 +13487,25 @@
     {
      "grade": "70",
      "estimate": 50,
-     "low": 25,
-     "high": 120
+     "low": 30,
+     "high": 90
     },
     {
      "grade": "69 or lower",
      "estimate": 45,
-     "low": 20,
-     "high": 100
+     "low": 30,
+     "high": 80
     },
     {
      "grade": "ungraded",
      "estimate": 40,
-     "low": 19,
-     "high": 95
+     "low": 25,
+     "high": 70
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -13342,6 +13557,7 @@
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -13392,38 +13608,39 @@
      "grade": "70",
      "estimate": 90,
      "low": 55,
-     "high": 210,
+     "high": 160,
      "f": [
-      92.16,
-      42.53,
-      212.39
+      88.23,
+      57.38,
+      158.36
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 80,
+     "estimate": 75,
      "low": 55,
-     "high": 190,
+     "high": 140,
      "f": [
-      80.39,
-      37.1,
-      185.27
+      76.97,
+      50.06,
+      138.14
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
+     "estimate": 70,
      "low": 55,
-     "high": 170,
+     "high": 130,
      "f": [
-      74.23,
-      34.25,
-      171.06
+      71.06,
+      46.22,
+      127.54
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -13505,6 +13722,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -13594,7 +13812,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -13646,6 +13865,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -13675,7 +13895,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -13703,7 +13924,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -13733,7 +13955,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -13774,6 +13997,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.3003,
    "oz_au": 0
   },
@@ -13828,12 +14052,13 @@
     {
      "grade": "ungraded",
      "estimate": 70,
-     "low": 30,
-     "high": 160
+     "low": 45,
+     "high": 130
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -13859,18 +14084,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 55,
-     "high": 290,
+     "estimate": 130,
+     "low": 85,
+     "high": 230,
      "f": [
-      124.39,
-      57.4,
-      286.68
+      128.37,
+      83.49,
+      230.39
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.3324,
    "oz_au": 0
   },
@@ -13890,19 +14116,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 900,
-     "low": 420,
-     "high": 2100
+     "estimate": 925,
+     "low": 600,
+     "high": 1675
     },
     {
      "grade": "ungraded",
-     "estimate": 825,
-     "low": 380,
-     "high": 1925
+     "estimate": 850,
+     "low": 550,
+     "high": 1550
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -13920,13 +14147,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 55,
-     "high": 290
+     "estimate": 130,
+     "low": 85,
+     "high": 230
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -13944,18 +14172,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 55,
-     "high": 290,
+     "estimate": 130,
+     "low": 85,
+     "high": 230,
      "f": [
-      124.39,
-      57.4,
-      286.68
+      128.37,
+      83.49,
+      230.39
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -13991,7 +14220,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14032,6 +14262,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14105,6 +14336,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14170,7 +14402,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14194,7 +14427,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14250,6 +14484,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 2.0,
    "oz_au": 0
   },
@@ -14281,7 +14516,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14322,6 +14558,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.1558,
    "oz_au": 0
   },
@@ -14409,13 +14646,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 110
+     "estimate": 50,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 4,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -14437,19 +14675,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 50,
-     "low": 25,
-     "high": 110
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     },
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 110
+     "estimate": 50,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 4,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -14475,18 +14714,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 40,
-     "high": 190,
+     "estimate": 95,
+     "low": 60,
+     "high": 170,
      "f": [
-      81.43,
-      37.57,
-      187.65
+      92.61,
+      60.23,
+      166.21
      ]
     }
    ],
    "group_sales": 4,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.6745,
    "oz_au": 0
   },
@@ -14536,7 +14776,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14560,7 +14801,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14612,6 +14854,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 2.0,
    "oz_au": 0
   },
@@ -14665,6 +14908,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 3.0,
    "oz_au": 0
   },
@@ -14722,6 +14966,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14759,7 +15004,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -14811,6 +15057,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.1526,
    "oz_au": 0
   },
@@ -14859,40 +15106,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 100,
+     "low": 65,
+     "high": 190,
      "f": [
-      115.29,
-      53.2,
-      265.69
+      103.17,
+      67.1,
+      185.16
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 55,
-     "high": 230,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      100.57,
-      46.4,
-      231.76
+      89.99,
+      58.53,
+      161.52
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 95,
+     "estimate": 85,
      "low": 55,
-     "high": 210,
+     "high": 150,
      "f": [
-      92.85,
-      42.85,
-      213.99
+      83.09,
+      54.04,
+      149.13
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14916,25 +15164,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 100
     },
     {
      "grade": "69 or lower",
-     "estimate": 55,
-     "low": 25,
-     "high": 130
+     "estimate": 50,
+     "low": 35,
+     "high": 90
     },
     {
      "grade": "ungraded",
-     "estimate": 50,
-     "low": 25,
-     "high": 120
+     "estimate": 45,
+     "low": 30,
+     "high": 85
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -14960,25 +15209,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 70,
+     "low": 45,
+     "high": 130
     },
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -15020,38 +15270,39 @@
      "grade": "70",
      "estimate": 160,
      "low": 160,
-     "high": 310,
+     "high": 230,
      "f": [
-      133.94,
-      61.81,
-      308.68
+      127.18,
+      82.71,
+      228.26
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 160,
      "low": 160,
-     "high": 270,
+     "high": 200,
      "f": [
-      116.84,
-      53.91,
-      269.27
+      110.94,
+      72.15,
+      199.11
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 160,
      "low": 160,
-     "high": 250,
+     "high": 180,
      "f": [
-      107.88,
-      49.78,
-      248.62
+      102.43,
+      66.62,
+      183.85
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 2.9549,
    "oz_au": 0
   },
@@ -15076,39 +15327,40 @@
     {
      "grade": "70",
      "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "low": 85,
+     "high": 230,
      "f": [
-      133.94,
-      61.81,
-      308.68
+      127.18,
+      82.71,
+      228.26
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 110,
+     "low": 70,
+     "high": 200,
      "f": [
-      116.84,
-      53.91,
-      269.27
+      110.94,
+      72.15,
+      199.11
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      107.88,
-      49.78,
-      248.62
+      102.43,
+      66.62,
+      183.85
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -15194,7 +15446,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15224,6 +15477,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -15289,6 +15543,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15338,7 +15593,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15372,7 +15628,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15413,6 +15670,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15454,7 +15712,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15484,6 +15743,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15533,7 +15793,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15589,6 +15850,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -15646,6 +15908,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -15711,7 +15974,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15763,6 +16027,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -15800,7 +16065,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -15856,6 +16122,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15895,6 +16162,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15945,6 +16213,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.4985
   },
@@ -15982,7 +16251,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16012,6 +16282,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -16047,6 +16318,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -16106,40 +16378,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 65,
-     "high": 330,
+     "estimate": 150,
+     "low": 95,
+     "high": 270,
      "f": [
-      142.56,
-      65.78,
-      328.54
+      149.6,
+      97.3,
+      268.5
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 290,
+     "estimate": 130,
+     "low": 85,
+     "high": 230,
      "f": [
-      124.36,
-      57.38,
-      286.59
+      130.5,
+      84.87,
+      234.21
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 120,
+     "low": 80,
+     "high": 220,
      "f": [
-      114.82,
-      52.98,
-      264.62
+      120.49,
+      78.36,
+      216.25
      ]
     }
    ],
    "group_sales": 6,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16181,25 +16454,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 50,
-     "high": 260
+     "estimate": 120,
+     "low": 75,
+     "high": 210
     },
     {
      "grade": "69 or lower",
      "estimate": 100,
-     "low": 45,
-     "high": 230
+     "low": 70,
+     "high": 190
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 40,
-     "high": 210
+     "estimate": 95,
+     "low": 60,
+     "high": 170
     }
    ],
    "group_sales": 6,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -16251,6 +16525,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.4914,
    "oz_au": 0
   },
@@ -16276,7 +16551,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16328,6 +16604,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16353,7 +16630,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16409,6 +16687,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16440,6 +16719,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.5
   },
@@ -16465,7 +16745,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16510,6 +16791,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16549,7 +16831,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16579,6 +16862,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16612,7 +16896,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16642,7 +16927,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16666,7 +16952,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16690,7 +16977,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16720,6 +17008,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.2044
   },
@@ -16773,6 +17062,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -16815,18 +17105,19 @@
     {
      "grade": "69 or lower",
      "estimate": 100,
-     "low": 45,
-     "high": 230
+     "low": 65,
+     "high": 190
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 45,
-     "high": 210
+     "estimate": 95,
+     "low": 60,
+     "high": 170
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -16846,27 +17137,28 @@
      "grade": "69 or lower",
      "estimate": 130,
      "low": 110,
-     "high": 290,
+     "high": 230,
      "f": [
-      125.56,
-      57.94,
-      289.36
+      130.3,
+      84.74,
+      233.86
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 120,
      "low": 110,
-     "high": 270,
+     "high": 220,
      "f": [
-      115.93,
-      53.49,
-      267.17
+      120.31,
+      78.25,
+      215.93
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -16909,6 +17201,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16934,7 +17227,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16964,7 +17258,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -16994,6 +17289,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -17023,7 +17319,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17059,7 +17356,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17083,7 +17381,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17123,18 +17422,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "estimate": 180,
+     "low": 120,
+     "high": 320,
      "f": [
-      132.76,
-      61.26,
-      305.97
+      178.45,
+      116.06,
+      320.28
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -17154,18 +17454,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 110,
-     "high": 310,
+     "estimate": 180,
+     "low": 120,
+     "high": 320,
      "f": [
-      132.76,
-      61.26,
-      305.97
+      178.45,
+      116.06,
+      320.28
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -17189,13 +17490,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 100,
+     "low": 65,
+     "high": 180
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -17239,18 +17541,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 85,
-     "low": 40,
-     "high": 200,
+     "estimate": 55,
+     "low": 35,
+     "high": 100,
      "f": [
-      84.99,
-      39.22,
-      195.86
+      56.05,
+      36.45,
+      100.59
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.4995,
    "oz_au": 0
   },
@@ -17270,19 +17573,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 625,
-     "low": 280,
-     "high": 1425
+     "estimate": 410,
+     "low": 260,
+     "high": 725
     },
     {
      "grade": "ungraded",
-     "estimate": 575,
-     "low": 260,
-     "high": 1300
+     "estimate": 370,
+     "low": 240,
+     "high": 675
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -17304,13 +17608,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 50,
+     "estimate": 30,
      "low": 20,
-     "high": 110
+     "high": 55
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -17328,13 +17633,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 70,
+     "estimate": 45,
      "low": 30,
-     "high": 160
+     "high": 80
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -17384,19 +17690,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 45,
+     "estimate": 30,
      "low": 20,
-     "high": 100
+     "high": 55
     },
     {
      "grade": "ungraded",
-     "estimate": 40,
-     "low": 19,
-     "high": 95
+     "estimate": 30,
+     "low": 18,
+     "high": 50
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -17418,29 +17725,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 80,
+     "estimate": 55,
      "low": 55,
-     "high": 180,
+     "high": 95,
      "f": [
-      77.96,
-      35.97,
-      179.66
+      53.54,
+      34.82,
+      96.1
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 70,
+     "estimate": 55,
      "low": 55,
-     "high": 170,
+     "high": 90,
      "f": [
-      71.98,
-      33.21,
-      165.88
+      49.44,
+      32.15,
+      88.73
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -17470,7 +17778,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17504,6 +17813,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -17549,7 +17859,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17579,6 +17890,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -17618,6 +17930,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -17643,7 +17956,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17684,6 +17998,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -17715,6 +18030,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -17789,6 +18105,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -17826,7 +18143,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -17946,6 +18264,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -17992,7 +18311,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18044,6 +18364,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -18141,6 +18462,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -18211,7 +18533,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18246,6 +18569,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 3.996,
    "oz_au": 0
   },
@@ -18293,6 +18617,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -18334,7 +18659,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18376,7 +18702,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18406,6 +18733,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -18460,12 +18788,13 @@
     {
      "grade": "ungraded",
      "estimate": 120,
-     "low": 55,
-     "high": 290
+     "low": 75,
+     "high": 210
     }
    ],
    "group_sales": 4,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -18522,7 +18851,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18554,7 +18884,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18584,6 +18915,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -18638,7 +18970,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18695,6 +19028,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -18737,7 +19071,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18784,6 +19119,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.4272,
    "oz_au": 0
   },
@@ -18815,6 +19151,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.3372
   },
@@ -18840,7 +19177,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -18864,7 +19202,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19027,7 +19366,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19105,25 +19445,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 290
+     "estimate": 120,
+     "low": 80,
+     "high": 220
     },
     {
      "grade": "69 or lower",
      "estimate": 110,
-     "low": 50,
-     "high": 260
+     "low": 70,
+     "high": 190
     },
     {
      "grade": "ungraded",
      "estimate": 100,
-     "low": 45,
-     "high": 240
+     "low": 65,
+     "high": 180
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -19181,25 +19522,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525
+     "estimate": 220,
+     "low": 140,
+     "high": 390
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 450
+     "estimate": 190,
+     "low": 120,
+     "high": 340
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420
+     "estimate": 170,
+     "low": 110,
+     "high": 310
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -19239,25 +19581,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 1500,
-     "low": 700,
-     "high": 3500
+     "estimate": 1450,
+     "low": 950,
+     "high": 2600
     },
     {
      "grade": "69 or lower",
-     "estimate": 1325,
-     "low": 600,
-     "high": 3000
+     "estimate": 1250,
+     "low": 825,
+     "high": 2300
     },
     {
      "grade": "ungraded",
-     "estimate": 1225,
-     "low": 550,
-     "high": 2800
+     "estimate": 1150,
+     "low": 750,
+     "high": 2100
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -19353,7 +19696,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19402,7 +19746,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19459,6 +19804,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -19500,7 +19846,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19534,6 +19881,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -19565,6 +19913,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.7668,
    "oz_au": 0
   },
@@ -19590,7 +19939,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19648,17 +19998,18 @@
     {
      "grade": "ungraded",
      "estimate": 150,
-     "low": 70,
-     "high": 340,
+     "low": 95,
+     "high": 270,
      "f": [
-      146.97,
-      67.82,
-      338.72
+      147.76,
+      96.1,
+      265.2
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.1479,
    "oz_au": 0
   },
@@ -19684,17 +20035,18 @@
     {
      "grade": "ungraded",
      "estimate": 150,
-     "low": 70,
-     "high": 340,
+     "low": 95,
+     "high": 270,
      "f": [
-      146.97,
-      67.82,
-      338.72
+      147.76,
+      96.1,
+      265.2
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.3161,
    "oz_au": 0
   },
@@ -19715,12 +20067,13 @@
     {
      "grade": "ungraded",
      "estimate": 150,
-     "low": 70,
-     "high": 340
+     "low": 95,
+     "high": 270
     }
    ],
    "group_sales": 5,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -19763,13 +20116,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 40,
-     "high": 190
+     "estimate": 85,
+     "low": 55,
+     "high": 150
     }
    ],
    "group_sales": 5,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -19797,7 +20151,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19837,7 +20192,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19865,7 +20221,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -19939,6 +20296,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -19998,7 +20356,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20034,7 +20393,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20058,7 +20418,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20088,7 +20449,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20168,7 +20530,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20204,7 +20567,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20234,7 +20598,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20264,7 +20629,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20300,7 +20666,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20330,7 +20697,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20354,7 +20722,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20384,6 +20753,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -20409,7 +20779,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20443,7 +20814,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20473,7 +20845,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20528,18 +20901,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 170,
-     "low": 75,
-     "high": 380,
+     "estimate": 150,
+     "low": 100,
+     "high": 270,
      "f": [
-      166.85,
-      76.99,
-      384.51
+      152.29,
+      99.04,
+      273.32
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -20584,6 +20958,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -20628,6 +21003,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -20675,6 +21051,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -20717,7 +21094,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -20769,6 +21147,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -20822,6 +21201,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.9665
   },
@@ -20884,40 +21264,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 190,
-     "low": 90,
-     "high": 450,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      193.88,
-      89.46,
-      446.81
+      199.46,
+      129.72,
+      357.98
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 170,
-     "low": 80,
-     "high": 390,
+     "low": 110,
+     "high": 310,
      "f": [
-      169.12,
-      78.04,
-      389.76
+      173.99,
+      113.16,
+      312.27
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 160,
-     "low": 70,
-     "high": 360,
+     "low": 100,
+     "high": 290,
      "f": [
-      156.15,
-      72.05,
-      359.87
+      160.65,
+      104.48,
+      288.32
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -20971,6 +21352,7 @@
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -21075,29 +21457,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 160,
-     "low": 70,
-     "high": 360,
+     "estimate": 140,
+     "low": 90,
+     "high": 250,
      "f": [
-      155.65,
-      71.82,
-      358.7
+      137.06,
+      89.14,
+      246.0
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 330,
+     "estimate": 130,
+     "low": 80,
+     "high": 230,
      "f": [
-      143.71,
-      66.31,
-      331.19
+      126.55,
+      82.3,
+      227.13
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -21150,18 +21533,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 170,
-     "low": 110,
-     "high": 380,
+     "estimate": 180,
+     "low": 120,
+     "high": 330,
      "f": [
-      166.81,
-      76.97,
-      384.44
+      183.95,
+      119.63,
+      330.14
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -21220,6 +21604,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21312,6 +21697,7 @@
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21365,6 +21751,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.25
   },
@@ -21404,6 +21791,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -21456,6 +21844,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21487,6 +21876,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pt": 0.1
   },
   {
@@ -21563,6 +21953,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -21667,6 +22058,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21725,14 +22117,15 @@
      "low": 1025,
      "high": 1025,
      "f": [
-      90.55,
-      41.78,
-      208.67
+      76.02,
+      49.44,
+      136.44
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_pd": 0.9995
   },
   {
@@ -21804,6 +22197,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -21843,6 +22237,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21874,6 +22269,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pd": 0.05
   },
   {
@@ -21908,6 +22304,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pt": 0.1
   },
   {
@@ -21989,12 +22386,13 @@
     {
      "grade": "ungraded",
      "estimate": 170,
-     "low": 75,
-     "high": 380
+     "low": 110,
+     "high": 310
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -22051,6 +22449,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2308
   },
@@ -22088,7 +22487,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -22153,6 +22553,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -22188,6 +22589,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -22223,6 +22625,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -22254,6 +22657,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pd": 0.0964
   },
   {
@@ -22284,6 +22688,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pt": 0.1606
   },
   {
@@ -22322,6 +22727,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -22353,6 +22759,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -22388,6 +22795,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -22419,6 +22827,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 6.993,
    "oz_au": 0
   },
@@ -22450,6 +22859,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 14.4855,
    "oz_au": 0
   },
@@ -22493,6 +22903,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -22536,6 +22947,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -22571,6 +22983,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pd": 0.05
   },
   {
@@ -22605,6 +23018,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_pt": 0.1
   },
   {
@@ -22664,40 +23078,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 65,
-     "high": 330,
+     "estimate": 120,
+     "low": 75,
+     "high": 210,
      "f": [
-      142.34,
-      65.68,
-      328.03
+      118.8,
+      77.26,
+      213.22
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 290,
+     "estimate": 100,
+     "low": 65,
+     "high": 190,
      "f": [
-      124.16,
-      57.29,
-      286.15
+      103.63,
+      67.4,
+      185.99
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 95,
+     "low": 60,
+     "high": 170,
      "f": [
-      114.64,
-      52.9,
-      264.2
+      95.68,
+      62.23,
+      171.73
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -22717,40 +23132,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 65,
-     "high": 330,
+     "estimate": 120,
+     "low": 75,
+     "high": 210,
      "f": [
-      142.34,
-      65.68,
-      328.03
+      118.8,
+      77.26,
+      213.22
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 290,
+     "estimate": 100,
+     "low": 65,
+     "high": 190,
      "f": [
-      124.16,
-      57.29,
-      286.15
+      103.63,
+      67.4,
+      185.99
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 95,
+     "low": 60,
+     "high": 170,
      "f": [
-      114.64,
-      52.9,
-      264.2
+      95.68,
+      62.23,
+      171.73
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -22816,6 +23232,7 @@
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -22839,40 +23256,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 95,
+     "low": 60,
+     "high": 170,
      "f": [
-      113.22,
-      52.24,
-      260.93
+      94.5,
+      61.46,
+      169.6
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 100,
+     "estimate": 80,
      "low": 55,
-     "high": 230,
+     "high": 150,
      "f": [
-      98.77,
-      45.57,
-      227.61
+      82.43,
+      53.61,
+      147.95
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 90,
+     "estimate": 75,
      "low": 55,
-     "high": 210,
+     "high": 140,
      "f": [
-      91.19,
-      42.08,
-      210.16
+      76.11,
+      49.5,
+      136.6
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_pd": 0.05
   },
   {
@@ -22897,38 +23315,39 @@
      "grade": "70",
      "estimate": 160,
      "low": 160,
-     "high": 260,
+     "high": 170,
      "f": [
-      113.22,
-      52.24,
-      260.93
+      94.5,
+      61.46,
+      169.6
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 160,
      "low": 160,
-     "high": 230,
+     "high": 160,
      "f": [
-      98.77,
-      45.57,
-      227.61
+      82.43,
+      53.61,
+      147.95
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 160,
      "low": 160,
-     "high": 210,
+     "high": 160,
      "f": [
-      91.19,
-      42.08,
-      210.16
+      76.11,
+      49.5,
+      136.6
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_pt": 0.1
   },
   {
@@ -22970,6 +23389,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -23023,6 +23443,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -23076,6 +23497,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -23129,6 +23551,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -23182,6 +23605,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -23207,7 +23631,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -23225,40 +23650,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -23287,17 +23713,18 @@
     {
      "grade": "ungraded",
      "estimate": 140,
-     "low": 65,
-     "high": 320,
+     "low": 90,
+     "high": 240,
      "f": [
-      140.64,
-      64.9,
-      324.12
+      135.35,
+      88.03,
+      242.93
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -23348,16 +23775,17 @@
      "grade": "ungraded",
      "estimate": 160,
      "low": 160,
-     "high": 320,
+     "high": 240,
      "f": [
-      140.64,
-      64.9,
-      324.12
+      135.35,
+      88.03,
+      242.93
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -23379,16 +23807,17 @@
      "grade": "ungraded",
      "estimate": 260,
      "low": 260,
-     "high": 320,
+     "high": 260,
      "f": [
-      140.64,
-      64.9,
-      324.12
+      135.35,
+      88.03,
+      242.93
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -23410,16 +23839,17 @@
      "grade": "ungraded",
      "estimate": 190,
      "low": 190,
-     "high": 320,
+     "high": 240,
      "f": [
-      140.64,
-      64.9,
-      324.12
+      135.35,
+      88.03,
+      242.93
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 3.5365,
    "oz_au": 0
   },
@@ -23441,16 +23871,17 @@
      "grade": "ungraded",
      "estimate": 160,
      "low": 160,
-     "high": 320,
+     "high": 240,
      "f": [
-      140.64,
-      64.9,
-      324.12
+      135.35,
+      88.03,
+      242.93
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 3.0669,
    "oz_au": 0
   },
@@ -23476,7 +23907,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -23544,6 +23976,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -23591,6 +24024,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -23648,6 +24082,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -23706,6 +24141,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -23764,6 +24200,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pd": 0.1
   },
   {
@@ -23794,6 +24231,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pt": 0.1607
   },
   {
@@ -23840,6 +24278,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -23864,40 +24303,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -23922,18 +24362,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 290,
+     "estimate": 110,
+     "low": 70,
+     "high": 190,
      "f": [
-      125.18,
-      57.76,
-      288.49
+      105.7,
+      68.74,
+      189.71
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -23965,6 +24406,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -24012,6 +24454,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -24043,6 +24486,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -24101,6 +24545,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -24158,6 +24603,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -24215,6 +24661,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -24273,6 +24720,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -24309,6 +24757,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -24333,40 +24782,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -24386,18 +24836,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 160,
-     "low": 75,
-     "high": 360,
+     "estimate": 170,
+     "low": 110,
+     "high": 300,
      "f": [
-      157.23,
-      72.55,
-      362.35
+      166.79,
+      108.47,
+      299.35
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -24451,6 +24902,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -24482,6 +24934,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -24529,6 +24982,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -24587,6 +25041,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -24646,17 +25101,18 @@
     {
      "grade": "ungraded",
      "estimate": 150,
-     "low": 70,
-     "high": 350,
+     "low": 100,
+     "high": 280,
      "f": [
-      152.18,
-      70.22,
-      350.71
+      154.64,
+      100.57,
+      277.54
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -24693,6 +25149,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -24724,6 +25181,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -24755,6 +25213,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -24802,6 +25261,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -24849,6 +25309,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -24880,6 +25341,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pd": 0.1
   },
   {
@@ -24926,6 +25388,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pt": 0.1607
   },
   {
@@ -24956,6 +25419,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -24980,40 +25444,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -25050,6 +25515,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -25089,6 +25555,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -25120,6 +25587,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -25151,6 +25619,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -25198,6 +25667,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -25256,6 +25726,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -25314,6 +25785,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pd": 0.1
   },
   {
@@ -25344,6 +25816,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -25368,40 +25841,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -25438,6 +25912,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -25497,6 +25972,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -25528,6 +26004,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -25575,6 +26052,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -25633,6 +26111,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -25691,6 +26170,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pd": 0.1
   },
   {
@@ -25721,6 +26201,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -25744,40 +26225,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -25802,18 +26284,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 100,
+     "estimate": 70,
      "low": 45,
-     "high": 230,
+     "high": 120,
      "f": [
-      101.39,
-      46.79,
-      233.67
+      68.63,
+      44.64,
+      123.18
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -25845,6 +26328,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -25876,6 +26360,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -25923,6 +26408,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -25981,6 +26467,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -26012,6 +26499,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -26117,6 +26605,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -26148,6 +26637,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -26179,6 +26669,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -26226,6 +26717,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -26284,6 +26776,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -26315,6 +26808,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -26334,40 +26828,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -26433,6 +26928,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -26491,6 +26987,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -26538,6 +27035,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -26585,6 +27083,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_pd": 0.1
   },
   {
@@ -26603,40 +27102,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 230,
-     "low": 100,
-     "high": 525,
+     "estimate": 250,
+     "low": 160,
+     "high": 440,
      "f": [
-      227.51,
-      104.98,
-      524.31
+      247.13,
+      160.72,
+      443.54
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 200,
-     "low": 90,
-     "high": 460,
+     "estimate": 220,
+     "low": 140,
+     "high": 390,
      "f": [
-      198.46,
-      91.57,
-      457.36
+      215.57,
+      140.2,
+      386.9
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 85,
-     "high": 420,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      183.24,
-      84.55,
-      422.29
+      199.04,
+      129.45,
+      357.23
      ]
     }
    ],
    "group_sales": 9,
    "group_kind": "series",
+   "sib": true,
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -26713,6 +27213,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -26749,6 +27250,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -26791,6 +27293,7 @@
    ],
    "group_sales": 0,
    "group_kind": "series",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -26885,6 +27388,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -26950,6 +27454,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -26986,6 +27491,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.6059,
    "oz_au": 0
   },
@@ -27022,6 +27528,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.6059,
    "oz_au": 0
   },
@@ -27066,6 +27573,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -27114,6 +27622,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -27154,6 +27663,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_pd": 0.05
   },
   {
@@ -27188,6 +27698,7 @@
    ],
    "group_sales": 0,
    "group_kind": "section",
+   "sib": false,
    "oz_pt": 0.1
   },
   {
@@ -27212,7 +27723,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -27267,16 +27779,17 @@
      "grade": "ungraded",
      "estimate": 180,
      "low": 170,
-     "high": 410,
+     "high": 320,
      "f": [
-      176.99,
-      81.67,
-      407.89
+      180.08,
+      117.12,
+      323.2
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 3.1155,
    "oz_au": 0
   },
@@ -27303,16 +27816,17 @@
      "grade": "ungraded",
      "estimate": 180,
      "low": 160,
-     "high": 410,
+     "high": 320,
      "f": [
-      176.99,
-      81.67,
-      407.89
+      180.08,
+      117.12,
+      323.2
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -27339,16 +27853,17 @@
      "grade": "ungraded",
      "estimate": 180,
      "low": 170,
-     "high": 410,
+     "high": 320,
      "f": [
-      176.99,
-      81.67,
-      407.89
+      180.08,
+      117.12,
+      323.2
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 3.2119,
    "oz_au": 0
   },
@@ -27396,25 +27911,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 1450,
-     "low": 675,
-     "high": 3300
+     "estimate": 1550,
+     "low": 1000,
+     "high": 2800
     },
     {
      "grade": "69 or lower",
-     "estimate": 1275,
-     "low": 575,
-     "high": 2900
+     "estimate": 1350,
+     "low": 875,
+     "high": 2400
     },
     {
      "grade": "ungraded",
-     "estimate": 1175,
-     "low": 550,
-     "high": 2700
+     "estimate": 1250,
+     "low": 825,
+     "high": 2200
     }
    ],
    "group_sales": 13,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -27471,6 +27987,7 @@
    ],
    "group_sales": 13,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.9995
   },
@@ -27523,40 +28040,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 220,
-     "low": 100,
-     "high": 500,
+     "estimate": 230,
+     "low": 150,
+     "high": 420,
      "f": [
-      216.74,
-      100.01,
-      499.51
+      232.83,
+      151.42,
+      417.88
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 190,
-     "low": 85,
-     "high": 440,
+     "estimate": 200,
+     "low": 130,
+     "high": 360,
      "f": [
-      189.07,
-      87.24,
-      435.72
+      203.1,
+      132.09,
+      364.52
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 170,
-     "low": 80,
-     "high": 400,
+     "estimate": 190,
+     "low": 120,
+     "high": 340,
      "f": [
-      174.57,
-      80.55,
-      402.31
+      187.53,
+      121.96,
+      336.57
      ]
     }
    ],
    "group_sales": 13,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27615,6 +28133,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.8993,
    "oz_au": 0
   },
@@ -27668,6 +28187,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27726,7 +28246,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -27778,40 +28299,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 170,
-     "low": 75,
-     "high": 390,
+     "estimate": 150,
+     "low": 100,
+     "high": 280,
      "f": [
-      167.46,
-      77.27,
-      385.93
+      153.62,
+      99.91,
+      275.7
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 150,
-     "low": 65,
-     "high": 340,
+     "estimate": 130,
+     "low": 85,
+     "high": 240,
      "f": [
-      146.08,
-      67.4,
-      336.65
+      134.0,
+      87.15,
+      240.5
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "estimate": 120,
+     "low": 80,
+     "high": 220,
      "f": [
-      134.87,
-      62.24,
-      310.83
+      123.72,
+      80.47,
+      222.06
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.7708,
    "oz_au": 0
   },
@@ -27870,6 +28392,7 @@
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -27894,25 +28417,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 95,
-     "low": 45,
-     "high": 220
+     "estimate": 85,
+     "low": 55,
+     "high": 150
     },
     {
      "grade": "69 or lower",
-     "estimate": 80,
-     "low": 40,
-     "high": 190
+     "estimate": 75,
+     "low": 50,
+     "high": 130
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 70,
+     "low": 45,
+     "high": 120
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -27934,25 +28458,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 1125,
-     "low": 525,
-     "high": 2600
+     "estimate": 1025,
+     "low": 675,
+     "high": 1850
     },
     {
      "grade": "69 or lower",
-     "estimate": 975,
-     "low": 450,
-     "high": 2300
+     "estimate": 900,
+     "low": 575,
+     "high": 1600
     },
     {
      "grade": "ungraded",
-     "estimate": 900,
-     "low": 420,
-     "high": 2100
+     "estimate": 825,
+     "low": 550,
+     "high": 1475
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -28209,7 +28734,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -28250,7 +28776,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -28294,18 +28821,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 80,
-     "high": 410,
+     "estimate": 300,
+     "low": 190,
+     "high": 525,
      "f": [
-      175.75,
-      81.1,
-      405.03
+      298.02,
+      193.82,
+      534.87
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28370,6 +28898,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.7708,
    "oz_au": 0
   },
@@ -28406,6 +28935,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -28447,7 +28977,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -28492,18 +29023,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      114.04,
-      52.62,
-      262.82
+      88.77,
+      57.73,
+      159.32
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28523,13 +29055,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 40,
-     "high": 210
+     "estimate": 70,
+     "low": 45,
+     "high": 130
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -28574,29 +29107,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 140,
+     "estimate": 150,
      "low": 110,
-     "high": 320,
+     "high": 270,
      "f": [
-      138.87,
-      64.08,
-      320.04
+      151.75,
+      98.7,
+      272.36
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 130,
+     "estimate": 140,
      "low": 110,
-     "high": 300,
+     "high": 250,
      "f": [
-      128.22,
-      59.17,
-      295.5
+      140.12,
+      91.13,
+      251.48
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -28629,19 +29163,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 80,
-     "low": 35,
-     "high": 180
+     "estimate": 85,
+     "low": 55,
+     "high": 150
     },
     {
      "grade": "ungraded",
-     "estimate": 70,
-     "low": 35,
-     "high": 170
+     "estimate": 80,
+     "low": 50,
+     "high": 140
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -28664,29 +29199,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 140,
-     "low": 65,
-     "high": 320,
+     "estimate": 150,
+     "low": 100,
+     "high": 270,
      "f": [
-      138.87,
-      64.08,
-      320.04
+      151.75,
+      98.7,
+      272.36
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 140,
+     "low": 90,
+     "high": 250,
      "f": [
-      128.22,
-      59.17,
-      295.5
+      140.12,
+      91.13,
+      251.48
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28739,19 +29275,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 130,
-     "low": 60,
-     "high": 290
+     "estimate": 100,
+     "low": 70,
+     "high": 190
     },
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 55,
-     "high": 270
+     "estimate": 95,
+     "low": 65,
+     "high": 170
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -28790,19 +29327,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 70,
-     "low": 30,
-     "high": 160
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "ungraded",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -28837,7 +29375,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -28883,6 +29422,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28907,19 +29447,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 70,
-     "low": 30,
-     "high": 160
+     "estimate": 65,
+     "low": 40,
+     "high": 120
     },
     {
      "grade": "ungraded",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29004,29 +29545,30 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 100,
+     "low": 70,
+     "high": 190,
      "f": [
-      116.29,
-      53.66,
-      268.01
+      104.86,
+      68.2,
+      188.2
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "estimate": 95,
+     "low": 65,
+     "high": 170,
      "f": [
-      107.37,
-      49.55,
-      247.46
+      96.82,
+      62.97,
+      173.77
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -29074,6 +29616,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -29118,7 +29661,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -29159,6 +29703,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -29220,25 +29765,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 60,
+     "low": 40,
+     "high": 100
     },
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 50,
+     "low": 35,
+     "high": 90
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 25,
-     "high": 140
+     "estimate": 45,
+     "low": 30,
+     "high": 85
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29269,40 +29815,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 100,
+     "low": 70,
+     "high": 190,
      "f": [
-      130.15,
-      60.06,
-      299.96
+      103.89,
+      67.57,
+      186.47
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 90,
+     "low": 60,
+     "high": 160,
      "f": [
-      113.54,
-      52.39,
-      261.65
+      90.63,
+      58.94,
+      162.66
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 100,
+     "estimate": 85,
      "low": 55,
-     "high": 240,
+     "high": 150,
      "f": [
-      104.83,
-      48.37,
-      241.59
+      83.68,
+      54.42,
+      150.18
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -29378,25 +29925,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 80,
-     "low": 35,
-     "high": 180
+     "estimate": 70,
+     "low": 45,
+     "high": 130
     },
     {
      "grade": "69 or lower",
-     "estimate": 70,
-     "low": 30,
-     "high": 160
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29419,13 +29967,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 30,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29443,13 +29992,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 40,
-     "high": 200
+     "estimate": 80,
+     "low": 55,
+     "high": 150
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29472,18 +30022,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      111.3,
-      51.36,
-      256.5
+      102.36,
+      66.57,
+      183.71
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -29542,6 +30093,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -29637,18 +30189,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 120,
+     "estimate": 90,
      "low": 55,
-     "high": 270,
+     "high": 160,
      "f": [
-      115.36,
-      53.23,
-      265.86
+      88.13,
+      57.31,
+      158.17
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -29672,18 +30225,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 120,
+     "estimate": 110,
      "low": 110,
-     "high": 270,
+     "high": 160,
      "f": [
-      115.36,
-      53.23,
-      265.86
+      88.13,
+      57.31,
+      158.17
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -29770,12 +30324,13 @@
     {
      "grade": "ungraded",
      "estimate": 55,
-     "low": 25,
-     "high": 130
+     "low": 35,
+     "high": 100
     }
    ],
    "group_sales": 5,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29927,25 +30482,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 65,
+     "low": 40,
+     "high": 120
     },
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 55,
+     "low": 35,
+     "high": 100
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 25,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -29968,40 +30524,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 120,
+     "low": 75,
+     "high": 210,
      "f": [
-      130.58,
-      60.25,
-      300.93
+      116.4,
+      75.7,
+      208.91
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 55,
-     "high": 260,
+     "estimate": 100,
+     "low": 65,
+     "high": 180,
      "f": [
-      113.9,
-      52.56,
-      262.5
+      101.53,
+      66.03,
+      182.23
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 55,
-     "high": 240,
+     "estimate": 95,
+     "low": 60,
+     "high": 170,
      "f": [
-      105.17,
-      48.53,
-      242.37
+      93.75,
+      60.97,
+      168.26
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -30053,25 +30610,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 85,
-     "low": 40,
-     "high": 200
+     "estimate": 75,
+     "low": 50,
+     "high": 140
     },
     {
      "grade": "69 or lower",
-     "estimate": 75,
-     "low": 35,
-     "high": 180
+     "estimate": 65,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "ungraded",
-     "estimate": 70,
-     "low": 30,
-     "high": 160
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -30161,25 +30719,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 160,
-     "low": 75,
-     "high": 370
+     "estimate": 170,
+     "low": 110,
+     "high": 300
     },
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 65,
-     "high": 320
+     "low": 95,
+     "high": 260
     },
     {
      "grade": "ungraded",
      "estimate": 130,
-     "low": 60,
-     "high": 300
+     "low": 85,
+     "high": 240
     }
    ],
    "group_sales": 7,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -30197,25 +30756,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 65,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "69 or lower",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 25,
-     "high": 140
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -30299,40 +30859,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "estimate": 140,
+     "low": 90,
+     "high": 250,
      "f": [
-      134.77,
-      62.19,
-      310.59
+      136.79,
+      88.97,
+      245.51
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "low": 80,
+     "high": 210,
      "f": [
-      117.56,
-      54.25,
-      270.93
+      119.33,
+      77.61,
+      214.16
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 110,
-     "low": 55,
-     "high": 250,
+     "low": 70,
+     "high": 200,
      "f": [
-      108.55,
-      50.09,
-      250.16
+      110.18,
+      71.65,
+      197.74
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -30423,6 +30984,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 3.0,
    "oz_au": 0
   },
@@ -30486,18 +31048,19 @@
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 65,
-     "high": 330
+     "low": 90,
+     "high": 250
     },
     {
      "grade": "ungraded",
      "estimate": 130,
-     "low": 60,
-     "high": 300
+     "low": 85,
+     "high": 230
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -30537,18 +31100,19 @@
     {
      "grade": "69 or lower",
      "estimate": 80,
-     "low": 35,
-     "high": 180
+     "low": 50,
+     "high": 140
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 70,
+     "low": 45,
+     "high": 130
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -30580,7 +31144,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -30604,7 +31169,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -30644,7 +31210,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -30688,13 +31255,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 200,
-     "low": 90,
-     "high": 450
+     "estimate": 210,
+     "low": 140,
+     "high": 380
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -30769,6 +31337,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 9.99,
    "oz_au": 0
   },
@@ -30805,6 +31374,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.4015,
    "oz_au": 0
   },
@@ -30843,7 +31413,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -30886,6 +31457,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.4995,
    "oz_au": 0
   },
@@ -30936,7 +31508,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -30988,6 +31561,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31026,7 +31600,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31056,6 +31631,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31110,13 +31686,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 16,
+     "estimate": 13,
      "low": 8,
-     "high": 40
+     "high": 20
     }
    ],
    "group_sales": 5,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -31134,18 +31711,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 30,
-     "low": 14,
-     "high": 70,
+     "estimate": 20,
+     "low": 15,
+     "high": 40,
      "f": [
-      29.38,
-      13.56,
-      67.71
+      22.34,
+      14.53,
+      40.1
      ]
     }
    ],
    "group_sales": 5,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31192,13 +31770,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 16,
-     "low": 8,
-     "high": 40
+     "estimate": 18,
+     "low": 12,
+     "high": 30
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -31244,17 +31823,18 @@
     {
      "grade": "ungraded",
      "estimate": 30,
-     "low": 13,
-     "high": 65,
+     "low": 20,
+     "high": 55,
      "f": [
-      29.15,
-      13.45,
-      67.17
+      31.7,
+      20.62,
+      56.9
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31293,7 +31873,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31323,6 +31904,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31361,7 +31943,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31391,6 +31974,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31421,7 +32005,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31462,7 +32047,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31492,6 +32078,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31522,7 +32109,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31563,7 +32151,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31593,6 +32182,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31623,7 +32213,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31664,7 +32255,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31694,6 +32286,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31724,7 +32317,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31765,7 +32359,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31795,6 +32390,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31833,7 +32429,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31863,6 +32460,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31901,7 +32499,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31931,6 +32530,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -31969,7 +32569,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -31999,6 +32600,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32054,12 +32656,13 @@
     {
      "grade": "ungraded",
      "estimate": 20,
-     "low": 10,
-     "high": 50
+     "low": 13,
+     "high": 35
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -32078,17 +32681,18 @@
     {
      "grade": "ungraded",
      "estimate": 35,
-     "low": 17,
-     "high": 85,
+     "low": 25,
+     "high": 65,
      "f": [
-      36.85,
-      17.01,
-      84.94
+      36.57,
+      23.79,
+      65.64
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32114,7 +32718,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -32144,6 +32749,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32310,25 +32916,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 95,
-     "low": 45,
-     "high": 210
+     "estimate": 100,
+     "low": 65,
+     "high": 180
     },
     {
      "grade": "69 or lower",
-     "estimate": 80,
-     "low": 40,
-     "high": 190
+     "estimate": 85,
+     "low": 55,
+     "high": 160
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 80,
+     "low": 50,
+     "high": 140
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -32375,40 +32982,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 170,
-     "low": 75,
-     "high": 380,
+     "estimate": 180,
+     "low": 120,
+     "high": 320,
      "f": [
-      166.25,
-      76.71,
-      383.13
+      177.23,
+      115.27,
+      318.09
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 150,
-     "low": 65,
-     "high": 330,
+     "low": 100,
+     "high": 280,
      "f": [
-      145.02,
-      66.92,
-      334.21
+      154.6,
+      100.55,
+      277.47
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "estimate": 140,
+     "low": 95,
+     "high": 260,
      "f": [
-      133.9,
-      61.79,
-      308.58
+      142.75,
+      92.84,
+      256.2
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -32429,39 +33037,40 @@
     {
      "grade": "70",
      "estimate": 160,
-     "low": 75,
-     "high": 380,
+     "low": 100,
+     "high": 290,
      "f": [
-      164.63,
-      75.97,
-      379.42
+      159.02,
+      103.42,
+      285.41
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 65,
-     "high": 330,
+     "low": 90,
+     "high": 250,
      "f": [
-      143.61,
-      66.27,
-      330.97
+      138.72,
+      90.22,
+      248.97
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 130,
-     "low": 60,
-     "high": 310,
+     "low": 85,
+     "high": 230,
      "f": [
-      132.6,
-      61.19,
-      305.59
+      128.08,
+      83.3,
+      229.88
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -32527,24 +33136,25 @@
     {
      "grade": "70",
      "estimate": 90,
-     "low": 45,
-     "high": 210
+     "low": 60,
+     "high": 160
     },
     {
      "grade": "69 or lower",
      "estimate": 80,
-     "low": 35,
-     "high": 190
+     "low": 50,
+     "high": 140
     },
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
+     "estimate": 70,
+     "low": 45,
+     "high": 130
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -32584,18 +33194,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 55,
-     "high": 280,
+     "estimate": 110,
+     "low": 75,
+     "high": 200,
      "f": [
-      122.02,
-      56.3,
-      281.2
+      112.26,
+      73.01,
+      201.48
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -32619,13 +33230,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 70,
-     "low": 30,
-     "high": 160
+     "estimate": 65,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -32649,7 +33261,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -32679,6 +33292,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -32766,6 +33380,7 @@
    ],
    "group_sales": 33,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -32798,25 +33413,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 120,
-     "low": 55,
-     "high": 270
+     "estimate": 65,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 50,
-     "high": 240
+     "estimate": 60,
+     "low": 40,
+     "high": 100
     },
     {
      "grade": "ungraded",
-     "estimate": 95,
-     "low": 45,
-     "high": 220
+     "estimate": 55,
+     "low": 35,
+     "high": 95
     }
    ],
    "group_sales": 33,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -32875,25 +33491,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 65,
-     "low": 30,
-     "high": 150
+     "estimate": 35,
+     "low": 25,
+     "high": 65
     },
     {
      "grade": "69 or lower",
-     "estimate": 60,
-     "low": 25,
-     "high": 130
+     "estimate": 35,
+     "low": 20,
+     "high": 60
     },
     {
      "grade": "ungraded",
-     "estimate": 55,
-     "low": 25,
-     "high": 120
+     "estimate": 30,
+     "low": 20,
+     "high": 55
     }
    ],
    "group_sales": 33,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -32928,40 +33545,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 120,
+     "estimate": 65,
      "low": 55,
-     "high": 270,
+     "high": 120,
      "f": [
-      118.22,
-      54.55,
-      272.45
+      66.5,
+      43.25,
+      119.35
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 100,
+     "estimate": 60,
      "low": 55,
-     "high": 240,
+     "high": 100,
      "f": [
-      103.12,
-      47.59,
-      237.66
+      58.01,
+      37.73,
+      104.11
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 95,
+     "estimate": 55,
      "low": 55,
-     "high": 220,
+     "high": 95,
      "f": [
-      95.22,
-      43.94,
-      219.44
+      53.56,
+      34.83,
+      96.13
      ]
     }
    ],
    "group_sales": 33,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -33017,25 +33635,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 95,
-     "low": 45,
-     "high": 220
-    },
-    {
-     "grade": "69 or lower",
-     "estimate": 85,
-     "low": 40,
+     "estimate": 110,
+     "low": 70,
      "high": 190
     },
     {
+     "grade": "69 or lower",
+     "estimate": 95,
+     "low": 60,
+     "high": 170
+    },
+    {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 180
+     "estimate": 85,
+     "low": 55,
+     "high": 160
     }
    ],
    "group_sales": 2,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33065,40 +33684,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 170,
-     "low": 80,
-     "high": 390,
+     "estimate": 190,
+     "low": 120,
+     "high": 340,
      "f": [
-      170.06,
-      78.47,
-      391.92
+      192.1,
+      124.94,
+      344.78
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 150,
-     "low": 70,
-     "high": 340,
+     "estimate": 170,
+     "low": 110,
+     "high": 300,
      "f": [
-      148.34,
-      68.45,
-      341.87
+      167.57,
+      108.98,
+      300.76
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 140,
-     "low": 65,
-     "high": 320,
+     "estimate": 150,
+     "low": 100,
+     "high": 280,
      "f": [
-      136.97,
-      63.2,
-      315.66
+      154.72,
+      100.63,
+      277.7
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33123,40 +33743,41 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 150,
-     "low": 70,
-     "high": 340,
+     "estimate": 130,
+     "low": 85,
+     "high": 240,
      "f": [
-      147.61,
-      68.11,
-      340.17
+      130.95,
+      85.17,
+      235.03
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 130,
-     "low": 60,
-     "high": 300,
+     "estimate": 110,
+     "low": 75,
+     "high": 210,
      "f": [
-      128.76,
-      59.41,
-      296.74
+      114.23,
+      74.29,
+      205.02
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 55,
-     "high": 270,
+     "estimate": 110,
+     "low": 70,
+     "high": 190,
      "f": [
-      118.88,
-      54.86,
-      273.98
+      105.47,
+      68.59,
+      189.3
      ]
     }
    ],
    "group_sales": 2,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33282,7 +33903,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -33338,6 +33960,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33369,6 +33992,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33398,7 +34022,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -33462,13 +34087,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 50,
+     "estimate": 40,
      "low": 25,
-     "high": 120
+     "high": 70
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33490,13 +34116,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 75,
+     "estimate": 55,
      "low": 35,
-     "high": 170
+     "high": 100
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33514,25 +34141,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 65,
+     "estimate": 50,
      "low": 30,
-     "high": 150
+     "high": 85
     },
     {
      "grade": "69 or lower",
-     "estimate": 55,
+     "estimate": 40,
      "low": 25,
-     "high": 130
+     "high": 75
     },
     {
      "grade": "ungraded",
-     "estimate": 50,
+     "estimate": 40,
      "low": 25,
-     "high": 120
+     "high": 70
     }
    ],
    "group_sales": 3,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33562,18 +34190,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 95,
+     "estimate": 70,
      "low": 55,
-     "high": 220,
+     "high": 120,
      "f": [
-      93.48,
-      43.14,
-      215.44
+      69.41,
+      45.14,
+      124.57
      ]
     }
    ],
    "group_sales": 3,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33623,25 +34252,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 120,
-     "low": 55,
-     "high": 280
+     "estimate": 75,
+     "low": 50,
+     "high": 140
     },
     {
      "grade": "69 or lower",
-     "estimate": 110,
-     "low": 50,
-     "high": 240
+     "estimate": 65,
+     "low": 45,
+     "high": 120
     },
     {
      "grade": "ungraded",
-     "estimate": 100,
-     "low": 45,
-     "high": 230
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 3,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33667,25 +34297,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 825,
-     "low": 380,
-     "high": 1875
+     "estimate": 525,
+     "low": 330,
+     "high": 925
     },
     {
      "grade": "69 or lower",
-     "estimate": 700,
-     "low": 330,
-     "high": 1625
+     "estimate": 450,
+     "low": 290,
+     "high": 800
     },
     {
      "grade": "ungraded",
-     "estimate": 650,
-     "low": 300,
-     "high": 1500
+     "estimate": 410,
+     "low": 270,
+     "high": 750
     }
    ],
    "group_sales": 3,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33723,25 +34354,26 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 70,
+     "estimate": 45,
      "low": 30,
-     "high": 160
+     "high": 75
     },
     {
      "grade": "69 or lower",
-     "estimate": 60,
+     "estimate": 40,
      "low": 25,
-     "high": 140
+     "high": 70
     },
     {
      "grade": "ungraded",
-     "estimate": 55,
+     "estimate": 35,
      "low": 25,
-     "high": 130
+     "high": 60
     }
    ],
    "group_sales": 3,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33759,13 +34391,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 100,
-     "low": 45,
-     "high": 230
+     "estimate": 60,
+     "low": 40,
+     "high": 110
     }
    ],
    "group_sales": 3,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33783,13 +34416,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 650,
-     "low": 300,
-     "high": 1500
+     "estimate": 410,
+     "low": 270,
+     "high": 750
     }
    ],
    "group_sales": 3,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33811,13 +34445,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 55,
+     "estimate": 35,
      "low": 25,
-     "high": 130
+     "high": 60
     }
    ],
    "group_sales": 3,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33862,24 +34497,25 @@
     {
      "grade": "70",
      "estimate": 160,
-     "low": 75,
-     "high": 380
+     "low": 110,
+     "high": 290
     },
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 65,
-     "high": 330
+     "low": 90,
+     "high": 250
     },
     {
      "grade": "ungraded",
      "estimate": 130,
-     "low": 60,
-     "high": 300
+     "low": 85,
+     "high": 240
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33902,24 +34538,25 @@
     {
      "grade": "70",
      "estimate": 1100,
-     "low": 500,
-     "high": 2500
+     "low": 700,
+     "high": 1950
     },
     {
      "grade": "69 or lower",
      "estimate": 950,
-     "low": 440,
-     "high": 2200
+     "low": 625,
+     "high": 1700
     },
     {
      "grade": "ungraded",
      "estimate": 875,
-     "low": 400,
-     "high": 2000
+     "low": 575,
+     "high": 1575
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33959,19 +34596,20 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 1025,
-     "low": 470,
-     "high": 2300
+     "estimate": 1050,
+     "low": 675,
+     "high": 1900
     },
     {
      "grade": "ungraded",
-     "estimate": 950,
-     "low": 430,
-     "high": 2200
+     "estimate": 975,
+     "low": 625,
+     "high": 1750
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -33999,7 +34637,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34033,6 +34672,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -34076,6 +34716,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -34129,7 +34770,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34171,6 +34813,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -34222,7 +34865,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34252,6 +34896,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -34290,7 +34935,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34320,6 +34966,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34375,12 +35022,13 @@
     {
      "grade": "ungraded",
      "estimate": 50,
-     "low": 25,
-     "high": 120
+     "low": 30,
+     "high": 90
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -34399,17 +35047,18 @@
     {
      "grade": "ungraded",
      "estimate": 90,
-     "low": 40,
-     "high": 210,
+     "low": 60,
+     "high": 160,
      "f": [
-      91.93,
-      42.42,
-      211.87
+      88.79,
+      57.75,
+      159.36
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34448,7 +35097,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34478,6 +35128,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34516,7 +35167,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34546,6 +35198,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34584,7 +35237,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34614,6 +35268,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34652,7 +35307,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34682,6 +35338,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34706,13 +35363,14 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 45,
-     "low": 20,
-     "high": 100
+     "estimate": 40,
+     "low": 25,
+     "high": 70
     }
    ],
    "group_sales": 1,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": true
   },
   {
    "part": "Catalogue",
@@ -34757,18 +35415,19 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 35,
-     "high": 190,
+     "estimate": 70,
+     "low": 45,
+     "high": 130,
      "f": [
-      80.88,
-      37.32,
-      186.4
+      71.97,
+      46.81,
+      129.18
      ]
     }
    ],
    "group_sales": 1,
    "group_kind": "issue",
+   "sib": true,
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -34806,7 +35465,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "section"
+   "group_kind": "section",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34830,7 +35490,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -34887,6 +35548,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -34939,6 +35601,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -34993,7 +35656,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -35052,6 +35716,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -35102,7 +35767,8 @@
     }
    ],
    "group_sales": 0,
-   "group_kind": "issue"
+   "group_kind": "issue",
+   "sib": false
   },
   {
    "part": "Catalogue",
@@ -35159,6 +35825,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -35194,6 +35861,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -35229,6 +35897,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -35260,6 +35929,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -35291,6 +35961,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -35330,6 +36001,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -35365,6 +36037,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -35396,6 +36069,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -35427,6 +36101,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -35462,6 +36137,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -35493,6 +36169,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0583
   },
@@ -35524,6 +36201,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -35555,6 +36233,7 @@
    ],
    "group_sales": 0,
    "group_kind": "issue",
+   "sib": false,
    "oz_ag": 0.0999,
    "oz_au": 0
   },

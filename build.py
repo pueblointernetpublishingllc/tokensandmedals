@@ -281,10 +281,16 @@ CARR_KIND = {"issue": ("its issue", "its issue"), "series": ("same design, other
              "design": ("same design, other dates", "same design at other dates"), "section": ("same catalogue page", "its catalogue page")}
 
 
+CARR_FROM = {"issue": "its issue", "series": "the same design in other years", "design": "the same design at other dates",
+             "section": "its catalogue page"}
+
+
 def carr_tag(L):
     n, k = L.get("group_sales", 0), L.get("group_kind", "issue")
     with_, none_ = CARR_KIND.get(k, CARR_KIND["issue"])
     many = "these pieces" if L.get("n", 1) > 1 else "this piece"
+    if L.get("sib") and n:                     # priced from those sales, not from the formula alone
+        return f"from {plural(n, 'sale')} of {CARR_FROM.get(k, 'its issue')} and the formula &middot; {many}: no sales in our records"
     tail = f" &middot; {with_}: {plural(n, 'sale')}" if n else f" &middot; {none_}: no sales either"
     return f"formula only &middot; {many}: no sales in our records" + tail
 
@@ -365,6 +371,7 @@ def guide_placeholders():
     carr = json.loads(read("data/price-guide/carr.json"))
     pct = lambda x: f"{round(x * 100)}%"
     sf, cf = scd["factors"], carr["factors"]
+    ca = carr["accuracy"]
     return {
         "{{SCD_GUIDE}}": render_scd(scd),
         "{{SCD_COUNT}}": str(len(scd["pieces"])),
@@ -415,6 +422,10 @@ def guide_placeholders():
         "{{CARR_PD_SPOT}}": f"${cf.get('palladium_spot', 0):,.2f}",
         "{{CARR_PT_RAW}}": f"{cf.get('platinum_spot', 0):.2f}",
         "{{CARR_PD_RAW}}": f"{cf.get('palladium_spot', 0):.2f}",
+        "{{CARR_SIB_SALES}}": str(ca.get("sib_tested_sales", "")),
+        "{{CARR_SIB_PIECES}}": str(ca.get("sib_tested_pieces", "")),
+        "{{CARR_SIB_MISS}}": f"{ca.get('sib_median_miss', 0) * 100:.0f}%",
+        "{{CARR_SIB_PLAIN}}": f"{ca.get('sib_plain_miss', 0) * 100:.0f}%",
         "{{CARR_PGM_SOURCE}}": ("the Hyperliquid perpetual futures price" if cf.get("pgm_source") == "Hyperliquid" else "the open daily dataset's price"),
         "{{CARR_SPOT_DATE}}": cf["spot_date"],
         "{{CARR_LOT5}}": f"{cf['lot5']:.1f}",
