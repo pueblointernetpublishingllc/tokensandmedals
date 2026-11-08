@@ -285,6 +285,29 @@ CARR_FROM = {"issue": "its issue", "series": "the same design in other years", "
              "section": "its catalogue page"}
 
 
+# the formula's candidate variables in words; which are used / were only tried comes from the fit itself,
+# so the method text stays true when a monthly refit keeps a different set
+CARR_VAR_TEXT = {"metal": "the metal a piece is struck in", "mintage": "the maker's published mintage",
+                 "grader": "the grading service", "proof": "proof finish", "issue_price": "the maker's issue price",
+                 "part": "whether a piece is an over-strike or a catalogue issue", "group_trend": "a separate price trend for each issue",
+                 "anacs_pop70": "how many pieces ANACS has graded 70", "anacs_share70": "what share of ANACS-graded pieces reached 70",
+                 "top_pop": "whether a piece sits at the top ANACS grade with only a few there",
+                 "anacs_share": "what share of the mintage ANACS has graded", "issue_age": "the years since a piece was issued",
+                 "format": "how a piece sold", "lot_size": "how many pieces were in the lot"}
+
+
+def carr_vars(keys, cf, tried=False):
+    words = []
+    for k in keys:
+        w = CARR_VAR_TEXT.get(k, k.replace("_", " "))
+        if k == "mintage" and not tried and cf.get("mintage_halving"):
+            h = cf["mintage_halving"]
+            w += f" (each halving of the mintage {'adds' if h >= 1 else 'takes off'} about {abs(h - 1) * 100:.0f}%)"
+        words.append(w)
+    s = ", ".join(words[:-1]) + (" and " if len(words) > 1 else "") + (words[-1] if words else "")
+    return (s[:1].upper() + s[1:]) if tried else (s or "nothing else")
+
+
 def carr_tag(L):
     n, k = L.get("group_sales", 0), L.get("group_kind", "issue")
     with_, none_ = CARR_KIND.get(k, CARR_KIND["issue"])
@@ -422,6 +445,8 @@ def guide_placeholders():
         "{{CARR_PD_SPOT}}": f"${cf.get('palladium_spot', 0):,.2f}",
         "{{CARR_PT_RAW}}": f"{cf.get('platinum_spot', 0):.2f}",
         "{{CARR_PD_RAW}}": f"{cf.get('palladium_spot', 0):.2f}",
+        "{{CARR_VARS_USED}}": carr_vars(cf.get("vars_used", []), cf),
+        "{{CARR_VARS_TRIED}}": carr_vars(cf.get("vars_tried", []), cf, tried=True),
         "{{CARR_SIB_SALES}}": str(ca.get("sib_tested_sales", "")),
         "{{CARR_SIB_PIECES}}": str(ca.get("sib_tested_pieces", "")),
         "{{CARR_SIB_MISS}}": f"{ca.get('sib_median_miss', 0) * 100:.0f}%",
