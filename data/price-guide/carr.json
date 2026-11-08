@@ -84,7 +84,7 @@
   "silver_spot": 51.95,
   "gold_spot": 4070.58,
   "platinum_spot": 1534.6,
-  "palladium_spot": 1021.8,
+  "palladium_spot": 1021.75,
   "pgm_source": "Hyperliquid",
   "spot_date": "2026-11-07",
   "spot_source": "Chainlink",
@@ -124,7 +124,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -146,7 +148,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -180,7 +184,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -214,7 +220,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -236,7 +244,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -286,7 +296,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -320,7 +332,9 @@
      "low": 65,
      "high": 320
     }
-   ]
+   ],
+   "group_sales": 14,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -374,7 +388,9 @@
      "low": 65,
      "high": 320
     }
-   ]
+   ],
+   "group_sales": 14,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -430,7 +446,9 @@
      "low": 65,
      "high": 320
     }
-   ]
+   ],
+   "group_sales": 14,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -458,7 +476,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -492,7 +512,9 @@
      "low": 70,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -542,7 +564,9 @@
      "low": 70,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -590,7 +614,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -971,6 +997,8 @@
      ]
     }
    ],
+   "group_sales": 16,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -1342,6 +1370,8 @@
      ]
     }
    ],
+   "group_sales": 44,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -1607,6 +1637,8 @@
      ]
     }
    ],
+   "group_sales": 44,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -1699,6 +1731,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2329,7 +2363,9 @@
      "low": 70,
      "high": 340
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -2409,6 +2445,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2507,6 +2545,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2571,6 +2611,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "design",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -2697,7 +2739,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -2769,6 +2813,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "design",
    "oz_ag": 0.0723,
    "oz_au": 0
   },
@@ -2820,6 +2866,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "design",
    "oz_ag": 0.0723,
    "oz_au": 0
   },
@@ -3099,6 +3147,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0,
    "oz_au": 0.9675
   },
@@ -3150,6 +3200,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0,
    "oz_au": 0.9675
   },
@@ -3234,6 +3286,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "design",
    "oz_ag": 0.1808,
    "oz_au": 0
   },
@@ -3298,7 +3352,9 @@
      "low": 130,
      "high": 650
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -3334,7 +3390,9 @@
      "low": 130,
      "high": 650
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -3407,7 +3465,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -3451,7 +3511,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -3517,7 +3579,9 @@
      "low": 60,
      "high": 290
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -3599,7 +3663,9 @@
      "low": 50,
      "high": 240
     }
-   ]
+   ],
+   "group_sales": 8,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -3769,6 +3835,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -3851,6 +3919,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "design",
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -3983,7 +4053,9 @@
      "low": 100,
      "high": 500
     }
-   ]
+   ],
+   "group_sales": 7,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -4055,7 +4127,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -4089,7 +4163,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -4208,6 +4284,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "design",
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -4378,6 +4456,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0.6964,
    "oz_au": 0
   },
@@ -4429,6 +4509,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0.3617,
    "oz_au": 0
   },
@@ -4480,6 +4562,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "design",
    "oz_ag": 0.7801,
    "oz_au": 0
   },
@@ -4503,7 +4587,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -4525,7 +4611,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -4559,7 +4647,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Over-strikes",
@@ -4581,7 +4671,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "design"
   },
   {
    "part": "Catalogue",
@@ -4672,6 +4764,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -4720,7 +4814,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -4783,6 +4879,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -4838,6 +4936,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -4917,7 +5017,9 @@
      "low": 20,
      "high": 100
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -4955,7 +5057,9 @@
      "low": 20,
      "high": 100
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -4998,6 +5102,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -5053,6 +5159,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -5108,6 +5216,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5152,6 +5262,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -5201,6 +5313,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -5281,6 +5395,8 @@
      ]
     }
    ],
+   "group_sales": 4,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5373,7 +5489,9 @@
      "low": 20,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -5411,7 +5529,9 @@
      "low": 20,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -5465,6 +5585,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -5520,6 +5642,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -5575,6 +5699,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -5630,6 +5756,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5674,6 +5802,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -5718,6 +5848,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -5774,6 +5906,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -5882,7 +6016,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -5920,7 +6056,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -5963,6 +6101,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -6007,6 +6147,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -6062,6 +6204,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6117,6 +6261,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -6162,6 +6308,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.25
   },
@@ -6218,6 +6366,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -6262,6 +6412,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -6301,7 +6453,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -6351,6 +6505,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.97,
    "oz_au": 0
   },
@@ -6402,6 +6558,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6431,6 +6589,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6465,6 +6625,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6560,6 +6722,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -6612,7 +6776,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -6667,6 +6833,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -6734,6 +6902,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -6779,6 +6949,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_pd": 0.1
   },
   {
@@ -6834,6 +7006,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.5
   },
@@ -6879,6 +7053,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -6956,6 +7132,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7009,7 +7187,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -7092,6 +7272,8 @@
      ]
     }
    ],
+   "group_sales": 7,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -7148,6 +7330,8 @@
      ]
     }
    ],
+   "group_sales": 7,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -7219,6 +7403,8 @@
      ]
     }
    ],
+   "group_sales": 7,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7271,7 +7457,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 7,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -7304,7 +7492,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 7,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -7348,6 +7538,8 @@
      ]
     }
    ],
+   "group_sales": 7,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -7456,6 +7648,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -7490,6 +7684,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -7523,6 +7719,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7557,6 +7755,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.25
   },
@@ -7601,7 +7801,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -7629,6 +7831,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.25,
    "oz_au": 0
   },
@@ -7663,6 +7867,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -7696,6 +7902,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 2.0,
    "oz_au": 0
   },
@@ -7730,6 +7938,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 4.0,
    "oz_au": 0
   },
@@ -7764,7 +7974,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -7811,7 +8023,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -7866,6 +8080,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.5,
    "oz_au": 0
   },
@@ -7917,6 +8133,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -7968,6 +8186,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8003,7 +8223,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8083,7 +8305,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8133,6 +8357,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8184,6 +8410,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8247,7 +8475,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8346,6 +8576,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8397,6 +8629,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8495,6 +8729,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8535,7 +8771,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8590,6 +8828,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8630,6 +8870,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -8670,7 +8912,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8725,6 +8969,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8795,7 +9041,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8858,6 +9106,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -8889,7 +9139,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8921,6 +9173,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -8944,7 +9198,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -8972,6 +9228,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -9043,7 +9301,9 @@
      "low": 20,
      "high": 100
     }
-   ]
+   ],
+   "group_sales": 7,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9071,6 +9331,8 @@
      ]
     }
    ],
+   "group_sales": 7,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -9108,6 +9370,8 @@
      ]
     }
    ],
+   "group_sales": 7,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9160,7 +9424,9 @@
      "low": 20,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9182,7 +9448,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9214,6 +9482,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9265,7 +9535,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9319,6 +9591,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9380,7 +9654,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9412,6 +9688,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9453,7 +9731,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9496,6 +9776,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9529,7 +9811,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9559,7 +9843,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9593,7 +9879,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9629,6 +9917,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9652,7 +9942,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9680,6 +9972,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9703,7 +9997,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9737,7 +10033,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9773,6 +10071,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9808,7 +10108,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9858,6 +10160,8 @@
      ]
     }
    ],
+   "group_sales": 6,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -9945,7 +10249,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -9981,6 +10287,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10058,7 +10366,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10112,6 +10422,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -10147,7 +10459,9 @@
      "low": 40,
      "high": 190
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10201,6 +10515,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10240,7 +10556,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10294,6 +10612,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10333,7 +10653,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10369,6 +10691,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10446,6 +10770,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10479,6 +10805,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "issue",
    "oz_ag": 5.0,
    "oz_au": 0
   },
@@ -10576,7 +10904,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 5,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10610,7 +10940,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10660,6 +10992,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -10723,6 +11057,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10752,7 +11088,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10791,6 +11129,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -10840,7 +11180,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10872,6 +11214,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.2023,
    "oz_au": 0
   },
@@ -10923,7 +11267,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -10981,6 +11327,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11076,6 +11424,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11149,6 +11499,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -11209,7 +11561,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11241,6 +11595,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2023,
    "oz_au": 0
   },
@@ -11268,7 +11624,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11296,6 +11654,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -11347,7 +11707,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11397,6 +11759,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -11448,6 +11812,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -11483,7 +11849,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11517,7 +11885,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11567,6 +11937,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11602,7 +11974,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11656,6 +12030,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -11721,7 +12097,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11771,6 +12149,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -11826,6 +12206,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11894,7 +12276,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -11952,6 +12336,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -11999,7 +12385,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12027,6 +12415,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -12082,6 +12472,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12115,7 +12507,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12154,6 +12548,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2023,
    "oz_au": 0
   },
@@ -12197,7 +12593,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12251,6 +12649,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.4694,
    "oz_au": 0
   },
@@ -12310,6 +12710,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12333,7 +12735,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12383,7 +12787,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12417,7 +12823,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12445,6 +12853,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -12520,7 +12930,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12574,6 +12986,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -12613,7 +13027,9 @@
      "low": 40,
      "high": 190
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12683,6 +13099,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12744,7 +13162,9 @@
      "low": 19,
      "high": 95
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -12794,6 +13214,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -12874,6 +13296,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -12953,6 +13377,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -13040,7 +13466,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13090,6 +13518,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -13117,7 +13547,9 @@
      "low": 50,
      "high": 240
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13143,7 +13575,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13171,7 +13605,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13210,6 +13646,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.3003,
    "oz_au": 0
   },
@@ -13267,7 +13705,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13303,6 +13743,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.3324,
    "oz_au": 0
   },
@@ -13332,7 +13774,9 @@
      "low": 390,
      "high": 1925
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13354,7 +13798,9 @@
      "low": 55,
      "high": 280
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13382,6 +13828,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -13415,7 +13863,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13454,6 +13904,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -13525,6 +13977,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -13588,7 +14042,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13610,7 +14066,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13664,6 +14122,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 2.0,
    "oz_au": 0
   },
@@ -13693,7 +14153,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13732,6 +14194,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.1558,
    "oz_au": 0
   },
@@ -13823,7 +14287,9 @@
      "low": 20,
      "high": 100
     }
-   ]
+   ],
+   "group_sales": 4,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13855,7 +14321,9 @@
      "low": 20,
      "high": 100
     }
-   ]
+   ],
+   "group_sales": 4,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13891,6 +14359,8 @@
      ]
     }
    ],
+   "group_sales": 4,
+   "group_kind": "issue",
    "oz_ag": 0.6745,
    "oz_au": 0
   },
@@ -13938,7 +14408,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -13960,7 +14432,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14010,6 +14484,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 2.0,
    "oz_au": 0
   },
@@ -14061,6 +14537,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 3.0,
    "oz_au": 0
   },
@@ -14116,6 +14594,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14151,7 +14631,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14201,6 +14683,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.1526,
    "oz_au": 0
   },
@@ -14281,6 +14765,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14320,7 +14806,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14362,7 +14850,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14434,6 +14924,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 2.9549,
    "oz_au": 0
   },
@@ -14489,6 +14981,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -14560,7 +15054,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14599,6 +15095,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -14640,6 +15138,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -14675,7 +15175,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14707,7 +15209,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14746,6 +15250,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -14785,7 +15291,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14813,6 +15321,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -14860,7 +15370,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -14914,6 +15426,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -14969,6 +15483,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -15032,7 +15548,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15082,6 +15600,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -15117,7 +15637,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15171,6 +15693,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15208,6 +15732,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15256,6 +15782,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.4985
   },
@@ -15291,7 +15819,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15319,6 +15849,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -15352,6 +15884,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.7734,
    "oz_au": 0
   },
@@ -15443,6 +15977,8 @@
      ]
     }
    ],
+   "group_sales": 6,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15500,7 +16036,9 @@
      "low": 45,
      "high": 210
     }
-   ]
+   ],
+   "group_sales": 6,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15550,6 +16088,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.4914,
    "oz_au": 0
   },
@@ -15573,7 +16113,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15623,6 +16165,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15646,7 +16190,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15700,6 +16246,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15729,6 +16277,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.5
   },
@@ -15752,7 +16302,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15795,6 +16347,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15832,7 +16386,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15860,6 +16416,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -15891,7 +16449,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15919,7 +16479,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15941,7 +16503,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15963,7 +16527,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -15991,6 +16557,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.2044
   },
@@ -16042,6 +16610,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -16093,7 +16663,9 @@
      "low": 40,
      "high": 210
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16132,6 +16704,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -16172,6 +16746,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16195,7 +16771,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16223,7 +16801,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16251,6 +16831,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16278,7 +16860,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16312,7 +16896,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16334,7 +16920,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16384,6 +16972,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16413,6 +17003,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -16440,7 +17032,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16494,6 +17088,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.4995,
    "oz_au": 0
   },
@@ -16523,7 +17119,9 @@
      "low": 270,
      "high": 1300
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16549,7 +17147,9 @@
      "low": 20,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16571,7 +17171,9 @@
      "low": 30,
      "high": 150
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16631,7 +17233,9 @@
      "low": 18,
      "high": 90
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16674,6 +17278,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -16701,7 +17307,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16733,6 +17341,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -16776,7 +17386,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -16804,6 +17416,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -16841,6 +17455,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -16864,7 +17480,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -16903,6 +17521,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.0
   },
@@ -16932,6 +17552,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -16993,6 +17615,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -17016,7 +17640,9 @@
      "low": 55,
      "high": 280
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17112,6 +17738,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -17156,7 +17784,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17184,6 +17814,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -17257,6 +17889,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -17325,7 +17959,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17358,6 +17994,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 3.996,
    "oz_au": 0
   },
@@ -17403,6 +18041,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -17442,7 +18082,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17482,7 +18124,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17510,6 +18154,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -17567,7 +18213,9 @@
      "low": 60,
      "high": 290
     }
-   ]
+   ],
+   "group_sales": 4,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17622,7 +18270,9 @@
      "low": 45,
      "high": 230
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17652,7 +18302,9 @@
      "low": 45,
      "high": 230
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17680,6 +18332,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -17732,7 +18386,9 @@
      "low": 45,
      "high": 230
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17787,6 +18443,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -17827,7 +18485,9 @@
      "low": 45,
      "high": 230
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17872,6 +18532,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.4272,
    "oz_au": 0
   },
@@ -17901,6 +18563,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.3372
   },
@@ -17924,7 +18588,9 @@
      "low": 65,
      "high": 320
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -17946,7 +18612,9 @@
      "low": 85,
      "high": 410
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18107,7 +18775,9 @@
      "low": 45,
      "high": 230
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18201,7 +18871,9 @@
      "low": 50,
      "high": 240
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18275,7 +18947,9 @@
      "low": 85,
      "high": 430
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18331,7 +19005,9 @@
      "low": 600,
      "high": 2900
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18425,7 +19101,9 @@
      "low": 45,
      "high": 230
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18472,7 +19150,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18527,6 +19207,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -18566,7 +19248,9 @@
      "low": 65,
      "high": 320
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18598,6 +19282,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -18627,6 +19313,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.7668,
    "oz_au": 0
   },
@@ -18650,7 +19338,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18717,6 +19407,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "issue",
    "oz_ag": 0.1479,
    "oz_au": 0
   },
@@ -18751,6 +19443,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "issue",
    "oz_ag": 0.3161,
    "oz_au": 0
   },
@@ -18774,7 +19468,9 @@
      "low": 70,
      "high": 340
     }
-   ]
+   ],
+   "group_sales": 5,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18821,7 +19517,9 @@
      "low": 40,
      "high": 190
     }
-   ]
+   ],
+   "group_sales": 5,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18847,7 +19545,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18885,7 +19585,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18911,7 +19613,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -18983,6 +19687,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -19040,7 +19746,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19074,7 +19782,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19096,7 +19806,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19124,7 +19836,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19202,7 +19916,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19236,7 +19952,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19264,7 +19982,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19292,7 +20012,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19326,7 +20048,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19354,7 +20078,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19376,7 +20102,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19404,6 +20132,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -19427,7 +20157,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19459,7 +20191,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19487,7 +20221,9 @@
      "low": 80,
      "high": 390
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19552,6 +20288,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -19594,6 +20332,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -19636,6 +20376,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -19670,6 +20412,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -19710,7 +20454,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -19760,6 +20506,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -19811,6 +20559,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.9665
   },
@@ -19883,6 +20633,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -19912,6 +20664,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -20037,6 +20791,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -20099,6 +20855,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -20155,6 +20913,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -20245,6 +21005,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -20296,6 +21058,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.25
   },
@@ -20333,6 +21097,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -20383,6 +21149,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -20412,6 +21180,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pt": 0.1
   },
   {
@@ -20486,6 +21256,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -20588,6 +21360,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -20652,6 +21426,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_pd": 0.9995
   },
   {
@@ -20721,6 +21497,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -20758,6 +21536,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -20787,6 +21567,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pd": 0.05
   },
   {
@@ -20819,6 +21601,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pt": 0.1
   },
   {
@@ -20903,7 +21687,9 @@
      "low": 75,
      "high": 370
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -20958,6 +21744,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.2308
   },
@@ -20993,7 +21781,9 @@
      "low": 440,
      "high": 2100
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -21056,6 +21846,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -21089,6 +21881,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -21122,6 +21916,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21151,6 +21947,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pd": 0.0964
   },
   {
@@ -21179,6 +21977,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pt": 0.1606
   },
   {
@@ -21215,6 +22015,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -21244,6 +22046,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -21277,6 +22081,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -21306,6 +22112,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 6.993,
    "oz_au": 0
   },
@@ -21335,6 +22143,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 14.4855,
    "oz_au": 0
   },
@@ -21376,6 +22186,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -21417,6 +22229,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21450,6 +22264,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pd": 0.05
   },
   {
@@ -21482,6 +22298,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_pt": 0.1
   },
   {
@@ -21573,6 +22391,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -21624,6 +22444,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -21687,6 +22509,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -21742,6 +22566,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_pd": 0.05
   },
   {
@@ -21796,6 +22622,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_pt": 0.1
   },
   {
@@ -21835,6 +22663,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -21886,6 +22716,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -21937,6 +22769,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -21988,6 +22822,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -22039,6 +22875,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -22062,7 +22900,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -22112,6 +22952,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -22149,6 +22991,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -22207,6 +23051,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -22236,6 +23082,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -22265,6 +23113,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 3.5365,
    "oz_au": 0
   },
@@ -22294,6 +23144,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 3.0669,
    "oz_au": 0
   },
@@ -22317,7 +23169,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -22383,6 +23237,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -22428,6 +23284,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -22483,6 +23341,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -22539,6 +23399,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -22595,6 +23457,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pd": 0.1
   },
   {
@@ -22623,6 +23487,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pt": 0.1607
   },
   {
@@ -22667,6 +23533,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -22723,6 +23591,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -22757,6 +23627,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -22786,6 +23658,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -22831,6 +23705,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -22860,6 +23736,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -22916,6 +23794,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -22971,6 +23851,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -23026,6 +23908,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -23082,6 +23966,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -23116,6 +24002,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -23172,6 +24060,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -23201,6 +24091,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -23252,6 +24144,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -23281,6 +24175,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -23326,6 +24222,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -23382,6 +24280,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -23450,6 +24350,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -23484,6 +24386,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -23513,6 +24417,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -23542,6 +24448,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -23587,6 +24495,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -23632,6 +24542,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -23661,6 +24573,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pd": 0.1
   },
   {
@@ -23705,6 +24619,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pt": 0.1607
   },
   {
@@ -23733,6 +24649,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -23789,6 +24707,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -23823,6 +24743,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -23860,6 +24782,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -23889,6 +24813,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -23918,6 +24844,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -23963,6 +24891,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -24019,6 +24949,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -24075,6 +25007,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pd": 0.1
   },
   {
@@ -24103,6 +25037,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -24159,6 +25095,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -24193,6 +25131,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -24250,6 +25190,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -24279,6 +25221,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -24324,6 +25268,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -24380,6 +25326,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -24436,6 +25384,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pd": 0.1
   },
   {
@@ -24464,6 +25414,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -24519,6 +25471,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -24553,6 +25507,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -24582,6 +25538,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -24611,6 +25569,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -24656,6 +25616,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -24712,6 +25674,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -24741,6 +25705,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -24844,6 +25810,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -24873,6 +25841,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -24902,6 +25872,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -24947,6 +25919,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -25003,6 +25977,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -25032,6 +26008,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 2.4975
   },
@@ -25083,6 +26061,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -25146,6 +26126,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -25202,6 +26184,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -25247,6 +26231,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -25292,6 +26278,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_pd": 0.1
   },
   {
@@ -25342,6 +26330,8 @@
      ]
     }
    ],
+   "group_sales": 9,
+   "group_kind": "series",
    "oz_ag": 1.4985,
    "oz_au": 0
   },
@@ -25416,6 +26406,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -25450,6 +26442,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -25490,6 +26484,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "series",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -25582,6 +26578,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0642,
    "oz_au": 0
   },
@@ -25645,6 +26643,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -25679,6 +26679,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.6059,
    "oz_au": 0
   },
@@ -25713,6 +26715,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.6059,
    "oz_au": 0
   },
@@ -25755,6 +26759,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_ag": 0.05,
    "oz_au": 0
   },
@@ -25801,6 +26807,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -25839,6 +26847,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_pd": 0.05
   },
   {
@@ -25871,6 +26881,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "section",
    "oz_pt": 0.1
   },
   {
@@ -25893,7 +26905,9 @@
      "low": 65,
      "high": 310
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -25956,6 +26970,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 3.1155,
    "oz_au": 0
   },
@@ -25990,6 +27006,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 2.997,
    "oz_au": 0
   },
@@ -26024,6 +27042,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 3.2119,
    "oz_au": 0
   },
@@ -26075,7 +27095,9 @@
      "low": 525,
      "high": 2600
     }
-   ]
+   ],
+   "group_sales": 13,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -26108,6 +27130,8 @@
      ]
     }
    ],
+   "group_sales": 13,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.9995
   },
@@ -26170,6 +27194,8 @@
      ]
     }
    ],
+   "group_sales": 13,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -26226,6 +27252,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.8993,
    "oz_au": 0
   },
@@ -26277,6 +27305,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -26333,7 +27363,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -26417,6 +27449,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.7708,
    "oz_au": 0
   },
@@ -26473,6 +27507,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -26513,7 +27549,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -26551,7 +27589,9 @@
      "low": 420,
      "high": 2100
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -26806,7 +27846,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -26845,7 +27887,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -26899,6 +27943,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -26961,6 +28007,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.7708,
    "oz_au": 0
   },
@@ -26995,6 +28043,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -27034,7 +28084,9 @@
      "low": 30,
      "high": 150
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27089,6 +28141,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27112,7 +28166,9 @@
      "low": 40,
      "high": 200
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27178,6 +28234,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -27220,7 +28278,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27264,6 +28324,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27326,7 +28388,9 @@
      "low": 50,
      "high": 260
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27375,7 +28439,9 @@
      "low": 30,
      "high": 150
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27408,7 +28474,9 @@
      "low": 30,
      "high": 150
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27452,6 +28520,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27486,7 +28556,9 @@
      "low": 30,
      "high": 150
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27592,6 +28664,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27637,6 +28711,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -27679,7 +28755,9 @@
      "low": 30,
      "high": 150
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27718,6 +28796,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27783,7 +28863,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27824,6 +28906,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -27915,7 +28999,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27942,7 +29028,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27964,7 +29052,9 @@
      "low": 40,
      "high": 200
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -27997,6 +29087,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28053,6 +29145,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.8672,
    "oz_au": 0
   },
@@ -28158,6 +29252,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28191,6 +29287,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.998,
    "oz_au": 0
   },
@@ -28280,7 +29378,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 5,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -28448,7 +29548,9 @@
      "low": 30,
      "high": 140
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -28503,6 +29605,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28570,7 +29674,9 @@
      "low": 35,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -28676,7 +29782,9 @@
      "low": 60,
      "high": 290
     }
-   ]
+   ],
+   "group_sales": 7,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -28698,7 +29806,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -28814,6 +29924,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -28902,6 +30014,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 3.0,
    "oz_au": 0
   },
@@ -28974,7 +30088,9 @@
      "low": 60,
      "high": 300
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29023,7 +30139,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29053,7 +30171,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29075,7 +30195,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29113,7 +30235,9 @@
      "low": 75,
      "high": 360
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29161,7 +30285,9 @@
      "low": 85,
      "high": 420
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29234,6 +30360,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 9.99,
    "oz_au": 0
   },
@@ -29268,6 +30396,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.4015,
    "oz_au": 0
   },
@@ -29304,7 +30434,9 @@
      "low": 50,
      "high": 250
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29345,6 +30477,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.4995,
    "oz_au": 0
   },
@@ -29393,7 +30527,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29443,6 +30579,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29479,7 +30617,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29507,6 +30647,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29565,7 +30707,9 @@
      "low": 7,
      "high": 35
     }
-   ]
+   ],
+   "group_sales": 5,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29593,6 +30737,8 @@
      ]
     }
    ],
+   "group_sales": 5,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29643,7 +30789,9 @@
      "low": 7,
      "high": 35
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29698,6 +30846,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29734,7 +30884,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29762,6 +30914,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29798,7 +30952,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29826,6 +30982,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29854,7 +31012,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29893,7 +31053,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29921,6 +31083,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -29949,7 +31113,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -29988,7 +31154,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30016,6 +31184,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30044,7 +31214,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30083,7 +31255,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30111,6 +31285,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30139,7 +31315,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30178,7 +31356,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30206,6 +31386,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30242,7 +31424,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30270,6 +31454,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30306,7 +31492,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30334,6 +31522,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30370,7 +31560,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30398,6 +31590,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30456,7 +31650,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30484,6 +31680,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30507,7 +31705,9 @@
      "low": 9,
      "high": 45
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30535,6 +31735,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -30705,7 +31907,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30762,6 +31966,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -30813,6 +32019,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -30893,7 +32101,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30943,6 +32153,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -30970,7 +32182,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -30992,7 +32206,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31020,6 +32236,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -31105,6 +32323,8 @@
      ]
     }
    ],
+   "group_sales": 33,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 1.6059
   },
@@ -31153,7 +32373,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 33,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31228,7 +32450,9 @@
      "low": 25,
      "high": 130
     }
-   ]
+   ],
+   "group_sales": 33,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31295,6 +32519,8 @@
      ]
     }
    ],
+   "group_sales": 33,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -31366,7 +32592,9 @@
      "low": 35,
      "high": 180
     }
-   ]
+   ],
+   "group_sales": 2,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31428,6 +32656,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -31484,6 +32714,8 @@
      ]
     }
    ],
+   "group_sales": 2,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -31607,7 +32839,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31661,6 +32895,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -31690,6 +32926,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -31717,7 +32955,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31785,7 +33025,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31811,7 +33053,9 @@
      "low": 35,
      "high": 170
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31845,7 +33089,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -31885,6 +33131,8 @@
      ]
     }
    ],
+   "group_sales": 3,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -31950,7 +33198,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -31992,7 +33242,9 @@
      "low": 300,
      "high": 1500
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -32046,7 +33298,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -32068,7 +33322,9 @@
      "low": 45,
      "high": 220
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -32090,7 +33346,9 @@
      "low": 300,
      "high": 1500
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -32116,7 +33374,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 3,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -32176,7 +33436,9 @@
      "low": 60,
      "high": 290
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32214,7 +33476,9 @@
      "low": 400,
      "high": 1950
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32264,7 +33528,9 @@
      "low": 420,
      "high": 2100
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32290,7 +33556,9 @@
      "low": 50,
      "high": 240
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32322,6 +33590,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -32363,6 +33633,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -32414,7 +33686,9 @@
      "low": 50,
      "high": 240
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32454,6 +33728,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -32503,7 +33779,9 @@
      "low": 50,
      "high": 240
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32531,6 +33809,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -32567,7 +33847,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32595,6 +33877,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32653,7 +33937,9 @@
      "low": 25,
      "high": 120
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32681,6 +33967,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32717,7 +34005,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32745,6 +34035,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32781,7 +34073,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32809,6 +34103,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32845,7 +34141,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32873,6 +34171,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32909,7 +34209,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -32937,6 +34239,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -32965,7 +34269,9 @@
      "low": 20,
      "high": 100
     }
-   ]
+   ],
+   "group_sales": 1,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -33020,6 +34326,8 @@
      ]
     }
    ],
+   "group_sales": 1,
+   "group_kind": "issue",
    "oz_ag": 0.2497,
    "oz_au": 0
   },
@@ -33055,7 +34363,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "section"
   },
   {
    "part": "Catalogue",
@@ -33077,7 +34387,9 @@
      "low": 25,
      "high": 110
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -33132,6 +34444,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.1
   },
@@ -33182,6 +34496,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33234,7 +34550,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -33291,6 +34609,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33339,7 +34659,9 @@
      "low": 30,
      "high": 160
     }
-   ]
+   ],
+   "group_sales": 0,
+   "group_kind": "issue"
   },
   {
    "part": "Catalogue",
@@ -33394,6 +34716,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 1.0,
    "oz_au": 0
   },
@@ -33427,6 +34751,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -33460,6 +34786,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -33489,6 +34817,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -33518,6 +34848,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 4.995,
    "oz_au": 0
   },
@@ -33555,6 +34887,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.999,
    "oz_au": 0
   },
@@ -33588,6 +34922,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.999
   },
@@ -33617,6 +34953,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.4995
   },
@@ -33646,6 +34984,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.2497
   },
@@ -33679,6 +35019,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -33708,6 +35050,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.0583
   },
@@ -33737,6 +35081,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0,
    "oz_au": 0.0999
   },
@@ -33766,6 +35112,8 @@
      ]
     }
    ],
+   "group_sales": 0,
+   "group_kind": "issue",
    "oz_ag": 0.0999,
    "oz_au": 0
   },

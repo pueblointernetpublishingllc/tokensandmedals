@@ -631,7 +631,10 @@ h1, h2, h3 { text-wrap: balance; }
 .g-piece.formula .gtable .est { color: var(--formula); }
 .basis-tag {
   display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.5rem; border: 1px solid var(--formula);
-  color: var(--formula); font-size: 0.8rem; font-weight: 500; white-space: nowrap; vertical-align: 0.1em;
+  color: var(--formula); font-size: 0.8rem; font-weight: 500; vertical-align: 0.1em;
+  white-space: normal;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 .basis-toggle { display: inline-flex; align-items: center; gap: 0.45rem; margin: 0.5rem 0 0; font-size: 0.95rem; color: var(--ink); cursor: pointer; }
 .basis-toggle input { width: 1.05rem; height: 1.05rem; accent-color: var(--formula); }

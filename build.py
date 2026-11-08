@@ -244,7 +244,7 @@ def render_scd(doc):
         anchor = slug(f"hk-{p['hk']}-{p['metal']}-{p['finish']}")
         formula = p.get("basis") == "formula"
         keys = f"hk{p['hk']} {p['event']} {p['year']} {p['metal']} {p['finish']}" + (" formula only" if formula else "")
-        tag = ' <span class="basis-tag">formula only &middot; no sales in our records</span>' if formula else ""
+        tag = f' <span class="basis-tag">{scd_tag(p)}</span>' if formula else ""
         out.append(f"""        <div class="g-piece{' formula' if formula else ''}" id="{anchor}" data-g data-basis="{'formula' if formula else 'sales'}" data-k="{esc(keys.lower())}">
           <h3><span class="hk">HK-{esc(p["hk"])}</span> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}{tag}</h3>
           <div class="table-wrap"><table class="gtable scd">
@@ -263,6 +263,30 @@ CARR_PARTS = (
     ("Not in the maker's catalogue", "Other Carr pieces", "Carr pieces that are not in the online catalogue."),
 )
 CARR_GRADES = (("70", "70 slab"), ("69 or lower", "69 or lower"), ("ungraded", "Raw"))
+
+
+def plural(n, word):
+    return f"{n} {word}" + ("" if n == 1 else "s")
+
+
+def scd_tag(p):
+    """Says what we have for the piece and, where it informs the figure, for its HK number and event."""
+    t, e = p.get("type_sales", 0), p.get("event_sales", 0)
+    tail = (f" &middot; same HK number, other metals: {plural(t, 'sale')}" if t else
+            f" &middot; its event: {plural(e, 'sale')}" if e else " &middot; its event: no sales either")
+    return "formula only &middot; this piece: no sales in our records" + tail
+
+
+CARR_KIND = {"issue": ("its issue", "its issue"), "series": ("same design, other years", "same design in other years"),
+             "design": ("same design, other dates", "same design at other dates"), "section": ("same catalogue page", "its catalogue page")}
+
+
+def carr_tag(L):
+    n, k = L.get("group_sales", 0), L.get("group_kind", "issue")
+    with_, none_ = CARR_KIND.get(k, CARR_KIND["issue"])
+    many = "these pieces" if L.get("n", 1) > 1 else "this piece"
+    tail = f" &middot; {with_}: {plural(n, 'sale')}" if n else f" &middot; {none_}: no sales either"
+    return f"formula only &middot; {many}: no sales in our records" + tail
 
 
 def render_carr(doc):
@@ -313,7 +337,7 @@ def render_carr(doc):
                          + (f' data-pt="{L["oz_pt"]}"' if L.get("oz_pt") else "") + (f' data-pd="{L["oz_pd"]}"' if L.get("oz_pd") else ""))
                 formula = L.get("basis") == "formula"
                 keys = f"{head} {L['group']} {L['item']}".lower() + (" formula only" if formula else "")
-                tag = ' <span class="basis-tag">formula only</span>' if formula else ""
+                tag = f' <span class="basis-tag">{carr_tag(L)}</span>' if formula else ""
                 trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}"{metal} data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
             heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
             src = doc.get("section_links", {}).get(head if part == "Catalogue" else ("Over-strikes" if part == "Over-strikes" else ""), {})
