@@ -83,8 +83,8 @@
   "auction": 0.79,
   "silver_spot": 51.95,
   "gold_spot": 4070.58,
-  "platinum_spot": 1534.15,
-  "palladium_spot": 1021.15,
+  "platinum_spot": 1535.65,
+  "palladium_spot": 1021.95,
   "pgm_source": "Hyperliquid",
   "spot_date": "2026-11-07",
   "spot_source": "Chainlink",
@@ -162,6 +162,18 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 190,
+     "low": 85,
+     "high": 440
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 75,
+     "high": 380
+    },
     {
      "grade": "ungraded",
      "estimate": 160,
@@ -434,6 +446,12 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 75,
+     "high": 380
+    },
     {
      "grade": "ungraded",
      "estimate": 160,
@@ -1597,9 +1615,9 @@
   {
    "part": "Over-strikes",
    "group": "1-Dollar Seated Liberty",
-   "item": "“1837-O”, “1853-O”, “1874-CC”, “1874-S”",
+   "item": "“1837-O”, “1853-O”",
    "basis": "formula",
-   "n": 4,
+   "n": 2,
    "links": [
     [
      "“1837-O”",
@@ -1607,14 +1625,6 @@
     ],
     [
      "“1853-O”",
-     "http://www.moonlightmint.com/blog_52.htm"
-    ],
-    [
-     "“1874-CC”",
-     "http://www.moonlightmint.com/blog_52.htm"
-    ],
-    [
-     "“1874-S”",
      "http://www.moonlightmint.com/blog_52.htm"
     ]
    ],
@@ -1642,6 +1652,39 @@
       383.03
      ]
     },
+    {
+     "grade": "ungraded",
+     "estimate": 160,
+     "low": 70,
+     "high": 370,
+     "f": [
+      157.56,
+      72.24,
+      366.74
+     ]
+    }
+   ],
+   "oz_ag": 0.7734,
+   "oz_au": 0
+  },
+  {
+   "part": "Over-strikes",
+   "group": "1-Dollar Seated Liberty",
+   "item": "“1874-CC”, “1874-S”",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "“1874-CC”",
+     "http://www.moonlightmint.com/blog_52.htm"
+    ],
+    [
+     "“1874-S”",
+     "http://www.moonlightmint.com/blog_52.htm"
+    ]
+   ],
+   "store": [],
+   "grades": [
     {
      "grade": "ungraded",
      "estimate": 160,
@@ -3236,6 +3279,18 @@
    "store": [],
    "grades": [
     {
+     "grade": "70",
+     "estimate": 360,
+     "low": 160,
+     "high": 825
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 310,
+     "low": 140,
+     "high": 725
+    },
+    {
      "grade": "ungraded",
      "estimate": 300,
      "low": 140,
@@ -3332,6 +3387,18 @@
    "links": [],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 190,
+     "low": 85,
+     "high": 440
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 75,
+     "high": 380
+    },
     {
      "grade": "ungraded",
      "estimate": 160,
@@ -3677,6 +3744,17 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 75,
+     "high": 380,
+     "f": [
+      164.56,
+      75.45,
+      383.03
+     ]
+    },
     {
      "grade": "ungraded",
      "estimate": 160,
@@ -4461,6 +4539,18 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 190,
+     "low": 85,
+     "high": 440
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 160,
+     "low": 75,
+     "high": 380
+    },
     {
      "grade": "ungraded",
      "estimate": 160,
@@ -18920,6 +19010,12 @@
    "store": [],
    "grades": [
     {
+     "grade": "69 or lower",
+     "estimate": 150,
+     "low": 65,
+     "high": 340
+    },
+    {
      "grade": "ungraded",
      "estimate": 140,
      "low": 65,
@@ -31409,9 +31505,9 @@
   {
    "part": "Catalogue",
    "group": "Pioneer tokens · All issues",
-   "item": "JJC_0250_Ag_1, JJC_0500_Ag_1, JJC_1000_Ag_1, RRS_0500_Ag_1",
+   "item": "JJC_0250_Ag_1, JJC_0500_Ag_1, JJC_1000_Ag_1",
    "basis": "formula",
-   "n": 4,
+   "n": 3,
    "links": [
     [
      "JJC_0250_Ag_1",
@@ -31424,14 +31520,22 @@
     [
      "JJC_1000_Ag_1",
      "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJC_1000_Ag_1"
-    ],
-    [
-     "RRS_0500_Ag_1",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RRS_0500_Ag_1"
     ]
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 110,
+     "low": 50,
+     "high": 260
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 95,
+     "low": 45,
+     "high": 230
+    },
     {
      "grade": "ungraded",
      "estimate": 95,
@@ -31443,9 +31547,9 @@
   {
    "part": "Catalogue",
    "group": "Pioneer tokens · All issues",
-   "item": "JJC_0250_Au_1, JJC_0500_Au_1, JJC_1000_Au_1, RRS_0500_Au_1",
+   "item": "JJC_0250_Au_1, JJC_0500_Au_1, JJC_1000_Au_1",
    "basis": "formula",
-   "n": 4,
+   "n": 3,
    "links": [
     [
      "JJC_0250_Au_1",
@@ -31458,14 +31562,22 @@
     [
      "JJC_1000_Au_1",
      "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJC_1000_Au_1"
-    ],
-    [
-     "RRS_0500_Au_1",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RRS_0500_Au_1"
     ]
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 675,
+     "low": 310,
+     "high": 1550
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 575,
+     "low": 270,
+     "high": 1350
+    },
     {
      "grade": "ungraded",
      "estimate": 550,
@@ -31477,9 +31589,9 @@
   {
    "part": "Catalogue",
    "group": "Pioneer tokens · All issues",
-   "item": "JJC_0250_yb_1, JJC_0500_yb_1, JJC_1000_yb_1, JJC_0250_Cu_1, JJC_0500_Cu_1, JJC_1000_Cu_1, RRS_0500_yb_1, RRS_0500_Cu_1",
+   "item": "JJC_0250_yb_1, JJC_0500_yb_1, JJC_1000_yb_1, JJC_0250_Cu_1, JJC_0500_Cu_1, JJC_1000_Cu_1",
    "basis": "formula",
-   "n": 8,
+   "n": 6,
    "links": [
     [
      "JJC_0250_yb_1",
@@ -31504,7 +31616,81 @@
     [
      "JJC_1000_Cu_1",
      "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJC_1000_Cu_1"
-    ],
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 65,
+     "low": 30,
+     "high": 150
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 55,
+     "low": 25,
+     "high": 130
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 55,
+     "low": 25,
+     "high": 120
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · All issues",
+   "item": "RRS_0500_Ag_1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "RRS_0500_Ag_1",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RRS_0500_Ag_1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 95,
+     "low": 45,
+     "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · All issues",
+   "item": "RRS_0500_Au_1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "RRS_0500_Au_1",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RRS_0500_Au_1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 550,
+     "low": 250,
+     "high": 1300
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · All issues",
+   "item": "RRS_0500_yb_1, RRS_0500_Cu_1",
+   "basis": "formula",
+   "n": 2,
+   "links": [
     [
      "RRS_0500_yb_1",
      "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RRS_0500_yb_1"
@@ -31521,56 +31707,6 @@
      "estimate": 55,
      "low": 25,
      "high": 120
-    }
-   ]
-  },
-  {
-   "part": "Catalogue",
-   "group": "Pioneer tokens · All issues",
-   "item": "JJ_0250_B_OBV, JJ_0250_B_REV, JJ_0500_C_OBV, JJ_0500_B_REV, JJ_1000_B_OBV, JJ_1000_B_RBV, RS_0500_B_OBV, RS_0500_C_REV",
-   "basis": "formula",
-   "n": 8,
-   "links": [
-    [
-     "JJ_0250_B_OBV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJ_0250_B_OBV"
-    ],
-    [
-     "JJ_0250_B_REV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJ_0250_B_REV"
-    ],
-    [
-     "JJ_0500_C_OBV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJ_0500_C_OBV"
-    ],
-    [
-     "JJ_0500_B_REV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJ_0500_B_REV"
-    ],
-    [
-     "JJ_1000_B_OBV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJ_1000_B_OBV"
-    ],
-    [
-     "JJ_1000_B_RBV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJ_1000_B_RBV"
-    ],
-    [
-     "RS_0500_B_OBV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RS_0500_B_OBV"
-    ],
-    [
-     "RS_0500_C_REV",
-     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RS_0500_C_REV"
-    ]
-   ],
-   "store": [],
-   "grades": [
-    {
-     "grade": "ungraded",
-     "estimate": 75,
-     "low": 35,
-     "high": 170
     }
    ]
   },
@@ -31708,6 +31844,12 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 875,
+     "low": 400,
+     "high": 2000
+    },
     {
      "grade": "ungraded",
      "estimate": 850,
