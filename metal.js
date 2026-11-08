@@ -87,6 +87,8 @@
             v = td.getAttribute('data-f').split(',').map(function (x) { return Math.max(Number(x), melt); });
             v[2] = Math.max(v[2], v[0]);
           }
+          var ip = parseFloat(td.getAttribute('data-ip') || '0');   // never under the maker's issue price
+          if (ip) { v = v.map(function (x) { return Math.max(x, ip); }); }
           var est = td.querySelector('.est'), rng = td.querySelector('.rng');
           if (est) est.textContent = money(nice(v[0], melt));
           if (rng) rng.textContent = money(nice(v[1], melt)) + '–' + money(nice(v[2], melt));

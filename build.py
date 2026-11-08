@@ -360,13 +360,18 @@ def render_carr(doc):
                     g = by[k]
                     dp = (f' data-p="{g["p"][0]},{g["p"][1]},{g["p"][2]}"' if g.get("p")           # metal + premium (live)
                           else f' data-f="{g["f"][0]},{g["f"][1]},{g["f"][2]}"' if g.get("f") else "")  # floored at live melt
+                    if dp and g.get("ip"):                     # live re-pricing never goes under the maker's issue price
+                        dp += f' data-ip="{g["ip"]}"'
                     return f'<td data-label="{esc(h)}"{dp}>{est_cell(g["estimate"], g["low"], g["high"])}</td>'
                 cells = "".join(td(k, h) for k, h in CARR_GRADES)
                 metal = ((f' data-ag="{L["oz_ag"]}"' if L.get("oz_ag") else "") + (f' data-au="{L["oz_au"]}"' if L.get("oz_au") else "")
                          + (f' data-pt="{L["oz_pt"]}"' if L.get("oz_pt") else "") + (f' data-pd="{L["oz_pd"]}"' if L.get("oz_pd") else ""))
                 formula = L.get("basis") == "formula"
                 keys = f"{head} {L['group']} {L['item']}".lower() + (" formula only" if formula else "")
-                tag = f' <span class="basis-tag">{carr_tag(L)}</span>' if formula else ""
+                ipr = [g["ip"] for g in L["grades"] if g.get("ipr")]
+                ip_note = f"floor: the maker&rsquo;s issue price, {money(min(ipr))}" if ipr else ""
+                tag = (f' <span class="basis-tag">{carr_tag(L)}{" &middot; " + ip_note if ip_note else ""}</span>' if formula
+                       else f' <span class="basis-tag">{ip_note}</span>' if ip_note else "")
                 trs.append(f'<tr{" class=\"formula\"" if formula else ""} data-g data-basis="{"formula" if formula else "sales"}"{metal} data-k="{esc(keys)}"><th scope="row">{label}{tag}</th>{cells}</tr>')
             heads = "".join(f'<th scope="col">{esc(h)}</th>' for _, h in CARR_GRADES)
             src = doc.get("section_links", {}).get(head if part == "Catalogue" else ("Over-strikes" if part == "Over-strikes" else ""), {})
@@ -445,6 +450,9 @@ def guide_placeholders():
         "{{CARR_PD_SPOT}}": f"${cf.get('palladium_spot', 0):,.2f}",
         "{{CARR_PT_RAW}}": f"{cf.get('platinum_spot', 0):.2f}",
         "{{CARR_PD_RAW}}": f"{cf.get('palladium_spot', 0):.2f}",
+        "{{CARR_IP_RESALES}}": str(ca.get("ip_resales", "")),
+        "{{CARR_IP_BELOW}}": f"{ca.get('ip_below') or 0:.0%}",
+        "{{CARR_IP_LINES}}": str(ca.get("ip_lines_raised", "")),
         "{{CARR_VARS_USED}}": carr_vars(cf.get("vars_used", []), cf),
         "{{CARR_VARS_TRIED}}": carr_vars(cf.get("vars_tried", []), cf, tried=True),
         "{{CARR_SIB_SALES}}": str(ca.get("sib_tested_sales", "")),
