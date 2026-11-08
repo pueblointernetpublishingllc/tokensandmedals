@@ -27,6 +27,7 @@ import pieces   # per-piece SEO pages (2026-11-08)
 # stylesheet version from its content: browsers may keep /styles.css for hours (Cloudflare max-age), so a
 # changed stylesheet gets a new URL and loads at once
 CSS_V = hashlib.sha256(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "styles.css"), "rb").read()).hexdigest()[:10]
+FONTS_V = hashlib.sha256(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "fonts.css"), "rb").read()).hexdigest()[:10]
 from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -97,9 +98,7 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
   <meta property="og:url" content="{url}">
   <meta property="og:image" content="{SITE}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/fonts/fonts.css?v={FONTS_V}">
   <link rel="stylesheet" href="/styles.css?v={CSS_V}">{ld_html}
 </head>
 <body>
