@@ -8,9 +8,11 @@
 //   silver = the silver perpetual future on Hyperliquid (xyz:SILVER), mid price, public API.
 // Chainlink's XAU/USD and XAG/USD feeds are the fallback for either, and the sanity check: a
 // 24/7 price more than 10% (gold) or 15% (silver) from Chainlink's last price is not used.
+// Platinum and palladium (data-pt / data-pd ounces): Hyperliquid's perpetuals (xyz:PLATINUM, xyz:PALLADIUM)
+// from the same request, used when within 30% of the price this edition was built with (on the note).
 // If nothing usable comes back, the page keeps the figures computed when the edition was built.
 (function () {
-  var rows = Array.prototype.slice.call(document.querySelectorAll('tr[data-ag], tr[data-au], tr[data-ptm]'));
+  var rows = Array.prototype.slice.call(document.querySelectorAll('tr[data-ag], tr[data-au], tr[data-pt], tr[data-pd]'));
   var note = document.getElementById('metal-live');
   if (!rows.length || !note || !window.fetch) return;
 
@@ -43,8 +45,7 @@
     .then(function (r) { return r.json(); });
   var perp = fetch(HL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'allMids', dex: 'xyz' }) })
     .then(function (r) { return r.json(); })
-    .then(function (m) { return Number(m && m['xyz:SILVER']); })
-    .catch(function () { return NaN; });
+    .catch(function () { return {}; });
   Promise.all([chain, perp])
     .then(function (both) {
       var res = both[0], by = {};
@@ -67,12 +68,17 @@
       function near(x, ref, tol) { return x > 0 && (!(ref > 0) || Math.abs(x / ref - 1) <= tol); }
       var g = { price: cg.price, src: 'chainlink', t: cg.t }, s = { price: cs.price, src: 'chainlink', t: cs.t };
       if (near(paxg, cg.price, 0.10)) g = { price: paxg, src: 'paxg', t: now };
-      if (near(both[1], cs.price, 0.15)) s = { price: both[1], src: 'perp', t: now };
+      var mids = both[1] || {};
+      if (near(Number(mids['xyz:SILVER']), cs.price, 0.15)) s = { price: Number(mids['xyz:SILVER']), src: 'perp', t: now };
+      var ptB = parseFloat(note.getAttribute('data-pt-price')) || 0, pdB = parseFloat(note.getAttribute('data-pd-price')) || 0;
+      var pt = { price: ptB, live: false }, pd = { price: pdB, live: false };
+      if (ptB && near(Number(mids['xyz:PLATINUM']), ptB, 0.30)) pt = { price: Math.round(Number(mids['xyz:PLATINUM']) * 100) / 100, live: true };
+      if (pdB && near(Number(mids['xyz:PALLADIUM']), pdB, 0.30)) pd = { price: Math.round(Number(mids['xyz:PALLADIUM']) * 100) / 100, live: true };
       if (!(g.price > 0 && s.price > 0) || ((g.src === 'chainlink' || s.src === 'chainlink') && !fresh)) throw new Error('no usable price');
       g.price = Math.round(g.price * 100) / 100; s.price = Math.round(s.price * 1000) / 1000;
       rows.forEach(function (tr) {
         var melt = parseFloat(tr.getAttribute('data-ag') || '0') * s.price + parseFloat(tr.getAttribute('data-au') || '0') * g.price
-          + parseFloat(tr.getAttribute('data-ptm') || '0');          // platinum: fixed, latest monthly price
+          + parseFloat(tr.getAttribute('data-pt') || '0') * pt.price + parseFloat(tr.getAttribute('data-pd') || '0') * pd.price;
         Array.prototype.forEach.call(tr.querySelectorAll('td[data-p], td[data-f]'), function (td) {
           var v;
           if (td.hasAttribute('data-p')) {                 // metal + premium
@@ -98,9 +104,11 @@
       var parts = [];
       if (g.src === 'paxg') parts.push(SRC.paxg); else parts.push('gold is Chainlink\'s gold price (updated ' + when(g.t) + ')');
       if (s.src === 'perp') parts.push(SRC.perp); else parts.push('silver is Chainlink\'s silver price (updated ' + when(s.t) + ')');
-      note.innerHTML = '<strong>Gold ' + ounce(g.price) + ' &middot; silver ' + ounce(s.price) + ' an ounce</strong>, live as of ' + when(now) +
-        ': ' + parts.join('; ') + '.' + (g.src !== 'chainlink' && s.src !== 'chainlink' ? ' Both trade around the clock, weekends included.' : '') +
-        ' Figures for pieces containing gold or silver include their metal at these prices.';
+      var pgm = (pt.live && pd.live) ? ' Platinum and palladium are the prices of the perpetual futures on them on Hyperliquid.'
+        : ' Platinum ' + (pt.live ? 'is live from Hyperliquid' : 'is the price this edition was built with') + '; palladium ' + (pd.live ? 'is live from Hyperliquid.' : 'is the price this edition was built with.');
+      note.innerHTML = '<strong>Gold ' + ounce(g.price) + ' &middot; silver ' + ounce(s.price) + ' &middot; platinum ' + ounce(pt.price) + ' &middot; palladium ' + ounce(pd.price) +
+        ' an ounce</strong>, live as of ' + when(now) + ': ' + parts.join('; ') + '.' + (g.src !== 'chainlink' && s.src !== 'chainlink' ? ' Both trade around the clock, weekends included.' : '') +
+        pgm + ' Figures for pieces containing precious metal include it at these prices.';
       note.classList.add('live');
     })
     .catch(function () { /* keep the build-time figures; the note already says which prices they use */ });

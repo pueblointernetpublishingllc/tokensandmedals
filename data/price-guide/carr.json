@@ -74,16 +74,18 @@
  "anchor": "eBay Buy It Now price; graded = ANACS slab",
  "range": "about 4 in 5 sales should land inside the range",
  "factors": {
-  "slab70": 1.16,
+  "slab70": 1.15,
   "slab69": 1.03,
-  "month": 0.994,
-  "silver": 1.27,
-  "newest_actual_over_estimate": 0.89,
-  "lot5": 3.2,
-  "auction": 0.8,
+  "month": 0.995,
+  "silver": 1.29,
+  "newest_actual_over_estimate": 0.88,
+  "lot5": 3.0,
+  "auction": 0.81,
   "silver_spot": 51.95,
   "gold_spot": 4070.58,
-  "platinum_spot": 1784.0,
+  "platinum_spot": 1534.25,
+  "palladium_spot": 1021.65,
+  "pgm_source": "Hyperliquid",
   "spot_date": "2026-11-07",
   "spot_source": "Chainlink",
   "metal_model": "melt + premium / never sold: plain, floored at melt"
@@ -92,6 +94,11 @@
   "formula_tested": 318,
   "formula_median_miss": 0.37,
   "formula_inside": 0.78,
+  "gold_tested_pieces": 2,
+  "gold_tested_sales": 2,
+  "gold_method": "melt + premium",
+  "gold_median_miss": 1.68,
+  "gold_inside": 0.0,
   "median_miss": 0.21,
   "newest_inside_range": 0.8,
   "newest_tested": 111
@@ -236,14 +243,14 @@
     {
      "grade": "70",
      "estimate": 240,
-     "low": 140,
-     "high": 440
+     "low": 130,
+     "high": 430
     },
     {
      "grade": "69 or lower",
      "estimate": 210,
      "low": 120,
-     "high": 390
+     "high": 380
     }
    ]
   },
@@ -365,9 +372,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 150,
-     "low": 85,
-     "high": 260
+     "estimate": 160,
+     "low": 90,
+     "high": 270
     }
    ]
   },
@@ -427,11 +434,11 @@
      "grade": "69 or lower",
      "estimate": 120,
      "low": 65,
-     "high": 210
+     "high": 220
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
+     "estimate": 120,
      "low": 65,
      "high": 210
     }
@@ -583,7 +590,7 @@
      "grade": "69 or lower",
      "estimate": 180,
      "low": 100,
-     "high": 340
+     "high": 330
     }
    ]
   },
@@ -629,9 +636,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 320,
-     "low": 190,
-     "high": 575
+     "estimate": 270,
+     "low": 160,
+     "high": 480
     }
    ]
   },
@@ -681,7 +688,7 @@
      "grade": "ungraded",
      "estimate": 160,
      "low": 85,
-     "high": 290
+     "high": 280
     }
    ]
   },
@@ -709,7 +716,7 @@
      "grade": "69 or lower",
      "estimate": 130,
      "low": 75,
-     "high": 240
+     "high": 250
     }
    ]
   },
@@ -731,7 +738,7 @@
      "grade": "ungraded",
      "estimate": 210,
      "low": 120,
-     "high": 380
+     "high": 360
     }
    ]
   },
@@ -751,15 +758,15 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 220,
+     "estimate": 210,
      "low": 120,
-     "high": 400
+     "high": 390
     },
     {
      "grade": "ungraded",
      "estimate": 190,
-     "low": 110,
-     "high": 350
+     "low": 100,
+     "high": 340
     }
    ]
   },
@@ -781,22 +788,22 @@
      "grade": "70",
      "estimate": 240,
      "low": 150,
-     "high": 410,
+     "high": 400,
      "p": [
-      200.5,
-      112.33,
-      366.54
+      199.23,
+      109.09,
+      361.28
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 210,
      "low": 140,
-     "high": 350,
+     "high": 360,
      "p": [
-      172.19,
-      96.47,
-      314.79
+      173.68,
+      95.1,
+      314.95
      ]
     }
    ],
@@ -821,11 +828,11 @@
      "grade": "70",
      "estimate": 220,
      "low": 140,
-     "high": 360,
+     "high": 350,
      "p": [
-      178.88,
-      104.29,
-      315.75
+      178.44,
+      102.21,
+      310.79
      ]
     }
    ],
@@ -852,9 +859,9 @@
      "low": 150,
      "high": 410,
      "p": [
-      203.32,
-      113.91,
-      371.69
+      203.72,
+      111.55,
+      369.43
      ]
     }
    ],
@@ -876,9 +883,9 @@
      "low": 140,
      "high": 330,
      "p": [
-      165.49,
-      96.48,
-      292.11
+      165.78,
+      94.96,
+      288.74
      ]
     }
    ],
@@ -964,9 +971,9 @@
      "low": 130,
      "high": 310,
      "p": [
-      153.49,
-      89.49,
-      270.94
+      153.44,
+      87.89,
+      267.24
      ]
     }
    ],
@@ -991,22 +998,22 @@
      "grade": "69 or lower",
      "estimate": 240,
      "low": 160,
-     "high": 420,
+     "high": 430,
      "p": [
-      199.63,
-      118.0,
-      384.34
+      201.38,
+      118.77,
+      391.94
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 230,
-     "low": 150,
-     "high": 410,
+     "estimate": 240,
+     "low": 160,
+     "high": 420,
      "p": [
-      194.14,
-      114.75,
-      373.77
+      194.86,
+      114.93,
+      379.26
      ]
     }
    ],
@@ -1031,22 +1038,22 @@
      "grade": "70",
      "estimate": 220,
      "low": 140,
-     "high": 370,
+     "high": 360,
      "p": [
-      179.57,
-      100.6,
-      328.28
+      177.81,
+      97.36,
+      322.44
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 190,
+     "estimate": 200,
      "low": 130,
      "high": 320,
      "p": [
-      154.22,
-      86.4,
-      281.93
+      155.01,
+      84.88,
+      281.09
      ]
     }
    ],
@@ -1073,9 +1080,9 @@
      "low": 160,
      "high": 420,
      "p": [
-      210.06,
-      117.68,
-      384.01
+      209.94,
+      114.95,
+      380.69
      ]
     },
     {
@@ -1084,9 +1091,9 @@
      "low": 150,
      "high": 410,
      "p": [
-      204.28,
-      114.45,
-      373.45
+      203.14,
+      111.23,
+      368.37
      ]
     }
    ],
@@ -1110,12 +1117,12 @@
     {
      "grade": "69 or lower",
      "estimate": 65,
-     "low": 55,
+     "low": 50,
      "high": 80,
      "p": [
-      22.35,
-      12.52,
-      40.85
+      22.5,
+      12.32,
+      40.8
      ]
     },
     {
@@ -1124,9 +1131,9 @@
      "low": 50,
      "high": 80,
      "p": [
-      21.73,
-      12.18,
-      39.73
+      21.77,
+      11.92,
+      39.48
      ]
     }
    ],
@@ -1150,23 +1157,23 @@
     {
      "grade": "69 or lower",
      "estimate": 250,
-     "low": 160,
-     "high": 420,
+     "low": 150,
+     "high": 410,
      "p": [
-      206.16,
-      115.5,
-      376.88
+      205.71,
+      112.64,
+      373.03
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 240,
      "low": 150,
-     "high": 410,
+     "high": 400,
      "p": [
-      200.49,
-      112.32,
-      366.51
+      199.05,
+      108.99,
+      360.95
      ]
     }
    ],
@@ -1190,12 +1197,12 @@
     {
      "grade": "ungraded",
      "estimate": 220,
-     "low": 150,
+     "low": 140,
      "high": 360,
      "p": [
-      182.83,
-      106.59,
-      322.72
+      181.63,
+      104.04,
+      316.34
      ]
     }
    ],
@@ -1222,20 +1229,20 @@
      "low": 170,
      "high": 460,
      "p": [
-      229.7,
-      128.69,
-      419.92
+      228.85,
+      125.31,
+      414.99
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 260,
-     "low": 170,
-     "high": 450,
+     "low": 160,
+     "high": 440,
      "p": [
-      223.38,
-      125.15,
-      408.37
+      221.44,
+      121.25,
+      401.56
      ]
     }
    ],
@@ -1325,13 +1332,13 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 290,
-     "low": 180,
-     "high": 490,
+     "estimate": 280,
+     "low": 170,
+     "high": 480,
      "p": [
-      247.91,
-      138.88,
-      453.2
+      242.55,
+      132.81,
+      439.84
      ]
     },
     {
@@ -1340,9 +1347,9 @@
      "low": 160,
      "high": 440,
      "p": [
-      218.92,
-      122.65,
-      400.21
+      218.52,
+      119.65,
+      396.27
      ]
     }
    ],
@@ -1365,13 +1372,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 220,
+     "estimate": 210,
      "low": 140,
-     "high": 350,
+     "high": 340,
      "p": [
-      175.99,
-      102.6,
-      310.64
+      174.76,
+      100.11,
+      304.38
      ]
     }
    ],
@@ -1396,11 +1403,11 @@
      "grade": "69 or lower",
      "estimate": 200,
      "low": 130,
-     "high": 320,
+     "high": 310,
      "p": [
-      156.64,
-      91.32,
-      276.49
+      157.4,
+      90.16,
+      274.13
      ]
     }
    ],
@@ -1427,9 +1434,9 @@
      "low": 120,
      "high": 310,
      "p": [
-      147.24,
-      82.49,
-      269.17
+      147.96,
+      81.02,
+      268.31
      ]
     }
    ],
@@ -1456,20 +1463,20 @@
      "low": 170,
      "high": 470,
      "p": [
-      232.49,
-      129.55,
-      425.53
+      233.93,
+      128.9,
+      426.56
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 270,
-     "low": 170,
+     "low": 160,
      "high": 450,
      "p": [
-      226.1,
-      125.99,
-      413.83
+      226.36,
+      124.72,
+      412.76
      ]
     }
    ],
@@ -1494,22 +1501,22 @@
      "grade": "69 or lower",
      "estimate": 220,
      "low": 150,
-     "high": 390,
+     "high": 400,
      "p": [
-      180.96,
-      106.97,
-      348.4
+      183.76,
+      108.38,
+      357.66
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 220,
-     "low": 140,
-     "high": 380,
+     "low": 150,
+     "high": 390,
      "p": [
-      175.99,
-      104.03,
-      338.83
+      177.82,
+      104.87,
+      346.08
      ]
     }
    ],
@@ -1536,9 +1543,9 @@
      "low": 140,
      "high": 340,
      "p": [
-      169.29,
-      98.7,
-      298.83
+      170.52,
+      97.67,
+      296.99
      ]
     }
    ],
@@ -1563,11 +1570,11 @@
      "grade": "ungraded",
      "estimate": 210,
      "low": 130,
-     "high": 350,
+     "high": 340,
      "p": [
-      166.89,
-      93.5,
-      305.09
+      166.66,
+      91.26,
+      302.22
      ]
     }
    ],
@@ -1683,11 +1690,11 @@
      "grade": "69 or lower",
      "estimate": 150,
      "low": 110,
-     "high": 240,
+     "high": 250,
      "p": [
-      100.2,
-      59.23,
-      192.91
+      102.21,
+      60.28,
+      198.94
      ]
     }
    ],
@@ -1714,9 +1721,9 @@
      "low": 95,
      "high": 190,
      "p": [
-      77.01,
-      42.91,
-      140.94
+      77.41,
+      42.65,
+      141.14
      ]
     },
     {
@@ -1725,9 +1732,9 @@
      "low": 95,
      "high": 190,
      "p": [
-      74.89,
-      41.73,
-      137.07
+      74.9,
+      41.27,
+      136.58
      ]
     }
    ],
@@ -1747,33 +1754,33 @@
      "grade": "70",
      "estimate": 180,
      "low": 130,
-     "high": 290,
+     "high": 300,
      "p": [
-      125.64,
-      74.27,
-      241.89
+      127.15,
+      74.99,
+      247.47
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 160,
+     "estimate": 170,
      "low": 120,
      "high": 270,
      "p": [
-      110.95,
-      65.58,
-      213.61
+      114.55,
+      67.56,
+      222.96
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 160,
      "low": 120,
-     "high": 260,
+     "high": 270,
      "p": [
-      107.9,
-      63.78,
-      207.74
+      110.85,
+      65.38,
+      215.74
      ]
     }
    ],
@@ -1791,13 +1798,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 140,
+     "estimate": 150,
      "low": 110,
      "high": 230,
      "p": [
-      91.06,
-      53.83,
-      175.32
+      93.46,
+      55.12,
+      181.9
      ]
     }
    ],
@@ -1816,12 +1823,12 @@
     {
      "grade": "69 or lower",
      "estimate": 130,
-     "low": 95,
-     "high": 200,
+     "low": 100,
+     "high": 210,
      "p": [
-      77.06,
-      45.55,
-      148.36
+      79.08,
+      46.64,
+      153.9
      ]
     }
    ],
@@ -1839,13 +1846,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 130,
+     "estimate": 140,
      "low": 100,
      "high": 200,
      "p": [
-      81.77,
-      45.81,
-      149.49
+      83.45,
+      45.69,
+      151.33
      ]
     }
    ],
@@ -1863,13 +1870,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 130,
+     "estimate": 140,
      "low": 100,
-     "high": 190,
+     "high": 200,
      "p": [
-      80.74,
-      47.07,
-      142.52
+      83.51,
+      47.83,
+      145.44
      ]
     }
    ],
@@ -1889,11 +1896,11 @@
      "grade": "69 or lower",
      "estimate": 130,
      "low": 95,
-     "high": 190,
+     "high": 200,
      "p": [
-      77.22,
-      43.26,
-      141.16
+      79.43,
+      43.49,
+      144.04
      ]
     }
    ],
@@ -1915,9 +1922,9 @@
      "low": 95,
      "high": 190,
      "p": [
-      76.14,
-      44.39,
-      134.41
+      78.65,
+      45.05,
+      136.98
      ]
     }
    ],
@@ -1937,11 +1944,11 @@
      "grade": "69 or lower",
      "estimate": 130,
      "low": 100,
-     "high": 200,
+     "high": 210,
      "p": [
-      78.47,
-      46.38,
-      151.07
+      80.4,
+      47.42,
+      156.48
      ]
     }
    ],
@@ -1959,13 +1966,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 120,
+     "estimate": 130,
      "low": 95,
      "high": 190,
      "p": [
-      71.69,
-      42.38,
-      138.03
+      73.23,
+      43.19,
+      142.53
      ]
     }
    ],
@@ -1987,9 +1994,9 @@
      "low": 95,
      "high": 200,
      "p": [
-      74.39,
-      43.97,
-      143.22
+      75.78,
+      44.69,
+      147.48
      ]
     }
    ],
@@ -2007,13 +2014,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 130,
+     "estimate": 140,
      "low": 100,
      "high": 200,
      "p": [
-      81.19,
-      47.34,
-      143.32
+      83.77,
+      47.99,
+      145.9
      ]
     }
    ],
@@ -2033,11 +2040,11 @@
      "grade": "70",
      "estimate": 130,
      "low": 95,
-     "high": 190,
+     "high": 200,
      "p": [
-      73.92,
-      43.69,
-      142.31
+      73.8,
+      43.53,
+      143.64
      ]
     },
     {
@@ -2046,9 +2053,9 @@
      "low": 90,
      "high": 180,
      "p": [
-      65.28,
-      38.58,
-      125.68
+      66.49,
+      39.22,
+      129.41
      ]
     }
    ],
@@ -2071,13 +2078,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 120,
+     "estimate": 130,
      "low": 95,
-     "high": 190,
+     "high": 200,
      "p": [
-      72.82,
-      43.04,
-      140.19
+      74.26,
+      43.8,
+      144.53
      ]
     },
     {
@@ -2086,9 +2093,9 @@
      "low": 95,
      "high": 190,
      "p": [
-      70.81,
-      41.86,
-      136.34
+      71.86,
+      42.38,
+      139.85
      ]
     }
    ],
@@ -2110,9 +2117,9 @@
      "low": 110,
      "high": 240,
      "p": [
-      101.09,
-      56.33,
-      185.03
+      102.71,
+      56.59,
+      187.28
      ]
     },
     {
@@ -2121,9 +2128,9 @@
      "low": 110,
      "high": 230,
      "p": [
-      98.31,
-      54.78,
-      179.94
+      99.38,
+      54.76,
+      181.22
      ]
     }
    ],
@@ -2145,9 +2152,9 @@
      "low": 95,
      "high": 200,
      "p": [
-      78.28,
-      43.86,
-      143.11
+      80.12,
+      43.87,
+      145.28
      ]
     }
    ],
@@ -2169,9 +2176,9 @@
      "low": 95,
      "high": 200,
      "p": [
-      79.55,
-      44.56,
-      145.42
+      81.52,
+      44.63,
+      147.82
      ]
     }
    ],
@@ -2190,12 +2197,12 @@
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 100,
-     "high": 220,
+     "low": 110,
+     "high": 230,
      "p": [
-      89.59,
-      52.96,
-      172.48
+      91.74,
+      54.11,
+      178.55
      ]
     }
    ],
@@ -2214,12 +2221,12 @@
     {
      "grade": "69 or lower",
      "estimate": 130,
-     "low": 95,
+     "low": 100,
      "high": 200,
      "p": [
-      76.51,
-      45.23,
-      147.31
+      78.59,
+      46.35,
+      152.96
      ]
     }
    ],
@@ -2242,13 +2249,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 340,
-     "low": 220,
-     "high": 575,
+     "estimate": 300,
+     "low": 190,
+     "high": 500,
      "p": [
-      299.91,
-      174.86,
-      529.39
+      262.91,
+      150.59,
+      457.9
      ]
     }
    ],
@@ -2271,9 +2278,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
+     "estimate": 150,
      "low": 80,
-     "high": 260
+     "high": 270
     }
    ]
   },
@@ -2310,9 +2317,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
-     "low": 75,
-     "high": 230
+     "estimate": 140,
+     "low": 80,
+     "high": 240
     }
    ]
   },
@@ -2327,24 +2334,24 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 290,
-     "low": 180,
-     "high": 490,
+     "estimate": 270,
+     "low": 170,
+     "high": 460,
      "p": [
-      247.81,
-      138.83,
-      453.02
+      229.3,
+      125.55,
+      415.8
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 250,
-     "low": 160,
-     "high": 430,
+     "estimate": 240,
+     "low": 150,
+     "high": 400,
      "p": [
-      212.82,
-      119.23,
-      389.06
+      199.89,
+      109.45,
+      362.48
      ]
     }
    ],
@@ -2396,24 +2403,24 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 190,
+     "estimate": 200,
      "low": 140,
-     "high": 320,
+     "high": 330,
      "p": [
-      141.15,
-      83.43,
-      271.76
+      143.95,
+      84.9,
+      280.17
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 180,
      "low": 130,
-     "high": 290,
+     "high": 300,
      "p": [
-      124.65,
-      73.68,
-      239.98
+      129.69,
+      76.49,
+      252.41
      ]
     }
    ],
@@ -2436,13 +2443,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 150,
-     "low": 100,
-     "high": 240,
+     "estimate": 160,
+     "low": 110,
+     "high": 260,
      "p": [
-      110.27,
-      61.78,
-      201.59
+      118.76,
+      65.03,
+      215.35
      ]
     }
    ],
@@ -2491,22 +2498,22 @@
      "grade": "70",
      "estimate": 190,
      "low": 130,
-     "high": 330,
+     "high": 340,
      "p": [
-      150.46,
-      88.94,
-      289.68
+      154.29,
+      91.0,
+      300.3
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 170,
+     "estimate": 180,
      "low": 120,
-     "high": 300,
+     "high": 310,
      "p": [
-      132.87,
-      78.54,
-      255.81
+      139.01,
+      81.98,
+      270.55
      ]
     }
    ],
@@ -2558,13 +2565,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 300,
-     "low": 180,
-     "high": 500,
+     "estimate": 280,
+     "low": 170,
+     "high": 480,
      "p": [
-      255.95,
-      143.39,
-      467.9
+      240.47,
+      131.67,
+      436.06
      ]
     }
    ],
@@ -2587,13 +2594,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 85,
-     "high": 230,
+     "estimate": 150,
+     "low": 90,
+     "high": 250,
      "p": [
-      118.18,
-      66.21,
-      216.06
+      131.43,
+      71.97,
+      238.33
      ]
     }
    ],
@@ -2617,12 +2624,12 @@
     {
      "grade": "70",
      "estimate": 180,
-     "low": 110,
-     "high": 320,
+     "low": 100,
+     "high": 310,
      "p": [
-      176.58,
-      102.95,
-      311.68
+      176.04,
+      100.84,
+      306.61
      ]
     }
    ],
@@ -2683,13 +2690,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 130,
-     "low": 75,
-     "high": 220,
+     "estimate": 140,
+     "low": 80,
+     "high": 230,
      "p": [
-      122.62,
-      71.49,
-      216.44
+      131.48,
+      75.31,
+      229.0
      ]
     }
    ],
@@ -2804,22 +2811,22 @@
      "grade": "70",
      "estimate": 210,
      "low": 140,
-     "high": 340,
+     "high": 330,
      "p": [
-      156.39,
-      87.15,
-      286.25
+      154.83,
+      85.31,
+      282.32
      ]
     },
     {
      "grade": "69 or lower",
      "estimate": 190,
      "low": 130,
-     "high": 300,
+     "high": 310,
      "p": [
-      138.11,
-      76.96,
-      252.78
+      139.49,
+      76.86,
+      254.35
      ]
     },
     {
@@ -2828,9 +2835,9 @@
      "low": 130,
      "high": 300,
      "p": [
-      134.31,
-      74.84,
-      245.83
+      134.97,
+      74.37,
+      246.11
      ]
     }
    ],
@@ -2848,13 +2855,13 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 1900,
+     "estimate": 1875,
      "low": 1225,
      "high": 3400,
      "p": [
-      1641.89,
-      970.52,
-      3161.1
+      1623.11,
+      957.29,
+      3159.03
      ]
     }
    ],
@@ -2876,20 +2883,20 @@
      "low": 210,
      "high": 575,
      "p": [
-      283.19,
-      157.8,
-      518.33
+      283.09,
+      155.98,
+      516.19
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 300,
+     "estimate": 310,
      "low": 190,
-     "high": 500,
+     "high": 525,
      "p": [
-      250.08,
-      139.35,
-      457.73
+      255.04,
+      140.53,
+      465.05
      ]
     }
    ],
@@ -2911,9 +2918,9 @@
      "low": 220,
      "high": 600,
      "p": [
-      279.05,
-      164.95,
-      537.25
+      278.97,
+      164.53,
+      542.95
      ]
     }
    ],
@@ -2935,9 +2942,9 @@
      "low": 220,
      "high": 600,
      "p": [
-      301.3,
-      167.9,
-      551.48
+      302.21,
+      166.52,
+      551.06
      ]
     }
    ],
@@ -2959,9 +2966,9 @@
      "low": 190,
      "high": 500,
      "p": [
-      244.83,
-      136.43,
-      448.11
+      244.31,
+      134.62,
+      445.49
      ]
     },
     {
@@ -2970,9 +2977,9 @@
      "low": 170,
      "high": 450,
      "p": [
-      216.21,
-      120.48,
-      395.72
+      220.11,
+      121.28,
+      401.36
      ]
     }
    ],
@@ -2990,13 +2997,13 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 410,
+     "estimate": 420,
      "low": 250,
      "high": 725,
      "p": [
-      362.41,
-      201.94,
-      663.31
+      363.73,
+      200.41,
+      663.25
      ]
     }
    ],
@@ -3019,21 +3026,21 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 130,
+     "estimate": 140,
      "low": 75,
-     "high": 240
+     "high": 250
     },
     {
      "grade": "69 or lower",
      "estimate": 120,
-     "low": 65,
-     "high": 210
+     "low": 70,
+     "high": 230
     },
     {
      "grade": "ungraded",
-     "estimate": 110,
+     "estimate": 120,
      "low": 65,
-     "high": 210
+     "high": 220
     }
    ]
   },
@@ -3180,9 +3187,9 @@
      "low": 95,
      "high": 270,
      "p": [
-      146.38,
-      85.34,
-      258.38
+      152.37,
+      87.28,
+      265.37
      ]
     }
    ],
@@ -3261,12 +3268,12 @@
     {
      "grade": "69 or lower",
      "estimate": 170,
-     "low": 100,
-     "high": 310,
+     "low": 95,
+     "high": 300,
      "p": [
-      164.44,
-      92.13,
-      300.62
+      160.44,
+      87.85,
+      290.94
      ]
     }
    ],
@@ -3347,9 +3354,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 320,
-     "low": 180,
-     "high": 550
+     "estimate": 270,
+     "low": 160,
+     "high": 480
     }
    ]
   },
@@ -3369,9 +3376,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 350,
-     "low": 200,
-     "high": 625
+     "estimate": 310,
+     "low": 180,
+     "high": 525
     }
    ]
   },
@@ -3391,9 +3398,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 85,
-     "low": 50,
-     "high": 150
+     "estimate": 100,
+     "low": 55,
+     "high": 170
     }
    ]
   },
@@ -3435,9 +3442,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 80,
-     "low": 50,
-     "high": 140
+     "estimate": 90,
+     "low": 55,
+     "high": 160
     }
    ]
   },
@@ -3457,9 +3464,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 80,
-     "low": 50,
-     "high": 150
+     "estimate": 90,
+     "low": 55,
+     "high": 160
     }
    ]
   },
@@ -3501,9 +3508,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 170,
-     "low": 100,
-     "high": 300
+     "estimate": 160,
+     "low": 95,
+     "high": 280
     }
    ]
   },
@@ -3523,7 +3530,7 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 120,
+     "estimate": 130,
      "low": 75,
      "high": 220
     }
@@ -3584,20 +3591,20 @@
     {
      "grade": "70",
      "estimate": 120,
-     "low": 70,
+     "low": 75,
      "high": 240
     },
     {
      "grade": "69 or lower",
      "estimate": 110,
      "low": 65,
-     "high": 210
+     "high": 220
     },
     {
      "grade": "ungraded",
      "estimate": 110,
-     "low": 60,
-     "high": 200
+     "low": 65,
+     "high": 210
     }
    ]
   },
@@ -3617,7 +3624,7 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 95,
+     "estimate": 100,
      "low": 55,
      "high": 180
     },
@@ -3645,9 +3652,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 240,
-     "low": 140,
-     "high": 420
+     "estimate": 230,
+     "low": 130,
+     "high": 390
     }
    ]
   },
@@ -3671,20 +3678,20 @@
      "low": 150,
      "high": 450,
      "p": [
-      225.7,
-      133.41,
-      434.54
+      220.87,
+      130.27,
+      429.88
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 240,
-     "low": 150,
-     "high": 440,
+     "estimate": 230,
+     "low": 140,
+     "high": 430,
      "p": [
-      219.5,
-      129.74,
-      422.59
+      213.72,
+      126.05,
+      415.97
      ]
     }
    ],
@@ -3731,13 +3738,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 240,
-     "low": 150,
-     "high": 410,
+     "estimate": 230,
+     "low": 140,
+     "high": 380,
      "p": [
-      222.28,
-      129.59,
-      392.36
+      209.31,
+      119.89,
+      364.54
      ]
     }
    ],
@@ -3760,13 +3767,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 250,
-     "low": 150,
-     "high": 430,
+     "estimate": 230,
+     "low": 140,
+     "high": 410,
      "p": [
-      226.44,
-      126.86,
-      413.95
+      215.06,
+      117.76,
+      389.99
      ]
     }
    ],
@@ -3818,13 +3825,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 280,
-     "low": 170,
-     "high": 470,
+     "estimate": 260,
+     "low": 160,
+     "high": 440,
      "p": [
-      256.72,
-      149.67,
-      453.15
+      243.73,
+      139.61,
+      424.49
      ]
     }
    ],
@@ -3842,13 +3849,13 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 340,
-     "low": 210,
-     "high": 650,
+     "estimate": 330,
+     "low": 200,
+     "high": 625,
      "p": [
-      325.53,
-      192.42,
-      626.74
+      315.69,
+      186.19,
+      614.42
      ]
     }
    ],
@@ -3873,7 +3880,7 @@
      "grade": "69 or lower",
      "estimate": 210,
      "low": 120,
-     "high": 380
+     "high": 370
     }
    ]
   },
@@ -3900,8 +3907,8 @@
     {
      "grade": "ungraded",
      "estimate": 190,
-     "low": 110,
-     "high": 350
+     "low": 100,
+     "high": 340
     }
    ]
   },
@@ -3951,7 +3958,7 @@
      "grade": "ungraded",
      "estimate": 210,
      "low": 120,
-     "high": 370
+     "high": 360
     }
    ]
   },
@@ -3972,14 +3979,14 @@
     {
      "grade": "69 or lower",
      "estimate": 210,
-     "low": 120,
-     "high": 380
+     "low": 110,
+     "high": 370
     },
     {
      "grade": "ungraded",
      "estimate": 200,
      "low": 110,
-     "high": 370
+     "high": 360
     }
    ]
   },
@@ -4055,24 +4062,24 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 190,
+     "estimate": 180,
      "low": 110,
-     "high": 330,
+     "high": 320,
      "p": [
-      169.27,
-      94.83,
-      309.44
+      166.03,
+      90.91,
+      301.08
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 180,
      "low": 110,
-     "high": 320,
+     "high": 310,
      "p": [
-      164.61,
-      92.22,
-      300.93
+      160.66,
+      87.97,
+      291.34
      ]
     }
    ],
@@ -4095,13 +4102,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 240,
-     "low": 150,
-     "high": 410,
+     "estimate": 230,
+     "low": 140,
+     "high": 390,
      "p": [
-      223.67,
-      130.41,
-      394.82
+      214.66,
+      122.96,
+      373.86
      ]
     }
    ],
@@ -4175,35 +4182,35 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
-     "low": 85,
-     "high": 240,
+     "estimate": 150,
+     "low": 90,
+     "high": 250,
      "p": [
-      119.14,
-      66.75,
-      217.8
+      126.75,
+      69.4,
+      229.85
      ]
     },
     {
      "grade": "69 or lower",
-     "estimate": 120,
+     "estimate": 130,
      "low": 80,
-     "high": 210,
+     "high": 230,
      "p": [
-      105.21,
-      58.94,
-      192.34
+      114.19,
+      62.53,
+      207.08
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 120,
-     "low": 75,
-     "high": 210,
+     "estimate": 130,
+     "low": 80,
+     "high": 220,
      "p": [
-      102.32,
-      57.32,
-      187.05
+      110.5,
+      60.5,
+      200.37
      ]
     }
    ],
@@ -4223,11 +4230,11 @@
      "grade": "69 or lower",
      "estimate": 150,
      "low": 110,
-     "high": 230,
+     "high": 240,
      "p": [
-      98.1,
-      54.66,
-      179.55
+      101.34,
+      55.84,
+      184.79
      ]
     },
     {
@@ -4236,9 +4243,9 @@
      "low": 110,
      "high": 230,
      "p": [
-      95.4,
-      53.16,
-      174.62
+      98.06,
+      54.03,
+      178.81
      ]
     }
    ],
@@ -4263,11 +4270,11 @@
      "grade": "70",
      "estimate": 170,
      "low": 100,
-     "high": 290,
+     "high": 300,
      "p": [
-      149.59,
-      83.81,
-      273.47
+      154.63,
+      84.67,
+      280.41
      ]
     }
    ],
@@ -4503,11 +4510,11 @@
      "grade": "ungraded",
      "estimate": 120,
      "low": 90,
-     "high": 170,
+     "high": 160,
      "p": [
-      64.42,
-      37.56,
-      113.71
+      64.44,
+      36.91,
+      112.23
      ]
     }
    ],
@@ -4539,9 +4546,9 @@
      "low": 90,
      "high": 170,
      "p": [
-      66.66,
-      38.86,
-      117.66
+      66.89,
+      38.31,
+      116.5
      ]
     }
    ],
@@ -4737,9 +4744,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 30,
-     "low": 17,
-     "high": 50
+     "estimate": 35,
+     "low": 19,
+     "high": 60
     }
    ]
   },
@@ -4935,6 +4942,99 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2007 Union of North America (UNA) Amero Patterns (Various Seated Liberty obverse designs.)",
+   "item": "UNA0500_2007GS, UNA0500_2007GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA0500_2007GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0500_2007GS"
+    ],
+    [
+     "UNA0500_2007GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0500_2007GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      190.41,
+      74.08,
+      493.54
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      171.54,
+      66.74,
+      444.64
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      165.99,
+      64.58,
+      430.25
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.5
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2007 Union of North America (UNA) Amero Patterns (Various Seated Liberty obverse designs.)",
+   "item": "UNA1000_2007GS, UNA1000_2007GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA1000_2007GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000_2007GS"
+    ],
+    [
+     "UNA1000_2007GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000_2007GP"
+    ]
+   ],
+   "store": [
+    [
+     "UNA1000_2007GS",
+     "https://www.dc-coin.com/una20071000ameros24kgoldsatinfinish.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4200,
+     "low": 4100,
+     "high": 4500,
+     "p": [
+      165.99,
+      64.58,
+      430.25
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 UNA 100 Ameros Seated Liberty Pattern",
    "item": "",
    "basis": "sales",
@@ -4951,11 +5051,11 @@
      "grade": "ungraded",
      "estimate": 110,
      "low": 85,
-     "high": 150,
+     "high": 160,
      "p": [
-      55.84,
-      31.28,
-      102.08
+      56.84,
+      31.12,
+      103.07
      ]
     }
    ],
@@ -5033,9 +5133,9 @@
      "low": 85,
      "high": 160,
      "p": [
-      58.86,
-      32.97,
-      107.6
+      60.11,
+      32.91,
+      109.0
      ]
     }
    ],
@@ -5058,9 +5158,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 30,
-     "low": 17,
-     "high": 55
+     "estimate": 35,
+     "low": 18,
+     "high": 60
     }
    ]
   },
@@ -5219,6 +5319,39 @@
   {
    "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 Union of North America (UNA) Amero Patterns (Winged Liberty Head obverse design.)",
+   "item": "UNA0100_2008GM, UNA0100_2008GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA0100_2008GM",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0100_2008GM"
+    ],
+    [
+     "UNA0100_2008GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0100_2008GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 575,
+     "low": 470,
+     "high": 850,
+     "p": [
+      166.63,
+      64.83,
+      431.91
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 Union of North America (UNA) Amero Patterns (Winged Liberty Head obverse design.)",
    "item": "UNA0100_2008SS, UNA0100_2008SP",
    "basis": "formula",
    "n": 2,
@@ -5248,6 +5381,94 @@
    ],
    "oz_ag": 1.0,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 Union of North America (UNA) Amero Patterns (Winged Liberty Head obverse design.)",
+   "item": "UNA0500_2008GS, UNA0500_2008GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA0500_2008GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0500_2008GS"
+    ],
+    [
+     "UNA0500_2008GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0500_2008GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      191.14,
+      74.36,
+      495.45
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      172.2,
+      66.99,
+      446.36
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      166.63,
+      64.83,
+      431.91
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.5
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2008 Union of North America (UNA) Amero Patterns (Winged Liberty Head obverse design.)",
+   "item": "UNA1000_2008GS, UNA1000_2008GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA1000_2008GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000_2008GS"
+    ],
+    [
+     "UNA1000_2008GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000_2008GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4200,
+     "low": 4100,
+     "high": 4500,
+     "p": [
+      166.63,
+      64.83,
+      431.91
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
   },
   {
    "part": "Catalogue",
@@ -5304,24 +5525,24 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 80,
+     "estimate": 110,
+     "low": 85,
      "high": 150,
      "p": [
-      53.02,
-      29.71,
-      96.93
+      56.31,
+      30.83,
+      102.12
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 100,
+     "estimate": 110,
      "low": 80,
      "high": 150,
      "p": [
-      51.57,
-      28.89,
-      94.27
+      54.49,
+      29.84,
+      98.81
      ]
     }
    ],
@@ -5344,9 +5565,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 40,
+     "estimate": 45,
      "low": 25,
-     "high": 70
+     "high": 75
     }
    ]
   },
@@ -5515,6 +5736,184 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA Riding Liberty Pattern",
+   "item": "UNA0100G_2009GS, UNA0100G_2009GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA0100G_2009GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0100G_2009GS"
+    ],
+    [
+     "UNA0100G_2009GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0100G_2009GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 625,
+     "low": 500,
+     "high": 1000,
+     "p": [
+      228.99,
+      89.08,
+      593.54
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 625,
+     "low": 490,
+     "high": 950,
+     "p": [
+      206.3,
+      80.26,
+      534.74
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 600,
+     "low": 480,
+     "high": 925,
+     "p": [
+      199.62,
+      77.66,
+      517.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA Riding Liberty Pattern",
+   "item": "UNA0250G_2009GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA0250G_2009GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0250G_2009GS"
+    ]
+   ],
+   "store": [
+    [
+     "UNA0250G_2009GS",
+     "https://www.dc-coin.com/una2009250ameros24kgoldsatinfinishridinglibertywinged.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1225,
+     "low": 1100,
+     "high": 1525,
+     "p": [
+      199.62,
+      77.66,
+      517.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.25
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA Riding Liberty Pattern",
+   "item": "UNA0500G_2009GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA0500G_2009GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0500G_2009GS"
+    ]
+   ],
+   "store": [
+    [
+     "UNA0500G_2009GS",
+     "https://www.dc-coin.com/una2009500ameros24kgoldsatinfinishridinglibertywinged.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2600,
+     "p": [
+      199.62,
+      77.66,
+      517.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.5
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA Riding Liberty Pattern",
+   "item": "UNA1000G_2009GS, UNA1000G_2009GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "UNA1000G_2009GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000G_2009GS"
+    ],
+    [
+     "UNA1000G_2009GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000G_2009GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      228.99,
+      89.08,
+      593.54
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4600,
+     "p": [
+      206.3,
+      80.26,
+      534.74
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4100,
+     "high": 4600,
+     "p": [
+      199.62,
+      77.66,
+      517.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2009 UNA Seated Liberty Pattern",
    "item": "UNA0020S_2009CP, UNA0020S_2009CPx",
    "basis": "formula",
@@ -5675,7 +6074,7 @@
      "grade": "69 or lower",
      "estimate": 45,
      "low": 25,
-     "high": 80
+     "high": 85
     },
     {
      "grade": "ungraded",
@@ -5702,8 +6101,8 @@
     {
      "grade": "ungraded",
      "estimate": 40,
-     "low": 20,
-     "high": 65
+     "low": 25,
+     "high": 70
     }
    ]
   },
@@ -5861,6 +6260,173 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns",
+   "item": "UNA0050I_2010PP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA0050I_2010PP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0050I_2010PP"
+    ]
+   ],
+   "store": [
+    [
+     "UNA0050I_2010PP",
+     "https://www.dc-coin.com/una2009100amerossilverproof-likeseatedlibertywithddc-1-1-1-1-2-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 110,
+     "low": 110,
+     "high": 170,
+     "f": [
+      72.99,
+      33.46,
+      169.88
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 110,
+     "low": 110,
+     "high": 150,
+     "f": [
+      63.13,
+      28.94,
+      146.94
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 110,
+     "high": 140,
+     "f": [
+      60.44,
+      27.71,
+      140.69
+     ]
+    }
+   ],
+   "oz_pd": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns",
+   "item": "UNA0500I_2010GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA0500I_2010GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA0500I_2010GS"
+    ]
+   ],
+   "store": [
+    [
+     "UNA0500I_2010GS",
+     "https://www.dc-coin.com/una2009100amerossilverproof-likeseatedlibertywithddc-1-1-1-1-2-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 2300,
+     "low": 2100,
+     "high": 2600,
+     "p": [
+      218.36,
+      84.95,
+      566.0
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      196.73,
+      76.53,
+      509.92
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 2200,
+     "low": 2100,
+     "high": 2500,
+     "p": [
+      190.36,
+      74.06,
+      493.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.5
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns",
+   "item": "UNA1000I_2010GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000I_2010GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000I_2010GP"
+    ]
+   ],
+   "store": [
+    [
+     "UNA1000I_2010GP",
+     "https://www.dc-coin.com/una2009100amerossilverproof-likeseatedlibertywithddc-1-1-1-1-2-2-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4600,
+     "p": [
+      218.36,
+      84.95,
+      566.0
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4100,
+     "high": 4600,
+     "p": [
+      196.73,
+      76.53,
+      509.92
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4100,
+     "high": 4600,
+     "p": [
+      190.36,
+      74.06,
+      493.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2010 UNA Patterns Mexico (Bi)Centennial Hidalgo-Zapata Commemorative English Amero Reverse",
    "item": "",
    "basis": "sales",
@@ -5875,9 +6441,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 50,
-     "high": 160
+     "estimate": 85,
+     "low": 45,
+     "high": 150
     }
    ]
   },
@@ -6154,6 +6720,40 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2011 UNA Patterns",
+   "item": "UNA1000E_2011GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000E_2011GP",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000E_2011GP"
+    ]
+   ],
+   "store": [
+    [
+     "UNA1000E_2011GP",
+     "https://www.dc-coin.com/una2009100amerossilverproof-likeseatedlibertywithddc-1-1-1-1-2-2-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      238.0,
+      92.59,
+      616.91
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2012 UNA Patterns",
    "item": "UNA0001A_2012CS",
    "basis": "sales",
@@ -6200,14 +6800,43 @@
      "low": 85,
      "high": 150,
      "p": [
-      55.79,
-      32.53,
-      98.48
+      58.08,
+      33.27,
+      101.15
      ]
     }
    ],
    "oz_ag": 1.0,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2012 UNA Patterns",
+   "item": "UNA1000A_2012GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000A_2012GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000A_2012GS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4600,
+     "p": [
+      206.29,
+      80.25,
+      534.71
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
   },
   {
    "part": "Catalogue",
@@ -6275,6 +6904,40 @@
    ],
    "oz_ag": 1.0,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2012 USA Concept Trade Dollars",
+   "item": "USA0500_2012GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "USA0500_2012GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=USA0500_2012GS"
+    ]
+   ],
+   "store": [
+    [
+     "USA0500_2012GS",
+     "https://www.dc-coin.com/2009ridingliberty20tradedollars999silversatinfinish-2-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1250,
+     "low": 1100,
+     "high": 1600,
+     "p": [
+      219.92,
+      85.56,
+      570.05
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.25
   },
   {
    "part": "Catalogue",
@@ -6557,6 +7220,35 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2013 UNA Patterns",
+   "item": "UNA1000A_2013GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000A_2013GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000A_2013GS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4600,
+     "p": [
+      219.92,
+      85.56,
+      570.05
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2013 “Exchange Currency” Concepts (Not government-issue legal tender.)",
    "item": "XC_2013_1a",
    "basis": "formula",
@@ -6618,7 +7310,7 @@
      "grade": "ungraded",
      "estimate": 50,
      "low": 30,
-     "high": 95
+     "high": 90
     }
    ]
   },
@@ -6688,6 +7380,57 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2014 UNA Patterns",
+   "item": "UNA1000A_2014GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000A_2014GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000A_2014GS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      252.27,
+      98.14,
+      653.9
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      227.28,
+      88.42,
+      589.12
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4600,
+     "p": [
+      219.92,
+      85.56,
+      570.05
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2014 “Exchange Currency” & “Trade Dollar” Concepts (Not government-issue legal tender.)",
    "item": "TD_2014_50",
    "basis": "sales",
@@ -6706,9 +7449,9 @@
      "low": 85,
      "high": 160,
      "p": [
-      59.48,
-      33.32,
-      108.74
+      59.94,
+      32.82,
+      108.7
      ]
     }
    ],
@@ -6764,7 +7507,7 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 65,
+     "estimate": 60,
      "low": 35,
      "high": 110
     }
@@ -6791,9 +7534,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 60,
-     "low": 35,
-     "high": 100
+     "estimate": 55,
+     "low": 30,
+     "high": 95
     }
    ]
   },
@@ -6825,6 +7568,46 @@
    ],
    "oz_ag": 1.0,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2015 UNA Patterns",
+   "item": "UNA1000A_2015GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000A_2015GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000A_2015GS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      256.17,
+      99.66,
+      664.01
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      247.88,
+      96.44,
+      642.52
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
   },
   {
    "part": "Catalogue",
@@ -6987,6 +7770,46 @@
   },
   {
    "part": "Catalogue",
+   "group": "Alternative currency (UNA / Amero, trade dollars) · 2016 UNA Patterns",
+   "item": "UNA1000A_2016GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "UNA1000A_2016GS",
+     "http://www.moonlightmint.com/dc-coin_alt_currency_list.htm#:~:text=UNA1000A_2016GS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      227.28,
+      88.42,
+      589.12
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4600,
+     "p": [
+      219.92,
+      85.56,
+      570.05
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
+  },
+  {
+   "part": "Catalogue",
    "group": "Alternative currency (UNA / Amero, trade dollars) · 2017 UNA Patterns",
    "item": "UNA0001A_2017CS",
    "basis": "formula",
@@ -7062,9 +7885,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 100,
-     "low": 60,
-     "high": 180
+     "estimate": 85,
+     "low": 50,
+     "high": 150
     }
    ]
   },
@@ -7178,6 +8001,39 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 1935-2025 Denver Coin Club (DCC) 90 th Anniversary (Distributed by DCC.)",
+   "item": "DCC_90_G1, DCC_90_G2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "DCC_90_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=DCC_90_G1"
+    ],
+    [
+     "DCC_90_G2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=DCC_90_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 675,
+     "low": 500,
+     "high": 1075,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 1935-2025 Denver Coin Club (DCC) 90 th Anniversary (Distributed by DCC.)",
    "item": "DCC_90_OS",
    "basis": "formula",
    "n": 1,
@@ -7242,15 +8098,15 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 25,
-     "low": 16,
-     "high": 50
+     "estimate": 30,
+     "low": 17,
+     "high": 55
     },
     {
      "grade": "ungraded",
-     "estimate": 25,
-     "low": 15,
-     "high": 50
+     "estimate": 30,
+     "low": 17,
+     "high": 55
     }
    ]
   },
@@ -7295,6 +8151,35 @@
      "high": 95
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 1955-2015 Fort Collins Colorado Coin Club 60 th Anniversary Medal (Distributed by FCCC.) ( Die 1 – Fort Collins Municipal Railway Car reverse. Smooth edge.)",
+   "item": "FCCC_2015_1_GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "FCCC_2015_1_GP",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=FCCC_2015_1_GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 7000,
+     "p": [
+      166.43,
+      64.75,
+      431.39
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -7349,13 +8234,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 70,
-     "low": 60,
-     "high": 80,
+     "estimate": 75,
+     "low": 65,
+     "high": 95,
      "p": [
-      17.04,
-      9.94,
-      30.08
+      24.84,
+      14.23,
+      43.27
      ]
     }
    ],
@@ -7560,9 +8445,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 140,
-     "low": 85,
-     "high": 250
+     "estimate": 120,
+     "low": 70,
+     "high": 210
     }
    ]
   },
@@ -8263,6 +9148,61 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 2012 Colorado Springs Coin Club 50 th Anniversary (Distributed to club members.)",
+   "item": "CSCC_G1, CSCC_G2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "CSCC_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=CSCC_G1"
+    ],
+    [
+     "CSCC_G2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=CSCC_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6700,
+     "high": 7300,
+     "p": [
+      310.38,
+      120.75,
+      804.52
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7300,
+     "p": [
+      279.63,
+      108.79,
+      724.81
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2012 Colorado Springs Coin Club 50 th Anniversary (Distributed to club members.)",
    "item": "CSCC_O1",
    "basis": "formula",
    "n": 1,
@@ -8533,15 +9473,15 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 180,
-     "low": 100,
-     "high": 330
+     "estimate": 160,
+     "low": 90,
+     "high": 300
     },
     {
      "grade": "ungraded",
-     "estimate": 150,
-     "low": 85,
-     "high": 280
+     "estimate": 140,
+     "low": 80,
+     "high": 260
     }
    ]
   },
@@ -8643,9 +9583,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 60,
-     "high": 200
+     "estimate": 100,
+     "low": 55,
+     "high": 180
     }
    ]
   },
@@ -8756,6 +9696,57 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2013 Liberty Seated Collectors Club 40 th Anniversary (Distributed to club members. Struck in 2012.)",
+   "item": "LSCC_GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "LSCC_GP",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=LSCC_GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 4800,
+     "p": [
+      298.16,
+      116.0,
+      772.84
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4800,
+     "p": [
+      268.62,
+      104.5,
+      696.27
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
   },
   {
    "part": "Catalogue",
@@ -8904,9 +9895,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 75,
-     "high": 230
+     "estimate": 110,
+     "low": 65,
+     "high": 200
     }
    ]
   },
@@ -9094,7 +10085,7 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 55,
+     "estimate": 60,
      "low": 35,
      "high": 100
     }
@@ -9189,11 +10180,62 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 20,
-     "low": 12,
-     "high": 40
+     "estimate": 25,
+     "low": 16,
+     "high": 45
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2014 Glendale Coin Club 55 th Anniversary (Distributed by GCC.)",
+   "item": "GCC_2014_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "GCC_2014_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=GCC_2014_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 6900,
+     "p": [
+      144.98,
+      56.4,
+      375.79
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 6900,
+     "p": [
+      130.61,
+      50.81,
+      338.56
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 6900,
+     "p": [
+      126.39,
+      49.17,
+      327.6
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -9211,13 +10253,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 80,
-     "low": 65,
-     "high": 100,
+     "estimate": 85,
+     "low": 70,
+     "high": 110,
      "p": [
-      26.1,
-      15.22,
-      46.07
+      34.13,
+      19.55,
+      59.45
      ]
     }
    ],
@@ -9391,6 +10433,57 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2014 So-Called Dollar Panama Canal Cruise (Distributed by Jeff Shevlin.) (Most were transported on a cruise ship through the Panama Canal, December 2014)",
+   "item": "SCD_PCC_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "SCD_PCC_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=SCD_PCC_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6700,
+     "high": 7300,
+     "p": [
+      298.16,
+      116.0,
+      772.84
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      268.62,
+      104.5,
+      696.27
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -9633,9 +10726,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 50,
+     "estimate": 55,
      "low": 30,
-     "high": 90
+     "high": 95
     }
    ]
   },
@@ -9680,6 +10773,57 @@
      "high": 120
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2015 Glendale Coin Club Medal (Distributed by GCC.)",
+   "item": "GCC_2015_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "GCC_2015_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=GCC_2015_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      255.06,
+      99.23,
+      661.14
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7100,
+     "p": [
+      229.79,
+      89.4,
+      595.64
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7100,
+     "p": [
+      222.36,
+      86.51,
+      576.36
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -9752,13 +10896,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 130,
-     "high": 280,
+     "estimate": 170,
+     "low": 120,
+     "high": 250,
      "p": [
-      128.1,
-      74.68,
-      226.11
+      115.13,
+      65.95,
+      200.52
      ]
     }
    ],
@@ -9873,6 +11017,35 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2015 Greater Jacksonville Coin Club (Distributed by GJCC.)",
+   "item": "GJCC_G2",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "GJCC_G2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=GJCC_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -10335,6 +11508,61 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 2016 Colorado Springs Numismatic Society 50 th Anniversary (Distributed to club members.)",
+   "item": "CSNS_G1, CSNS_G2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "CSNS_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=CSNS_G1"
+    ],
+    [
+     "CSNS_G2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=CSNS_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6700,
+     "high": 7300,
+     "p": [
+      310.38,
+      120.75,
+      804.52
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7300,
+     "p": [
+      279.63,
+      108.79,
+      724.81
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2016 Colorado Springs Numismatic Society 50 th Anniversary (Distributed to club members.)",
    "item": "CSNS_O1, CSNS_O2",
    "basis": "formula",
    "n": 2,
@@ -10457,13 +11685,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 85,
+     "estimate": 90,
      "low": 70,
-     "high": 110,
+     "high": 120,
      "p": [
-      30.73,
-      17.22,
-      56.18
+      37.51,
+      20.54,
+      68.01
      ]
     }
    ],
@@ -10507,6 +11735,57 @@
      "high": 100
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2016 Glendale Coin Club Medal (Distributed by GCC.)",
+   "item": "GCC_2016_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "GCC_2016_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=GCC_2016_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 7000,
+     "p": [
+      178.7,
+      69.52,
+      463.19
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 7000,
+     "p": [
+      160.99,
+      62.63,
+      417.3
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6700,
+     "low": 6600,
+     "high": 6900,
+     "p": [
+      155.78,
+      60.61,
+      403.79
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -10915,9 +12194,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 100,
-     "low": 60,
-     "high": 190
+     "estimate": 95,
+     "low": 50,
+     "high": 170
     }
    ]
   },
@@ -10991,6 +12270,34 @@
    ],
    "oz_ag": 0.3324,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2016 So-Called Dollar 3 rd Annual Gathering (Distributed to attendees.)",
+   "item": "SCD_2016_C2",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "SCD_2016_C2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=SCD_2016_C2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 825,
+     "low": 380,
+     "high": 1950
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 800,
+     "low": 370,
+     "high": 1850
+    }
+   ]
   },
   {
    "part": "Catalogue",
@@ -11872,13 +13179,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 90,
-     "low": 75,
-     "high": 120,
+     "estimate": 95,
+     "low": 80,
+     "high": 130,
      "p": [
-      38.01,
-      22.16,
-      67.1
+      45.4,
+      26.0,
+      79.07
      ]
     }
    ],
@@ -12037,7 +13344,7 @@
     {
      "grade": "ungraded",
      "estimate": 65,
-     "low": 40,
+     "low": 35,
      "high": 110
     }
    ]
@@ -12217,6 +13524,46 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2020 So-Called Dollar Annual Gathering Anniversary of Manila Mint Opening (Distributed by organizer.)",
+   "item": "SCD_2020A_Gd1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "SCD_2020A_Gd1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=SCD_2020A_Gd1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      268.62,
+      104.5,
+      696.27
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -12481,6 +13828,61 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 2022 Pawcatuck Valley Coin Club 60 th Anniversary (Distributed to club members.)",
+   "item": "PVCC_60_G1, PVCC_60_G2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "PVCC_60_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=PVCC_60_G1"
+    ],
+    [
+     "PVCC_60_G2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=PVCC_60_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6700,
+     "high": 7300,
+     "p": [
+      310.38,
+      120.75,
+      804.52
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7300,
+     "p": [
+      279.63,
+      108.79,
+      724.81
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2022 Pawcatuck Valley Coin Club 60 th Anniversary (Distributed to club members.)",
    "item": "PVCC_60_S1, PVCC_60_S2",
    "basis": "formula",
    "n": 2,
@@ -12594,6 +13996,57 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2022 So-Called Dollar Annual Gathering Bashlow Continental Currency Restrike (Distributed by organizer.)",
+   "item": "SCD_2022A_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "SCD_2022A_G1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=SCD_2022A_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6700,
+     "high": 7300,
+     "p": [
+      298.16,
+      116.0,
+      772.84
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      268.62,
+      104.5,
+      696.27
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -12724,6 +14177,54 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 2023 Society of Silver Dollar Collectors 35 th Anniversary (Distributed in early 2024 by SSDC.)",
+   "item": "SSDC_Au1, SSDC_Au2, SSDC_Au3",
+   "basis": "formula",
+   "n": 3,
+   "links": [
+    [
+     "SSDC_Au1",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=SSDC_Au1"
+    ],
+    [
+     "SSDC_Au2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=SSDC_Au2"
+    ],
+    [
+     "SSDC_Au3",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=SSDC_Au3"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 6400,
+     "low": 6200,
+     "high": 6800,
+     "p": [
+      279.63,
+      108.79,
+      724.81
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6400,
+     "low": 6200,
+     "high": 6800,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.4985
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2023 Society of Silver Dollar Collectors 35 th Anniversary (Distributed in early 2024 by SSDC.)",
    "item": "SSDC_Cu1, SSDC_Cu2, SSDC_Cu3, SSDC_osI",
    "basis": "formula",
    "n": 4,
@@ -12833,15 +14334,15 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
+     "estimate": 130,
      "low": 80,
-     "high": 270
+     "high": 260
     },
     {
      "grade": "69 or lower",
      "estimate": 120,
      "low": 70,
-     "high": 240
+     "high": 230
     }
    ]
   },
@@ -12924,9 +14425,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 90,
-     "low": 55,
-     "high": 160
+     "estimate": 85,
+     "low": 50,
+     "high": 150
     }
    ]
   },
@@ -13168,6 +14669,35 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 2024 New York Numismatic Club Eric Krauss President Medal (Distributed by NYNC)",
+   "item": "NYNC_Au",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "NYNC_Au",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=NYNC_Au"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 6400,
+     "low": 6200,
+     "high": 6800,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.5
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2024 New York Numismatic Club Eric Krauss President Medal (Distributed by NYNC)",
    "item": "NYNC_Cu",
    "basis": "formula",
    "n": 1,
@@ -13401,6 +14931,35 @@
   {
    "part": "Catalogue",
    "group": "Club medals · 2024 Westchester County Coin Club 90 th Anniversary (Distributed to club members.)",
+   "item": "WCCC_G2",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "WCCC_G2",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=WCCC_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 5200,
+     "low": 5000,
+     "high": 5600,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.2044
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2024 Westchester County Coin Club 90 th Anniversary (Distributed to club members.)",
    "item": "WCCC_S2",
    "basis": "formula",
    "n": 1,
@@ -13465,9 +15024,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 75,
-     "low": 45,
-     "high": 130
+     "estimate": 70,
+     "low": 40,
+     "high": 120
     }
    ]
   },
@@ -13756,9 +15315,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 110,
-     "low": 65,
-     "high": 190
+     "estimate": 95,
+     "low": 55,
+     "high": 170
     }
    ]
   },
@@ -13862,9 +15421,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 30,
-     "low": 18,
-     "high": 60
+     "estimate": 35,
+     "low": 19,
+     "high": 65
     }
    ]
   },
@@ -13900,6 +15459,34 @@
    ],
    "oz_ag": 0.4995,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · 2026 Northside Coin Club (Broomfield Colorado) (Distributed to NSCC members)",
+   "item": "NSCC_Au_A",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "NSCC_Au_A",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=NSCC_Au_A"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 525,
+     "low": 240,
+     "high": 1200
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 500,
+     "low": 230,
+     "high": 1150
+    }
+   ]
   },
   {
    "part": "Catalogue",
@@ -13965,15 +15552,15 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 25,
-     "low": 15,
-     "high": 50
+     "estimate": 30,
+     "low": 17,
+     "high": 55
     },
     {
      "grade": "ungraded",
-     "estimate": 25,
-     "low": 15,
-     "high": 50
+     "estimate": 30,
+     "low": 17,
+     "high": 55
     }
    ]
   },
@@ -14157,6 +15744,35 @@
   {
    "part": "Catalogue",
    "group": "Club medals · All issues",
+   "item": "FCCC_2015_2_GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "FCCC_2015_2_GP",
+     "http://www.moonlightmint.com/dc-coin_medals_club_B.htm#:~:text=FCCC_2015_2_GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      270.58,
+      105.27,
+      701.35
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · All issues",
    "item": "FCCC_2015_2_SA, FCCC_2015_2_SS, FCCC_2015_2_SP",
    "basis": "formula",
    "n": 3,
@@ -14212,6 +15828,46 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Club medals · Liberty Seated Collectors Club Premier Membership Medal (Distributed to club members. Struck in 2018.)",
+   "item": "LSCC_PM_G",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "LSCC_PM_G",
+     "http://www.moonlightmint.com/dc-coin_medals_club_A.htm#:~:text=LSCC_PM_G"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4800,
+     "p": [
+      268.62,
+      104.5,
+      696.27
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4300,
+     "low": 4200,
+     "high": 4700,
+     "p": [
+      259.93,
+      101.12,
+      673.74
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.0
   },
   {
    "part": "Catalogue",
@@ -14464,6 +16120,35 @@
      "high": 140
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Cobs (Atocha, 1715 Fleet, S.S. Republic…) · 1715 Fleet 300 th Anniversary Cobs [struck in 2015] 1 st Issue (released early 2015) (SOLD OUT)",
+   "item": "COB_1715_3A_1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "COB_1715_3A_1",
+     "http://www.moonlightmint.com/dc-coin_cobs_list.htm#:~:text=COB_1715_3A_1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 5000,
+     "p": [
+      371.1,
+      144.37,
+      961.91
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
   },
   {
    "part": "Catalogue",
@@ -14865,7 +16550,7 @@
      "grade": "69 or lower",
      "estimate": 110,
      "low": 60,
-     "high": 200
+     "high": 210
     },
     {
      "grade": "ungraded",
@@ -15156,6 +16841,35 @@
   {
    "part": "Catalogue",
    "group": "Commemorative tokens · Thomas Elder Store card",
+   "item": "TE_71_Au",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "TE_71_Au",
+     "http://www.moonlightmint.com/dc-coin_commem_tokens_list.htm#:~:text=TE_71_Au"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1950,
+     "low": 1600,
+     "high": 2900,
+     "p": [
+      571.66,
+      222.4,
+      1481.76
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.3372
+  },
+  {
+   "part": "Catalogue",
+   "group": "Commemorative tokens · Thomas Elder Store card",
    "item": "TE_71_OS",
    "basis": "formula",
    "n": 1,
@@ -15214,8 +16928,8 @@
     {
      "grade": "ungraded",
      "estimate": 120,
-     "low": 65,
-     "high": 220
+     "low": 70,
+     "high": 230
     }
    ]
   },
@@ -15242,7 +16956,7 @@
      "grade": "ungraded",
      "estimate": 120,
      "low": 70,
-     "high": 220
+     "high": 230
     }
    ]
   },
@@ -15263,8 +16977,8 @@
     {
      "grade": "ungraded",
      "estimate": 150,
-     "low": 80,
-     "high": 270
+     "low": 85,
+     "high": 280
     }
    ]
   },
@@ -15284,13 +16998,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 360,
-     "low": 230,
-     "high": 600,
+     "estimate": 320,
+     "low": 200,
+     "high": 525,
      "p": [
-      310.65,
-      181.12,
-      548.35
+      266.78,
+      152.81,
+      464.64
      ]
     }
    ],
@@ -15320,7 +17034,7 @@
      "grade": "ungraded",
      "estimate": 120,
      "low": 65,
-     "high": 210
+     "high": 220
     }
    ]
   },
@@ -15375,14 +17089,14 @@
     {
      "grade": "70",
      "estimate": 220,
-     "low": 130,
-     "high": 410
+     "low": 120,
+     "high": 390
     },
     {
      "grade": "69 or lower",
      "estimate": 200,
      "low": 110,
-     "high": 360
+     "high": 350
     }
    ]
   },
@@ -15550,6 +17264,40 @@
   },
   {
    "part": "Catalogue",
+   "group": "Commemorative tokens · “1792” Flowing-Hair/Chain Token (Produced in 2019, 2020, 2022. Most of type 2A* handled by distributor)",
+   "item": "SCCT_6A",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "SCCT_6A",
+     "http://www.moonlightmint.com/dc-coin_commem_tokens_list.htm#:~:text=SCCT_6A"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 1400,
+     "low": 650,
+     "high": 3200
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 1200,
+     "low": 550,
+     "high": 2800
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 1150,
+     "low": 525,
+     "high": 2700
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
    "group": "Commemorative tokens · “1933” Native-Head Half Eagle (normal raised relief concept)",
    "item": "NH_500_Ag",
    "basis": "sales",
@@ -15569,24 +17317,24 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 140,
+     "estimate": 150,
      "low": 85,
-     "high": 260,
+     "high": 270,
      "p": [
-      135.88,
-      76.12,
-      248.4
+      142.6,
+      78.08,
+      258.6
      ]
     },
     {
      "grade": "ungraded",
-     "estimate": 120,
+     "estimate": 130,
      "low": 75,
-     "high": 220,
+     "high": 230,
      "p": [
-      116.69,
-      65.38,
-      213.33
+      124.32,
+      68.07,
+      225.44
      ]
     }
    ],
@@ -15614,9 +17362,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 110,
-     "low": 65,
-     "high": 200
+     "estimate": 120,
+     "low": 70,
+     "high": 210
     }
    ]
   },
@@ -15862,7 +17610,7 @@
     {
      "grade": "ungraded",
      "estimate": 90,
-     "low": 55,
+     "low": 50,
      "high": 170
     }
    ]
@@ -16110,7 +17858,7 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 95,
+     "estimate": 100,
      "low": 55,
      "high": 170
     }
@@ -16133,8 +17881,8 @@
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 80,
-     "high": 260
+     "low": 75,
+     "high": 250
     }
    ]
   },
@@ -16206,14 +17954,14 @@
     {
      "grade": "69 or lower",
      "estimate": 130,
-     "low": 75,
-     "high": 240
+     "low": 70,
+     "high": 230
     },
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 70,
-     "high": 230
+     "estimate": 120,
+     "low": 65,
+     "high": 220
     }
    ]
   },
@@ -16369,7 +18117,7 @@
      "grade": "69 or lower",
      "estimate": 150,
      "low": 85,
-     "high": 260
+     "high": 250
     }
    ]
   },
@@ -16702,13 +18450,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 150,
+     "estimate": 160,
      "low": 110,
-     "high": 230,
+     "high": 240,
      "p": [
-      100.25,
-      58.45,
-      176.96
+      107.63,
+      61.65,
+      187.45
      ]
     }
    ],
@@ -16754,6 +18502,124 @@
   },
   {
    "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1859-2009 Colorado Gold Rush Sesquicentennial “Pioneer” Gold, 150 th anniversary of “Pike’s Peak or Bust”. “Carr Emslie & Co” - Clark Gruber & Co tribute.",
+   "item": "GR_10_2009_GS, GR_10_2009_GP",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "GR_10_2009_GS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GR_10_2009_GS"
+    ],
+    [
+     "GR_10_2009_GP",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GR_10_2009_GP"
+    ]
+   ],
+   "store": [
+    [
+     "GR_10_2009_GS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish.aspx"
+    ],
+    [
+     "GR_10_2009_GP",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999proof-like.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1860-2010 Clark Gruber Sesquicentennial “Pioneer” Gold, 150 th anniversary of the first Clark Gruber coins struck. “Carr Emslie & Co” - Clark Gruber & Co tribute.",
+   "item": "GR_10_2010_GS1, GR_10_2010_GS2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "GR_10_2010_GS1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GR_10_2010_GS1"
+    ],
+    [
+     "GR_10_2010_GS2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GR_10_2010_GS2"
+    ]
+   ],
+   "store": [
+    [
+     "GR_10_2010_GS1",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1.aspx"
+    ],
+    [
+     "GR_10_2010_GS2",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1861-2011 Clark Gruber Sesquicentennial “Pioneer” Gold, 150 th anniversary of the last Clark Gruber coins struck. “Carr Emslie & Co” - Clark Gruber & Co tribute.",
+   "item": "GR_10_2011_GS1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "GR_10_2011_GS1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GR_10_2011_GS1"
+    ]
+   ],
+   "store": [
+    [
+     "GR_10_2011_GS1",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 1861-2011 Confederate Double Eagle, 150 th anniversary of Confederate coinage – fantasy issue",
    "item": "CSA_2011_BS1",
    "basis": "formula",
@@ -16778,6 +18644,64 @@
      "high": 190
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1861-2011 Confederate Double Eagle, 150 th anniversary of Confederate coinage – fantasy issue",
+   "item": "CSA_2011_GS1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CSA_2011_GS1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CSA_2011_GS1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1861-2011 Confederate Double Eagle, 150 th anniversary of Confederate coinage – fantasy issue",
+   "item": "CSA_2011_OS1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CSA_2011_OS1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CSA_2011_OS1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4100,
+     "high": 5000,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.9665
   },
   {
    "part": "Catalogue",
@@ -16853,6 +18777,35 @@
   },
   {
    "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 1913-2013 Indian-Head/Bison Nickel Centennial Silver Rounds",
+   "item": "SB_2013_IH_G",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "SB_2013_IH_G",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=SB_2013_IH_G"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5100,
+     "p": [
+      416.88,
+      162.18,
+      1080.58
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 1916-2016 Centennial Silver Rounds Winged Liberty Dime, Standing Liberty Quarter, Walking Liberty Half Dollar",
    "item": "",
    "basis": "sales",
@@ -16871,9 +18824,9 @@
      "low": 110,
      "high": 230,
      "p": [
-      98.31,
-      55.08,
-      179.72
+      98.77,
+      54.08,
+      179.11
      ]
     },
     {
@@ -16882,9 +18835,9 @@
      "low": 100,
      "high": 210,
      "p": [
-      86.81,
-      48.64,
-      158.71
+      88.99,
+      48.73,
+      161.37
      ]
     }
    ],
@@ -16992,9 +18945,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 240,
-     "low": 130,
-     "high": 430
+     "estimate": 220,
+     "low": 120,
+     "high": 390
     }
    ]
   },
@@ -17033,6 +18986,62 @@
   },
   {
    "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2008 Indian-Head / Eagle Fractional Gold",
+   "item": "GB_01_2008",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "GB_01_2008",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2008"
+    ]
+   ],
+   "store": [
+    [
+     "GB_01_2008",
+     "https://www.dc-coin.com/2008indian-headeagle110troyounce999gold.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 875,
+     "low": 600,
+     "high": 1650,
+     "p": [
+      479.86,
+      186.68,
+      1243.81
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 850,
+     "low": 575,
+     "high": 1525,
+     "p": [
+      432.32,
+      168.19,
+      1120.58
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2009 Indian-Head / Eagle Fractional Gold",
    "item": "",
    "basis": "sales",
@@ -17047,13 +19056,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 650,
+     "estimate": 675,
      "low": 550,
-     "high": 850,
+     "high": 875,
      "p": [
-      246.42,
-      138.05,
-      450.48
+      259.31,
+      141.98,
+      470.22
      ]
     },
     {
@@ -17062,14 +19071,93 @@
      "low": 550,
      "high": 850,
      "p": [
-      239.64,
-      134.25,
-      438.09
+      250.91,
+      137.39,
+      455.0
      ]
     }
    ],
    "oz_ag": 0,
    "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2009 Indian-Head / Eagle Fractional Gold",
+   "item": "GB_01_2009_A, GB_01_2009_C, GB_01_2009_B, GB_01_2009_D",
+   "basis": "formula",
+   "n": 4,
+   "links": [
+    [
+     "GB_01_2009_A",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2009_A"
+    ],
+    [
+     "GB_01_2009_C",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2009_C"
+    ],
+    [
+     "GB_01_2009_B",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2009_B"
+    ],
+    [
+     "GB_01_2009_D",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2009_D"
+    ]
+   ],
+   "store": [
+    [
+     "GB_01_2009_B",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldproof-like.aspx"
+    ],
+    [
+     "GB_01_2009_D",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 750,
+     "low": 550,
+     "high": 1325,
+     "p": [
+      355.35,
+      138.25,
+      921.08
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2009-2010 Cripple Creek & Victor Mining Company Tokens Distributed as gifts/donations by CC&V.",
+   "item": "CCV_2009_GS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CCV_2009_GS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CCV_2009_GS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.25
   },
   {
    "part": "Catalogue",
@@ -17111,6 +19199,56 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2010 Indian-Head / Eagle Fractional Gold & Platinum",
+   "item": "GB_01_2010_A, GB_01_2010_B, GB_01_2010_C, GB_01_2010_D",
+   "basis": "formula",
+   "n": 4,
+   "links": [
+    [
+     "GB_01_2010_A",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2010_A"
+    ],
+    [
+     "GB_01_2010_B",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2010_B"
+    ],
+    [
+     "GB_01_2010_C",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2010_C"
+    ],
+    [
+     "GB_01_2010_D",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2010_D"
+    ]
+   ],
+   "store": [
+    [
+     "GB_01_2010_A",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1.aspx"
+    ],
+    [
+     "GB_01_2010_C",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2010 Indian-Head / Eagle Fractional Gold & Platinum",
    "item": "PB_01_2010_D",
    "basis": "formula",
    "n": 1,
@@ -17124,8 +19262,8 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 260,
      "f": [
       112.51,
@@ -17134,7 +19272,7 @@
      ]
     }
    ],
-   "pt_melt": 178.4
+   "oz_pt": 0.1
   },
   {
    "part": "Catalogue",
@@ -17153,10 +19291,63 @@
     {
      "grade": "69 or lower",
      "estimate": 140,
-     "low": 85,
-     "high": 260
+     "low": 80,
+     "high": 240
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011 Capped Bust Liberty Gold",
+   "item": "GB_025_2011_GM, GB_025_2011_GS, GB_025_2011_GP",
+   "basis": "formula",
+   "n": 3,
+   "links": [
+    [
+     "GB_025_2011_GM",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_025_2011_GM"
+    ],
+    [
+     "GB_025_2011_GS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_025_2011_GS"
+    ],
+    [
+     "GB_025_2011_GP",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_025_2011_GP"
+    ]
+   ],
+   "store": [
+    [
+     "GB_025_2011_GP",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "69 or lower",
+     "estimate": 1500,
+     "low": 1200,
+     "high": 2200,
+     "p": [
+      473.6,
+      184.25,
+      1227.58
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 1475,
+     "low": 1200,
+     "high": 2200,
+     "p": [
+      458.27,
+      178.28,
+      1187.85
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
   },
   {
    "part": "Catalogue",
@@ -17174,13 +19365,75 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 675,
-     "low": 550,
-     "high": 875,
+     "estimate": 700,
+     "low": 575,
+     "high": 900,
      "p": [
-      262.12,
-      152.82,
-      462.68
+      284.61,
+      163.03,
+      495.7
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011 Indian-Head / Eagle Fractional Gold",
+   "item": "GB_01_2011S1, GB_01_2011R1, GB_01_2011S2, GB_01_2011R2, GB_01_2011S3, GB_01_2011R3",
+   "basis": "formula",
+   "n": 6,
+   "links": [
+    [
+     "GB_01_2011S1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2011S1"
+    ],
+    [
+     "GB_01_2011R1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2011R1"
+    ],
+    [
+     "GB_01_2011S2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2011S2"
+    ],
+    [
+     "GB_01_2011R2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2011R2"
+    ],
+    [
+     "GB_01_2011S3",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2011S3"
+    ],
+    [
+     "GB_01_2011R3",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=GB_01_2011R3"
+    ]
+   ],
+   "store": [
+    [
+     "GB_01_2011R2",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1.aspx"
+    ],
+    [
+     "GB_01_2011S3",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-2-1.aspx"
+    ],
+    [
+     "GB_01_2011R3",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 750,
+     "low": 550,
+     "high": 1300,
+     "p": [
+      341.29,
+      132.77,
+      884.63
      ]
     }
    ],
@@ -17203,11 +19456,52 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 95,
-     "low": 50,
-     "high": 170
+     "estimate": 70,
+     "low": 35,
+     "high": 120
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2011-2012 Winged Liberty Head Palladium Eagle Concept Tokens",
+   "item": "PE_10_2011_PP, PE_10_2012_PS",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "PE_10_2011_PP",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=PE_10_2011_PP"
+    ],
+    [
+     "PE_10_2012_PS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=PE_10_2012_PS"
+    ]
+   ],
+   "store": [
+    [
+     "PE_10_2011_PP",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-1.aspx"
+    ],
+    [
+     "PE_10_2012_PS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1025,
+     "low": 1025,
+     "high": 1025,
+     "f": [
+      101.37,
+      46.48,
+      235.95
+     ]
+    }
+   ],
+   "oz_pd": 0.9995
   },
   {
    "part": "Catalogue",
@@ -17230,11 +19524,17 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 90,
-     "low": 50,
-     "high": 160
+     "estimate": 1075,
+     "low": 1050,
+     "high": 1100,
+     "p": [
+      45.01,
+      25.78,
+      78.4
+     ]
     }
-   ]
+   ],
+   "oz_pd": 0.9995
   },
   {
    "part": "Catalogue",
@@ -17276,6 +19576,71 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2012-2013 Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2013 Issues (all sold out)",
+   "item": "Au_0.10P_2013S, Au_0.10S_2013R, Au_0.10P_2013R",
+   "basis": "formula",
+   "n": 3,
+   "links": [
+    [
+     "Au_0.10P_2013S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2013S"
+    ],
+    [
+     "Au_0.10S_2013R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10S_2013R"
+    ],
+    [
+     "Au_0.10P_2013R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2013R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2012-2013 Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2013 Issues (all sold out)",
+   "item": "Pd_0.05P_2013R",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "Pd_0.05P_2013R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05P_2013R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 55,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.05
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2012-2013 Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2013 Issues (all sold out)",
    "item": "Pt_0.10S_2013S, Pt_0.10P_2013R",
    "basis": "formula",
    "n": 2,
@@ -17293,8 +19658,8 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 260,
      "f": [
       112.51,
@@ -17303,7 +19668,7 @@
      ]
     }
    ],
-   "pt_melt": 178.4
+   "oz_pt": 0.1
   },
   {
    "part": "Catalogue",
@@ -17321,9 +19686,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 170,
-     "low": 95,
-     "high": 310
+     "estimate": 160,
+     "low": 90,
+     "high": 290
     }
    ]
   },
@@ -17391,6 +19756,160 @@
   },
   {
    "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2013 Clark Gruber & Co. Gold Half Eagle",
+   "item": "CG_HE_2013",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2013",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2013"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2013",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 1425,
+     "low": 1125,
+     "high": 2200,
+     "p": [
+      479.86,
+      186.68,
+      1243.81
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 1375,
+     "low": 1100,
+     "high": 2100,
+     "p": [
+      432.32,
+      168.19,
+      1120.58
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 1350,
+     "low": 1100,
+     "high": 2000,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2308
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2013 Clark Gruber & Co. Gold Half Eagle",
+   "item": "CG_HE_2013_TS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2013_TS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2013_TS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 1025,
+     "low": 470,
+     "high": 2400
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 875,
+     "low": 410,
+     "high": 2100
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 850,
+     "low": 390,
+     "high": 1975
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Clark Gruber & Co. Gold Half Eagle",
+   "item": "CG_HE_2014_MS, CG_HE_2014_PL",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "CG_HE_2014_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2014_MS"
+    ],
+    [
+     "CG_HE_2014_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2014_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2014_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1.aspx"
+    ],
+    [
+     "CG_HE_2014_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 1500,
+     "low": 1200,
+     "high": 2300,
+     "p": [
+      479.86,
+      186.68,
+      1243.81
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 1450,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      432.32,
+      168.19,
+      1120.58
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2014 Clark Gruber Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues",
    "item": "Ag_0.05S_2014R, Ag_0.05P_2014R",
    "basis": "formula",
@@ -17425,6 +19944,67 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2014 Clark Gruber Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues",
+   "item": "Au_0.10S_2014R, Au_0.10P_2014R",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "Au_0.10S_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10S_2014R"
+    ],
+    [
+     "Au_0.10P_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2014R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Clark Gruber Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues",
+   "item": "Pd_03gS_2014R",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "Pd_03gS_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_03gS_2014R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 100,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.0964
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Clark Gruber Liberty-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues",
    "item": "Pt_05gS_2014R",
    "basis": "formula",
    "n": 1,
@@ -17438,9 +20018,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 290,
-     "low": 290,
-     "high": 290,
+     "estimate": 250,
+     "low": 250,
+     "high": 260,
      "f": [
       112.51,
       51.59,
@@ -17448,7 +20028,7 @@
      ]
     }
    ],
-   "pt_melt": 286.5
+   "oz_pt": 0.1606
   },
   {
    "part": "Catalogue",
@@ -17651,6 +20231,79 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2014 Indian-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues (all sold out)",
+   "item": "Au_0.10S_2014S, Au_0.10P_2014S, Au_0.10S_2014R, Au_0.10P_2014R",
+   "basis": "formula",
+   "n": 4,
+   "links": [
+    [
+     "Au_0.10S_2014S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10S_2014S"
+    ],
+    [
+     "Au_0.10P_2014S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2014S"
+    ],
+    [
+     "Au_0.10S_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10S_2014R"
+    ],
+    [
+     "Au_0.10P_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2014R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Indian-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues (all sold out)",
+   "item": "Pd_0.05S_2014S, Pd_0.05S_2014R",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "Pd_0.05S_2014S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05S_2014S"
+    ],
+    [
+     "Pd_0.05S_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05S_2014R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 55,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.05
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Indian-Head / Eagle-Head Fractional Silver / Palladium / Platinum / Gold 2014 Issues (all sold out)",
    "item": "Pt_0.10S_2014S, Pt_0.10S_2014R",
    "basis": "formula",
    "n": 2,
@@ -17668,8 +20321,8 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 260,
      "f": [
       112.51,
@@ -17678,7 +20331,7 @@
      ]
     }
    ],
-   "pt_melt": 178.4
+   "oz_pt": 0.1
   },
   {
    "part": "Catalogue",
@@ -17696,13 +20349,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 95,
-     "low": 75,
-     "high": 130,
+     "estimate": 100,
+     "low": 80,
+     "high": 140,
      "p": [
-      45.41,
-      25.44,
-      83.01
+      51.05,
+      27.95,
+      92.57
      ]
     }
    ],
@@ -17826,6 +20479,123 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2014 Prospector / Eagle-Head Silver / Palladium / Platinum / Gold Distributed by Dave Emsile / Prospector’s Gold. 2014 Issues (all sold out)",
+   "item": "Au_0.10S_2014S, Au_0.10P_2014S, Au_0.10S_2014R, Au_0.10P_2014R",
+   "basis": "formula",
+   "n": 4,
+   "links": [
+    [
+     "Au_0.10S_2014S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10S_2014S"
+    ],
+    [
+     "Au_0.10P_2014S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2014S"
+    ],
+    [
+     "Au_0.10S_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10S_2014R"
+    ],
+    [
+     "Au_0.10P_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10P_2014R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 725,
+     "low": 525,
+     "high": 1200,
+     "p": [
+      308.86,
+      120.16,
+      800.59
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 675,
+     "low": 525,
+     "high": 1125,
+     "p": [
+      278.26,
+      108.26,
+      721.27
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 675,
+     "low": 500,
+     "high": 1100,
+     "p": [
+      269.26,
+      104.75,
+      697.92
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Prospector / Eagle-Head Silver / Palladium / Platinum / Gold Distributed by Dave Emsile / Prospector’s Gold. 2014 Issues (all sold out)",
+   "item": "Pd_0.05S_2014S, Pd_0.05S_2014R",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "Pd_0.05S_2014S",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05S_2014S"
+    ],
+    [
+     "Pd_0.05S_2014R",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05S_2014R"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 100,
+     "low": 55,
+     "high": 240,
+     "f": [
+      104.35,
+      47.84,
+      242.89
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 90,
+     "low": 55,
+     "high": 210,
+     "f": [
+      90.26,
+      41.38,
+      210.08
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 85,
+     "low": 55,
+     "high": 200,
+     "f": [
+      86.42,
+      39.62,
+      201.15
+     ]
+    }
+   ],
+   "oz_pd": 0.05
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2014 Prospector / Eagle-Head Silver / Palladium / Platinum / Gold Distributed by Dave Emsile / Prospector’s Gold. 2014 Issues (all sold out)",
    "item": "Pt_0.10S_2014S, Pt_0.10S_2014R",
    "basis": "formula",
    "n": 2,
@@ -17843,8 +20613,8 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 240,
      "f": [
       104.35,
@@ -17854,8 +20624,8 @@
     },
     {
      "grade": "69 or lower",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 210,
      "f": [
       90.26,
@@ -17865,8 +20635,8 @@
     },
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 200,
      "f": [
       86.42,
@@ -17875,7 +20645,152 @@
      ]
     }
    ],
-   "pt_melt": 178.4
+   "oz_pt": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2015 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_DE_2015_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2015_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2015_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2015 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_EE_2015_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2015_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2015_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2015 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_FE_2015_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2015_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2015_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2015 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_HE_2015_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2015_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2015_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2015 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_QE_2015_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2015_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2015_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -17982,12 +20897,12 @@
     {
      "grade": "ungraded",
      "estimate": 180,
-     "low": 130,
+     "low": 120,
      "high": 270,
      "p": [
-      126.39,
-      73.69,
-      223.09
+      123.73,
+      70.87,
+      215.49
      ]
     }
    ],
@@ -18148,11 +21063,179 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 525,
-     "low": 300,
-     "high": 900
+     "estimate": 480,
+     "low": 280,
+     "high": 825
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_DE_2016_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2016_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2016_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_DE_2016_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4600,
+     "low": 4300,
+     "high": 5300,
+     "p": [
+      484.34,
+      188.43,
+      1255.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_EE_2016_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2016_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2016_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_EE_2016_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3300,
+     "p": [
+      484.34,
+      188.43,
+      1255.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_FE_2016_MS, CG_FE_2016_PL",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "CG_FE_2016_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2016_MS"
+    ],
+    [
+     "CG_FE_2016_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2016_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 900,
+     "low": 600,
+     "high": 1650,
+     "p": [
+      484.34,
+      188.43,
+      1255.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_HE_2016_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2016_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2016_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2016_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1500,
+     "low": 1200,
+     "high": 2300,
+     "p": [
+      484.34,
+      188.43,
+      1255.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_Pd_2016_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_Pd_2016_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_Pd_2016_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_Pd_2016_MS",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-3-4-1-2-2-1-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 110,
+     "high": 240,
+     "f": [
+      100.99,
+      46.31,
+      235.07
+     ]
+    }
+   ],
+   "oz_pd": 0.1
   },
   {
    "part": "Catalogue",
@@ -18170,9 +21253,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 290,
-     "low": 290,
-     "high": 290,
+     "estimate": 250,
+     "low": 250,
+     "high": 250,
      "f": [
       100.99,
       46.31,
@@ -18180,7 +21263,41 @@
      ]
     }
    ],
-   "pt_melt": 286.64
+   "oz_pt": 0.1607
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2016 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_QE_2016_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2016_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2016_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_QE_2016_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-3.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      484.34,
+      188.43,
+      1255.43
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -18369,11 +21486,179 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 160,
-     "low": 95,
-     "high": 290
+     "estimate": 150,
+     "low": 85,
+     "high": 260
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2017 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_DE_2017_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2017_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2017_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_DE_2017_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4600,
+     "low": 4300,
+     "high": 5400,
+     "p": [
+      496.21,
+      193.05,
+      1286.19
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2017 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_EA_2017_PL, CG_EB_2017_PL",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "CG_EA_2017_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EA_2017_PL"
+    ],
+    [
+     "CG_EB_2017_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EB_2017_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3300,
+     "p": [
+      496.21,
+      193.05,
+      1286.19
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2017 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_FE_2017_MS, CG_FE_2017_PL",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "CG_FE_2017_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2017_MS"
+    ],
+    [
+     "CG_FE_2017_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2017_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 900,
+     "low": 600,
+     "high": 1700,
+     "p": [
+      496.21,
+      193.05,
+      1286.19
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2017 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_HE_2017_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2017_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2017_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2017_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1525,
+     "low": 1200,
+     "high": 2300,
+     "p": [
+      496.21,
+      193.05,
+      1286.19
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2017 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_QE_2017_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2017_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2017_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_QE_2017_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-3-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      496.21,
+      193.05,
+      1286.19
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -18437,6 +21722,132 @@
    ],
    "oz_ag": 0.0642,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2018 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_DE_2018_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2018_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2018_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2018 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_EE_2018_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2018_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2018_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2018 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_FE_2018_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2018_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2018_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2018_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2018 Clark Gruber & Co. Gold & Silver Rounds & Octagons",
+   "item": "CG_HE_2018_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2018_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2018_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2018_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
   },
   {
    "part": "Catalogue",
@@ -18543,6 +21954,160 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_DE_2019_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2019_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2019_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_EE_2019_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2019_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2019_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_FE_2019_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2019_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2019_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2019_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_HE_2019_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2019_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2019_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2019_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_Pd_2019_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_Pd_2019_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_Pd_2019_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 110,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
    "item": "CG_Pt_2019_MS",
    "basis": "formula",
    "n": 1,
@@ -18561,9 +22126,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 290,
-     "low": 290,
-     "high": 290,
+     "estimate": 250,
+     "low": 250,
+     "high": 260,
      "f": [
       112.51,
       51.59,
@@ -18571,7 +22136,36 @@
      ]
     }
    ],
-   "pt_melt": 286.64
+   "oz_pt": 0.1607
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2019 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_QE_2019_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2019_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2019_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -18681,6 +22275,194 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_DE_2020_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2020_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2020_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_EE_2020_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2020_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2020_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_FE_2020_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2020_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2020_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2020_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_HE_2020_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2020_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2020_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2020_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_Pd_2020_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_Pd_2020_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_Pd_2020_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_Pd_2020_MS",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-3-4-1-2-2-1-2-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 110,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
+   "item": "CG_QE_2020_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2020_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2020_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2020 Clark Gruber & Co. Gold, Silver, Platinum Rounds",
    "item": "CG_SE_2020_MS",
    "basis": "formula",
    "n": 1,
@@ -18762,17 +22544,205 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 75,
-     "low": 40,
-     "high": 130
+     "estimate": 80,
+     "low": 45,
+     "high": 140
     },
     {
      "grade": "ungraded",
-     "estimate": 65,
-     "low": 35,
-     "high": 110
+     "estimate": 70,
+     "low": 40,
+     "high": 130
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_DE_2021_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2021_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2021_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 4800,
+     "p": [
+      301.2,
+      117.18,
+      780.73
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_EE_2021_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2021_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2021_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2300,
+     "low": 2200,
+     "high": 2800,
+     "p": [
+      301.2,
+      117.18,
+      780.73
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_FE_2021_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2021_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2021_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2021_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 700,
+     "low": 525,
+     "high": 1175,
+     "p": [
+      301.2,
+      117.18,
+      780.73
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_HE_2021_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2021_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2021_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2021_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1325,
+     "low": 1125,
+     "high": 1800,
+     "p": [
+      301.2,
+      117.18,
+      780.73
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_Pd_2021_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_Pd_2021_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_Pd_2021_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_Pd_2021_MS",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-3-4-1-2-2-1-2-1-2-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 110,
+     "high": 170,
+     "f": [
+      74.72,
+      34.26,
+      173.93
+     ]
+    }
+   ],
+   "oz_pd": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2021 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_QE_2021_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2021_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2021_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11000,
+     "p": [
+      301.2,
+      117.18,
+      780.73
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -18840,6 +22810,161 @@
    ],
    "oz_ag": 0.0642,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2022 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_DE_2022_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2022_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2022_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2022 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_EE_2022_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2022_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2022_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2022 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_FE_2022_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2022_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2022_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2022_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1-3.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2022 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_HE_2022_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2022_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2022_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2022_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2022 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_QE_2022_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2022_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2022_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -18924,11 +23049,166 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 160,
-     "low": 95,
-     "high": 280
+     "estimate": 150,
+     "low": 85,
+     "high": 260
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2023 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_DE_2023_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_DE_2023_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_DE_2023_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4600,
+     "low": 4300,
+     "high": 5300,
+     "p": [
+      492.82,
+      191.73,
+      1277.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2023 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_EE_2023_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_EE_2023_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_EE_2023_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2500,
+     "low": 2200,
+     "high": 3300,
+     "p": [
+      492.82,
+      191.73,
+      1277.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2023 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_FE_2023_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2023_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2023_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2023_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1-4.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 900,
+     "low": 600,
+     "high": 1675,
+     "p": [
+      492.82,
+      191.73,
+      1277.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2023 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_HE_2023_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2023_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2023_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2023_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1-1-1-3.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1500,
+     "low": 1200,
+     "high": 2300,
+     "p": [
+      492.82,
+      191.73,
+      1277.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2023 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_QE_2023_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_QE_2023_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_QE_2023_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 10500,
+     "low": 10500,
+     "high": 11500,
+     "p": [
+      492.82,
+      191.73,
+      1277.42
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 2.4975
   },
   {
    "part": "Catalogue",
@@ -19000,6 +23280,107 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · 2024 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_FE_2024_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2024_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2024_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2024_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1-5.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2024 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_HE_2024_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2024_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2024_PL"
+    ]
+   ],
+   "store": [
+    [
+     "CG_HE_2024_PL",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-2-1-1-1-1-4.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2024 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_Pd_2024_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_Pd_2024_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_Pd_2024_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_Pd_2024_MS",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-3-4-1-2-2-1-2-1-2-1-1.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 110,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2024 Clark Gruber & Co. Gold, Silver, Rounds",
    "item": "CG_SE_2024_PL, CG_SE_2024_AN",
    "basis": "formula",
    "n": 2,
@@ -19063,6 +23444,69 @@
    ],
    "oz_ag": 0.0642,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2025 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_FE_2025_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_FE_2025_MS",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_FE_2025_MS"
+    ]
+   ],
+   "store": [
+    [
+     "CG_FE_2025_MS",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-1-1-1-1-1-2-1-1-6.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · 2025 Clark Gruber & Co. Gold, Silver, Rounds",
+   "item": "CG_HE_2025_PL",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "CG_HE_2025_PL",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=CG_HE_2025_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1425,
+     "low": 1175,
+     "high": 2100,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
   },
   {
    "part": "Catalogue",
@@ -19147,13 +23591,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 220,
+     "estimate": 210,
      "low": 160,
-     "high": 330,
+     "high": 320,
      "p": [
-      143.39,
-      83.6,
-      253.11
+      136.48,
+      78.18,
+      237.7
      ]
     }
    ],
@@ -19307,6 +23751,89 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · All issues",
+   "item": "Au_0.10_2012S1, Au_0.10_2012R1, Au_0.10_2012S2, Au_0.10_2012R2",
+   "basis": "formula",
+   "n": 4,
+   "links": [
+    [
+     "Au_0.10_2012S1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10_2012S1"
+    ],
+    [
+     "Au_0.10_2012R1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10_2012R1"
+    ],
+    [
+     "Au_0.10_2012S2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10_2012S2"
+    ],
+    [
+     "Au_0.10_2012R2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Au_0.10_2012R2"
+    ]
+   ],
+   "store": [
+    [
+     "Au_0.10_2012R2",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-3-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 825,
+     "low": 575,
+     "high": 1500,
+     "p": [
+      418.33,
+      162.75,
+      1084.32
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · All issues",
+   "item": "Pd_0.05_2012S2, Pd_0.05_2012R2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "Pd_0.05_2012S2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05_2012S2"
+    ],
+    [
+     "Pd_0.05_2012R2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=Pd_0.05_2012R2"
+    ]
+   ],
+   "store": [
+    [
+     "Pd_0.05_2012R2",
+     "https://www.dc-coin.com/2009indian-headeagle110troyounce999goldsatin-1-1-1-3-3.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 110,
+     "low": 55,
+     "high": 260,
+     "f": [
+      112.51,
+      51.59,
+      261.88
+     ]
+    }
+   ],
+   "oz_pd": 0.05
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · All issues",
    "item": "Pt_0.10_2012S2, Pt_0.10_2012R2",
    "basis": "formula",
    "n": 2,
@@ -19324,8 +23851,8 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 180,
-     "low": 180,
+     "estimate": 160,
+     "low": 160,
      "high": 260,
      "f": [
       112.51,
@@ -19334,7 +23861,7 @@
      ]
     }
    ],
-   "pt_melt": 178.4
+   "oz_pt": 0.1
   },
   {
    "part": "Catalogue",
@@ -19374,9 +23901,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 200,
-     "low": 120,
-     "high": 350
+     "estimate": 170,
+     "low": 95,
+     "high": 290
     }
    ]
   },
@@ -19506,17 +24033,80 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 210,
-     "low": 120,
-     "high": 380
+     "estimate": 200,
+     "low": 110,
+     "high": 370
     },
     {
      "grade": "ungraded",
      "estimate": 180,
-     "low": 100,
-     "high": 330
+     "low": 95,
+     "high": 320
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · Saint-Gaudens, Winged Liberty Ultra-High Relief “MMXXII” (2022), “MMXXIII” (2023), 2024, 2025, 2026",
+   "item": "ASG_2024_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "ASG_2024_G1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=ASG_2024_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4700,
+     "low": 4300,
+     "high": 5600,
+     "p": [
+      596.11,
+      231.91,
+      1545.15
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · Saint-Gaudens, Winged Liberty Ultra-High Relief “MMXXII” (2022), “MMXXIII” (2023), 2024, 2025, 2026",
+   "item": "ASG_MMXXII_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "ASG_MMXXII_G1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=ASG_MMXXII_G1"
+    ]
+   ],
+   "store": [
+    [
+     "ASG_MMXXII_G1",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-3-1-1-1-1-1-1-2-1-1-1-1-1-1-1-3.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4700,
+     "low": 4300,
+     "high": 5600,
+     "p": [
+      596.11,
+      231.91,
+      1545.15
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.9995
   },
   {
    "part": "Catalogue",
@@ -19762,9 +24352,9 @@
      "low": 110,
      "high": 240,
      "p": [
-      112.58,
-      65.63,
-      198.71
+      114.72,
+      65.71,
+      199.8
      ]
     }
    ],
@@ -19830,6 +24420,62 @@
   {
    "part": "Catalogue",
    "group": "Gold, silver & Clark Gruber issues · “MCMVI” (1906) Saint-Gaudens, Winged Liberty Concept (Struck in 2018)",
+   "item": "ASG_MCMVI_Au1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "ASG_MCMVI_Au1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=ASG_MCMVI_Au1"
+    ]
+   ],
+   "store": [
+    [
+     "ASG_MCMVI_Au1",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-2-2-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5200,
+     "p": [
+      432.81,
+      168.38,
+      1121.87
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4500,
+     "low": 4200,
+     "high": 5100,
+     "p": [
+      389.93,
+      151.7,
+      1010.72
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 5000,
+     "p": [
+      377.31,
+      146.79,
+      978.01
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · “MCMVI” (1906) Saint-Gaudens, Winged Liberty Concept (Struck in 2018)",
    "item": "ASG_MCMVI_bs1",
    "basis": "formula",
    "n": 1,
@@ -19863,6 +24509,44 @@
      "estimate": 75,
      "low": 35,
      "high": 180
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Gold, silver & Clark Gruber issues · “MCMVI” (1906) Saint-Gaudens, Winged Liberty Concept (Struck in 2018)",
+   "item": "ASG_MCMVI_os1, ASG_MCMVI_os2",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "ASG_MCMVI_os1",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=ASG_MCMVI_os1"
+    ],
+    [
+     "ASG_MCMVI_os2",
+     "http://www.moonlightmint.com/dc-coin_gold_list.htm#:~:text=ASG_MCMVI_os2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 975,
+     "low": 450,
+     "high": 2300
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 850,
+     "low": 390,
+     "high": 1975
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 800,
+     "low": 370,
+     "high": 1875
     }
    ]
   },
@@ -20176,9 +24860,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 160,
-     "low": 95,
-     "high": 280
+     "estimate": 150,
+     "low": 85,
+     "high": 260
     }
    ]
   },
@@ -20231,13 +24915,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 230,
+     "estimate": 210,
      "low": 170,
-     "high": 320,
+     "high": 300,
      "p": [
-      121.53,
-      70.85,
-      214.52
+      110.69,
+      63.41,
+      192.79
      ]
     }
    ],
@@ -20276,6 +24960,40 @@
    ],
    "oz_ag": 0.7708,
    "oz_au": 0
+  },
+  {
+   "part": "Catalogue",
+   "group": "Hard Times tokens · 1933-1934 Gold Confiscation and Outlawing of Gold Currency [SOLD OUT]",
+   "item": "HTGC_1933_Au",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "HTGC_1933_Au",
+     "http://www.moonlightmint.com/dc-coin_hard_times_list.htm#:~:text=HTGC_1933_Au"
+    ]
+   ],
+   "store": [
+    [
+     "HTGC_1933_Au",
+     "https://www.dc-coin.com/coloradogoldrushsesquicentennialpioneergold1troyoz999satinfinish-1-1-1-2-2-2-1-1-1-2.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 4800,
+     "p": [
+      286.47,
+      111.45,
+      742.55
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
   },
   {
    "part": "Catalogue",
@@ -20410,8 +25128,8 @@
     {
      "grade": "ungraded",
      "estimate": 120,
-     "low": 70,
-     "high": 230
+     "low": 65,
+     "high": 210
     }
    ]
   },
@@ -20785,11 +25503,11 @@
      "grade": "ungraded",
      "estimate": 130,
      "low": 95,
-     "high": 180,
+     "high": 190,
      "p": [
-      74.85,
-      43.64,
-      132.13
+      77.25,
+      44.25,
+      134.54
      ]
     }
    ],
@@ -20817,9 +25535,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 55,
+     "estimate": 60,
      "low": 30,
-     "high": 100
+     "high": 110
     },
     {
      "grade": "ungraded",
@@ -21016,13 +25734,13 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 110,
+     "estimate": 120,
      "low": 85,
-     "high": 160,
+     "high": 170,
      "p": [
-      59.79,
-      33.49,
-      109.3
+      63.4,
+      34.72,
+      114.98
      ]
     }
    ],
@@ -21127,9 +25845,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 50,
+     "estimate": 55,
      "low": 30,
-     "high": 90
+     "high": 95
     }
    ]
   },
@@ -21149,13 +25867,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 80,
-     "low": 65,
-     "high": 100,
+     "estimate": 90,
+     "low": 75,
+     "high": 120,
      "p": [
-      26.64,
-      15.53,
-      47.02
+      36.28,
+      20.78,
+      63.18
      ]
     }
    ],
@@ -21384,8 +26102,8 @@
     {
      "grade": "69 or lower",
      "estimate": 65,
-     "low": 40,
-     "high": 120
+     "low": 35,
+     "high": 110
     }
    ]
   },
@@ -21495,8 +26213,8 @@
     {
      "grade": "ungraded",
      "estimate": 75,
-     "low": 45,
-     "high": 140
+     "low": 40,
+     "high": 130
     }
    ]
   },
@@ -21523,11 +26241,11 @@
      "grade": "ungraded",
      "estimate": 150,
      "low": 110,
-     "high": 230,
+     "high": 220,
      "p": [
-      101.75,
-      59.32,
-      179.61
+      98.62,
+      56.49,
+      171.76
      ]
     }
    ],
@@ -21582,7 +26300,7 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 50,
+     "estimate": 55,
      "low": 30,
      "high": 90
     }
@@ -21609,7 +26327,7 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 50,
+     "estimate": 55,
      "low": 30,
      "high": 90
     }
@@ -21640,20 +26358,20 @@
      "low": 90,
      "high": 180,
      "p": [
-      70.07,
-      39.25,
-      128.09
+      71.99,
+      39.42,
+      130.54
      ]
     },
     {
      "grade": "ungraded",
      "estimate": 110,
      "low": 85,
-     "high": 160,
+     "high": 170,
      "p": [
-      60.17,
-      33.71,
-      110.0
+      62.75,
+      34.36,
+      113.8
      ]
     }
    ],
@@ -21676,9 +26394,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 55,
-     "low": 30,
-     "high": 95
+     "estimate": 60,
+     "low": 35,
+     "high": 100
     }
    ]
   },
@@ -21806,9 +26524,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 80,
+     "estimate": 75,
      "low": 45,
-     "high": 140
+     "high": 130
     }
    ]
   },
@@ -21874,11 +26592,11 @@
      "grade": "69 or lower",
      "estimate": 160,
      "low": 110,
-     "high": 240,
+     "high": 230,
      "p": [
-      106.66,
-      62.19,
-      188.27
+      103.15,
+      59.09,
+      179.66
      ]
     }
    ],
@@ -21902,13 +26620,13 @@
     {
      "grade": "70",
      "estimate": 140,
-     "low": 85,
-     "high": 270
+     "low": 80,
+     "high": 260
     },
     {
      "grade": "69 or lower",
      "estimate": 120,
-     "low": 75,
+     "low": 70,
      "high": 240
     },
     {
@@ -22000,13 +26718,13 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 95,
-     "low": 75,
-     "high": 120,
+     "estimate": 100,
+     "low": 80,
+     "high": 140,
      "p": [
-      40.88,
-      23.84,
-      72.17
+      52.88,
+      30.29,
+      92.1
      ]
     }
    ],
@@ -22118,14 +26836,14 @@
     {
      "grade": "70",
      "estimate": 65,
-     "low": 40,
+     "low": 35,
      "high": 120
     },
     {
      "grade": "ungraded",
-     "estimate": 60,
+     "estimate": 55,
      "low": 30,
-     "high": 110
+     "high": 100
     }
    ]
   },
@@ -22200,9 +26918,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 130,
-     "low": 70,
-     "high": 230
+     "estimate": 120,
+     "low": 65,
+     "high": 210
     }
    ]
   },
@@ -22410,9 +27128,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 330,
-     "low": 180,
-     "high": 600
+     "estimate": 300,
+     "low": 170,
+     "high": 550
     }
    ]
   },
@@ -22805,7 +27523,7 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 18,
+     "estimate": 19,
      "low": 11,
      "high": 35
     }
@@ -22892,8 +27610,8 @@
     {
      "grade": "69 or lower",
      "estimate": 20,
-     "low": 12,
-     "high": 35
+     "low": 13,
+     "high": 40
     }
    ]
   },
@@ -23697,8 +28415,8 @@
     {
      "grade": "ungraded",
      "estimate": 35,
-     "low": 20,
-     "high": 60
+     "low": 19,
+     "high": 55
     }
    ]
   },
@@ -23840,7 +28558,7 @@
     {
      "grade": "ungraded",
      "estimate": 150,
-     "low": 85,
+     "low": 80,
      "high": 270
     }
    ]
@@ -23862,7 +28580,7 @@
     {
      "grade": "69 or lower",
      "estimate": 100,
-     "low": 60,
+     "low": 55,
      "high": 190
     },
     {
@@ -23912,7 +28630,7 @@
     {
      "grade": "69 or lower",
      "estimate": 150,
-     "low": 90,
+     "low": 85,
      "high": 270
     }
    ]
@@ -23934,8 +28652,8 @@
     {
      "grade": "69 or lower",
      "estimate": 110,
-     "low": 65,
-     "high": 210
+     "low": 60,
+     "high": 200
     },
     {
      "grade": "ungraded",
@@ -24043,11 +28761,11 @@
      "grade": "69 or lower",
      "estimate": 160,
      "low": 110,
-     "high": 240,
+     "high": 230,
      "p": [
-      103.73,
-      60.48,
-      183.1
+      103.72,
+      59.41,
+      180.64
      ]
     }
    ],
@@ -24175,9 +28893,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 210,
+     "estimate": 200,
      "low": 120,
-     "high": 370
+     "high": 350
     }
    ]
   },
@@ -24305,7 +29023,7 @@
      "grade": "70",
      "estimate": 35,
      "low": 19,
-     "high": 60
+     "high": 65
     },
     {
      "grade": "69 or lower",
@@ -24316,10 +29034,61 @@
     {
      "grade": "ungraded",
      "estimate": 30,
-     "low": 16,
+     "low": 17,
      "high": 55
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Medals · 2013 Battle of Lake Erie Bicentennial",
+   "item": "BLE_2013_GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "BLE_2013_GP",
+     "http://www.moonlightmint.com/dc-coin_medals_list.htm#:~:text=BLE_2013_GP"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7200,
+     "p": [
+      261.44,
+      101.71,
+      677.66
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7100,
+     "p": [
+      235.54,
+      91.63,
+      610.53
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 6800,
+     "low": 6600,
+     "high": 7100,
+     "p": [
+      227.91,
+      88.67,
+      590.77
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 1.6059
   },
   {
    "part": "Catalogue",
@@ -24527,15 +29296,15 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 90,
+     "estimate": 85,
      "low": 50,
      "high": 160
     },
     {
      "grade": "ungraded",
      "estimate": 85,
-     "low": 50,
-     "high": 160
+     "low": 45,
+     "high": 150
     }
    ]
   },
@@ -24775,13 +29544,13 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 380,
-     "low": 250,
-     "high": 600,
+     "estimate": 300,
+     "low": 210,
+     "high": 470,
      "p": [
-      297.23,
-      173.29,
-      524.65
+      223.15,
+      127.82,
+      388.65
      ]
     }
    ],
@@ -24948,9 +29717,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 110,
+     "estimate": 120,
      "low": 65,
-     "high": 210
+     "high": 220
     }
    ]
   },
@@ -25118,8 +29887,8 @@
     {
      "grade": "69 or lower",
      "estimate": 50,
-     "low": 25,
-     "high": 90
+     "low": 30,
+     "high": 95
     }
    ]
   },
@@ -25154,6 +29923,40 @@
      "estimate": 95,
      "low": 45,
      "high": 220
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · All issues",
+   "item": "JJC_0250_Au_1, JJC_0500_Au_1, JJC_1000_Au_1, RRS_0500_Au_1",
+   "basis": "formula",
+   "n": 4,
+   "links": [
+    [
+     "JJC_0250_Au_1",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJC_0250_Au_1"
+    ],
+    [
+     "JJC_0500_Au_1",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJC_0500_Au_1"
+    ],
+    [
+     "JJC_1000_Au_1",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=JJC_1000_Au_1"
+    ],
+    [
+     "RRS_0500_Au_1",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=RRS_0500_Au_1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 550,
+     "low": 250,
+     "high": 1300
     }
    ]
   },
@@ -25273,9 +30076,9 @@
    "grades": [
     {
      "grade": "70",
-     "estimate": 150,
-     "low": 90,
-     "high": 260
+     "estimate": 140,
+     "low": 80,
+     "high": 250
     }
    ]
   },
@@ -25319,6 +30122,44 @@
   },
   {
    "part": "Catalogue",
+   "group": "Pioneer tokens · Deseret Assay Office Restrikes “1860” Later-period Mormon Lion/Beehive $5 gold half eagles were struck in 1860. The original coins had a smooth edge and coin-flip orientation. Commissioned by Utah-based collectibles dealer. Production Data. These restrikes (in 2024-2025) have a reeded-edge and medal-turn orientation. All gold pieces were over-struck on vintage US Mint Liberty-Head gold coins (unless otherwise noted). Produced using tribute dies, based on photos of original coins. NOTE: Minted on commission for distributor.",
+   "item": "DAO_5_Au_MS, DAO_5_Au_PL",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "DAO_5_Au_MS",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=DAO_5_Au_MS"
+    ],
+    [
+     "DAO_5_Au_PL",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=DAO_5_Au_PL"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 925,
+     "low": 420,
+     "high": 2100
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 800,
+     "low": 370,
+     "high": 1850
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 775,
+     "low": 350,
+     "high": 1775
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
    "group": "Pioneer tokens · Mormon Pioneer Restrikes “1850” Early-period Mormon $5 gold half eagles were struck in 1849 and 1850. The original coins had a smooth edge and coin-flip orientation. Commissioned by Utah-based collectibles dealer. Production Data. These restrikes (in 2025) have a reeded-edge and coin-flip orientation (unless otherwise noted). All gold pieces were over-struck on vintage US Mint Liberty-Head gold coins (unless otherwise noted). Produced using tribute dies, based on photos of original coins. NOTE: Minted on commission for distributor.",
    "item": "M50_5_Ag_MS",
    "basis": "sales",
@@ -25333,9 +30174,31 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 150,
-     "low": 90,
-     "high": 270
+     "estimate": 140,
+     "low": 80,
+     "high": 250
+    }
+   ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "Pioneer tokens · Mormon Pioneer Restrikes “1850” Early-period Mormon $5 gold half eagles were struck in 1849 and 1850. The original coins had a smooth edge and coin-flip orientation. Commissioned by Utah-based collectibles dealer. Production Data. These restrikes (in 2025) have a reeded-edge and coin-flip orientation (unless otherwise noted). All gold pieces were over-struck on vintage US Mint Liberty-Head gold coins (unless otherwise noted). Produced using tribute dies, based on photos of original coins. NOTE: Minted on commission for distributor.",
+   "item": "M50_5_Au_MS",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "M50_5_Au_MS",
+     "http://www.moonlightmint.com/dc-coin_pioneer_tokens_list.htm#:~:text=M50_5_Au_MS"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 850,
+     "low": 380,
+     "high": 1950
     }
    ]
   },
@@ -25557,9 +30420,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 170,
-     "low": 100,
-     "high": 300
+     "estimate": 160,
+     "low": 90,
+     "high": 280
     }
    ]
   },
@@ -26072,9 +30935,9 @@
    "grades": [
     {
      "grade": "69 or lower",
-     "estimate": 45,
-     "low": 25,
-     "high": 80
+     "estimate": 50,
+     "low": 30,
+     "high": 90
     }
    ]
   },
@@ -26162,6 +31025,62 @@
      "high": 120
     }
    ]
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · 2009 Wirtland [ICU] (International Currency Units). Coinage from internet-based sovereign country of Wirtland.",
+   "item": "WL_10_2009_GP",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "WL_10_2009_GP",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=WL_10_2009_GP"
+    ]
+   ],
+   "store": [
+    [
+     "WL_10_2009_GP",
+     "https://www.dc-coin.com/2009wirtland10icu110troyounce999gold.aspx"
+    ]
+   ],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 800,
+     "low": 575,
+     "high": 1450,
+     "p": [
+      405.29,
+      157.67,
+      1050.52
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 775,
+     "low": 550,
+     "high": 1350,
+     "p": [
+      365.13,
+      142.05,
+      946.44
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 750,
+     "low": 550,
+     "high": 1325,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.1
   },
   {
    "part": "Catalogue",
@@ -26427,6 +31346,72 @@
   },
   {
    "part": "Catalogue",
+   "group": "World trade tokens · 2012 Switzerland Gold Tokens Distributed by 1291.com .",
+   "item": "SW_05_2012_A, SW_05_2012_B",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "SW_05_2012_A",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=SW_05_2012_A"
+    ],
+    [
+     "SW_05_2012_B",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=SW_05_2012_B"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2400,
+     "low": 2200,
+     "high": 2900,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · 2012 Switzerland Gold Tokens Distributed by 1291.com .",
+   "item": "SW_10_2012_A, SW_10_2012_B",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "SW_10_2012_A",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=SW_10_2012_A"
+    ],
+    [
+     "SW_10_2012_B",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=SW_10_2012_B"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 5000,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
    "group": "World trade tokens · 2013 Switzerland Silver Bars Distributed by 1291.com .",
    "item": "SW_01_2013_S",
    "basis": "formula",
@@ -26522,6 +31507,210 @@
   },
   {
    "part": "Catalogue",
+   "group": "World trade tokens · 2013-2014 “American Gold Rush” Gold & Silver Rounds Distributed by AGR.",
+   "item": "AGR_2014_Au_1, AGR_2013_Au_1",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "AGR_2014_Au_1",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AGR_2014_Au_1"
+    ],
+    [
+     "AGR_2013_Au_1",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AGR_2013_Au_1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 5000,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.999
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · 2013-2014 “American Gold Rush” Gold & Silver Rounds Distributed by AGR.",
+   "item": "AGR_2014_Au_h",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "AGR_2014_Au_h",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AGR_2014_Au_h"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 2400,
+     "low": 2200,
+     "high": 2900,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.4995
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · 2013-2014 “American Gold Rush” Gold & Silver Rounds Distributed by AGR.",
+   "item": "AGR_2014_Au_q",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "AGR_2014_Au_q",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AGR_2014_Au_q"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 1375,
+     "low": 1150,
+     "high": 1925,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.2497
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · 2013-2014 “American Gold Rush” Gold & Silver Rounds Distributed by AGR.",
+   "item": "AGR_2014_Au_t, AGR_2013_Au_t",
+   "basis": "formula",
+   "n": 2,
+   "links": [
+    [
+     "AGR_2014_Au_t",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AGR_2014_Au_t"
+    ],
+    [
+     "AGR_2013_Au_t",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AGR_2013_Au_t"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "70",
+     "estimate": 800,
+     "low": 575,
+     "high": 1450,
+     "p": [
+      405.29,
+      157.67,
+      1050.52
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 775,
+     "low": 550,
+     "high": 1350,
+     "p": [
+      365.13,
+      142.05,
+      946.44
+     ]
+    },
+    {
+     "grade": "ungraded",
+     "estimate": 750,
+     "low": 550,
+     "high": 1325,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · Anguilla Trade Tokens Minted and sold in Anguilla using dies engraved by Daniel Carr.",
+   "item": "AI_1_G1",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "AI_1_G1",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AI_1_G1"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 600,
+     "low": 370,
+     "high": 1150,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0583
+  },
+  {
+   "part": "Catalogue",
+   "group": "World trade tokens · Anguilla Trade Tokens Minted and sold in Anguilla using dies engraved by Daniel Carr.",
+   "item": "AI_1_G2",
+   "basis": "formula",
+   "n": 1,
+   "links": [
+    [
+     "AI_1_G2",
+     "http://www.moonlightmint.com/dc-coin_world_trade_list.htm#:~:text=AI_1_G2"
+    ]
+   ],
+   "store": [],
+   "grades": [
+    {
+     "grade": "ungraded",
+     "estimate": 750,
+     "low": 550,
+     "high": 1325,
+     "p": [
+      353.31,
+      137.45,
+      915.81
+     ]
+    }
+   ],
+   "oz_ag": 0,
+   "oz_au": 0.0999
+  },
+  {
+   "part": "Catalogue",
    "group": "World trade tokens · Anguilla Trade Tokens Minted and sold in Anguilla using dies engraved by Daniel Carr.",
    "item": "AI_1_S1",
    "basis": "formula",
@@ -26560,9 +31749,9 @@
    "grades": [
     {
      "grade": "ungraded",
-     "estimate": 150,
-     "low": 80,
-     "high": 270
+     "estimate": 130,
+     "low": 70,
+     "high": 230
     }
    ]
   },
@@ -26578,14 +31767,14 @@
     {
      "grade": "69 or lower",
      "estimate": 40,
-     "low": 20,
-     "high": 70
+     "low": 25,
+     "high": 75
     },
     {
      "grade": "ungraded",
-     "estimate": 35,
+     "estimate": 40,
      "low": 20,
-     "high": 70
+     "high": 75
     }
    ]
   },
@@ -26602,7 +31791,7 @@
      "grade": "69 or lower",
      "estimate": 50,
      "low": 30,
-     "high": 95
+     "high": 100
     },
     {
      "grade": "ungraded",

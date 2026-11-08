@@ -310,7 +310,7 @@ def render_carr(doc):
                     return f'<td data-label="{esc(h)}"{dp}>{est_cell(g["estimate"], g["low"], g["high"])}</td>'
                 cells = "".join(td(k, h) for k, h in CARR_GRADES)
                 metal = ((f' data-ag="{L["oz_ag"]}"' if L.get("oz_ag") else "") + (f' data-au="{L["oz_au"]}"' if L.get("oz_au") else "")
-                         + (f' data-ptm="{L["pt_melt"]}"' if L.get("pt_melt") else ""))     # platinum: fixed dollars (monthly price)
+                         + (f' data-pt="{L["oz_pt"]}"' if L.get("oz_pt") else "") + (f' data-pd="{L["oz_pd"]}"' if L.get("oz_pd") else ""))
                 formula = L.get("basis") == "formula"
                 keys = f"{head} {L['group']} {L['item']}".lower() + (" formula only" if formula else "")
                 tag = ' <span class="basis-tag">formula only</span>' if formula else ""
@@ -386,8 +386,12 @@ def guide_placeholders():
         "{{CARR_SOFT}}": pct(1 - cf["newest_actual_over_estimate"]),
         "{{CARR_SILVER_SPOT}}": f"${cf['silver_spot']:.2f}",
         "{{CARR_GOLD_SPOT}}": f"${cf.get('gold_spot', 0):,.2f}",
-        "{{CARR_METAL_PIECES}}": str(sum(L.get("n", 1) for L in carr["lines"] if L.get("oz_ag") or L.get("oz_au"))),
-        "{{CARR_PT_SPOT}}": f"${cf.get('platinum_spot', 0):,.0f}",
+        "{{CARR_METAL_PIECES}}": str(sum(L.get("n", 1) for L in carr["lines"] if L.get("oz_ag") or L.get("oz_au") or L.get("oz_pt") or L.get("oz_pd"))),
+        "{{CARR_PT_SPOT}}": f"${cf.get('platinum_spot', 0):,.2f}",
+        "{{CARR_PD_SPOT}}": f"${cf.get('palladium_spot', 0):,.2f}",
+        "{{CARR_PT_RAW}}": f"{cf.get('platinum_spot', 0):.2f}",
+        "{{CARR_PD_RAW}}": f"{cf.get('palladium_spot', 0):.2f}",
+        "{{CARR_PGM_SOURCE}}": ("the Hyperliquid perpetual futures price" if cf.get("pgm_source") == "Hyperliquid" else "the open daily dataset's price"),
         "{{CARR_SPOT_DATE}}": cf["spot_date"],
         "{{CARR_LOT5}}": f"{cf['lot5']:.1f}",
         "{{CARR_AUCTION}}": pct(1 - cf["auction"]),
