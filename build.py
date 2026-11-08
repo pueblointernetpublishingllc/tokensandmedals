@@ -149,7 +149,7 @@ def render_entry(e):
     checked = e.get("checked", "")
     return f"""          <li data-tags="{esc(tags)}" data-checked="{esc(checked)}">
             <a href="{esc(e["url"])}" rel="{rel}">{esc(e["name"])}</a>
-            <p>{e["desc"]}</p>
+            <p><span data-nosnippet>{e["desc"]}</span></p>
             <span class="domain">{esc(domain_of(e["url"]))}</span>{note}
           </li>"""
 
