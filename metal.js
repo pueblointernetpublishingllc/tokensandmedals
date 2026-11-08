@@ -57,8 +57,12 @@
         });
       });
       var when = new Date(Math.max(g.t, s.t) * 1000);
+      // the reader's own time zone, named; Mountain time when the browser gives none (or only UTC, as privacy modes do)
+      var tz, opts = { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' };
+      try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch (e) { tz = ''; }
+      if (!tz || /^(Etc\/)?(UTC|GMT)$/.test(tz)) opts.timeZone = 'America/Denver';
       note.innerHTML = '<strong>Gold ' + ounce(g.price) + ' &middot; silver ' + ounce(s.price) + ' an ounce</strong>, live from Chainlink (updated ' +
-        when.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) +
+        when.toLocaleString('en-US', opts) +
         '). Figures for pieces containing gold or silver include their metal at these prices.';
       note.classList.add('live');
     })
