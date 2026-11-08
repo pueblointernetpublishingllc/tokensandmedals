@@ -83,8 +83,8 @@
   "auction": 0.79,
   "silver_spot": 51.95,
   "gold_spot": 4070.58,
-  "platinum_spot": 1534.4,
-  "palladium_spot": 1021.2,
+  "platinum_spot": 1534.15,
+  "palladium_spot": 1021.15,
   "pgm_source": "Hyperliquid",
   "spot_date": "2026-11-07",
   "spot_source": "Chainlink",
@@ -19264,6 +19264,18 @@
    ],
    "grades": [
     {
+     "grade": "70",
+     "estimate": 95,
+     "low": 45,
+     "high": 230
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 85,
+     "low": 40,
+     "high": 200
+    },
+    {
      "grade": "ungraded",
      "estimate": 80,
      "low": 35,
@@ -19285,6 +19297,28 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 5000,
+     "p": [
+      378.4,
+      147.68,
+      970.97
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4400,
+     "low": 4200,
+     "high": 4900,
+     "p": [
+      341.48,
+      133.27,
+      876.26
+     ]
+    },
     {
      "grade": "ungraded",
      "estimate": 4400,
@@ -19314,6 +19348,28 @@
    ],
    "store": [],
    "grades": [
+    {
+     "grade": "70",
+     "estimate": 4300,
+     "low": 4100,
+     "high": 4900,
+     "p": [
+      378.4,
+      147.68,
+      970.97
+     ]
+    },
+    {
+     "grade": "69 or lower",
+     "estimate": 4300,
+     "low": 4100,
+     "high": 4800,
+     "p": [
+      341.48,
+      133.27,
+      876.26
+     ]
+    },
     {
      "grade": "ungraded",
      "estimate": 4300,
