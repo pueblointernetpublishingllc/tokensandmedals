@@ -493,6 +493,7 @@ h2 {
   .table-wrap table.gtable.carr { min-width: 0; }
   .gtable.carr thead { display: none; }
   .gtable.carr tr { display: block; padding: 0.55rem 0; border-bottom: 1px solid var(--card-edge); }
+  .gtable.carr tr[hidden] { display: none; }   /* the finder hides rows; display:block above would outrank [data-g][hidden] */
   .gtable.carr th[scope="row"], .gtable.carr td { display: block; border: 0; padding: 0.1rem 0; white-space: normal; min-width: 0; }
   .gtable.carr td::before { content: attr(data-label); display: inline-block; min-width: 6.5rem; color: var(--ink-soft); font-size: 0.9em; }
   .gtable.carr td.na { display: none; }
