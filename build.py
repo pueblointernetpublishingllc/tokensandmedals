@@ -243,13 +243,21 @@ def render_scd(doc):
     out = []
     for p in doc["pieces"]:
         finish = f" &middot; {esc(p['finish'])}" if p["finish"] else ""
+        # pieces with confirmed metal content: the page re-prices them live and never shows them under the metal
+        metal = (f' data-au="{p["oz_au"]}"' if p.get("oz_au") else "") + (f' data-ag="{p["oz_ag"]}"' if p.get("oz_ag") else "")
+        def scd_td(g, svc):
+            f_ = g.get(svc + "_f")
+            return f'<td{f" data-f={chr(34)}{f_[0]},{f_[1]},{f_[2]}{chr(34)}" if metal and f_ else ""}>{est_cell(*g[svc])}</td>'
         rows = "".join(
-            f'<tr><th scope="row">{esc(g["grade"])}</th><td>{est_cell(*g["pcgs"])}</td><td>{est_cell(*g["ngc"])}</td></tr>'
+            f'<tr{metal}><th scope="row">{esc(g["grade"])}</th>{scd_td(g, "pcgs")}{scd_td(g, "ngc")}</tr>'
             for g in p["grades"])
         anchor = slug(f"hk-{p['hk']}-{p['metal']}-{p['finish']}")
         formula = p.get("basis") == "formula"
         keys = f"hk{p['hk']} {p['event']} {p['year']} {p['metal']} {p['finish']}" + (" formula only" if formula else "")
         tag = f' <span class="basis-tag">{scd_tag(p)}</span>' if formula else ""
+        if metal:
+            oz, m_ = (p["oz_au"], "gold") if p.get("oz_au") else (p["oz_ag"], "silver")
+            tag += f' <span class="basis-tag">metal: {oz:.3f} oz fine {m_} ({esc(p.get("metal_src", ""))}); figures never below it</span>'
         out.append(f"""        <div class="g-piece{' formula' if formula else ''}" id="{anchor}" data-g data-basis="{'formula' if formula else 'sales'}" data-k="{esc(keys.lower())}">
           <h3><span class="hk">HK-{esc(p["hk"])}</span> {esc(p["event"])}, {p["year"]} &middot; {esc(p["metal"])}{finish}{tag}</h3>
           <div class="table-wrap"><table class="gtable scd">
@@ -408,6 +416,10 @@ def guide_placeholders():
     return {
         "{{SCD_GUIDE}}": render_scd(scd),
         "{{SCD_COUNT}}": str(len(scd["pieces"])),
+        "{{SCD_METAL_PIECES}}": plural(sf.get("metal_pieces", 0), "piece"),
+        "{{SCD_GOLD_SPOT}}": f"${sf.get('gold_spot', 0):,.2f}",
+        "{{SCD_SILVER_SPOT}}": f"${sf.get('silver_spot', 0):,.2f}",
+        "{{SCD_SPOT_DATE}}": sf.get("spot_date", ""),
         "{{SCD_SALES_COUNT}}": str(sum(1 for p in scd["pieces"] if p.get("basis") != "formula")),
         "{{SCD_FORMULA_COUNT}}": str(sum(1 for p in scd["pieces"] if p.get("basis") == "formula")),
         "{{SCD_FORMULA_TESTED}}": str(scd["accuracy"]["formula_tested"]),

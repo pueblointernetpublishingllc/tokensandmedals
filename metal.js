@@ -108,9 +108,10 @@
       if (s.src === 'perp') parts.push(SRC.perp); else parts.push('silver is Chainlink\'s silver price (updated ' + when(s.t) + ')');
       var pgm = (pt.live && pd.live) ? ' Platinum and palladium are the prices of the perpetual futures on them on Hyperliquid.'
         : ' Platinum ' + (pt.live ? 'is live from Hyperliquid' : 'is the price this edition was built with') + '; palladium ' + (pd.live ? 'is live from Hyperliquid.' : 'is the price this edition was built with.');
-      note.innerHTML = '<strong>Gold ' + ounce(g.price) + ' &middot; silver ' + ounce(s.price) + ' &middot; platinum ' + ounce(pt.price) + ' &middot; palladium ' + ounce(pd.price) +
+      var hasPGM = note.hasAttribute('data-pt-price') || note.hasAttribute('data-pd-price');   // the SCD page prices gold and silver only
+      note.innerHTML = '<strong>Gold ' + ounce(g.price) + ' &middot; silver ' + ounce(s.price) + (hasPGM ? ' &middot; platinum ' + ounce(pt.price) + ' &middot; palladium ' + ounce(pd.price) : '') +
         ' an ounce</strong>, live as of ' + when(now) + ': ' + parts.join('; ') + '.' + (g.src !== 'chainlink' && s.src !== 'chainlink' ? ' Both trade around the clock, weekends included.' : '') +
-        pgm + ' Figures for pieces containing precious metal include it at these prices.';
+        (hasPGM ? pgm : '') + ' Figures for pieces containing precious metal include it at these prices.';
       note.classList.add('live');
     })
     .catch(function () { /* keep the build-time figures; the note already says which prices they use */ });

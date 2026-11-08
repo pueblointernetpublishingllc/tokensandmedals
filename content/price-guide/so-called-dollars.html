@@ -1,4 +1,4 @@
-<!-- {"path": "/price-guide/so-called-dollars/", "title": "So-called dollar price guide", "description": "Estimated values for slabbed so-called dollars by HK number and grade, in PCGS and NGC holders, from Tokens and Medals' tested pricing formula. Our opinion of value, with a range for every grade.", "nav": "guide", "priority": "0.8", "scripts": ["/guide.js"], "breadcrumbs": [["Home", "/"], ["Price guide", "/price-guide/"], ["So-called dollars", null]]} -->
+<!-- {"path": "/price-guide/so-called-dollars/", "title": "So-called dollar price guide", "description": "Estimated values for slabbed so-called dollars by HK number and grade, in PCGS and NGC holders, from Tokens and Medals' tested pricing formula. Our opinion of value, with a range for every grade.", "nav": "guide", "priority": "0.8", "scripts": ["/guide.js", "/metal.js"], "breadcrumbs": [["Home", "/"], ["Price guide", "/price-guide/"], ["So-called dollars", null]]} -->
     <section class="leaf">
       <article class="paper guide">
         <h1>So-called dollar price guide</h1>
@@ -17,8 +17,9 @@
           <li>Weekly online auctions ran about {{SCD_WEEKLY}} below the major floor auctions, and eBay about {{SCD_EBAY}} below. Take that much off the figures for those venues.</li>
           <li>A piece with sales lists the grades it exists in, within three points of a grade it has sold in; further from the evidence we would rather say nothing. A formula-only piece lists up to six of the grades it is most often found in.</li>
           <li><strong class="formula-ink">Blue figures</strong> are formula-only estimates for pieces with no sales in our records. We tested the same method on {{SCD_FORMULA_TESTED}} sales that were the first of their piece in our records, each predicted before that sale: half came within {{SCD_FORMULA_MISS}} of the figure, and {{SCD_FORMULA_INSIDE}} fell inside the range, which is much wider than for pieces with sales. Use the switch above the list to hide them.</li>
-          <li>Prices include the metal. For gold and silver pieces, check the melt value too; if the metal is worth more than our figure, the metal wins.</li>
+          <li>Prices include the metal. Where we have a piece&rsquo;s weight and fineness from two kinds of source ({{SCD_METAL_PIECES}} so far), its figures never go below the metal, and its heading says so. For the other gold and silver pieces, check the melt value too; if the metal is worth more than our figure, the metal wins.</li>
         </ul>
+        <p class="metal-live" id="metal-live"><strong>Gold {{SCD_GOLD_SPOT}} &middot; silver {{SCD_SILVER_SPOT}} an ounce</strong>: the Chainlink price on {{SCD_SPOT_DATE}}, when this edition was built. With JavaScript on, the page updates the pieces with confirmed metal content to the live price.</p>
 
         <form class="finder g-finder" role="search" onsubmit="return false">
           <label for="gq" class="visually-hidden">Find a piece</label>
