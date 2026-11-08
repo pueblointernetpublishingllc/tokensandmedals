@@ -279,9 +279,13 @@ def render_carr(doc):
             if part == "Catalogue":
                 head, _, issue = L["group"].partition(" \u00b7 ")
                 if L["item"]:      # each catalogue number links to its row in the maker's catalogue
-                    nums = ([linked(L["item"], links[0][1], True)] if len(links) == 1
-                            else [linked(lab, url, True) for lab, url in links] if links
-                            else [f"<code>{esc(x)}</code>" for x in L["item"].split(", ")])
+                    pairs = ([(L["item"], linked(L["item"], links[0][1], True))] if len(links) == 1
+                             else [(lab, linked(lab, url, True)) for lab, url in links] if links
+                             else [(x, f"<code>{esc(x)}</code>") for x in L["item"].split(", ")])
+                    st = dict(L.get("store") or [])   # and, where matched, to that product on the maker's store
+                    nums = [h + (f' <a class="g-store" href="{esc(st[n])}" rel="noopener" '
+                                 f'aria-label="{esc(n)} on the maker\'s store">store</a>' if st.get(n) else "")
+                            for n, h in pairs]
                     label = f"{esc(issue)} &middot; " + ", ".join(nums)
                 else:
                     url = links[0][1] if links else None

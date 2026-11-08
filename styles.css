@@ -642,4 +642,6 @@ h1, h2, h3 { text-wrap: balance; }
 .paper .metal-live { margin: 0.5rem 0 0; font-size: 0.92rem; color: var(--ink-soft); max-width: none; }
 .metal-live.live strong { color: var(--ink); }
 .paper .g-src { margin: -0.15rem 0 0.4rem; font-size: 0.88rem; color: var(--ink-soft); max-width: none; }
+.paper a.g-store { font-size: 0.78rem; font-variant: small-caps; letter-spacing: 0.02em; color: var(--ink-soft); white-space: nowrap; }
+.paper a.g-store:hover { color: var(--bronze); }
 .gtable.carr th[scope="row"] a code { background: rgba(135, 86, 38, 0.08); }
