@@ -558,6 +558,20 @@ def main():
         write(pg["path"].strip("/") + "/index.html", out)
         pages.append((pg["path"], TODAY, "0.6"))
     print(f"piece pages: {len(extra)}")
+    # a piece that left the guide must not keep serving its old page (stale figures, not in the sitemap)
+    made = {pg["path"] for pg in extra}
+    stale = []
+    for parent in ("price-guide/so-called-dollars", "price-guide/daniel-carr/over-strikes",
+                   "price-guide/daniel-carr/catalogue", "price-guide/daniel-carr/other"):
+        base = os.path.join(ROOT, parent)
+        for name in sorted(os.listdir(base)) if os.path.isdir(base) else []:
+            d = os.path.join(base, name)
+            if os.path.isdir(d) and f"/{parent}/{name}/" not in made and os.listdir(d) == ["index.html"]:
+                os.remove(os.path.join(d, "index.html"))
+                os.rmdir(d)
+                stale.append(f"/{parent}/{name}/")
+    if stale:
+        print(f"removed {len(stale)} piece pages no longer in the guides: {' '.join(stale)}")
     # the decoder shows the piece itself (not just the reference book) for HK and Moonlight Mint numbers we price
     write("decoder/pieces.json", json.dumps(pieces.decoder_index(scd, carr, pieces.carr_urls(carr), scd_tag, carr_tag), ensure_ascii=False, separators=(",", ":")))
 

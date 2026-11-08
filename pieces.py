@@ -93,7 +93,7 @@ def _page(h1, lede, warning_guide, metal_note, table, related_title, related, gu
         <h1>{h1}</h1>
         <p class="lede">{lede}</p>
         <div class="guide-warning" role="note">
-          <p>Our opinion of value from a tested formula: not an appraisal, not an offer to buy or sell. Real prices can land above or below the range shown. Figures in blue, marked &ldquo;formula only&rdquo;, are estimates for pieces with no sales in the records we gathered, and are much less certain. <a href="{warning_guide}#method">How we make these figures</a>.</p>
+          <p>Our opinion of value, guided by a tested formula: not an appraisal, not an offer to buy or sell. Real prices can land above or below the range shown. Figures in blue, marked &ldquo;formula only&rdquo;, are estimates for pieces with no sales in the records we gathered, and are much less certain. <a href="{warning_guide}#method">How we make these figures</a>.</p>
         </div>{metal_note}
 {table}{rel}
         <p class="piece-back"><a href="{guide_link[1]}">{guide_link[0]}</a></p>
@@ -120,7 +120,7 @@ def scd_pages(scd, render_scd, esc, ph, site):
         title = f"HK-{hk} {short(p0['event'], 42)} ({p0['year']}) so-called dollar value"
         desc = (f"Estimated value of HK-{hk}, the {what} in {' and '.join(metals)}"
                 + (f" ({', '.join(f.lower() for f in finishes)})" if finishes else "")
-                + f", by grade in PCGS and NGC slabs ({grades[0]}–{grades[-1]}): {lo} to {hi}. Our opinion of value from a tested formula.")
+                + f", by grade in PCGS and NGC slabs ({grades[0]}–{grades[-1]}): {lo} to {hi}. Our opinion of value, guided by a tested formula.")
         formula = all(p.get("basis") == "formula" for p in ps)
         lede = (f"HK-{esc(hk)} is a {esc(what)} in {esc(' and '.join(metals))}"
                 + (f", also listed in {esc(', '.join(f.lower() for f in finishes))} finish" if finishes else "") + ". "
@@ -174,7 +174,7 @@ def carr_pages(carr, render_carr, urls, esc, ph, site):
             title = f"{short(name, 52)}: Daniel Carr value"
             lede = (f"{esc(name)}: a Daniel Carr piece that is not in the maker's online catalogue. "
                     f"Our estimated value raw and in slabs runs from {lo} to {hi}{tail}.")
-        desc = re.sub(r"<[^>]+>|&[a-z]+;", "", lede)[:300] + " Our opinion of value from a tested formula."
+        desc = re.sub(r"<[^>]+>|&[a-z]+;", "", lede)[:300] + " Our opinion of value, guided by a tested formula."
         if edition:
             lede += f" Edition of {esc(edition)}."
         metal_note, scripts = "", ""
