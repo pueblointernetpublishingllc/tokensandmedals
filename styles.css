@@ -484,6 +484,9 @@ h2 {
 .gtable code { font-size: 0.85em; }
 [data-g][hidden], [data-gg][hidden], [data-gp][hidden] { display: none; }
 @media (max-width: 760px) {
+  /* phones: the finder (search, toggle, live metal prices, count) wraps to most of the screen, so it scrolls
+     away with the page instead of staying pinned over the list */
+  .g-finder { position: static; }
   .gtable th, .gtable td { padding-right: 0.7rem; }
   .gtable .rng { display: block; }
   /* Carr rows stack on phones: piece name, then one line per grade */
