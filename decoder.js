@@ -43,12 +43,45 @@
       }
     }
     if (!hit) return null;
-    return { ref: hit.r, abbr: hit.a, raw: s };
+    return { ref: hit.r, abbr: hit.a, raw: s, rest: hit.head.test(s) ? s.replace(hit.head, '') : '' };
+  }
+
+  // Pieces in our price guide (built with the site: /decoder/pieces.json): an HK number or a Moonlight Mint
+  // catalogue number we price shows the piece itself, its page and our estimate range, not only the book.
+  var piecesP = null, seq = 0;
+  function pieceIndex() {
+    if (!piecesP) piecesP = fetch('/decoder/pieces.json').then(function (r) { return r.json(); }).catch(function () { return null; });
+    return piecesP;
+  }
+  function normCarr(s) { return s.trim().toUpperCase().replace(/[\s\-_]+/g, '_').replace(/^_+|_+$/g, ''); }
+  function pieceCard(e) {          // [page, label, low, high, what the figure rests on, slab or raw]
+    return '<div class="piece-card"><p class="eyebrow">In our price guide</p>' +
+      '<h3><a href="' + esc(e[0]) + '">' + esc(e[1]) + '</a></h3>' +
+      '<p>Our estimated value: <strong>' + esc(e[2]) + ' to ' + esc(e[3]) + '</strong> by grade, ' + esc(e[5]) + '. ' +
+      '<span class="cite">' + esc(e[4]) + '.</span>' +
+      (e[6] ? ' <span class="cite">At this edition&rsquo;s metal prices; the piece&rsquo;s page shows them at the live price.</span>' : '') + '</p>' +
+      '<p class="lookup"><a href="' + esc(e[0]) + '">Values by grade for this piece</a> &middot; our opinion of value, not an offer</p></div>';
+  }
+  function addPiece(raw, d, my) {
+    var isHK = d && d.ref.id === 'hk';
+    if (!isHK && !/[_\d]/.test(raw)) return;
+    pieceIndex().then(function (idx) {
+      if (!idx || my !== seq) return;                     // index unavailable, or the box changed meanwhile
+      var e = isHK ? idx.hk[d.rest.toLowerCase().replace(/[^a-z0-9]/g, '')] : idx.carr[normCarr(raw)];
+      if (!e) return;
+      if (!d) {                                           // a Moonlight Mint number: no reference book uses it
+        out.className = 'decoded hit';
+        out.innerHTML = '<p class="eyebrow"><span class="num">' + esc(raw.trim()) + '</span> is a Moonlight Mint (Daniel Carr) catalogue number</p>';
+      }
+      out.insertAdjacentHTML(d ? 'afterbegin' : 'beforeend', pieceCard(e));
+    });
   }
 
   function render(raw) {
+    var my = ++seq;
     if (!raw.trim()) { out.hidden = true; out.innerHTML = ''; return; }
     var d = decode(raw);
+    addPiece(raw, d, my);
     if (!d) {
       out.hidden = false;
       out.className = 'decoded miss';

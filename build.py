@@ -546,6 +546,8 @@ def main():
         write(pg["path"].strip("/") + "/index.html", out)
         pages.append((pg["path"], TODAY, "0.6"))
     print(f"piece pages: {len(extra)}")
+    # the decoder shows the piece itself (not just the reference book) for HK and Moonlight Mint numbers we price
+    write("decoder/pieces.json", json.dumps(pieces.decoder_index(scd, carr, pieces.carr_urls(carr), scd_tag, carr_tag), ensure_ascii=False, separators=(",", ":")))
 
     urls = "\n".join(
         f"  <url><loc>{SITE}{p}</loc><lastmod>{d}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>"

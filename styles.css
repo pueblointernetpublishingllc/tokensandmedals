@@ -651,3 +651,12 @@ h1, h2, h3 { text-wrap: balance; }
 .paper a.g-store { font-size: 0.78rem; font-variant: small-caps; letter-spacing: 0.02em; color: var(--ink-soft); white-space: nowrap; }
 .paper a.g-store:hover { color: var(--bronze); }
 .gtable.carr th[scope="row"] a code { background: rgba(135, 86, 38, 0.08); }
+
+/* Decoder: the piece itself, when it is in our price guide */
+.piece-card { border-left: 4px solid var(--bronze); padding: 0.6rem 0 0.6rem 1rem; margin: 0 0 1.25rem; }
+.piece-card h3 { margin: 0.1rem 0 0.4rem; }
+.piece-card p { margin: 0 0 0.4rem; }
+/* Piece pages */
+.piece-related { columns: 2 16rem; padding-left: 1.1rem; }
+.piece-related li { break-inside: avoid; margin-bottom: 0.25rem; }
+.piece-back { margin-top: 1.5rem; }

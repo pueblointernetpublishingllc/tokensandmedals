@@ -202,3 +202,45 @@ def carr_pages(carr, render_carr, urls, esc, ph, site):
             for pg in same:
                 pg["title"] = f"{short(pg['full'], 100)}: Daniel Carr value"
     return pages
+
+
+def norm_carr(s):
+    """A Moonlight Mint catalogue number as typed ('csa 2011 bs1', 'CSA-2011-BS1') -> 'CSA_2011_BS1'."""
+    return re.sub(r"[\s\-_]+", "_", s.strip().upper()).strip("_")
+
+
+def _plain(s):
+    """Tag HTML as plain text for the decoder card."""
+    s = re.sub(r"<[^>]+>", "", s)
+    for a, b in (("&middot;", "·"), ("&rsquo;", "’"), ("&ldquo;", "“"), ("&rdquo;", "”"), ("&amp;", "&")):
+        s = s.replace(a, b)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def decoder_index(scd, carr, urls, scd_tag, carr_tag):
+    """What the catalog-number decoder can show beyond the reference book: so-called dollars by HK number and
+    Daniel Carr pieces by Moonlight Mint catalogue number, each with its page and our estimate range."""
+    hk = {}
+    by = {}
+    for p in scd["pieces"]:
+        by.setdefault(p["hk"], []).append(p)
+    for h, ps in by.items():
+        lo, hi = _range([v for p in ps for g in p["grades"] for v in (g["pcgs"][0], g["ngc"][0])])
+        metals = ", ".join(sorted({p["metal"].lower() for p in ps}))
+        f = [p for p in ps if p.get("basis") == "formula"]
+        basis = ("from sales of this piece in our records" if not f else _plain(scd_tag(f[0])) if len(f) == len(ps)
+                 else "from sales in our records for some finishes; formula only for others")
+        hk[re.sub(r"[^a-z0-9]", "", h.lower())] = [scd_url(h), f"HK-{h} · {ps[0]['event']}, {ps[0]['year']} · {metals}",
+                                                    lo, hi, basis, "PCGS and NGC slabs", any(p.get("oz_au") or p.get("oz_ag") for p in ps)]
+    cn = {}
+    for L in carr["lines"]:
+        if L["part"] != "Catalogue" or not L["item"]:
+            continue
+        lo, hi = _range([g["estimate"] for g in L["grades"]])
+        name = carr_name(L)[0]
+        for no in [x.strip() for x in L["item"].split(",") if x.strip()]:
+            if re.search(r"[_\d]", no):                       # catalogue numbers, not merchant names
+                basis = _plain(carr_tag(L)) if L.get("basis") == "formula" else "from sales in our records"
+                cn[norm_carr(no)] = [urls[(L["part"], L["group"])], f"{no} · {name}", lo, hi, basis, "raw and in slabs",
+                                     bool(L.get("oz_ag") or L.get("oz_au") or L.get("oz_pt") or L.get("oz_pd"))]
+    return {"hk": hk, "carr": cn}
