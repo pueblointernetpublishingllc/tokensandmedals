@@ -423,6 +423,7 @@ h2 {
 .decoded .cite { margin: 0 0 0.75rem; }
 .decoded .lookup { font-weight: 500; }
 .decoded .rowlink { margin: 0; font-size: 0.9rem; }
+.decoded .ref-card + .ref-card { border-top: 1px solid var(--card-edge); margin-top: 1rem; padding-top: 1rem; }
 .reftable th[scope="row"] { white-space: nowrap; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.95rem; }
 .reftable th[scope="row"] code { background: none; padding: 0; }
 

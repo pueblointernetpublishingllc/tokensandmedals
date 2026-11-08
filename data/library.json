@@ -153,6 +153,227 @@
    ]
   },
   {
+   "id": "counterstamps",
+   "title": "Counterstamps",
+   "note": "Coins stamped with a merchant&rsquo;s name or a private mark. The <a href=\"/decoder/#ref-brunk\">decoder</a> explains Brunk and Rulau numbers.",
+   "entries": [
+    {
+     "name": "Brunk, American and Canadian Countermarked Coins (1987)",
+     "url": "https://archive.org/details/1987americancanadiancounterbrunk",
+     "tags": [
+      "counterstamps",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Gregory Brunk&rsquo;s first catalogue of North American counterstamps, a free download. His 2003 book combined and replaced it."
+    },
+    {
+     "name": "Brunk, Merchant Countermarks on World Coins (1989)",
+     "url": "https://archive.org/details/merchantcounterm0000greg",
+     "tags": [
+      "counterstamps",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Brunk&rsquo;s 1989 catalogue of merchants&rsquo; stamps on coins of other countries, a free download. He folded it and the 1987 book into his 2003 catalogue."
+    },
+    {
+     "name": "Brunk, World Countermarks on Medieval and Modern Coins (1976)",
+     "url": "https://archive.org/details/worldcountermark0000greg",
+     "tags": [
+      "counterstamps",
+      "catalogs",
+      "periodicals"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Countermark articles from The Numismatist and the American Journal of Numismatics, 1901 to 1975, gathered by Brunk, with Frank Duffield&rsquo;s trial list of the world&rsquo;s countermarked coins. A free download."
+    },
+    {
+     "name": "Brunk’s 2006 draft revision",
+     "url": "https://archive.org/details/2006merchantandprivatgregbrunk",
+     "tags": [
+      "counterstamps",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "note": "Free download; draft listings, so check them against the 2003 book.",
+     "desc": "Brunk&rsquo;s June 2006 draft listings for a planned revised edition, offered for comment. Filed under the 2003 book&rsquo;s title, but it is not that book."
+    }
+   ]
+  },
+  {
+   "id": "conder",
+   "title": "Conder tokens",
+   "note": "British and Irish provincial tokens of 1787 to 1797, and the 1811&ndash;1820 tokens that followed. Numbers: <a href=\"/decoder/#ref-dh\">Dalton &amp; Hamer</a> and <a href=\"/decoder/#ref-withers\">Withers</a>.",
+   "entries": [
+    {
+     "name": "Conder Token Collector’s Journal on the Newman Portal",
+     "url": "https://nnp.washu.edu/periodicals-list/list/periodicals-subcollections/38189",
+     "tags": [
+      "conder tokens",
+      "periodicals",
+      "archives"
+     ],
+     "checked": "2026-11-08",
+     "desc": "The club&rsquo;s journal from 1996 to 2020, free and searchable, with an index to the early issues. Articles on the tokens, their makers and their issuers."
+    },
+    {
+     "name": "Conder token books online",
+     "url": "https://ctcc.info/library/conder-token-books-online/",
+     "tags": [
+      "conder tokens",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "The Conder Token Collector&rsquo;s Club&rsquo;s list of free period references: Birchall 1796, Conder 1798, Pye 1796 and 1801, and Spence 1795."
+    },
+    {
+     "name": "Atkins, The Tradesmen’s Tokens of the Eighteenth Century (1892)",
+     "url": "https://archive.org/details/tradesmenstokens00atkiuoft",
+     "tags": [
+      "conder tokens",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "James Atkins&rsquo;s 1892 catalogue of the eighteenth-century tokens, published before Dalton and Hamer; collectors still use its numbers for evasion tokens. A free download."
+    },
+    {
+     "name": "Pye, Provincial Copper Coins or Tokens (1796)",
+     "url": "https://archive.org/details/provincialcopper00pyeciala",
+     "tags": [
+      "conder tokens",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Charles Pye&rsquo;s 1796 illustrated record of the tokens issued from 1787 to 1796, made while they were current. A free download."
+    }
+   ]
+  },
+  {
+   "id": "goetz",
+   "title": "Karl Goetz medals",
+   "note": "The German medallist&rsquo;s satirical and commemorative medals, numbered by <a href=\"/decoder/#ref-kienast\">Kienast</a>.",
+   "entries": [
+    {
+     "name": "LusitaniaMedal.com: Karl Goetz",
+     "url": "https://lusitaniamedal.com/goetz.html",
+     "tags": [
+      "art medals",
+      "medals"
+     ],
+     "checked": "2026-11-08",
+     "desc": "A collector&rsquo;s site on Goetz and his 1915 Lusitania medal: a biography, the varieties of the medal, notes on the books and links."
+    },
+    {
+     "name": "National WWI Museum: Lusitania medals",
+     "url": "https://www.theworldwar.org/learn/about-wwi/spotlight-lusitania-medals",
+     "tags": [
+      "art medals",
+      "medals",
+      "museums"
+     ],
+     "checked": "2026-11-08",
+     "desc": "The museum&rsquo;s note on Goetz&rsquo;s Lusitania medal and the British copies made as propaganda."
+    }
+   ]
+  },
+  {
+   "id": "swiss",
+   "title": "Swiss shooting medals",
+   "note": "Shooting-festival thalers and medals, numbered by <a href=\"/decoder/#ref-richter\">Richter</a>.",
+   "entries": [
+    {
+     "name": "Shooting thaler (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Shooting_thaler",
+     "tags": [
+      "medals"
+     ],
+     "checked": "2026-11-08",
+     "desc": "An overview of the Swiss shooting-festival thalers from 1842, with a bibliography that includes Richter, Martin and Krause."
+    },
+    {
+     "name": "Richter, the publisher’s free sample",
+     "url": "https://files.battenberg-gietl.de/public/leseproben/leseprobe-die-schuetzentaler-und-schuetzenmedaillen-der-schweiz.pdf",
+     "tags": [
+      "medals",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "The introduction to the second edition of Richter&rsquo;s catalogue in German and English, with how to read an entry and sample pages."
+    },
+    {
+     "name": "CoinsWeekly review of Richter",
+     "url": "https://coinsweekly.com/swiss-shooting-thalers-and-medals/",
+     "tags": [
+      "medals",
+      "catalogs"
+     ],
+     "checked": "2026-11-08",
+     "desc": "A review of the 2018 second edition of Richter&rsquo;s catalogue."
+    }
+   ]
+  },
+  {
+   "id": "pamphlets",
+   "title": "Bryan Money, Elder, Lesher and Franklin",
+   "note": "Classic catalogues of these series, first printed in The Numismatist and the American Journal of Numismatics. All free to read.",
+   "entries": [
+    {
+     "name": "Zerbe, Bryan Money (The Numismatist, July 1926)",
+     "url": "https://archive.org/details/Numismatist1926July",
+     "tags": [
+      "periodicals",
+      "medals"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Farran Zerbe&rsquo;s catalogue of the comparative and satirical pieces of the 1896 and 1900 Bryan campaigns, in the issue given over to Bryan money. Schornstein&rsquo;s 2001 Bryan Money revised it."
+    },
+    {
+     "name": "DeLorey, Thomas L. Elder (The Numismatist, June 1980)",
+     "url": "https://archive.org/details/Numismatist1980June",
+     "tags": [
+      "periodicals",
+      "medals"
+     ],
+     "checked": "2026-11-08",
+     "note": "Part two: archive.org/details/Numismatist1980July",
+     "desc": "Thomas DeLorey&rsquo;s catalogue of the tokens, store cards and medals of the New York dealer Thomas L. Elder, the source of the DeLorey numbers. It concludes in the July 1980 issue."
+    },
+    {
+     "name": "Zerbe, The Leshers or Referendum Pieces (AJN, 1917)",
+     "url": "https://archive.org/details/AJN1917Vols51to53",
+     "tags": [
+      "periodicals",
+      "colorado",
+      "so-called dollars"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Farran Zerbe&rsquo;s study of Joseph Lesher&rsquo;s Victor, Colorado silver pieces in the American Journal of Numismatics, volume 51, where the Zerbe numbers come from. More on our <a href=\"/colorado/lesher-dollars/\">Lesher page</a>."
+    },
+    {
+     "name": "Wilde, Lesher Referendum Medals: Where Are They Today? (1978)",
+     "url": "https://archive.org/details/Numismatist1978February",
+     "tags": [
+      "periodicals",
+      "colorado",
+      "so-called dollars"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Adna G. Wilde Jr.&rsquo;s census of the surviving Lesher pieces, The Numismatist, February 1978, page 229."
+    },
+    {
+     "name": "The Numismatist’s Franklin number (December 1956)",
+     "url": "https://archive.org/details/Numismatist1956December",
+     "tags": [
+      "periodicals",
+      "medals"
+     ],
+     "checked": "2026-11-08",
+     "desc": "Edited by Elston G. Bradfield for Franklin&rsquo;s 250th birthday: his &ldquo;Benjamin Franklin: A Numismatic Summary&rdquo; and articles on Franklin medals by the Fulds and others. His <em>Franklin and Numismatics</em> was published by Sanford J. Durst in 1982."
+    }
+   ]
+  },
+  {
    "id": "archives",
    "title": "Libraries and archives",
    "note": "Scanned books and periodicals, most of them free to read.",

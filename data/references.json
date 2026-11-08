@@ -33,7 +33,7 @@
   "citation": "Russell Rulau. Krause Publications: 1st ed. 1994, 2nd 1997, 3rd 1999, 4th 2004. Consolidates his earlier Early American Tokens, Hard Times Tokens, U.S. Merchant Tokens 1845–1860, U.S. Trade Tokens 1866–1889 and Tokens of the Gay Nineties.",
   "covers": "American tokens of every kind from 1700 to 1900, arranged by period and then by state and city. The prefix tells you the period: <code>E</code> for early American, <code>HT</code> for Hard Times, state-city codes for the merchant and trade-token sections.",
   "example": "Rulau E-Pa 1, Rulau Pa-Ph 12, Rulau IL-EL-6",
-  "notes": "Washington pieces inside Rulau are cited by Baker number instead.",
+  "notes": "Washington pieces inside Rulau are cited by Baker number instead. On a Swiss shooting medal, <code>R-</code> means <a href=\"#ref-richter\">Richter</a>.",
   "find_url": "https://nnp.washu.edu/books-collection?q=Rulau+tokens",
   "find_label": "Out of print; search the Newman Portal",
   "find_note": "All editions out of print; the fourth is the one to look for secondhand."
@@ -545,5 +545,160 @@
   "find_url": "https://whitman.com/",
   "find_label": "Whitman Publishing",
   "find_note": "In print."
+ },
+ {
+  "id": "brunk",
+  "abbr": [
+   "Brunk"
+  ],
+  "aliases": [
+   "Merchant and Privately Countermarked Coins"
+  ],
+  "title": "Merchant and Privately Countermarked Coins: Advertising on the World’s Smallest Billboards",
+  "citation": "Gregory G. Brunk. World Exonumia Press, Rockford, Illinois, 2003; 476 pages. The second edition of his catalogue, combining American and Canadian Countermarked Coins (1987) and Merchant Countermarks on World Coins (1989).",
+  "covers": "Coins stamped with a merchant&rsquo;s or a private person&rsquo;s name or mark, worldwide. Each number is a letter and a number, the letter taken from the name in the stamp.",
+  "example": "Brunk H-701, Brunk W-374",
+  "notes": "Rulau&rsquo;s Standard Catalog numbers American counterstamps too, so lot descriptions often give both, as in <code>Brunk H-701, Rulau Z46g</code>. The 1987 book numbered differently, as in <code>Brunk-40L (1880)</code>.",
+  "lookup_url": "https://archive.org/details/1987americancanadiancounterbrunk",
+  "lookup_label": "The 1987 American and Canadian edition, free on the Internet Archive",
+  "find_note": "The 2003 book is out of print; look secondhand. The Internet Archive item dated 2006 under the same title is Brunk&rsquo;s draft revision, not the book."
+ },
+ {
+  "id": "kienast",
+  "abbr": [
+   "Kienast",
+   "K"
+  ],
+  "aliases": [
+   "Keinast",
+   "Medals of Karl Goetz"
+  ],
+  "title": "The Medals of Karl Goetz",
+  "citation": "Gunter W. Kienast. The Artus Company, Cleveland, 1967; 284 pages, 500 numbered copies. Supplement: Goetz II, The Artus Company, Lincoln, Nebraska, 1986; 179 pages.",
+  "covers": "The medals of the German medallist Karl Goetz, in one running number. Goetz made 633 medals, about 175 of them satirical, the First World War pieces best known among them.",
+  "example": "Kienast 156 (the Lusitania medal), K-156",
+  "notes": "NGC labels write <code>KIENAST-246</code>; NGC&rsquo;s census spells the category &ldquo;Keinast&rdquo;.",
+  "find_note": "Both volumes are out of print in their original editions; a softcover reprint of the pair was announced in 2013."
+ },
+ {
+  "id": "honeycutt",
+  "abbr": [
+   "Honeycutt"
+  ],
+  "aliases": [
+   "Philippine Medals and Tokens"
+  ],
+  "title": "Philippine Medals and Tokens",
+  "citation": "Earl D. Honeycutt. 1st ed. (1780–2010), Mactanboy Press, Chapel Hill, North Carolina, 2014; 2nd ed. (1780–2015), 2017; 3rd ed. (1780–2020), 2020; 4th ed. (1780–2024), with Sandy Lichauco, 2024.",
+  "covers": "Medals and tokens of the Philippines from 1780 to the present. The third edition listed 1,882 pieces.",
+  "example": "Honeycutt 322, HONEYCUTT-336",
+  "notes": "Reviews cross-reference the older Basso numbers, as in <code>Honeycutt 322</code> = <code>Basso 166</code>.",
+  "find_url": "https://coinbooks.org/v27/esylum_v27n39a03.html",
+  "find_label": "The E-Sylum&rsquo;s notice of the fourth edition",
+  "find_note": "In 2024 the authors offered it directly; the notice has the details."
+ },
+ {
+  "id": "richter",
+  "abbr": [
+   "Richter"
+  ],
+  "aliases": [],
+  "title": "Die Schützentaler und Schützenmedaillen der Schweiz (Swiss Shooting Thalers and Shooting Medals)",
+  "citation": "Jürg Richter. 1st ed. 2005; 2nd ed. Battenberg Gietl Verlag, Regenstauf, 2018; 564 pages, German with full English text.",
+  "covers": "Swiss shooting-festival thalers and medals from the early seventeenth century to 1960, more than 2,500 pieces, each with a rarity rating and valuations.",
+  "example": "Richter R-87b, Richter 628b",
+  "notes": "NGC labels write <code>R-1958a</code>: on a Swiss shooting piece, <code>R</code> means Richter, not Rulau. Older citations use Martin numbers (Jean L. Martin, <em>Swiss Shooting Medals 1612–1939</em>, Galerie des Monnaies, Lausanne, 1972), as in <code>Martin 330</code>, or Delbert Ray Krause&rsquo;s <em>Swiss Shooting Talers and Medals</em> (Whitman, 1965).",
+  "lookup_url": "https://files.battenberg-gietl.de/public/leseproben/leseprobe-die-schuetzentaler-und-schuetzenmedaillen-der-schweiz.pdf",
+  "lookup_label": "The publisher’s free sample: introduction and how to read an entry",
+  "find_url": "https://www.battenberg-bayerland.de/produkt/die-schuetzentaler-und-schuetzenmedaillen-der-schweiz",
+  "find_label": "Battenberg Gietl, the publisher",
+  "find_note": "Second edition, in print."
+ },
+ {
+  "id": "schenkman-bimetallic",
+  "abbr": [
+   "Schenkman"
+  ],
+  "aliases": [
+   "Bimetallic Trade Tokens"
+  ],
+  "title": "Bimetallic Trade Tokens of the United States",
+  "citation": "David E. Schenkman. Jade House Publications, 1990.",
+  "covers": "American trade tokens made of two metals, from George G. Greenburg&rsquo;s patent through the type&rsquo;s life of less than forty years. Listed alphabetically by issuer, with an index by state.",
+  "example": "S-A35-100",
+  "notes": "That is how NGC labels them. Schenkman also wrote the sutler-token catalogue; the token itself tells you which book is meant.",
+  "lookup_url": "https://www.tokencatalog.com/",
+  "lookup_label": "TokenCatalog, which cites this book",
+  "find_note": "Look for it secondhand."
+ },
+ {
+  "id": "cunningham",
+  "abbr": [
+   "Cunningham",
+   "Cunn"
+  ],
+  "aliases": [
+   "Military Tokens of the United States"
+  ],
+  "title": "Military Tokens of the United States",
+  "citation": "Paul A. Cunningham. Vol. I, Domestic Issues, Michigan Exonumia Publishers, Tecumseh, Michigan, 1995, 440 pages; Vol. 2, Overseas Issues, 1998, 461 pages.",
+  "covers": "Tokens issued at United States armed-forces installations, such as post exchanges and NCO messes. Volume I covers installations inside the United States, by state and then installation; volume 2 the overseas ones.",
+  "example": "Cunn WA 540a, Cunn NM50a",
+  "notes": "The earlier listing is James J. Curto&rsquo;s <em>Military Tokens of the United States, 1866–1969</em> (Krause, 1970).",
+  "lookup_url": "https://www.tokencatalog.com/",
+  "lookup_label": "TokenCatalog, which cites Cunningham numbers",
+  "find_note": "Look for it secondhand."
+ },
+ {
+  "id": "delorey",
+  "abbr": [
+   "DeLorey"
+  ],
+  "aliases": [],
+  "title": "Thomas L. Elder, A Catalogue of His Tokens and Medals",
+  "citation": "Thomas K. DeLorey. The Numismatist, June and July 1980.",
+  "covers": "The tokens, store cards and medals issued by the New York coin dealer Thomas L. Elder, about 640 pieces.",
+  "example": "DeLorey-96, DeLorey-9",
+  "notes": "Lots often add another catalogue&rsquo;s number, as in <code>DeLorey-9, Eglit-64</code>.",
+  "lookup_url": "https://archive.org/details/Numismatist1980June",
+  "lookup_label": "The June 1980 Numismatist, free on the Internet Archive",
+  "find_url": "https://archive.org/details/Numismatist1980July",
+  "find_label": "The July 1980 issue, where it concludes",
+  "find_note": "Both issues are free scans."
+ },
+ {
+  "id": "schornstein",
+  "abbr": [
+   "Schornstein",
+   "SCH"
+  ],
+  "aliases": [
+   "Bryan Money"
+  ],
+  "title": "Bryan Money",
+  "citation": "Fred Schornstein. Token and Medal Society, 2001. A revision of Farran Zerbe’s catalogue, “Bryan Money: Tokens of the Presidential Campaigns of 1896 and 1900, Comparative and Satirical,” The Numismatist, July 1926.",
+  "covers": "The comparative and satirical pieces of William Jennings Bryan&rsquo;s 1896 and 1900 presidential campaigns, the free-silver mock dollars among them.",
+  "example": "SCH-920",
+  "notes": "That is how NGC labels them. NGC&rsquo;s <code>SCH-GM-</code> labels on Benjamin Franklin medals are a different catalogue.",
+  "lookup_url": "https://archive.org/details/Numismatist1926July",
+  "lookup_label": "Zerbe’s 1926 original, free on the Internet Archive",
+  "find_note": "No longer offered by the Token and Medal Society; look secondhand.",
+  "not": "\\bsch\\W*gm"
+ },
+ {
+  "id": "withers",
+  "abbr": [
+   "Withers",
+   "W"
+  ],
+  "aliases": [
+   "British Copper Tokens"
+  ],
+  "title": "British Copper Tokens 1811–1820: Including Those of Ireland, the Isle of Man and the Channel Islands",
+  "citation": "Paul and Bente R. Withers. Galata Print, Llanfyllin, 1999; 264 pages.",
+  "covers": "The copper tokens issued in Britain and Ireland from 1811 to 1820, the second token period after the Conder tokens of the 1790s.",
+  "example": "W-42, W-89",
+  "notes": "That is how NGC labels them; NGC files them as &ldquo;Great Britain - Copper Tokens (1811-1820) listed in Withers&rdquo;.",
+  "find_note": "Look for it from numismatic booksellers."
  }
 ]

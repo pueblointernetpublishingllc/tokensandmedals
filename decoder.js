@@ -20,7 +20,7 @@
   refs.forEach(function (r) {
     r.abbr.concat(r.aliases || []).forEach(function (a) {
       var p = pattern(a);
-      keys.push({ len: p.length, r: r, a: a,
+      keys.push({ len: p.length, r: r, a: a, not: r.not ? new RegExp(r.not, 'i') : null,
         head: new RegExp('^' + p + '(?=[^a-z]|$)', 'i'),
         body: new RegExp('(^|[^a-z])' + p + '(?=[^a-z]|$)', 'i'),
         letters: a.replace(/[^a-z0-9]/gi, '').length });
@@ -35,15 +35,20 @@
     if (!s) return null;
     var i, hit = null;
     for (i = 0; i < keys.length; i++) {
-      if (keys[i].head.test(s)) { hit = keys[i]; break; }
+      if (keys[i].head.test(s) && !(keys[i].not && keys[i].not.test(s))) { hit = keys[i]; break; }
     }
     if (!hit) {
       for (i = 0; i < keys.length; i++) {
-        if (keys[i].letters >= 3 && keys[i].body.test(s)) { hit = keys[i]; break; }
+        if (keys[i].letters >= 3 && keys[i].body.test(s) && !(keys[i].not && keys[i].not.test(s))) { hit = keys[i]; break; }
       }
     }
     if (!hit) return null;
-    return { ref: hit.r, abbr: hit.a, raw: s, rest: hit.head.test(s) ? s.replace(hit.head, '') : '' };
+    // one abbreviation can belong to several books by the same author ("Schenkman"): show each of them
+    var refsHit = [];
+    keys.forEach(function (k) {
+      if (k.a.toLowerCase() === hit.a.toLowerCase() && refsHit.indexOf(k.r) === -1) refsHit.push(k.r);
+    });
+    return { ref: hit.r, refs: refsHit, abbr: hit.a, raw: s, rest: hit.head.test(s) ? s.replace(hit.head, '') : '' };
   }
 
   // Pieces in our price guide (built with the site: /decoder/pieces.json): an HK number or a Moonlight Mint
@@ -88,17 +93,20 @@
       out.innerHTML = '<p>No reference on this page uses <strong>' + esc(raw.trim()) + '</strong>. The table below lists every abbreviation we know. If a dealer or auction house is using one we are missing, <a href="mailto:brian@puebloip.com?subject=Decoder">tell us</a>.</p>';
       return;
     }
-    var r = d.ref;
-    var lookup = '';
-    if (r.lookup_url) {
-      lookup = '<p class="lookup">Look it up: <a href="' + esc(r.lookup_url) + '" rel="noopener">' + esc(r.lookup_label) + '</a></p>';
-    } else {
-      lookup = '<p class="lookup">Printed reference only; no online lookup that we know of.</p>';
-    }
     out.hidden = false;
     out.className = 'decoded hit';
+    var many = d.refs.length > 1;
     out.innerHTML =
-      '<p class="eyebrow"><span class="num">' + esc(d.raw) + '</span> is a ' + esc(d.abbr) + ' number from</p>' +
+      '<p class="eyebrow"><span class="num">' + esc(d.raw) + '</span> is a ' + esc(d.abbr) + ' number from' +
+      (many ? ' one of ' + d.refs.length + ' catalogues; the piece tells you which' : '') + '</p>' +
+      d.refs.map(refCard).join('');
+  }
+
+  function refCard(r) {
+    var lookup = r.lookup_url
+      ? '<p class="lookup">Look it up: <a href="' + esc(r.lookup_url) + '" rel="noopener">' + esc(r.lookup_label) + '</a></p>'
+      : '<p class="lookup">Printed reference only; no online lookup that we know of.</p>';
+    return '<div class="ref-card">' +
       '<h3>' + esc(r.title) + '</h3>' +
       '<p class="cite">' + esc(r.citation) + '</p>' +
       '<p>' + r.covers + ' Numbers look like <code>' + esc(r.example) + '</code>.</p>' +
@@ -106,7 +114,7 @@
       lookup +
       (r.find_url ? '<p class="lookup">Find the book: <a href="' + esc(r.find_url) + '" rel="noopener">' + r.find_label + '</a>' + (r.find_note ? ' <span class="cite">' + r.find_note + '</span>' : '') + '</p>'
                   : (r.find_note ? '<p class="lookup"><span class="cite">' + r.find_note + '</span></p>' : '')) +
-      '<p class="rowlink"><a href="#ref-' + esc(r.id) + '">Row in the table</a></p>';
+      '<p class="rowlink"><a href="#ref-' + esc(r.id) + '">Row in the table</a></p></div>';
   }
 
   input.addEventListener('input', function () { render(input.value); });
