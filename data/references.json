@@ -589,13 +589,13 @@
    "Philippine Medals and Tokens"
   ],
   "title": "Philippine Medals and Tokens",
-  "citation": "Earl D. Honeycutt. 1st ed. (1780–2010), Mactanboy Press, Chapel Hill, North Carolina, 2014; 2nd ed. (1780–2015), 2017; 3rd ed. (1780–2020), 2020; 4th ed. (1780–2024), with Sandy Lichauco, 2024.",
-  "covers": "Medals and tokens of the Philippines from 1780 to the present. The third edition listed 1,882 pieces.",
-  "example": "Honeycutt 322, HONEYCUTT-336",
-  "notes": "Reviews cross-reference the older Basso numbers, as in <code>Honeycutt 322</code> = <code>Basso 166</code>.",
-  "find_url": "https://coinbooks.org/v27/esylum_v27n39a03.html",
-  "find_label": "The E-Sylum&rsquo;s notice of the fourth edition",
-  "find_note": "In 2024 the authors offered it directly; the notice has the details."
+  "citation": "Earl D. Honeycutt. 1st ed. (1780–2010), Mactanboy Press, Chapel Hill, North Carolina, 2014; 2nd ed. (1780–2015), 2017; 3rd ed. (1780–2020), 2020; 4th ed. (1780–2024), with Sandy Lichauco, Auxo Publishing, 2024.",
+  "covers": "Medals and tokens of the Philippines from 1780 to the present. The third edition listed 1,882 pieces; the fourth lists more than 2,200.",
+  "example": "Honeycutt 322, Honeycutt-295-5a, HONEYCUTT-336",
+  "notes": "PCGS labels write <code>Honeycutt-295-5a</code>; NGC labels write <code>HONEYCUTT-336</code>. Reviews cross-reference the older Basso numbers, as in <code>Honeycutt 322</code> = <code>Basso 166</code>.",
+  "find_url": "https://www.philippinebooks.com/products/philippine-medals-and-tokens-17802024-4th-edition-by-earl-d-honeycutt-and-sandy-lichauco",
+  "find_label": "Philippine Books, which sells the fourth edition new",
+  "find_note": "The authors also sold it directly to US buyers in 2024; <a href=\"https://coinbooks.org/v27/esylum_v27n39a03.html\" rel=\"noopener\">The E-Sylum&rsquo;s notice</a> gives their ordering details."
  },
  {
   "id": "richter",
