@@ -120,7 +120,7 @@ def shell(*, path, title, description, body, nav="", scripts="", og_title=None, 
 {footer_nav}
     </nav>
     <p>Tokens and Medals &middot; published by <a href="https://pueblointernetpublishing.com/" rel="noopener">Pueblo Internet Publishing LLC</a>, Pueblo, Colorado</p>
-    <p>&copy; <span id="year">{date.today().year}</span> Pueblo Internet Publishing LLC &middot; linked sites belong to their owners</p>
+    <p>&copy; <span id="year">{date.today().year}</span> Pueblo Internet Publishing LLC. Portions of this site were generated with AI. Copyright is claimed in the human-authored material and in the selection and arrangement of the whole. Linked sites belong to their owners.</p>
     <p>AI assistance was used in building this site; mistakes are possible. <a href="mailto:brian@puebloip.com?subject=Tokens%20and%20Medals%20correction">Tell us</a></p>
   </footer>
 
